@@ -1,2 +1,2 @@
-# ripl-notes
-Notes and papers for RIPL projects
+# RIPL Notes
+Notes and papers for RIPL projects.
