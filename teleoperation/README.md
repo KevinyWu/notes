@@ -65,4 +65,4 @@ Instructions from [this repo](https://github.com/brektrou/rtl8821CU) and [this p
 
     `rosrun quest2ros ros2quest.py`
 
-7. You can now move the dice and Q2R logo in the VR by pressing the X/A button of left/right controller, respectivly
+7. You can now move the dice and Q2R logo in the VR by pressing the X/A button of left/right controller, respectively
