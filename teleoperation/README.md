@@ -1,6 +1,6 @@
 # UR5 Teleoperation with Meta Quest 3
 
-## Meta Account Login Information
+## Meta Account Login
 
 - Gmail
   - [ripl.ttic@gmail.com](mailto:ripl.ttic@gmail.com)
