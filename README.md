@@ -37,7 +37,7 @@ Notes and papers for RIPL projects.
       - ```-rw-r--r-- 1 kevinywu kevinywu  104 Mar 22 03:13 ttic_key.pub```
 3. Add key to ssh-agent: ```eval "$(ssh-agent -s)"```
    - In local ```~/.ssh/``` directory: ```ssh-add ttic_key```
-4. Add host information to config file: ```/Users/kevinwu/.ssh/config```
+4. Add host information to config file in your local machine: ```/Users/kevinwu/.ssh/config```
 
    ```config
    Host elm.ttic.edu
