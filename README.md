@@ -56,5 +56,3 @@ Notes and papers for RIPL projects.
 ### Deleting files in Docker container
 
 `rsync` will not synchronize deletions, so you must manually delete files in both the container and the local machine.
-
-![fig](video2reward/figures/moco_contrastive_loss.png)

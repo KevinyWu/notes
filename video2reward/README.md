@@ -46,7 +46,7 @@
       - $\theta_k$ is the key encoder's ($f_k$) parameters
       - $\theta_q$ is the query encoder's ($f_q$) parameters
       - $m$ is the momentum coefficient, empirically, larger (slowly evolving key encoder) is better
-    - ![moco_contrastive_loss](figures/moco_contrastive_loss.png)
+    - ![moco_contrastive_loss](https://raw.githubusercontent.com/KevinyWu/ripl-notes/main/video2reward/figures/moco_contrastive_loss.png?token=GHSAT0AAAAAACLNFK33KRA5PWGNVUOPAKU2ZRDLM3A)
   - Pretext task: query and key are positive pair if they originate from the same image, negative otherwise
     - Take two random crops of image under random augmentation as positive pair
   - Use ResNet as encoder
@@ -70,7 +70,7 @@
     - **Base encoder** $f(\cdot)$ to extract representation vectors: ResNet
     - **Projection head** $g(\cdot)$ to map representations to a space where contrastive loss is applied: MLP, 1 hidden layer
       - This is discarded after pretraining
-    - ![simclr_framework](figures/simclr_framework.png)
+    - ![simclr_framework](https://raw.githubusercontent.com/KevinyWu/ripl-notes/main/video2reward/figures/simclr_framework.png?token=GHSAT0AAAAAACLNFK33EPRVP345HBZMBXMCZRDLNMQ)
     - **Contrastive loss function**: attempt to identify the positive pair from a set of examples (treat ALL others as negative)
       - $\text{sim}(u, v) = \frac{u^Tv}{\|u\|\|v\|}$ cosine similarity
       - For a positive pair of examples $(i, j)$, NT-Xent (normalized temperature-scaled cross-entropy loss) is used
@@ -104,7 +104,7 @@
     - **Pretrain**: first stage of unlabeled data, task-agnostic pretraining, learn general visual representations
     - **Fine-tune**: then, general representations are fine-tuned on a small labeled dataset
     - **Distill**: second stage of unlabled data, task-specific pretraining, learn task-specific representations
-    - ![simclrv2_framework](figures/simclrv2_framework.png)
+    - ![simclrv2_framework](https://raw.githubusercontent.com/KevinyWu/ripl-notes/main/video2reward/figures/simclrv2_framework.png?token=GHSAT0AAAAAACLNFK32GUX6JQDPNPVT7UXCZRDLOSQ)
   - Improvement over SimCLR
     - Larger models (deeper but less wide)
     - Increase capacity of non-linear projection head, $g(\cdot)$, recall that it was an MLP with 1 hidden layer in SimCLR
