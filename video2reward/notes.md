@@ -46,7 +46,7 @@
       - $\theta_k$ is the key encoder's ($f_k$) parameters
       - $\theta_q$ is the query encoder's ($f_q$) parameters
       - $m$ is the momentum coefficient, empirically, larger (slowly evolving key encoder) is better
-  ![moco_contrastive_loss](video2reward/figures/moco_contrastive_loss.png)
+    - ![moco_contrastive_loss](video2reward/figures/moco_contrastive_loss.png)
   - Pretext task: query and key are positive pair if they originate from the same image, negative otherwise
     - Take two random crops of image under random augmentation as positive pair
   - Use ResNet as encoder
