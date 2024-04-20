@@ -1,4 +1,6 @@
-# Foundation Model - Epic Kitchen
+# Robotic Foundation Model
+
+## Literature
 
 ## LMN usage
 
