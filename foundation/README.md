@@ -13,15 +13,11 @@
 
 ### (Apr 2023) ACT: Learning Fine-Grained Bimanual Manipulation with Low-Cost Hardware
 
-[Code](https://github.com/tonyzhaozh/act)
-
-[Website](https://tonyzhaozh.github.io/aloha/)
+[Code](https://github.com/tonyzhaozh/act), [Website](https://tonyzhaozh.github.io/aloha/)
 
 ### (Dec 2023) Octo: An Open-Source Generalist Robot Policy
 
-[Code](https://github.com/octo-models/octo)
-
-[Website](https://octo-models.github.io/)
+[Code](https://github.com/octo-models/octo), [Website](https://octo-models.github.io/)
 
 ## LMN usage
 

@@ -3,12 +3,13 @@
 - [Video2Reward](#video2reward)
   - [Background](#background)
   - [Literature](#literature)
-    - [(Nov 2019) MoCo: Momentum Contrast for Unsupervised Visual Representation Learning](#nov-2019-moco-momentum-contrast-for-unsupervised-visual-representation-learning)
+    - [(Nov 2019) \[MoCo\]: Momentum Contrast for Unsupervised Visual Representation Learning](#nov-2019-moco-momentum-contrast-for-unsupervised-visual-representation-learning)
     - [(Feb 2020) SimCLR: A Simple Framework for Contrastive Learning of Visual Representations](#feb-2020-simclr-a-simple-framework-for-contrastive-learning-of-visual-representations)
     - [(Jun 2020) SimCLRv2: Big Self-Supervised Models are Strong Semi-Supervised Learners](#jun-2020-simclrv2-big-self-supervised-models-are-strong-semi-supervised-learners)
     - [(Oct 2020) ViT: An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale](#oct-2020-vit-an-image-is-worth-16x16-words-transformers-for-image-recognition-at-scale)
     - [(Apr 2021) DINO: Emerging Properties in Self-Supervised Vision Transformers](#apr-2021-dino-emerging-properties-in-self-supervised-vision-transformers)
     - [(Nov 2021) MAE: Masked Autoencoders Are Scalable Vision Learners](#nov-2021-mae-masked-autoencoders-are-scalable-vision-learners)
+    - [(Sep 2022) VIP: Towards Universal Visual Reward and Representation via Value-Implicit Pre-Training](#sep-2022-vip-towards-universal-visual-reward-and-representation-via-value-implicit-pre-training)
 
 ## Background
 
@@ -31,10 +32,15 @@
   - Unsupervised representation learning
     - Automatic feature extraction from raw data
     - Autoencoders, GANs, VAEs, dimensionality reduction, etc.
+- Reinforcement learning
+  - Learn a policy that maximizes the expected reward
+  - Offline RL: learn a policy from a fixed dataset of transitions rather than interacting with the environment
+  - Sparse reward: agent recieves non-zero rewards infrequently
+  - Dense reward: agent recieves non-zero rewards frequently, i.e. frequent feedback for most actions
 
 ## Literature
 
-### (Nov 2019) MoCo: Momentum Contrast for Unsupervised Visual Representation Learning
+### (Nov 2019) [MoCo]: Momentum Contrast for Unsupervised Visual Representation Learning
 
 [Code](https://github.com/facebookresearch/moco)
 
@@ -56,7 +62,7 @@
       - $\theta_k$ is the key encoder's ($f_k$) parameters
       - $\theta_q$ is the query encoder's ($f_q$) parameters
       - $m$ is the momentum coefficient, empirically, larger (slowly evolving key encoder) is better
-    - <img src="figures/moco.png" width="800" alt="moco">
+    - <img src="figures/moco.png" width="900" alt="moco">
   - Pretext task: query and key are positive pair if they originate from the same image, negative otherwise
     - Take two random crops of image under random augmentation as positive pair
   - Use ResNet as encoder
@@ -64,9 +70,7 @@
 
 ### (Feb 2020) SimCLR: A Simple Framework for Contrastive Learning of Visual Representations
 
-[Code](https://github.com/google-research/simclr)
-
-[Blog](https://research.google/blog/advancing-self-supervised-and-semi-supervised-learning-with-simclr/)
+[Code](https://github.com/google-research/simclr), [Blog](https://research.google/blog/advancing-self-supervised-and-semi-supervised-learning-with-simclr/)
 
 - Introduction
   - Data augmentation improves unsupervised constrastive learning
@@ -80,7 +84,7 @@
     - **Base encoder** $f(\cdot)$ to extract representation vectors: ResNet
     - **Projection head** $g(\cdot)$ to map representations to a space where contrastive loss is applied: MLP, 1 hidden layer
       - This is discarded after pretraining
-    - <img src="figures/simclr.png" width="300" alt="simclr">
+    - <img src="figures/simclr.png" width="500" alt="simclr">
     - **Contrastive loss function**: attempt to identify the positive pair from a set of examples (treat ALL others as negative)
       - $\text{sim}(u, v) = \frac{u^Tv}{\|u\|\|v\|}$ cosine similarity
       - For a positive pair of examples $(i, j)$, NT-Xent (normalized temperature-scaled cross-entropy loss) is used
@@ -104,7 +108,7 @@
 
 ### (Jun 2020) SimCLRv2: Big Self-Supervised Models are Strong Semi-Supervised Learners
 
-[Code](https://github.com/google-research/simclr)
+[Code](https://github.com/google-research/simclr), [Video](https://www.youtube.com/watch?v=2lkUNDZld-4)
 
 - Introduction
   - Unsupervised pretrain, supervised fine-tune
@@ -114,12 +118,12 @@
     - **Pretrain**: first stage of unlabeled data, task-agnostic pretraining, learn general visual representations
     - **Fine-tune**: then, general representations are fine-tuned on a small labeled dataset
     - **Distill**: second stage of unlabled data, task-specific pretraining, learn task-specific representations
-    - <img src="figures/simclrv2.png" width="600" alt="simclrv2">
-  - Improvement over SimCLR
+    - <img src="figures/simclrv2.png" width="700" alt="simclrv2">
+  - Improvement over [SimCLR](#feb-2020-simclr-a-simple-framework-for-contrastive-learning-of-visual-representations)
     - Larger models (deeper but less wide)
     - Increase capacity of non-linear projection head, $g(\cdot)$, recall that it was an MLP with 1 hidden layer in SimCLR
       - Also don't discard the projection head after pretraining, instead fine-tune from a middle layer
-    - Incorporate memory mechanism of MoCo
+    - Incorporate memory mechanism of [MoCo](#nov-2019-moco-momentum-contrast-for-unsupervised-visual-representation-learning)
   - Fine-tuning
     - Fine-tune from a middle layer of the projection head instead of the input layer of the projection head as in SimCLR
   - Knowledge distillation
@@ -137,30 +141,184 @@
 
 ### (Oct 2020) ViT: An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale
 
-[Code](https://github.com/google-research/vision_transformer)
-
-[Video](https://www.youtube.com/watch?v=TrdevFK_am4)
+[Code](https://github.com/google-research/vision_transformer), [Video](https://www.youtube.com/watch?v=TrdevFK_am4)
 
 - Introduction
   - Transformer architecture has been successful in NLP
   - Apply standard transformer to image patches, providing sequence of linear embeddings of these patches as an input to a transformer
   - Worse than ResNet on ImageNet, but better on larger datasets
-  - Transformer is a generalization of an MLP
+  - **Transformer is a generalization of an MLP**
     - The "weight" between nodes in consecutive layers is fixed in MLP, but computed on the fly in a transformer
     - This makes a transformer the most general, least generalized thing we can train in ML!
     - Transformer is less biased than other architectures
     - This is why we concatenate the input and positional encoding in a transformer
   - Completely discards the notion of convolutions
-- 
+- Method
+  - Follow original transformer as closely as possible
+  - Standard transformer recieves a 1D sequence of token embeddings
+  - For 2d images, reshape the image $x \in \mathbb{R}^{H \times W \times C}$ into a sequence of flattened 2D patches $x \in \mathbb{R}^{N \times (P^2 \cdot C)}$
+    - $N = H \times W / P^2$ is the number of patches; the input sequence length
+    - $P$ is the patch size
+      - Use patches instead of the whole image for computational efficiency
+      - Naive self attention would require each pixel to attend to every other pixel
+    - $C$ is the number of channels
+    - Flatten the patches and map to $D$ dimensions with linear layer; output is called the "patch embedding"
+    - Position embeddings added to patch embeddings to retain positional information
+    - **Patch + position embeddings are input to the transformer encoder**, output feeds into MLP for classification
+  - <img src="figures/vit.png" width="700" alt="vit">
+  - **ViT has less image specific inductive bias than CNNs**
+    - Inductive bias refers to the set of assumptions a model makes about the data
+    - CNNs assume **locality** (pixels close to each other are related) and **translation invariance** (features are the same regardless of where they are in the image)
+    - ViTs use self attention to consider relationships between all parts of the image simultaneously
+      - Positional embeddings at initialization don't carry information about 2D position of the patches
+      - For classification, only the MLP head in ViT assumes locality and translational invariance
+- Experiments
+  - ViT outperforms CNNs with the same computational budget
+  - Internal representations
+    - First layer linearly projects flattened patches to lower dimenstion
+    - Learned positional embeddings are added to the patch embeddings, closer patches tend to have more similar positional embeddings, as well as row-column structure
+    - <img src="figures/vit_internal.png" width="700" alt="vit_internal">
 
 ### (Apr 2021) DINO: Emerging Properties in Self-Supervised Vision Transformers
 
-[Code](https://github.com/facebookresearch/dino)
+[Code](https://github.com/facebookresearch/dino), [Blog](https://ai.meta.com/blog/dino-paws-computer-vision-with-self-supervised-transformers-and-10x-more-efficient-training/), [Video](https://www.youtube.com/watch?v=h3ij3F3cPIk)
 
-[Blog](https://ai.meta.com/blog/dino-paws-computer-vision-with-self-supervised-transformers-and-10x-more-efficient-training/)
-
-[Video](https://www.youtube.com/watch?v=h3ij3F3cPIk)
+- Introduction
+  - Self-supervised [ViT](#oct-2020-vit-an-image-is-worth-16x16-words-transformers-for-image-recognition-at-scale) features explicitly contain the scene layout and, in particular, object boundaries; this information is directly accessible in the self-attention modules of the last block
+  - DINO: self-**di**stillation with **no** labels
+  - Directly predicts the output of a teacher network
+  - **DINO only works with a centering and sharpening of the teacher output to avoid collapse**
+  - BYOL: Bootstrap Your Own Latent; features are trained by matching them to representations obtained with a momentum encoder
+  - Momentum encoder
+    - Target (teacher) network: main encoder whose parameters are updated slowly
+    - Query (student) network: encoder whose parameters are updated quickly through backpropagation during training
+    - Parameter update: $\theta_{\text{t}} \leftarrow m\theta_{\text{t}} + (1-m)\theta_{\text{s}}$, momentum $m$ is close to 1 for stability and smoothness
+    - [MoCo](#nov-2019-moco-momentum-contrast-for-unsupervised-visual-representation-learning) uses this idea
+    - Advantages: stability in learning, consistency in representations especially with unlabelled data
+  - Knowledge distillation idea from [SimCLRv2](#jun-2020-simclrv2-big-self-supervised-models-are-strong-semi-supervised-learners)
+    - DINO's teacher is dynamically built during training rather than pre-trained
+    - This way, knowledge distillation is not a post-processing step but a self-supervised learning task
+- Method
+  - **Knowledge distillation**
+    - A learning paradigm to train a student network $g_{\theta_{s}}$ to mimic the behavior of a teacher network $g_{\theta_{t}}$
+    - Given an input image $x$, the both networks output probability distributions over $K$ dimensions denoted by $P_s$ and $P_t$
+      - Normalized with softmax
+      - Temperature parameter $\tau$ that controls the sharpness of the distribution
+    - Given a fixed teacher, learn by minimizing cross-entropy loss between the student and teacher outputs
+      - $\mathcal{L} = \min_{\theta_s} H(P_t(x), P_s(x))$, where $H(a, b) = -a\log b$
+  - <img src="figures/dino.png" width="400" alt="dino">
+  - Dino adapts **knowledge distillation** for self-supervised learning
+    - Construct different crops (distorted views) of the same image
+      - Two large global views $x_1^g, x_2^g$ and several smaller local views
+      - All crops passed to student, onl global views passed to teacher, encouraging local-to-global correspondence
+      - $\mathcal{L} = \min_{\theta_s} \sum_{x\in \{x_1^g, x_2^g\}} \sum_{x'\in V, x'\neq x} H(P_t(x), P_s(x'))$
+    - Teacher network
+      - exponential moving average (EMA) on the student weights
+      - $\theta_{\text{t}} \leftarrow m\theta_{\text{t}} + (1-m)\theta_{\text{s}}$
+    - Network architecture
+      - Backbone $f$ is ViT or ResNet
+      - Projection head $h$ is a 3-layer MLP
+      - Note that ViT does not use batchnorm, so we also don't use batchnorm in the projection head
+    - Avoiding collapse
+      - **Collapse**: failure to capture the diversity and complexity of the data, instead learns to output the nearly constant representation for all inputs
+      - Centering and sharpening the teacher output
+      - **Centering**: subtract the mean of the teacher output
+        - $g_t(x) \leftarrow g_t(x) + c$
+        - $c = mc + (1-m)\frac{1}{B}\sum_{x=1}^Bg_{{\theta}_t}(x_i)$
+      - **Sharpening**: divide by the standard deviation of the teacher output
+        - Done by using a low temperature ${\tau}_t$ for the teacher softmax
+      - Centering prevents one dimension to dominate but encourages callapse to uniform distribution, sharpening does the opposite
+- Discussion
+  - Self-supervised ViT features perform particularly well with a basic k-NN without any finetuning, linear classifier, nor data augmentation
+  - **One advantage of self-supervised learning: does not hyperoptimize from the specific images in the dataset for the specific task**
+    - In the image below, you can see DINO focuses on the main object where supervised learning learns some random parts of the background
+  - <img src="figures/dino_attention.png" width="800" alt="dino_attention">
 
 ### (Nov 2021) MAE: Masked Autoencoders Are Scalable Vision Learners
 
-[Code](https://github.com/facebookresearch/mae)
+[Code](https://github.com/facebookresearch/mae), [Video](https://www.youtube.com/watch?v=Dp6iICL2dVI)
+
+- Introduction
+  - Masked autoencoding in BERT: remove a portion of the input and predict it
+  - Autoencoding in vision lags behind NLP
+    - Until recently, vision relied on CNN, so hard to integrate mask tokens or positional embeddings
+    - Information density is different, i.e. masking 15% of words is nontrivial, but masking 15% of pixels is easier to reconstruct
+    - Decoding reconstructs pixels (low semantic information), not words (high semantic information), so less trivial than BERT, which can use an MLP decoder
+  - **MAE is asymmetric**
+    - Encoder operates only on visible patches
+    - Decoder is lightweight and reconstructs input from latent representation and masked patches
+    - **Very high masking ratio**: optimizes accuracy and reduces training time
+  - Outperforms all previous results on ImageNet-1k
+- Method
+  - **Encoder** maps observed signal to a latent representation
+  - **Decoder** reconstructs the original signal from latent representation
+  - <img src="figures/mae.png" width="400" alt="mae">
+  - Divide image into non-overlapping patches, removing high percentage of random patches
+  - Encoder
+    - [ViT](#oct-2020-vit-an-image-is-worth-16x16-words-transformers-for-image-recognition-at-scale), only applied to visible patches
+      - Adds positional embeddings to the patch embeddings
+      - Can train very large encoders with less compute
+  - Decoder
+    - Series of transformer blocks
+    - Input is full set of tokens consisting of encoded visible patches and mask tokens
+    - Mask token is a shared, learned vector that indicates presence of a missing patch to be predicted
+    - MAE decoder only used during pre-training for the image reconstruction task, so architecture can be designed independently of the encoder
+  - Reconstruction target
+    - Each element of decoder output is a vector of pixel values representing a patch
+    - **Loss is MSE between reconstructed and original images in pixel space**
+- Experiments
+  - Masking ratio: around 75% is best for both linear probing and fine-tuning
+  - Decoder depth
+    - For linear probing, sufficiently deep decoder necessary to account for the specialization of the many encoder layers
+    - For fine-tuning, single block decoder can perform stronly
+  - Mask token: encoder performs worse with mask tokens
+  - **Does not rely heavily on data augmentation like MoCo, SimCLR, BYOL**
+    -Contrastive learning must rely on augmentation
+  - Transfer learning
+    - MAE outperforms supervised pre-training on COCO object detection and segmentation
+    - Does well on semantic segmentation and classification
+
+### (Sep 2022) VIP: Towards Universal Visual Reward and Representation via Value-Implicit Pre-Training
+
+[Code](https://github.com/facebookresearch/vip), [Website](https://sites.google.com/view/vip-rl), [Video](https://www.youtube.com/watch?v=K9aKAoLI-ss)
+
+- Introduction
+  - Learning from humans does not require intensive robotic data collection
+  - A key unsolved problem to pre-training for robotic control is the challenge of reward specification
+  - Conditioned on goal image
+  - **Instead of solving the impossible primal problem of direct policy learning from out-of-domain, action-free videos, we can instead solve the Fenchel dual problem of goal-conditioned value function learning**
+  - VIP is able to capture a general notion of goal-directed task progress that makes for effective reward-specification for unseen robot tasks specified via goal images
+- Problem setting
+  - Assume access to training video data $D = \{v_i = (o_1^i, o_2^i, \ldots, o_T^i)\}_{i=1}^N$
+    - $o_t^i\in O := \mathbb{R}^{H\times W \times 3}$ is the observation at time $t$ in video $i$
+    - Assume $D$ does not include any robotic or domain-specific actions
+  - A learning algorithm $\mathcal{A}$ takes in training data and outputs **visual encoder** $\phi := \mathcal{A}(D) : \mathbb{R}^{H\times W \times 3} \rightarrow K$
+    - $K$ is the embedding space dimension
+  - **Reward function** for a given transition tuple $(o_t, o_{t+1})$ and goal image $g$
+    - $R(o_t, o_{t+1}; \phi, \{g\}) := \mathcal{S}_{\phi}(o_{t+1}; g) - \mathcal{S}_{\phi}(o_t, g)$
+    - $\mathcal{S}_{\phi}(o_t; g)$ is a distance function on the $\phi$-representation space
+    - $\mathcal{S}_{\phi}(o_t; g) := -\|\phi(o) - \phi(g)\|_2$
+  - Parameters of $\phi$ are frozen during policy learning
+    - Want to learn a policy $\pi:\mathbb{R}^K \rightarrow A$ that output action based on embedded observation
+- <img src="figures/vip.png" width="700" alt="vip">
+- Value-Implicit Pre-Training
+  - Human videos naturally contain goal-directed behavior
+  - Solve an offline goal-conditioned RL problem over the space of human policies and then extract the learned visual representation
+  - KL-regularized offline RL objective
+  - $\max_{\pi_{H, \phi}} E_{\pi_H}\left [\sum_t \gamma^t r(o;g)\right ] - D_{\text{KL}}\left (d^{\pi_H}(o; a^H; g) || d^D(o, \tilde{a}^H; g)\right )$
+    - $r(o; g)$ is the reward function
+    - $d^{\pi_H}(o; a^H; g)$ is the distribution over observations and actions $\pi_H$ visits conditioned on goal $g$
+    - Dummy action $\tilde{a}$ is added to every transition $(o_h^i, \tilde{a}_h^i, o_{h+1}^i)$ in the dataset $D$ so that KL regularization is well defined
+    - $\tilde{a}_i^h$ can be thought of as the unobserved true human action taken to transition from $o_h^i$ to $o_{h+1}^i$
+    - This objective is implausible because the offline dataset $D^H$ does not contain any actions labels, nor can $A^H$ be concretely defined in practice
+  - **Take the Fenchel dual of this objective, which does not contain any actions (see paper pg. 4)**
+    - The algorithm simplifies this dual and samples subtrajectories
+    - Then computes the objective value $\mathcal{L}(\phi)$ with architecture $\phi$
+    - Then updates $\phi$ weights with SGD: $\phi \leftarrow \phi - \alpha \nabla_{\phi}\mathcal{L}(\phi)$
+- Experiments
+  - Uses standard ResNet-50 as the visul encoder
+  - Evaluate against RM3 pre-trained on Ego4D, supervised ResNet, self-supervised ResNet with [MoCo](#nov-2019-moco-momentum-contrast-for-unsupervised-visual-representation-learning) pretraining, CLIP, and also VIP with sparse reward
+  - FrankaKitchen dataset
+  - **VIP with sparse reward fails to solve any task: necessity of dense reward**
+  - VIP on real-world robots works, showing that learning from in-the-wild human videos can be effective for robotic control
+  - We hypothesize that VIP learns the most temporally smooth embedding that enables effective zero-shot reward-specification
