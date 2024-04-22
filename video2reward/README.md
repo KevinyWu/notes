@@ -224,7 +224,7 @@
       - Centering and sharpening the teacher output
       - **Centering**: subtract the mean of the teacher output
         - $g_t(x) \leftarrow g_t(x) + c$
-        - $c = mc + (1-m)\frac{1}{B}\sum_{x=1}^Bg_{{\theta}_t}(x_i)$
+        - $c = mc + (1-m)\frac{1}{B} \sum_{x=1}^B g_{{\theta}_t}(x_i)$
       - **Sharpening**: divide by the standard deviation of the teacher output
         - Done by using a low temperature ${\tau}_t$ for the teacher softmax
       - Centering prevents one dimension to dominate but encourages callapse to uniform distribution, sharpening does the opposite
