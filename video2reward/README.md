@@ -1,5 +1,15 @@
 # Video2Reward
 
+- [Video2Reward](#video2reward)
+  - [Background](#background)
+  - [Literature](#literature)
+    - [(Nov 2019) MoCo: Momentum Contrast for Unsupervised Visual Representation Learning](#nov-2019-moco-momentum-contrast-for-unsupervised-visual-representation-learning)
+    - [(Feb 2020) SimCLR: A Simple Framework for Contrastive Learning of Visual Representations](#feb-2020-simclr-a-simple-framework-for-contrastive-learning-of-visual-representations)
+    - [(Jun 2020) SimCLRv2: Big Self-Supervised Models are Strong Semi-Supervised Learners](#jun-2020-simclrv2-big-self-supervised-models-are-strong-semi-supervised-learners)
+    - [(Oct 2020) ViT: An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale](#oct-2020-vit-an-image-is-worth-16x16-words-transformers-for-image-recognition-at-scale)
+    - [(Apr 2021) DINO: Emerging Properties in Self-Supervised Vision Transformers](#apr-2021-dino-emerging-properties-in-self-supervised-vision-transformers)
+    - [(Nov 2021) MAE: Masked Autoencoders Are Scalable Vision Learners](#nov-2021-mae-masked-autoencoders-are-scalable-vision-learners)
+
 ## Background
 
 - Supervised learning
@@ -46,7 +56,7 @@
       - $\theta_k$ is the key encoder's ($f_k$) parameters
       - $\theta_q$ is the query encoder's ($f_q$) parameters
       - $m$ is the momentum coefficient, empirically, larger (slowly evolving key encoder) is better
-    - ![moco_contrastive_loss](https://raw.githubusercontent.com/KevinyWu/ripl-notes/main/video2reward/figures/moco_contrastive_loss.png?token=GHSAT0AAAAAACLNFK33KRA5PWGNVUOPAKU2ZRDLM3A)
+    - <img src="figures/moco.png" width="800" alt="moco">
   - Pretext task: query and key are positive pair if they originate from the same image, negative otherwise
     - Take two random crops of image under random augmentation as positive pair
   - Use ResNet as encoder
@@ -70,7 +80,7 @@
     - **Base encoder** $f(\cdot)$ to extract representation vectors: ResNet
     - **Projection head** $g(\cdot)$ to map representations to a space where contrastive loss is applied: MLP, 1 hidden layer
       - This is discarded after pretraining
-    - ![simclr_framework](https://raw.githubusercontent.com/KevinyWu/ripl-notes/main/video2reward/figures/simclr_framework.png?token=GHSAT0AAAAAACLNFK33EPRVP345HBZMBXMCZRDLNMQ)
+    - <img src="figures/simclr.png" width="300" alt="simclr">
     - **Contrastive loss function**: attempt to identify the positive pair from a set of examples (treat ALL others as negative)
       - $\text{sim}(u, v) = \frac{u^Tv}{\|u\|\|v\|}$ cosine similarity
       - For a positive pair of examples $(i, j)$, NT-Xent (normalized temperature-scaled cross-entropy loss) is used
@@ -104,7 +114,7 @@
     - **Pretrain**: first stage of unlabeled data, task-agnostic pretraining, learn general visual representations
     - **Fine-tune**: then, general representations are fine-tuned on a small labeled dataset
     - **Distill**: second stage of unlabled data, task-specific pretraining, learn task-specific representations
-    - ![simclrv2_framework](https://raw.githubusercontent.com/KevinyWu/ripl-notes/main/video2reward/figures/simclrv2_framework.png?token=GHSAT0AAAAAACLNFK32GUX6JQDPNPVT7UXCZRDLOSQ)
+    - <img src="figures/simclrv2.png" width="600" alt="simclrv2">
   - Improvement over SimCLR
     - Larger models (deeper but less wide)
     - Increase capacity of non-linear projection head, $g(\cdot)$, recall that it was an MLP with 1 hidden layer in SimCLR
@@ -124,3 +134,33 @@
   - Discussion
     - Bigger models, which could easily overfit with few labelled examples, actually generalize better
     - Findings can be used to improve accuracy in any application of computer vision where it is more expensive or difficult to label additional data than to train larger models
+
+### (Oct 2020) ViT: An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale
+
+[Code](https://github.com/google-research/vision_transformer)
+
+[Video](https://www.youtube.com/watch?v=TrdevFK_am4)
+
+- Introduction
+  - Transformer architecture has been successful in NLP
+  - Apply standard transformer to image patches, providing sequence of linear embeddings of these patches as an input to a transformer
+  - Worse than ResNet on ImageNet, but better on larger datasets
+  - Transformer is a generalization of an MLP
+    - The "weight" between nodes in consecutive layers is fixed in MLP, but computed on the fly in a transformer
+    - This makes a transformer the most general, least generalized thing we can train in ML!
+    - Transformer is less biased than other architectures
+    - This is why we concatenate the input and positional encoding in a transformer
+  - Completely discards the notion of convolutions
+- 
+
+### (Apr 2021) DINO: Emerging Properties in Self-Supervised Vision Transformers
+
+[Code](https://github.com/facebookresearch/dino)
+
+[Blog](https://ai.meta.com/blog/dino-paws-computer-vision-with-self-supervised-transformers-and-10x-more-efficient-training/)
+
+[Video](https://www.youtube.com/watch?v=h3ij3F3cPIk)
+
+### (Nov 2021) MAE: Masked Autoencoders Are Scalable Vision Learners
+
+[Code](https://github.com/facebookresearch/mae)

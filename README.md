@@ -2,6 +2,21 @@
 
 Notes and papers for RIPL projects.
 
+- [RIPL Notes](#ripl-notes)
+  - [Project Tree](#project-tree)
+  - [Servers](#servers)
+  - [Generate SSH Key](#generate-ssh-key)
+  - [LMN Usage](#lmn-usage)
+
+## Project Tree
+
+```plaintext
+RIPL
+├── foundation - generalist robotic foundation models
+├── teleoperation - robotic arm teleoperation with Meta Quest
+└── video2reward - learning from demonstration with video input
+```
+
 ## Servers
 
 1. Connect to UChicago network or VPN
@@ -19,7 +34,7 @@ Notes and papers for RIPL projects.
    - In birch and elm, files located in ```/scratch/kevinywu/lmn/kevinywu```
    - To exit container: ```ctrl + d```
 
-## SSH Key
+## Generate SSH Key
 
 1. Generate key: ```ssh-keygen -t ed25519 -C "kevin.yuanbo@gmail.com"```
    - Saves key at ```~/.ssh/<key_name>```
@@ -48,11 +63,11 @@ Notes and papers for RIPL projects.
 
 ## LMN Usage
 
-### Create file in Docker container
+**Create file in Docker container**
 
 - ```touch foo.txt```
 - After exiting container, file will be copied to local and remote machine
 
-### Deleting files in Docker container
+**Deleting files in Docker container**
 
 `rsync` will not synchronize deletions, so you must manually delete files in both the container and the local machine.
