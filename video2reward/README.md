@@ -3,7 +3,7 @@
 - [Video2Reward](#video2reward)
   - [Background](#background)
   - [Literature](#literature)
-    - [(Nov 2019) \[MoCo\]: Momentum Contrast for Unsupervised Visual Representation Learning](#nov-2019-moco-momentum-contrast-for-unsupervised-visual-representation-learning)
+    - [(Nov 2019) MoCo: Momentum Contrast for Unsupervised Visual Representation Learning](#nov-2019-moco-momentum-contrast-for-unsupervised-visual-representation-learning)
     - [(Feb 2020) SimCLR: A Simple Framework for Contrastive Learning of Visual Representations](#feb-2020-simclr-a-simple-framework-for-contrastive-learning-of-visual-representations)
     - [(Jun 2020) SimCLRv2: Big Self-Supervised Models are Strong Semi-Supervised Learners](#jun-2020-simclrv2-big-self-supervised-models-are-strong-semi-supervised-learners)
     - [(Oct 2020) ViT: An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale](#oct-2020-vit-an-image-is-worth-16x16-words-transformers-for-image-recognition-at-scale)
@@ -40,7 +40,7 @@
 
 ## Literature
 
-### (Nov 2019) [MoCo]: Momentum Contrast for Unsupervised Visual Representation Learning
+### (Nov 2019) MoCo: Momentum Contrast for Unsupervised Visual Representation Learning
 
 [Code](https://github.com/facebookresearch/moco)
 
