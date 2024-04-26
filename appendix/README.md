@@ -2,8 +2,8 @@
 
 - [Appendix](#appendix)
   - [Deep Learning](#deep-learning)
-    - [(Dec 2013) VAE: Auto-Encoding Variational Bayes](#dec-2013-vae-auto-encoding-variational-bayes)
     - [(Dec 2013) Playing Atari with Deep Reinforcement Learning](#dec-2013-playing-atari-with-deep-reinforcement-learning)
+    - [(Dec 2013) VAE: Auto-Encoding Variational Bayes](#dec-2013-vae-auto-encoding-variational-bayes)
     - [(Jun 2014) GAN: Generative Adversarial Networks](#jun-2014-gan-generative-adversarial-networks)
     - [(Dec 2015) CVAE: Learning Structured Output Representation using Deep Conditional Generative Models](#dec-2015-cvae-learning-structured-output-representation-using-deep-conditional-generative-models)
     - [(Jun 2017) Attention is All You Need](#jun-2017-attention-is-all-you-need)
@@ -11,11 +11,14 @@
 
 ## Deep Learning
 
-### (Dec 2013) VAE: Auto-Encoding Variational Bayes
-
 ### (Dec 2013) Playing Atari with Deep Reinforcement Learning
 
 [Video](https://www.youtube.com/watch?v=rFwQDDbYTm4), [Q-Learning](https://www.youtube.com/watch?v=nOBm4aYEYR4)
+
+### (Dec 2013) VAE: Auto-Encoding Variational Bayes
+
+[Code](https://github.com/AntixK/PyTorch-VAE?tab=readme-ov-file), [Annotated Code](https://vxlabs.com/2017/12/08/variational-autoencoder-in-pytorch-commented-and-annotated/), [Blog](https://kvfrans.com/variational-autoencoders-explained/), [KL-Divergence Blog](https://kvfrans.com/deriving-the-kl/)
+
 
 ### (Jun 2014) GAN: Generative Adversarial Networks
 
@@ -27,7 +30,7 @@
 
 ### (Jun 2017) Attention is All You Need
 
-[Code](http://nlp.seas.harvard.edu/annotated-transformer/), [Video](https://www.youtube.com/watch?v=iDulhoQ2pro), [3B1B Part 1](https://youtu.be/wjZofJX0v4M?feature=shared), [3B1B Part 2](https://youtu.be/eMlx5fFNoYc?feature=shared)
+[Annotated Code](http://nlp.seas.harvard.edu/annotated-transformer/), [Video](https://www.youtube.com/watch?v=iDulhoQ2pro), [3B1B Part 1](https://youtu.be/wjZofJX0v4M?feature=shared), [3B1B Part 2](https://youtu.be/eMlx5fFNoYc?feature=shared)
 
 ### (Apr 2024) Leave No Context Behind: Efficient Infinite Context Transformers with Infini-attention
 
