@@ -6,7 +6,6 @@
     - [(Nov 2019) MoCo: Momentum Contrast for Unsupervised Visual Representation Learning](#nov-2019-moco-momentum-contrast-for-unsupervised-visual-representation-learning)
     - [(Feb 2020) SimCLR: A Simple Framework for Contrastive Learning of Visual Representations](#feb-2020-simclr-a-simple-framework-for-contrastive-learning-of-visual-representations)
     - [(Jun 2020) SimCLRv2: Big Self-Supervised Models are Strong Semi-Supervised Learners](#jun-2020-simclrv2-big-self-supervised-models-are-strong-semi-supervised-learners)
-    - [(Oct 2020) ViT: An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale](#oct-2020-vit-an-image-is-worth-16x16-words-transformers-for-image-recognition-at-scale)
     - [(Apr 2021) DINO: Emerging Properties in Self-Supervised Vision Transformers](#apr-2021-dino-emerging-properties-in-self-supervised-vision-transformers)
     - [(Nov 2021) MAE: Masked Autoencoders Are Scalable Vision Learners](#nov-2021-mae-masked-autoencoders-are-scalable-vision-learners)
     - [(Sep 2022) VIP: Towards Universal Visual Reward and Representation via Value-Implicit Pre-Training](#sep-2022-vip-towards-universal-visual-reward-and-representation-via-value-implicit-pre-training)
@@ -145,52 +144,12 @@
     - Bigger models, which could easily overfit with few labelled examples, actually generalize better
     - Findings can be used to improve accuracy in any application of computer vision where it is more expensive or difficult to label additional data than to train larger models
 
-### (Oct 2020) ViT: An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale
-
-[Code](https://github.com/google-research/vision_transformer), [Video](https://www.youtube.com/watch?v=TrdevFK_am4)
-
-- Introduction
-  - Transformer architecture has been successful in NLP
-  - Apply standard transformer to image patches, providing sequence of linear embeddings of these patches as an input to a transformer
-  - Worse than ResNet on ImageNet, but better on larger datasets
-  - **Transformer is a generalization of an MLP**
-    - The "weight" between nodes in consecutive layers is fixed in MLP, but computed on the fly in a transformer
-    - This makes a transformer the most general, least generalized thing we can train in ML!
-    - Transformer is less biased than other architectures
-    - This is why we concatenate the input and positional encoding in a transformer
-  - Completely discards the notion of convolutions
-- Method
-  - Follow original transformer as closely as possible
-  - Standard transformer recieves a 1D sequence of token embeddings
-  - For 2d images, reshape the image $x \in \mathbb{R}^{H \times W \times C}$ into a sequence of flattened 2D patches $x \in \mathbb{R}^{N \times (P^2 \cdot C)}$
-    - $N = H \times W / P^2$ is the number of patches; the input sequence length
-    - $P$ is the patch size
-      - Use patches instead of the whole image for computational efficiency
-      - Naive self attention would require each pixel to attend to every other pixel
-    - $C$ is the number of channels
-    - Flatten the patches and map to $D$ dimensions with linear layer; output is called the "patch embedding"
-    - Position embeddings added to patch embeddings to retain positional information
-    - **Patch + position embeddings are input to the transformer encoder**, output feeds into MLP for classification
-  - <img src="figures/vit.png" width="700" alt="vit">
-  - **ViT has less image specific inductive bias than CNNs**
-    - Inductive bias refers to the set of assumptions a model makes about the data
-    - CNNs assume **locality** (pixels close to each other are related) and **translation invariance** (features are the same regardless of where they are in the image)
-    - ViTs use self attention to consider relationships between all parts of the image simultaneously
-      - Positional embeddings at initialization don't carry information about 2D position of the patches
-      - For classification, only the MLP head in ViT assumes locality and translational invariance
-- Experiments
-  - ViT outperforms CNNs with the same computational budget
-  - Internal representations
-    - First layer linearly projects flattened patches to lower dimenstion
-    - Learned positional embeddings are added to the patch embeddings, closer patches tend to have more similar positional embeddings, as well as row-column structure
-    - <img src="figures/vit_internal.png" width="700" alt="vit_internal">
-
 ### (Apr 2021) DINO: Emerging Properties in Self-Supervised Vision Transformers
 
 [Code](https://github.com/facebookresearch/dino), [Blog](https://ai.meta.com/blog/dino-paws-computer-vision-with-self-supervised-transformers-and-10x-more-efficient-training/), [Video](https://www.youtube.com/watch?v=h3ij3F3cPIk)
 
 - Introduction
-  - Self-supervised [ViT](#oct-2020-vit-an-image-is-worth-16x16-words-transformers-for-image-recognition-at-scale) features explicitly contain the scene layout and, in particular, object boundaries; this information is directly accessible in the self-attention modules of the last block
+  - Self-supervised ViT features explicitly contain the scene layout and, in particular, object boundaries; this information is directly accessible in the self-attention modules of the last block
   - DINO: self-**di**stillation with **no** labels
   - Directly predicts the output of a teacher network
   - **DINO only works with a centering and sharpening of the teacher output to avoid collapse**
@@ -261,7 +220,7 @@
   - <img src="figures/mae.png" width="400" alt="mae">
   - Divide image into non-overlapping patches, removing high percentage of random patches
   - Encoder
-    - [ViT](#oct-2020-vit-an-image-is-worth-16x16-words-transformers-for-image-recognition-at-scale), only applied to visible patches
+    - ViT, only applied to visible patches
       - Adds positional embeddings to the patch embeddings
       - Can train very large encoders with less compute
   - Decoder

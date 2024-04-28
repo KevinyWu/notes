@@ -12,7 +12,9 @@ Notes and papers for RIPL projects.
 
 ```plaintext
 RIPL
+├── appendix - classic and general papers
 ├── foundation - generalist robotic foundation models
+├── robot-dynamics-control - notes from "Robot Dynamics and Control, 2nd Edition"
 ├── teleoperation - robotic arm teleoperation with Meta Quest
 └── video2reward - learning from demonstration with video input
 ```
