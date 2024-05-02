@@ -1,20 +1,23 @@
 # Appendix
 
 - [Appendix](#appendix)
-  - [Deep Learning](#deep-learning)
-    - [(Dec 2013) Playing Atari with Deep Reinforcement Learning](#dec-2013-playing-atari-with-deep-reinforcement-learning)
+  - [Machine Learning](#machine-learning)
     - [(Dec 2013) VAE: Auto-Encoding Variational Bayes](#dec-2013-vae-auto-encoding-variational-bayes)
     - [(Jun 2014) GAN: Generative Adversarial Networks](#jun-2014-gan-generative-adversarial-networks)
     - [(Dec 2015) CVAE: Learning Structured Output Representation using Deep Conditional Generative Models](#dec-2015-cvae-learning-structured-output-representation-using-deep-conditional-generative-models)
+  - [Transformers](#transformers)
     - [(Jun 2017) Attention is All You Need](#jun-2017-attention-is-all-you-need)
     - [(Oct 2020) ViT: An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale](#oct-2020-vit-an-image-is-worth-16x16-words-transformers-for-image-recognition-at-scale)
     - [(Apr 2024) Leave No Context Behind: Efficient Infinite Context Transformers with Infini-attention](#apr-2024-leave-no-context-behind-efficient-infinite-context-transformers-with-infini-attention)
+  - [Diffusion Models](#diffusion-models)
+    - [(Apr 2022) Video Diffusion Models](#apr-2022-video-diffusion-models)
+  - [Reinforcement Learning](#reinforcement-learning)
+    - [(Dec 2013) Playing Atari with Deep Reinforcement Learning](#dec-2013-playing-atari-with-deep-reinforcement-learning)
+  - [Structured State Space Models](#structured-state-space-models)
+    - [(Apr 2021) S4: Eﬃciently Modeling Long Sequences with Structured State Spaces](#apr-2021-s4-eﬃciently-modeling-long-sequences-with-structured-state-spaces)
+    - [(Dec 2023) Mamba: Linear-Time Sequence Modeling with Selective State Spaces](#dec-2023-mamba-linear-time-sequence-modeling-with-selective-state-spaces)
 
-## Deep Learning
-
-### (Dec 2013) Playing Atari with Deep Reinforcement Learning
-
-[Annotated Code](https://nn.labml.ai/rl/dqn/index.html), [Video](https://www.youtube.com/watch?v=rFwQDDbYTm4), [Q-Learning](https://www.youtube.com/watch?v=nOBm4aYEYR4)
+## Machine Learning
 
 ### (Dec 2013) VAE: Auto-Encoding Variational Bayes
 
@@ -27,6 +30,8 @@
 ### (Dec 2015) CVAE: Learning Structured Output Representation using Deep Conditional Generative Models
 
 [Blog](https://agustinus.kristia.de/techblog/2016/12/17/conditional-vae/)
+
+## Transformers
 
 ### (Jun 2017) Attention is All You Need
 
@@ -75,3 +80,36 @@
 ### (Apr 2024) Leave No Context Behind: Efficient Infinite Context Transformers with Infini-attention
 
 [Video](https://www.youtube.com/watch?v=r_UBBfTPcF0)
+
+## Diffusion Models
+
+### (Apr 2022) Video Diffusion Models
+
+[Website](https://video-diffusion.github.io/)
+
+## Reinforcement Learning
+
+### (Dec 2013) Playing Atari with Deep Reinforcement Learning
+
+[Annotated Code](https://nn.labml.ai/rl/dqn/index.html), [Video](https://www.youtube.com/watch?v=rFwQDDbYTm4), [Q-Learning](https://www.youtube.com/watch?v=nOBm4aYEYR4)
+
+## Structured State Space Models
+
+### (Apr 2021) S4: Eﬃciently Modeling Long Sequences with Structured State Spaces
+
+[Code](https://github.com/state-spaces/s4), [Annotated Code](https://srush.github.io/annotated-s4/), [Blog](https://huggingface.co/blog/lbourdois/get-on-the-ssm-train)
+
+### (Dec 2023) Mamba: Linear-Time Sequence Modeling with Selective State Spaces
+
+[Code](https://github.com/state-spaces/mamba), [Annotated Code](https://srush.github.io/annotated-mamba/hard.html), [Video](https://www.youtube.com/watch?v=9dSkvxS2EB0), [Blog](https://newsletter.maartengrootendorst.com/p/a-visual-guide-to-mamba-and-state)
+
+- The problem with Transformers
+  - When generating the next token in inference, we need to re-calculate the attention for the entire sequence
+  - This is $O(n^2)$, where $n$ is the sequence length
+  - RNN solution
+    - RNN takes the previous hidden state and the current token as input: $O(n)$ in inference
+    - Only needs to consider previous hidden state rather than the entire sequence
+    - Problem: RNNs tend to forget informatio since they only have a fixed-size hidden state
+    - Also, slow training, need to be trained sequentially (not parallelizable)
+- State space model
+  - 
