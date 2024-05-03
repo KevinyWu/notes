@@ -3,10 +3,12 @@
 - [Robotic Foundation Model](#robotic-foundation-model)
   - [Background](#background)
   - [Literature](#literature)
+    - [(May 2020) DETR: End-to-End Object Detection with Transformers](#may-2020-detr-end-to-end-object-detection-with-transformers)
+    - [(Feb 2021) CLIP: Learning Transferable Visual Models From Natural Language Supervision](#feb-2021-clip-learning-transferable-visual-models-from-natural-language-supervision)
+    - [(Dec 2022) Whisper: Robust Speech Recognition via Large-Scale Weak Supervision](#dec-2022-whisper-robust-speech-recognition-via-large-scale-weak-supervision)
     - [(Mar 2023) Diffusion Policy: Visuomotor Policy Learning via Action Diffusion](#mar-2023-diffusion-policy-visuomotor-policy-learning-via-action-diffusion)
     - [(Apr 2023) ACT: Learning Fine-Grained Bimanual Manipulation with Low-Cost Hardware](#apr-2023-act-learning-fine-grained-bimanual-manipulation-with-low-cost-hardware)
     - [(Dec 2023) Octo: An Open-Source Generalist Robot Policy](#dec-2023-octo-an-open-source-generalist-robot-policy)
-    - [(Dec 2023) ATM: Any-point Trajectory Modeling for Policy Learning](#dec-2023-atm-any-point-trajectory-modeling-for-policy-learning)
     - [(Mar 2024) VQ-BeT: Behavior Generation with Latent Actions](#mar-2024-vq-bet-behavior-generation-with-latent-actions)
 
 ## Background
@@ -24,6 +26,18 @@
     - Uses reinforcement learning to find the optimal policy that maximizes this reward function
 
 ## Literature
+
+### (May 2020) DETR: End-to-End Object Detection with Transformers
+
+[Code](https://github.com/facebookresearch/detr), [Annotated Code 1](https://amaarora.github.io/posts/2021-07-26-annotateddetr.html), [Annotated Code 2](https://amaarora.github.io/posts/2023-03-11_Understanding_CLIP_part_2.html), [Video](https://www.youtube.com/watch?v=T35ba_VXkMY)
+
+### (Feb 2021) CLIP: Learning Transferable Visual Models From Natural Language Supervision
+
+[Code](https://github.com/openai/CLIP), [Annotated Code](https://amaarora.github.io/posts/2023-03-06_Understanding_CLIP.html), [Video](https://www.youtube.com/watch?v=T9XSU0pKX2E)
+
+### (Dec 2022) Whisper: Robust Speech Recognition via Large-Scale Weak Supervision
+
+[Code](https://github.com/openai/whisper)
 
 ### (Mar 2023) Diffusion Policy: Visuomotor Policy Learning via Action Diffusion
 
@@ -83,10 +97,6 @@
 ### (Dec 2023) Octo: An Open-Source Generalist Robot Policy
 
 [Code](https://github.com/octo-models/octo), [Website](https://octo-models.github.io/)
-
-### (Dec 2023) ATM: Any-point Trajectory Modeling for Policy Learning
-
-[Website](https://xingyu-lin.github.io/atm/)
 
 ### (Mar 2024) VQ-BeT: Behavior Generation with Latent Actions
 

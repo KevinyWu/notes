@@ -112,4 +112,23 @@
     - Problem: RNNs tend to forget informatio since they only have a fixed-size hidden state
     - Also, slow training, need to be trained sequentially (not parallelizable)
 - State space model
-  - 
+  - Map input sequence $x(t)$ to a sequence of hidden states $h(t)$ to an output sequence $y(t)$
+  - Instead of discrete input, use continuous state input sequence
+    - State equation: $h'(t) = Ah(t) + Bx(t)$
+    - Output equation: $y(t) = Ch(t) + Dx(t)$
+  - Can be descretized turns function-to-function into sequence-to-sequence
+    - Can model like an RNN
+  - <img src="figures/ssm.png" width="400" alt="ssm">
+  - Signal first gets multiplied by $B$ which describes how the inputs influence the system
+  - Multiply the state with $A$ which describes how internal states are connected as they represent the underlying dynamics of the system
+    - $A$ is applied before creating the state representations and updated after the state representation has been updated
+  - $C$ describes how the state is transformed into the output
+  - $D$ (skip connection) how the input directly impacts output
+  - <img src="figures/ssm_internal.png" width="800" alt="ssm_internal">
+- Mamba
+  - **Selective scan algorithm**, which allows the model to filter (ir)relevant information
+    - SSM lacks the ability to focus on or ignore particular inputs
+    - In a Structured State Space Model (S4), the matrices $A, B, C$ are independent of the input since their dimensions are static and do not change
+    - Mamba makes matrices $B, C$, and even the step size $\Delta$, dependent on the input by incorporating the sequence length and batch size of input
+    - Parallel scan algorithm
+  - **Hardware-aware algorithm** that allows for efficient storage of (intermediate) results through parallel scan, kernel fusion, and recomputation

@@ -313,6 +313,14 @@
 
 [Code](https://github.com/TEA-Lab/diffusion_reward), [Website](https://diffusion-reward.github.io/)
 
+- Introduction
+  - Designing dense rewards for RL is hard
+  - Sparse rewards less effort but worse performance
+  - Solution: learn from expert (but unlabeled) videos
+  - Diffusion Reward leverages conditional video diffusion models to capture the expert video distribution and extract dense rewards
+  - Conditioned on historical frames
+  - **Generative models can extract rewards unsupervisedly without future information like goal frame**
+
 ### (Feb 2024) V-JEPA: Revisiting Feature Prediction for Learning Visual Representations from Video
 
 [Code](https://github.com/facebookresearch/jepa), [Video](https://www.youtube.com/watch?v=7UkJPwz_N_0), [Blog](https://ai.meta.com/blog/v-jepa-yann-lecun-ai-model-video-joint-embedding-predictive-architecture/)
