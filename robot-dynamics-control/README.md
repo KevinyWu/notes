@@ -82,11 +82,11 @@ Notes from the book "Robot Dynamics and Control, 2nd Edition" by Mark W. Spong, 
 - Denote $x_1^0$ as the point $x_1$ expressed in frame $0$
   - If the reference frame is obvious, we can drop the superscript
 - Rotation matrix (2D example)
-  - $R_1^0 = [x_1^0 | y_1^0] = \begin{bmatrix} \cos\theta & -\sin\theta \\ \sin\theta & \cos\theta \end{bmatrix}$
+  - $$R_1^0 = [x_1^0 | y_1^0] = \begin{bmatrix} \cos\theta & -\sin\theta \\\ \sin\theta & \cos\theta \end{bmatrix}$$
   - <img src="figures/2.2.png" width="400" alt="2.2">
   - **Dot product of two vectors is the cosine of the angle between them**
     - We can instead project the axis of the $1$ frame onto the $0$ frame
-    - $R_1^0 = \begin{bmatrix} x_1 \cdot x_0 & y_1 \cdot x_0 \\ x_1 \cdot y_0 & y_1 \cdot y_0 \end{bmatrix}$
+    - $R_1^0 = \begin{bmatrix} x_1 \cdot x_0 & y_1 \cdot x_0 \\\ x_1 \cdot y_0 & y_1 \cdot y_0 \end{bmatrix}$
     - Note that if we project $0$ onto $1$, we have $R_0^1 = (R_1^0)^T = (R_1^0)^{-1}$
 - Properties of rotation matrices, $n = 2,3$
   - $R\in SO(n)$
@@ -96,7 +96,7 @@ Notes from the book "Robot Dynamics and Control, 2nd Edition" by Mark W. Spong, 
 - **Right hand rule**: thumb points in the direction of the first vector, fingers curl in the direction of the second vector
 - **Basic rotation matrix**
   - Subscript denotes rotation axis
-  - $R_x(\theta) = \begin{bmatrix} 1 & 0 & 0 \\ 0 & \cos\theta & -\sin\theta \\ 0 & \sin\theta & \cos\theta \end{bmatrix}$, $R_y(\theta) = \begin{bmatrix} \cos\theta & 0 & \sin\theta \\ 0 & 1 & 0 \\ -\sin\theta & 0 & \cos\theta \end{bmatrix}$, $R_z(\theta) = \begin{bmatrix} \cos\theta & -\sin\theta & 0 \\ \sin\theta & \cos\theta & 0 \\ 0 & 0 & 1 \end{bmatrix}$
+  - $R_x(\theta) = \begin{bmatrix} 1 & 0 & 0 \\\ 0 & \cos\theta & -\sin\theta \\\ 0 & \sin\theta & \cos\theta \end{bmatrix}$, $R_y(\theta) = \begin{bmatrix} \cos\theta & 0 & \sin\theta \\\ 0 & 1 & 0 \\\ -\sin\theta & 0 & \cos\theta \end{bmatrix}$, $R_z(\theta) = \begin{bmatrix} \cos\theta & -\sin\theta & 0 \\\ \sin\theta & \cos\theta & 0 \\\ 0 & 0 & 1 \end{bmatrix}$
   - Properties
     - $R_{z,0} = I$
     - $R_{z,\theta}\cdot R_{z,\phi} = R_{z,\theta+\phi}$
@@ -163,7 +163,7 @@ Notes from the book "Robot Dynamics and Control, 2nd Edition" by Mark W. Spong, 
     - Can write it as $r = [r_x, r_y, r_z]^T = [\theta k_x, \theta k_y, \theta k_z]^T$
   - Given a rotation matrix $R$
     - $\theta$ = $\cos^{-1}\left(\frac{1}{2}(\text{tr}(R) - 1)\right) = \cos^{-1}\left(\frac{1}{2}(r_{11} + r_{22} + r_{33} - 1)\right)$
-    - $k = \frac{1}{2\sin\theta}\begin{bmatrix} r_{32} - r_{23} \\ r_{13} - r_{31} \\ r_{21} - r_{12} \end{bmatrix}$
+    - $k = \frac{1}{2\sin\theta}\begin{bmatrix} r_{32} - r_{23} \\\ r_{13} - r_{31} \\\ r_{21} - r_{12} \end{bmatrix}$
   - $R_{k, \theta} = R_{-k, -\theta}$
 
 ### 2.6 Homogeneous Transformations
@@ -175,21 +175,19 @@ Notes from the book "Robot Dynamics and Control, 2nd Edition" by Mark W. Spong, 
     - $p^0 = R_1^0R_2^1p^2 + R_1^0d_2^1 + d_1^0 = R_2^0p^2 + d_2^0$
       - Where $d_2^0 = R_1^0d_2^1 + d_1^0$
       - Vector from origin of $0$ frame to origin $2$ frame has coordinates given by the sum of $d_1^0$ (vector from $o_0$ to $o_1$ w.r.t. $0$) and the rotated $d_2^1$ (vector from $o_1$ to $o_2$ w.r.t. $0$ after rotation $R_1^0$)
-- Rigid motions can be expressed as $H = \begin{bmatrix} R & d \\ 0 & 1 \end{bmatrix}$
+- Rigid motions can be expressed as $H = \begin{bmatrix} R & d \\\ 0 & 1 \end{bmatrix}$
   - $0$ and $d$ are vectors, $R$ is a rotation matrix
 - This $H$ is called a **homogeneous transformation**
-  - Inverse of $H$ is $H^{-1} = \begin{bmatrix} R^T & -R^Td \\ 0 & 1 \end{bmatrix}$
+  - Inverse of $H$ is $H^{-1} = \begin{bmatrix} R^T & -R^Td \\\ 0 & 1 \end{bmatrix}$
   - Need to augmeent the vectors $p^0$ and $p^1$ with a $1$ to make them homogeneous
   - $P^0 = [p^0; 1]^T$, $P^1 = [p^1; 1]^T$
   - $P^0, P^1$ known as homogeneous representations
 - Set of $4\times 4$ matrices $H$ of that form are denoted $E(3)$
 - **Basic homogeneous transformations**
   - These generate $E(3)$, the set of all rigid motions
-  - $\text{Trans}_{x,a} = \begin{bmatrix} 1 & 0 & 0 & a \\ 0 & 1 & 0 & 0 \\ 0 & 0 & 1 & 0 \\ 0 & 0 & 0 & 1 \end{bmatrix}$, $\text{Trans}_{x,b} = \begin{bmatrix} 1 & 0 & 0 & 0 \\ 0 & 1 & 0 & b \\ 0 & 0 & 1 & 0 \\ 0 & 0 & 0 & 1 \end{bmatrix}$, $\text{Trans}_{x,c} = \begin{bmatrix} 1 & 0 & 0 & 0 \\ 0 & 1 & 0 & 0 \\ 0 & 0 & 1 & c \\ 0 & 0 & 0 & 1 \end{bmatrix}$
-  - $\text{Rot}_{x,\alpha} = \begin{bmatrix} 1 & 0 & 0 & 0 \\ 0 & \cos\alpha & -\sin\alpha & 0 \\ 0 & \sin\alpha & \cos\alpha & 0 \\ 0 & 0 & 0 & 1 \end{bmatrix}$, $\text{Rot}_{y,\beta} = \begin{bmatrix} \cos\beta & 0 & \sin\beta & 0 \\ 0 & 1 & 0 & 0 \\ -\sin\beta & 0 & \cos\beta & 0 \\ 0 & 0 & 0 & 1 \end{bmatrix}$,  $\text{Rot}_{z,\gamma} = \begin{bmatrix} \cos\gamma & -\sin\gamma & 0 & 0 \\ \sin\gamma & \cos\gamma & 0 & 0 \\ 0 & 0 & 1 & 0 \\ 0 & 0 & 0 & 1 \end{bmatrix}$
+  - $\text{Trans}_{x,a} = \begin{bmatrix} 1 & 0 & 0 & a \\\ 0 & 1 & 0 & 0 \\\ 0 & 0 & 1 & 0 \\\ 0 & 0 & 0 & 1 \end{bmatrix}$, $\text{Trans}_{x,b} = \begin{bmatrix} 1 & 0 & 0 & 0 \\\ 0 & 1 & 0 & b \\\ 0 & 0 & 1 & 0 \\\ 0 & 0 & 0 & 1 \end{bmatrix}$, $\text{Trans}_{x,c} = \begin{bmatrix} 1 & 0 & 0 & 0 \\\ 0 & 1 & 0 & 0 \\\ 0 & 0 & 1 & c \\\ 0 & 0 & 0 & 1 \end{bmatrix}$
+  - $\text{Rot}_{x,\alpha} = \begin{bmatrix} 1 & 0 & 0 & 0 \\\ 0 & \cos\alpha & -\sin\alpha & 0 \\\ 0 & \sin\alpha & \cos\alpha & 0 \\\ 0 & 0 & 0 & 1 \end{bmatrix}$, $\text{Rot}_{y,\beta} = \begin{bmatrix} \cos\beta & 0 & \sin\beta & 0 \\\ 0 & 1 & 0 & 0 \\\ -\sin\beta & 0 & \cos\beta & 0 \\\ 0 & 0 & 0 & 1 \end{bmatrix}$,  $\text{Rot}_{z,\gamma} = \begin{bmatrix} \cos\gamma & -\sin\gamma & 0 & 0 \\\ \sin\gamma & \cos\gamma & 0 & 0 \\\ 0 & 0 & 1 & 0 \\\ 0 & 0 & 0 & 1 \end{bmatrix}$
 - General homogeneous transformation
-  - $H_1^0 = \begin{bmatrix} n_x & s_x & a_x & d_x \\ n_y & s_y & a_y & d_y \\ n_z & s_z & a_z & d_z \\ 0 & 0 & 0 & 1 \end{bmatrix} = \begin{bmatrix} n & s & a & d \\ 0 & 0 & 0 & 1 \end{bmatrix}$
+  - $H_1^0 = \begin{bmatrix} n_x & s_x & a_x & d_x \\\ n_y & s_y & a_y & d_y \\\ n_z & s_z & a_z & d_z \\\ 0 & 0 & 0 & 1 \end{bmatrix} = \begin{bmatrix} n & s & a & d \\\ 0 & 0 & 0 & 1 \end{bmatrix}$
   - n represents the $x$ axis of frame $1$ w.r.t. frame $0$, s represents the $y$ axis of frame $1$ w.r.t. frame $0$, a represents the $z$ axis of frame $1$ w.r.t. frame $0$, d represents the origin of frame $1$ w.r.t. frame $0$
 - $E(3)$ has same composition and ordering of transformations as $3\times 3$ rotations
-
-$R_1^0 = [x_1^0 | y_1^0] = \begin{bmatrix} \cos\theta & -\sin\theta \\ \sin\theta & \cos\theta \end{bmatrix}$
