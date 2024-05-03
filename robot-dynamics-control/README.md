@@ -82,7 +82,7 @@ Notes from the book "Robot Dynamics and Control, 2nd Edition" by Mark W. Spong, 
 - Denote $x_1^0$ as the point $x_1$ expressed in frame $0$
   - If the reference frame is obvious, we can drop the superscript
 - Rotation matrix (2D example)
-  - $$R_1^0 = [x_1^0 | y_1^0] = \begin{bmatrix} \cos\theta & -\sin\theta \\ \sin\theta & \cos\theta \end{bmatrix}$$
+  - $R_1^0 = [x_1^0 | y_1^0] = \begin{bmatrix} \cos\theta & -\sin\theta \\ \sin\theta & \cos\theta \end{bmatrix}$
   - <img src="figures/2.2.png" width="400" alt="2.2">
   - **Dot product of two vectors is the cosine of the angle between them**
     - We can instead project the axis of the $1$ frame onto the $0$ frame
@@ -191,3 +191,5 @@ Notes from the book "Robot Dynamics and Control, 2nd Edition" by Mark W. Spong, 
   - $H_1^0 = \begin{bmatrix} n_x & s_x & a_x & d_x \\ n_y & s_y & a_y & d_y \\ n_z & s_z & a_z & d_z \\ 0 & 0 & 0 & 1 \end{bmatrix} = \begin{bmatrix} n & s & a & d \\ 0 & 0 & 0 & 1 \end{bmatrix}$
   - n represents the $x$ axis of frame $1$ w.r.t. frame $0$, s represents the $y$ axis of frame $1$ w.r.t. frame $0$, a represents the $z$ axis of frame $1$ w.r.t. frame $0$, d represents the origin of frame $1$ w.r.t. frame $0$
 - $E(3)$ has same composition and ordering of transformations as $3\times 3$ rotations
+
+$R_1^0 = [x_1^0 | y_1^0] = \begin{bmatrix} \cos\theta & -\sin\theta \\ \sin\theta & \cos\theta \end{bmatrix}$
