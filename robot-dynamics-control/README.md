@@ -82,12 +82,12 @@ Notes from the book "Robot Dynamics and Control, 2nd Edition" by Mark W. Spong, 
 - Denote $x_1^0$ as the point $x_1$ expressed in frame $0$
   - If the reference frame is obvious, we can drop the superscript
 - Rotation matrix (2D example)
-  - $$R_1^0 = [x_1^0 | y_1^0] = \begin{bmatrix} \cos\theta & -\sin\theta \\\ \sin\theta & \cos\theta \end{bmatrix}$$
+  $$R_1^0 = [x_1^0 | y_1^0] = \begin{bmatrix} \cos\theta & -\sin\theta \\\ \sin\theta & \cos\theta \end{bmatrix}$$
   - <img src="figures/2.2.png" width="400" alt="2.2">
-  - **Dot product of two vectors is the cosine of the angle between them**
-    - We can instead project the axis of the $1$ frame onto the $0$ frame
-    - $R_1^0 = \begin{bmatrix} x_1 \cdot x_0 & y_1 \cdot x_0 \\\ x_1 \cdot y_0 & y_1 \cdot y_0 \end{bmatrix}$
-    - Note that if we project $0$ onto $1$, we have $R_0^1 = (R_1^0)^T = (R_1^0)^{-1}$
+- **Dot product of two vectors is the cosine of the angle between them**
+  - We can instead project the axis of the $1$ frame onto the $0$ frame
+  - $R_1^0 = \begin{bmatrix} x_1 \cdot x_0 & y_1 \cdot x_0 \\\ x_1 \cdot y_0 & y_1 \cdot y_0 \end{bmatrix}$
+  - Note that if we project $0$ onto $1$, we have $R_0^1 = (R_1^0)^T = (R_1^0)^{-1}$
 - Properties of rotation matrices, $n = 2,3$
   - $R\in SO(n)$
   - **Orthogonal**: $R^T = R^{-1}$
