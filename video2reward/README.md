@@ -3,6 +3,7 @@
 - [Video2Reward](#video2reward)
   - [Background](#background)
   - [Literature](#literature)
+    - [(Apr 2017) TCN: Time-Contrastive Networks: Self-Supervised Learning from Video](#apr-2017-tcn-time-contrastive-networks-self-supervised-learning-from-video)
     - [(Nov 2019) MoCo: Momentum Contrast for Unsupervised Visual Representation Learning](#nov-2019-moco-momentum-contrast-for-unsupervised-visual-representation-learning)
     - [(Feb 2020) SimCLR: A Simple Framework for Contrastive Learning of Visual Representations](#feb-2020-simclr-a-simple-framework-for-contrastive-learning-of-visual-representations)
     - [(Jun 2020) SimCLRv2: Big Self-Supervised Models are Strong Semi-Supervised Learners](#jun-2020-simclrv2-big-self-supervised-models-are-strong-semi-supervised-learners)
@@ -16,6 +17,8 @@
     - [(Oct 2023) UVD: Long-Horizon Manipulation Made Easy](#oct-2023-uvd-long-horizon-manipulation-made-easy)
     - [(Dec 2023) Diffusion Reward: Learning Rewards via Conditional Video Diffusion](#dec-2023-diffusion-reward-learning-rewards-via-conditional-video-diffusion)
     - [(Feb 2024) V-JEPA: Revisiting Feature Prediction for Learning Visual Representations from Video](#feb-2024-v-jepa-revisiting-feature-prediction-for-learning-visual-representations-from-video)
+    - [(Feb 2024) VPDD: Large-Scale Actionless Video Pre-Training via Discrete Diffusion for Efficient Policy Learning](#feb-2024-vpdd-large-scale-actionless-video-pre-training-via-discrete-diffusion-for-efficient-policy-learning)
+    - [(Apr 2024) Rank2Reward: Learning Shaped Reward Functions from Passive Video](#apr-2024-rank2reward-learning-shaped-reward-functions-from-passive-video)
 
 ## Background
 
@@ -45,6 +48,10 @@
   - Dense reward: agent recieves non-zero rewards frequently, i.e. frequent feedback for most actions
 
 ## Literature
+
+### (Apr 2017) TCN: Time-Contrastive Networks: Self-Supervised Learning from Video
+
+[Code](https://github.com/kekeblom/tcn), [Website](https://sermanet.github.io/imitate/)
 
 ### (Nov 2019) MoCo: Momentum Contrast for Unsupervised Visual Representation Learning
 
@@ -324,3 +331,77 @@
 ### (Feb 2024) V-JEPA: Revisiting Feature Prediction for Learning Visual Representations from Video
 
 [Code](https://github.com/facebookresearch/jepa), [Video](https://www.youtube.com/watch?v=7UkJPwz_N_0), [Blog](https://ai.meta.com/blog/v-jepa-yann-lecun-ai-model-video-joint-embedding-predictive-architecture/)
+
+### (Feb 2024) VPDD: Large-Scale Actionless Video Pre-Training via Discrete Diffusion for Efficient Policy Learning
+
+[Website](https://video-diff.github.io/)
+
+### (Apr 2024) Rank2Reward: Learning Shaped Reward Functions from Passive Video
+
+[Code](https://github.com/dxyang/rank2reward/), [Website](https://rank2reward.github.io/)
+
+- Introduction
+  - Challenges in inverse RL
+    - Requires demonstration data with state-action tuples
+    - Learned reward functions may explain expert data well but not be "well-shaped" for exploration
+  - **Key assumption: video demonstrations typically make monotonic progress towards a goal**
+  - Ranking function to predict the relative progress between two video frames
+  - Ranking function trained on only expert data
+    - To account for out-of-distribution data, train a seperate discriminator model during policy rollout to differentiate expert and non-expert data
+- Related works
+  - Inverse RL
+    - Reward functions poorly shaped
+    - Rank2Reward learns a well-shaped reward function
+  - Imitation from observation
+    - [Time-Contrastive Networks](#apr-2017-tcn-time-contrastive-networks-self-supervised-learning-from-video) learns representation from contrastive learning across time and viewpoints
+      - Their embedding space does not contain a notion of progress towards a goal
+      - They rely on tracking a specific expert trajectory which requires temporal alignment
+    - **Rank2Reward learns an ordering space that both encodes progress towards a goal and is agnostic to time required to reach the state**
+- Method
+  - Learning a measure of progress by ranking
+    - True reward (unknown) $r(s, a) > \epsilon$ where $\epsilon > 0$ for all tasks
+    - Progress along a trajectory can be measured by simply learning a function that can rank different image frames in a trajectory according to their temporal ordering
+    - Learn utility function $\hat{u}(s)$ of states
+      - Bradley-Terry model aims to learn this utility function suck that the likelihood of preferring a state $s^k_i$ over $s^k_j$ for some expert trajectory $\tau_k$ is given by $p(s_i^k > s_j^k) = \frac{\exp(\hat{u}(s_i^k))}{\exp(\hat{u}(s_i^k)) + \exp(\hat{u}(s_j^k))}$
+      - In expert dataset $\mathcal{D}^e$, along $\tau_k$, $s_i^k$ is preferred to $s_j^k$ if it occurs later (i.e. $i > j$, so $\hat{u}(s_i^k) > \hat{u}(s_j^k)$)
+    - Setting $\hat{u}(s_0) = 0$, $p(s>s_0) = \frac{1}{1 + \exp(-\hat{u}(s))}$
+      - **Denote this "likelihood of making progress" as $p_{RF}(s)$**
+    - Learns a monotonically-increasing utility function
+  - <img src="figures/rank2reward.png" width="1100" alt="rank2reward">
+  - Incorporating learned rankings into policy optimization
+    - Since the reward function $\hat{r}(s)$ has only been learned on expert dataset, it may overestimate rewards at other states leading to incorrect policies
+    - **Pessimistic policy objective:** $\max_{\pi} E_{s\sim d^{\pi}, a\sim \pi(a|s)}[\log p_{RF}(s)] - \alpha D_{KL}(d^{\pi}(s), d^{e}(s))$
+      - The state marginal distribution $d^{\pi}(s)$ gives the probability of being in state $s$ when following policy $\pi$
+      - First part aims to maximize likelihood of progress
+      - Second part is a KL divergence between the state distribution of the policy and the expert
+      - $D_{KL}(d^{\pi}(s), d^{e}(s)) = E_{s\sim d^{\pi}}\left [\log \frac{d^{\pi}(s)}{d^{e}(s)}\right ]$
+      - Objective to make this divergence small, which means the policy $d^{\pi}(s)$ is close to the expert $d^{e}(s)$
+    - $d^e(s) and d^{\pi}(s)$ are not known, so a classifier $D_{\phi}(s)$ is trained to distinguish between the expert and policy states, providing $\frac{d^{\pi}(s)}{d^{e}(s)} \approx \frac{D_{\phi}(s)}{1-D_{\phi}(s)}$
+  - **Thus, final objective is** $\max_{\pi} E_{s, a\sim d^{\pi}}\left [\log \left (p_{RF}(s)\left (\frac{D_{\phi}(s)}{1-D_{\phi}(s)} \right )^{\alpha} \right ) \right ]$
+    - In training, alternate between:
+      - Training classifier $D_{\phi}$ between states in expert video vs. on-policy data
+      - Perform policy obtimization with the classifier $D_{\phi}$ and the learned ranking function $p_{RF}$ to get the reward $\hat{r}(s) = \log p_{RF}(s) + \alpha\left (\log (D_{\phi}(s)) - \log (1-D_{\phi}(s)) \right )$
+    - Can learn the ranking component $p_{RF}(s)$ offline with only expert data, independent of the policy
+- Experimental results
+  - Simulated experiments
+    - [Meta-world simulator](https://meta-world.github.io/)
+    - Tasks: reach, push, hammer, drawer open, door open, door close, button press, assembly
+    - Baselines
+      - [GAIL](https://arxiv.org/abs/1606.03476), [AIRL](https://arxiv.org/abs/1710.11248), [VICE](https://arxiv.org/abs/1805.11686), [SOIL](https://arxiv.org/abs/2004.04650), [TCN](https://arxiv.org/abs/1704.06888), [ROT](https://arxiv.org/abs/2206.15469)
+      - Ranking only: ablation study with only ranking function, no adversarial training
+  - Real-world experiments
+    - 5 DoF xArm5
+    - End-effector position control where action space is normalized delta positions
+    - Purely image based observations
+    - 6 real-world tasks: reach, push, push with obstacles, drawer opening, sweeping, drawing
+  - Ego4D experiments
+    - [Ego4D](https://ego4d-data.org/)
+    - Utilize the last frame as the goal frame and learn a ranking component conditioned on the goal frame
+    - Discriminator training: positive example from same clip as goal, negative example from different clip
+    - Evaluate with "true goal" from same clip and "counterfactual goal" from different clip
+      - Reward function increases with true goal
+      - Reward function is non-monotonic with counterfactual goal and has lower value
+- Limitations and future work
+  - Embodiment shift between human demonstrations and robot manipulators
+  - Rewards are trained on single-task, and it would be hard to have a different reward and agent for every task
+  - Classifier $D_{\phi}$ is sensitive to changes in the background and dynamic scenes
