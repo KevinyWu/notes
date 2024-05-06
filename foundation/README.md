@@ -93,6 +93,11 @@
     - Chunking around $k=100$ is best
     - Temporal ensemble improves performance only slightly, by 3.3%
     - Training with CVAE is crucial
+      - Variational autoencoder is a generative model, it learns a compact representation of the input data and learns how to generate new data similar to the input data
+      - Conditional VAE is a VAE that is conditioned on some input data
+      - Predictions based on style variable $z$ and current observations, allowing the model to generate different actions depending on the environment
+      - Human teleoperated demonstrations can be noisy and multi-modal (human might perform the same task in different ways), so style variable $z$ helps the model understand the context better
+      - With scripted data, CVAE did not help, but with human demonstrations, CVAE success rate was 35% vs 2% without CVAE
 
 ### (Dec 2023) Octo: An Open-Source Generalist Robot Policy
 
