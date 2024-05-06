@@ -15,6 +15,7 @@ Notes from the course "Robotic Manipulation" taught by Russ Tedrake at MIT.
     - [2.2 Arms](#22-arms)
     - [2.3 Hands](#23-hands)
     - [2.4 Sensors](#24-sensors)
+  - [3 Basic Pick-and-Place](#3-basic-pick-and-place)
 
 ## 1 Introduction
 
@@ -104,3 +105,11 @@ Notes from the course "Robotic Manipulation" taught by Russ Tedrake at MIT.
     - iiwa: measured position, estimated velocity, measured torque
     - Schunk gripper: measured state (position + velocity), measured force
   - Joint acceleration typically too noisy to rely on
+
+## 3 Basic Pick-and-Place
+
+[Lecture 3](https://youtu.be/0-34RZJxyww?feature=shared)
+
+[Lecture 4](https://youtu.be/1mkzXp9_QYY?feature=shared)
+
+[Lecture 5](https://youtu.be/YaQrC_Zm8qg?feature=shared)
