@@ -176,6 +176,7 @@
 - Method
   - High level: leverage entropy information from video diffusion models pre-trained on expert videos to encourage RL agents to explore expert-like trajectories more
   - <img src="../figures/diffusion_reward.png" width="400" alt="diffusion_reward">
+  - ![diffusion_reward](../figures/diffusion_reward.png)
   - **Diffusion model**: probabilistic models that aim to model data distribution by gradually denoising a normal distribution through a reverse diffusion process
     - Latent diffusion process
       - Train unsupervised encoder from expert videos to compress high-dimensional observation with VQ-GAN
