@@ -1,8 +1,10 @@
 # Robotic Manipulation
 
+[Lectures (fall 2023)](https://youtube.com/playlist?list=PLkx8KyIQkMfWr191lqbN8WfV08j-ui8WX&feature=shared)
+
 [Full course notes](https://manipulation.csail.mit.edu/)
 
-[Lectures (fall 2023)](https://youtube.com/playlist?list=PLkx8KyIQkMfWr191lqbN8WfV08j-ui8WX&feature=shared)
+[Deepnote](https://deepnote.com/workspace/bubhub-afbb4b47-384c-4b93-a423-6aad7f9e29f7/projects/Robotic-Manipulation-c00edfe0-5ae4-4acd-a05a-f8f182589fd0)
 
 [Companion code](https://github.com/RussTedrake/manipulation)
 
@@ -21,6 +23,8 @@ Notes from the course "Robotic Manipulation" taught by Russ Tedrake at MIT.
 
 [Lecture 1](https://youtu.be/v04rn86Dehg?feature=shared)
 
+[Notes](https://manipulation.csail.mit.edu/intro.html)
+
 [Deepnote](https://deepnote.com/workspace/bubhub-afbb4b47-384c-4b93-a423-6aad7f9e29f7/project/01-Introduction-bdfeaeb4-e107-472c-a8e7-6848fbd990d0)
 
 - Manipulation is more than pick-and-place
@@ -38,6 +42,8 @@ Notes from the course "Robotic Manipulation" taught by Russ Tedrake at MIT.
 ## 2 Let's get you a robot
 
 [Lecture 2](https://youtu.be/q896_lTh8eA?feature=shared)
+
+[Notes](https://manipulation.csail.mit.edu/robot.html)
 
 [Deepnote](https://deepnote.com/workspace/bubhub-afbb4b47-384c-4b93-a423-6aad7f9e29f7/project/02-Lets-get-you-a-robot-58888247-ce19-4f68-822f-76be6ce00f27)
 
@@ -113,3 +119,7 @@ Notes from the course "Robotic Manipulation" taught by Russ Tedrake at MIT.
 [Lecture 4](https://youtu.be/1mkzXp9_QYY?feature=shared)
 
 [Lecture 5](https://youtu.be/YaQrC_Zm8qg?feature=shared)
+
+[Notes](https://manipulation.csail.mit.edu/pick.html)
+
+[Deepnote](https://deepnote.com/workspace/bubhub-afbb4b47-384c-4b93-a423-6aad7f9e29f7/project/03-Basic-Pick-and-Place-Duplicate-80b33bd1-45f4-4c4b-8e9b-5e98e0e84bf5)

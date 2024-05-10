@@ -160,7 +160,8 @@ Notes from the book "Robot Dynamics and Control, 2nd Edition" by Mark W. Spong, 
     - Since $k$ is a unit vector, we can fine the rotation matrix $R_{k, \theta}$
   - **Any rotatation matrix can be represented by a single rotation about a suitable axis**: $k = [k_x, k_y, k_z]^T$ and angle $\theta$
     - This is four parameters, however, we only need two of the three components of $k$ since $k$ is a unit vector
-    - Can write it as $r = [r_x, r_y, r_z]^T = [\theta k_x, \theta k_y, \theta k_z]^T$
+    - **Can write it as** $r = [r_x, r_y, r_z]^T = [\theta k_x, \theta k_y, \theta k_z]^T$
+    - Direction of $r$ is the axis of rotation, magnitude is the angle of rotation
   - Given a rotation matrix $R$
     - $\theta$ = $\cos^{-1}\left(\frac{1}{2}(\text{tr}(R) - 1)\right) = \cos^{-1}\left(\frac{1}{2}(r_{11} + r_{22} + r_{33} - 1)\right)$
     - $k = \frac{1}{2\sin\theta}\begin{bmatrix} r_{32} - r_{23} \\ r_{13} - r_{31} \\ r_{21} - r_{12} \end{bmatrix}$
