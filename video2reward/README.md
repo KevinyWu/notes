@@ -72,7 +72,7 @@
     - $\mathcal{S}_{\phi}(o_t; g) := -\|\phi(o) - \phi(g)\|_2$
   - Parameters of $\phi$ are frozen during policy learning
     - Want to learn a policy $\pi:\mathbb{R}^K \rightarrow A$ that output action based on embedded observation
-- <img src="../figures/vip.png" width="700" alt="vip">
+- <img src="figures/vip.png" width="700" alt="vip">
 - Value-Implicit Pre-Training
   - Human videos naturally contain goal-directed behavior
   - Solve an offline goal-conditioned RL problem over the space of human policies and then extract the learned visual representation
@@ -112,10 +112,10 @@
     - This should correlate with $\delta (s, g)$, the nuber of time steps it takes for an expert $\pi^*$ to reach goal $g$ from the state $s$
   - We assume access to a dataset of $N$ video demonstrations of humans executing a variety of manipulation tasks using approximately shortest paths
     - Although the absolute length of such time intervals may not be consistent across demonstrators, their relative durations provide a useful learning signal
-  - <img src="../figures/hold.png" width="1000" alt="hold">
+  - <img src="figures/hold.png" width="1000" alt="hold">
   - Two methods for learning $d$ from this data
     - **Direct regression (HOLD-R)**
-      - $\theta^* = \arg \min \sum_{i=1}^N \sum_{t=1}^{T_i} \sum_{\delta = 1}^{T_i - t} \|d_{\theta}(s^i_t, s^i_{t+\delta}) - \delta \|^2_2$
+      - $\theta^* = \arg\min \sum_{i=1}^N \sum_{t=1}^{T_i} \sum_{\delta = 1}^{T_i - t} \|d_{\theta}(s^i_t, s^i_{t+\delta}) - \delta \|^2_2$
       - $s_t^i$ is the image at time $t$ in video $i$
       - $T_i$ is the length of video $i$
       - $d_{\theta}$ is the learned distance function trained to predict $\delta$
@@ -175,8 +175,7 @@
     - Each $\mathcal{D}^i$ is a set fof demonstrated videos from task $i$, containing multiple expert trajectories $\tau^i$
 - Method
   - High level: leverage entropy information from video diffusion models pre-trained on expert videos to encourage RL agents to explore expert-like trajectories more
-  - <img src="../figures/diffusion_reward.png" width="400" alt="diffusion_reward">
-  - ![diffusion_reward](../figures/diffusion_reward.png)
+  - <img src="figures/diffusion_reward.png" width="400" alt="diffusion_reward">
   - **Diffusion model**: probabilistic models that aim to model data distribution by gradually denoising a normal distribution through a reverse diffusion process
     - Latent diffusion process
       - Train unsupervised encoder from expert videos to compress high-dimensional observation with VQ-GAN
@@ -235,7 +234,7 @@
     - Setting $\hat{u}(s_0) = 0$, $p(s>s_0) = \frac{1}{1 + \exp(-\hat{u}(s))}$
       - **Denote this "likelihood of making progress" as $p_{RF}(s)$**
     - Learns a monotonically-increasing utility function
-  - <img src="../figures/rank2reward.png" width="1100" alt="rank2reward">
+  - <img src="figures/rank2reward.png" width="1100" alt="rank2reward">
   - Incorporating learned rankings into policy optimization
     - Since the reward function $\hat{r}(s)$ has only been learned on expert dataset, it may overestimate rewards at other states leading to incorrect policies
     - **Pessimistic policy objective:** $\max_{\pi} E_{s\sim d^{\pi}, a\sim \pi(a|s)}[\log p_{RF}(s)] - \alpha D_{KL}(d^{\pi}(s), d^{e}(s))$
