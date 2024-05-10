@@ -15,6 +15,10 @@ Notes from the book "Robot Dynamics and Control, 2nd Edition" by Mark W. Spong, 
     - [2.4 Composition of Rotations](#24-composition-of-rotations)
     - [2.5 Parametrization of Rotations](#25-parametrization-of-rotations)
     - [2.6 Homogeneous Transformations](#26-homogeneous-transformations)
+  - [3 Forward Kinematics: The Denavit-Hartenberg Convention](#3-forward-kinematics-the-denavit-hartenberg-convention)
+    - [3.1 Kinematic Chains](#31-kinematic-chains)
+    - [3.2 Denavit-Hartenberg Representation](#32-denavit-hartenberg-representation)
+    - [3.3 Examples](#33-examples)
 
 ## 1 Introduction
 
@@ -192,3 +196,11 @@ Notes from the book "Robot Dynamics and Control, 2nd Edition" by Mark W. Spong, 
   - $H_1^0 = \begin{bmatrix} n_x & s_x & a_x & d_x \\ n_y & s_y & a_y & d_y \\ n_z & s_z & a_z & d_z \\ 0 & 0 & 0 & 1 \end{bmatrix} = \begin{bmatrix} n & s & a & d \\ 0 & 0 & 0 & 1 \end{bmatrix}$
   - n represents the $x$ axis of frame $1$ w.r.t. frame $0$, s represents the $y$ axis of frame $1$ w.r.t. frame $0$, a represents the $z$ axis of frame $1$ w.r.t. frame $0$, d represents the origin of frame $1$ w.r.t. frame $0$
 - $E(3)$ has same composition and ordering of transformations as $3\times 3$ rotations
+
+## 3 Forward Kinematics: The Denavit-Hartenberg Convention
+
+### 3.1 Kinematic Chains
+
+### 3.2 Denavit-Hartenberg Representation
+
+### 3.3 Examples

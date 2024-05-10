@@ -103,6 +103,10 @@
 
 [Code](https://github.com/octo-models/octo), [Website](https://octo-models.github.io/)
 
+-Introduction
+  - Generalist robot policy (GRP): model that directly maps robot observations to actions and provide zero-shor or few-shot generalization to new tasks
+  - Ex. GNM, RoboCat, RT-X
+  - Octo: pretrained on 800k robot trajectories from Open X-Embodiement
 ### (Mar 2024) VQ-BeT: Behavior Generation with Latent Actions
 
 [Code](https://github.com/jayLEE0301/vq_bet_official), [Website](https://sjlee.cc/vq-bet/)
