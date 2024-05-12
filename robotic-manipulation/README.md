@@ -18,6 +18,7 @@ Notes from the course "Robotic Manipulation" taught by Russ Tedrake at MIT.
     - [2.3 Hands](#23-hands)
     - [2.4 Sensors](#24-sensors)
   - [3 Basic Pick-and-Place](#3-basic-pick-and-place)
+    - [3.1 Monogram Notation](#31-monogram-notation)
 
 ## 1 Introduction
 
@@ -123,3 +124,23 @@ Notes from the course "Robotic Manipulation" taught by Russ Tedrake at MIT.
 [Notes](https://manipulation.csail.mit.edu/pick.html)
 
 [Deepnote](https://deepnote.com/workspace/bubhub-afbb4b47-384c-4b93-a423-6aad7f9e29f7/project/03-Basic-Pick-and-Place-Duplicate-80b33bd1-45f4-4c4b-8e9b-5e98e0e84bf5)
+
+### 3.1 Monogram Notation
+
+- **$^Bp^A_F$: position of point $A$ measured from point $B$ in frame $F$**
+  - $^Bp^A_{F_x}$ is the $x$ component of the above
+- $W$ is the world frame
+  - $^Wp^A_W$ is the position of point $A$ relative to the origin of $W$ measured in the $W$ frame
+  - **Shorthand: if the position is measured from and expressed in the same frame, we can omit the subscript**
+    - $^Wp^A$ is the same as $^Wp^A_W$
+- $B_i$ denotes the frame for body $i$
+- $^BR^A$ denotes the orientation of frame $A$ measured from frame $B$
+- Frame $F$ can be specified by position and rotation relative to another frame
+  - Spatial pose = position + orientation
+  - $^BX^A$ denotes the pose of frame $A$ relative to frame $B$
+  - When we refer to pose of object $O$ without mentioning relative frame, we mean $^WX^O$
+  - No subscript, we always want pose expressed in the reference frame
+- Notation in code
+  - $^Bp^A_C$ is written as `p_BA_C`
+  - $^BR^A$ is written as `R_BA`
+  - $^BX^A$ is written as `X_BA`

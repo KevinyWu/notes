@@ -103,10 +103,57 @@
 
 [Code](https://github.com/octo-models/octo), [Website](https://octo-models.github.io/)
 
--Introduction
+- Introduction
   - Generalist robot policy (GRP): model that directly maps robot observations to actions and provide zero-shor or few-shot generalization to new tasks
   - Ex. GNM, RoboCat, RT-X
   - Octo: pretrained on 800k robot trajectories from Open X-Embodiement
+- Octo model
+  - **Supports both natural language and goal image conditioning**
+  - <img src="figures/octo.png" width="700" alt="octo">
+  - Architecture
+    - Input tokenizers transform language intructions $l$, goal images $g$, and robot observation sequences $o_1, o_2, \ldots, o_H$ into tokens $[\mathcal{T}_l, \mathcal{T}_g, \mathcal{T}_o]$
+    - Transformer backbone processes these tokens and produces embeddings $e_l, e_g, e_o = T(\mathcal{T}_l, \mathcal{T}_g, \mathcal{T}_o)$
+    - Readout heads $R$ produce action logits $a = R(e_l, e_g, e_o)$
+    - Tasks and observation tokens
+      - Laguage inputs tokenized and passed through pretrained t5-base (111M)
+      - Image observations tokenized and passed through shallow convolutional stack, then split into sequence of flattened patches
+    - Transformer backbone and readout heads
+      - Observation tokens can only attend to tokens from the same or earlier time steps and task tokens (green)
+      - Readout tokens $\mathcal{T}_{R, t}$ (purple) attend to observations and task tokens but is not attended to by any observation or task token, so they can only passively read and process internal embeddings without influencing them
+      - This design is flexible to add new task and observations inputs
+    - Design decisions
+      - Transformer over ResNet for image encodings with shallow CNN
+      - Early input fusion: transformer requires quadratic scaling with input length, so channel stack goal images with observation images
+- Training details
+  - Trained on mixture of 25 datasets from [Open X-Embodiement](https://robotics-transformer-x.github.io/)
+  - Downweight larger datasets
+  - Zero-pad any missing camera channels
+  - Binary gripper command: 1 if gripper is open, 0 if gripper is closed
+  - Training objective
+    - Use conditional diffusion decoding to predict continuous, multi-modal action distributions
+    - Only one forward pass of the transformer backbone is performed per action prediction, after which the multi-step denoising process is carried out within the small diffusion head
+    - To generate action, sample a Gaussian noise vector $x^K \sim \mathcal{N}(0, I)$ and apply $K$ steps of denoising with a learned denoising network $\epsilon_{\theta}(x^k, e, k)$
+      - $\epsilon_{\theta}(x^k, e, k)$ is conditoned on the output $x^k$ of the previous denoising step, the step index $k$, and the output embedding $e$ of the transformer action readout
+        - $x^{k-1} = \alpha (x^k - \gamma \epsilon_{\theta}(x^k, e, k) + \mathcal{N}(0, \sigma^2 I))$
+        - Parameters $\alpha, \gamma, \sigma$ correspond to cosine noise schedule
+  - Model sizes
+    - Octo-Small: 27M parameters
+    - Octo-Base: 93M parameters
+- Conclusion
+  - Things that improved performance
+    - Adding one frame of history as context
+    - Using action chunking (no temporal ensemble needed)
+    - Decreasing patch size
+    - Increasing shuffle buffer size
+  - Things that did not work
+    - MSE action head rather than diffusion decoding
+    - Discrete action heads
+    - ResNet Encoders
+    - Pretrained Encoders
+    - Relative gripper action representation
+    - Adding proprioceptive observations
+    - Fine-tuning language model (T5 encoder)
+
 ### (Mar 2024) VQ-BeT: Behavior Generation with Latent Actions
 
 [Code](https://github.com/jayLEE0301/vq_bet_official), [Website](https://sjlee.cc/vq-bet/)
