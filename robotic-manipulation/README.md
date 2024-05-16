@@ -19,6 +19,7 @@ Notes from the course "Robotic Manipulation" taught by Russ Tedrake at MIT.
     - [2.4 Sensors](#24-sensors)
   - [3 Basic Pick-and-Place](#3-basic-pick-and-place)
     - [3.1 Monogram Notation](#31-monogram-notation)
+    - [3.2 Pick and Place via Spatial Transforms](#32-pick-and-place-via-spatial-transforms)
 
 ## 1 Introduction
 
@@ -144,3 +145,11 @@ Notes from the course "Robotic Manipulation" taught by Russ Tedrake at MIT.
   - $^Bp^A_C$ is written as `p_BA_C`
   - $^BR^A$ is written as `R_BA`
   - $^BX^A$ is written as `X_BA`
+
+### 3.2 Pick and Place via Spatial Transforms
+
+- Basic pick and place problem formulation
+  - Object $O$
+  - Gripper $G$
+  - Ideal perception sensor gives us $^WX^O$
+  - Desired frame $O_d$ of the object
