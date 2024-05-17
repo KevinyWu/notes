@@ -194,12 +194,42 @@ Notes from the book "Robot Dynamics and Control, 2nd Edition" by Mark W. Spong, 
   - $\text{Rot}_{x,\alpha} = \begin{bmatrix} 1 & 0 & 0 & 0 \\ 0 & \cos\alpha & -\sin\alpha & 0 \\ 0 & \sin\alpha & \cos\alpha & 0 \\ 0 & 0 & 0 & 1 \end{bmatrix}$, $\text{Rot}_{y,\beta} = \begin{bmatrix} \cos\beta & 0 & \sin\beta & 0 \\ 0 & 1 & 0 & 0 \\ -\sin\beta & 0 & \cos\beta & 0 \\ 0 & 0 & 0 & 1 \end{bmatrix}$,  $\text{Rot}_{z,\gamma} = \begin{bmatrix} \cos\gamma & -\sin\gamma & 0 & 0 \\ \sin\gamma & \cos\gamma & 0 & 0 \\ 0 & 0 & 1 & 0 \\ 0 & 0 & 0 & 1 \end{bmatrix}$
 - General homogeneous transformation
   - $H_1^0 = \begin{bmatrix} n_x & s_x & a_x & d_x \\ n_y & s_y & a_y & d_y \\ n_z & s_z & a_z & d_z \\ 0 & 0 & 0 & 1 \end{bmatrix} = \begin{bmatrix} n & s & a & d \\ 0 & 0 & 0 & 1 \end{bmatrix}$
-  - n represents the $x$ axis of frame $1$ w.r.t. frame $0$, s represents the $y$ axis of frame $1$ w.r.t. frame $0$, a represents the $z$ axis of frame $1$ w.r.t. frame $0$, d represents the origin of frame $1$ w.r.t. frame $0$
+  - $n$ represents the $x$ axis of frame $1$ w.r.t. frame $0$
+  - $s$ represents the $y$ axis of frame $1$ w.r.t. frame $0$
+  - $a$ represents the $z$ axis of frame $1$ w.r.t. frame $0$
+  - $d$ represents the origin of frame $1$ w.r.t. frame $0$
 - $E(3)$ has same composition and ordering of transformations as $3\times 3$ rotations
 
 ## 3 Forward Kinematics: The Denavit-Hartenberg Convention
 
 ### 3.1 Kinematic Chains
+
+- Forward kinematics problem: determine position and orientation of end-effector given joint variables
+- Robot manipulator is composed of a set of links connected together by various joints (revolute, prismatic, ball-and-socket, etc.)
+- For single DOF joints, the action can be described as one number (angle for revolute, displacement for prismatic)
+- Robot manipulator with $n$ joints will have $n+1$ links
+  - Joints $1, 2, \ldots, n$ connect links $0, 1, \ldots, n$
+  - Joint $i$ connects link $i-1$ to link $i$
+  - When joint $i$ is actuated, link $i$ moves (so link $0$ is fixed)
+  - **Joint variable $q_i$ describes the $i^{th}$ joint**
+  - Attach a coordinate frame $o_ix_iy_iz_i$ to each link $i$
+    - The coordinates of each point on link $i$ always constant w.r.t. frame $i$
+    - <img src="figures/3.1.png" width="300" alt="3.1">
+  - Inertial frame $o_0x_0y_0z_0$ is fixed
+- $A_i$ is the homogeneous transformation matrix that expresses the position and orientation of $o_ix_iy_iz_i$ w.r.t. $o_{i-1}x_{i-1}y_{i-1}z_{i-1}$
+  - $A_i$ depends only on the joint variable $q_i$: $A_i = A_i(q_i)$
+- **Transformation matrix** $T^i_j$ expresses the position and orientation of $o_jx_jy_jz_j$ w.r.t. $o_ix_iy_iz_i$
+  - $T^i_j = A_{i+1}\ldots A_{j}$
+  - $T^i_j = I$ if $i = j$
+  - $T^i_j = (T^j_i)^{-1}$ if $j > i$
+- **Homogeneous transformation matrix**: $H = \begin{bmatrix} R_n^0 & o_n^0 \\ 0 & 1 \end{bmatrix}$
+  - $o^0_n \in \mathbb{R}^3$ is the coordinates of the origin of the end effector frame w.r.t. the base frame
+  - $R_n^0 \in SO(3)$ is the orientation of the end effector w.r.t. the base frame
+  - Then $H = T_n^0 = A_1(q_1)\cdots A_n(q_n)$
+- $A_i = \begin{bmatrix} R_i^{i-1} & o_i^{i-1} \\ 0 & 1 \end{bmatrix}$
+  - Then $T_j^i = A_{i+1}\cdots A_j = \begin{bmatrix} R_j^i & o_j^i \\ 0 & 1 \end{bmatrix}$
+  - $R_j^i = R_{i+1}^i \cdots R_j^{j-1}$
+  - Recursively $o_j^i = o_{j-1}^i + R_{j-1}^io_j^{j-1}$ (check this by multiplying the matrices)
 
 ### 3.2 Denavit-Hartenberg Representation
 
