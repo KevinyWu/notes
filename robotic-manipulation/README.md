@@ -26,6 +26,13 @@ Notes from the course "Robotic Manipulation" taught by Russ Tedrake at MIT.
     - [3.6 Differential Inverse Kinematics](#36-differential-inverse-kinematics)
     - [3.7-3.9 Pick and Place](#37-39-pick-and-place)
     - [3.10 Differential Inverse Kinematics with Constraints](#310-differential-inverse-kinematics-with-constraints)
+  - [4 Geometric Pose Estimation](#4-geometric-pose-estimation)
+    - [4.1 Cameras and Depth Sensors](#41-cameras-and-depth-sensors)
+    - [4.2 Representations for Geometry](#42-representations-for-geometry)
+    - [4.3 Point Cloud Registration with Known Correspondences](#43-point-cloud-registration-with-known-correspondences)
+    - [4.4 Iterative Closest Point (ICP)](#44-iterative-closest-point-icp)
+    - [4.5 Dealing with Partial Views and Outliers](#45-dealing-with-partial-views-and-outliers)
+    - [4.6 Non-Penetration and "Free-Space" Constraints](#46-non-penetration-and-free-space-constraints)
 
 ## 1 Introduction
 
@@ -285,3 +292,25 @@ Notes from the course "Robotic Manipulation" taught by Russ Tedrake at MIT.
     - $\min_{v_n} |J^G(q)v_n - V^{G_d}|_2^2 + \epsilon |P(q)(v_n - K(q_0 - q))|^2_2$ subject to constraints
       - **This secondary objective represents the velocity (projected onto the null space) that tries to achieve the desired velocity and reduce the configuration error $q_0 - q$**
       - $\epsilon \ll 1$ only needed if there are constraints because constraints cause these two objectives to clash
+
+## 4 Geometric Pose Estimation
+
+[Lecture 6](https://www.youtube.com/watch?v=1a3KhOq1938&list=PLkx8KyIQkMfWr191lqbN8WfV08j-ui8WX&index=8)
+
+[Lecture 7](https://www.youtube.com/watch?v=Cs49WVNqEdk&list=PLkx8KyIQkMfWr191lqbN8WfV08j-ui8WX&index=9)
+
+[Notes](https://manipulation.csail.mit.edu/pose.html)
+
+[Deepnote](https://deepnote.com/workspace/bubhub-afbb4b47-384c-4b93-a423-6aad7f9e29f7/project/04-Geometric-Pose-Estimation-24486d11-2a0b-4aaa-800e-8fe1eda187f6)
+
+### 4.1 Cameras and Depth Sensors
+
+### 4.2 Representations for Geometry
+
+### 4.3 Point Cloud Registration with Known Correspondences
+
+### 4.4 Iterative Closest Point (ICP)
+
+### 4.5 Dealing with Partial Views and Outliers
+
+### 4.6 Non-Penetration and "Free-Space" Constraints
