@@ -19,6 +19,11 @@ Notes from the book "Robot Dynamics and Control, 2nd Edition" by Mark W. Spong, 
     - [3.1 Kinematic Chains](#31-kinematic-chains)
     - [3.2 Denavit-Hartenberg Representation](#32-denavit-hartenberg-representation)
     - [3.3 Examples](#33-examples)
+  - [4 Inverse Kinematics](#4-inverse-kinematics)
+    - [4.1 The General Inverse Kinematics Problem](#41-the-general-inverse-kinematics-problem)
+    - [4.2 Kinematic Decoupling](#42-kinematic-decoupling)
+    - [4.3 Inverse Position: A Geometric Approach](#43-inverse-position-a-geometric-approach)
+    - [4.4 Inverse Orientation](#44-inverse-orientation)
 
 ## 1 Introduction
 
@@ -283,3 +288,13 @@ Notes from the book "Robot Dynamics and Control, 2nd Edition" by Mark W. Spong, 
   - $a_1 = a_1$, $\alpha_1 = 0$, $d_1 = 0$, $\theta_1 = \theta_1$
   - $a_2 = a_2$, $\alpha_2 = 0$, $d_2 = 0$, $\theta_2 = \theta_2$
   - The only variables are $\theta_1, \theta_2$
+
+## 4 Inverse Kinematics
+
+### 4.1 The General Inverse Kinematics Problem
+
+### 4.2 Kinematic Decoupling
+
+### 4.3 Inverse Position: A Geometric Approach
+
+### 4.4 Inverse Orientation
