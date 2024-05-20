@@ -276,3 +276,10 @@ Notes from the book "Robot Dynamics and Control, 2nd Edition" by Mark W. Spong, 
     - Step 9: Compute the transformation matrix $T_n^0 = A_1\cdots A_n$, giving the position and orientation of the end effector frame w.r.t. the base frame
 
 ### 3.3 Examples
+
+- Planar elbow manipulator
+- <img src="figures/3.3.png" width="300" alt="3.3">
+- Link parameters
+  - $a_1 = a_1$, $\alpha_1 = 0$, $d_1 = 0$, $\theta_1 = \theta_1$
+  - $a_2 = a_2$, $\alpha_2 = 0$, $d_2 = 0$, $\theta_2 = \theta_2$
+  - The only variables are $\theta_1, \theta_2$
