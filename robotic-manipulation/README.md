@@ -217,7 +217,7 @@ Notes from the course "Robotic Manipulation" taught by Russ Tedrake at MIT.
   - $J^G(q)$ is the Jacobian - the derivative of kinematics
 - **Spatial velocity (twist) of frame $B$ measured in frame $A$ expressed in frame $C$**: $^AV^B_C = \begin{bmatrix} ^A\omega^B_C \\ ^Av^B_C \end{bmatrix} \in \mathbb{R}^6$
   - $\omega \in \mathbb{R}^3$: angular velocity
-    - Can be expressed in three components (but rotations cannot) because $\omega$ is not periodic, it can take any value
+    - Can be expressed in three components (but rotations need 4) because $\omega$ is not periodic, it can take any value
   - $v \in \mathbb{R}^3$: translational (linear) velocity
   - Properties
     - Adding angular velocities: $^A\omega^B_F + ^B\omega^C_F = ^A\omega^C_F$
@@ -246,7 +246,7 @@ Notes from the course "Robotic Manipulation" taught by Russ Tedrake at MIT.
   - $v = [J^G(q)]^+V^G$
   - When $J$ square and invertible, $J^+ = J^{-1}$
   - When many solutions, $J^+$ gives the solution with the smallest norm
-  - When no solutions, $J^+$ gives the joint velocities that produce a spatial velociyt as close to desired $V^G$ as possible
+  - When no solutions, $J^+$ gives the joint velocities that produce a spatial velocity as close to desired $V^G$ as possible
 - **Kinematic singularities**: configurations $q$ for which $\text{rank}(J(q)) < 6$
   - When smallest singular value apporaches zero, the robot is near a singularity: norm of $J^+$ becomes large
 
