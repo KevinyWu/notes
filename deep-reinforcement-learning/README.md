@@ -8,6 +8,7 @@ Notes from the course "CS 285: Deep RL" taught by Sergey Levine at Berkeley.
 
 - [Deep Reinforcement Learning](#deep-reinforcement-learning)
   - [1 Introduction](#1-introduction)
+  - [2 Supervised Learning of Behaviors](#2-supervised-learning-of-behaviors)
 
 ## 1 Introduction
 
@@ -69,4 +70,13 @@ Lecture [1.1](https://youtu.be/SupFHGbytvA?feature=shared), [1.2](https://youtu.
     - Too data intensive, whereas humans learn quickly
     - No amazing methods for using both data and RL
     - Role of prediction in RL
-  
+
+## 2 Supervised Learning of Behaviors
+
+Lecture [2.1](https://youtu.be/tbLaFtYpWWU?feature=shared), [2.2](https://youtu.be/YivJ9KDjn-o?feature=shared), [2.3](https://youtu.be/ppN5ORNrMos?feature=shared)
+
+- Notation
+  - State $s_t$ is different from observation $o_t$
+    - State is a complete and concise representation of state of the world (**fully observed**)
+    - Observation is what the agent sees (**partially observed**)
+    - State can sometimes be inferred from observation
