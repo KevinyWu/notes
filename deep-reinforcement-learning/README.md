@@ -76,7 +76,17 @@ Lecture [1.1](https://youtu.be/SupFHGbytvA?feature=shared), [1.2](https://youtu.
 Lecture [2.1](https://youtu.be/tbLaFtYpWWU?feature=shared), [2.2](https://youtu.be/YivJ9KDjn-o?feature=shared), [2.3](https://youtu.be/ppN5ORNrMos?feature=shared)
 
 - Notation
+  - <img src="figures/notation.png" width="600" alt="notation">
   - State $s_t$ is different from observation $o_t$
     - State is a complete and concise representation of state of the world (**fully observed**)
     - Observation is what the agent sees (**partially observed**)
     - State can sometimes be inferred from observation
+  - **Markov assumption**: $s_t$ contains all relevant information from the past (don't need $s_{t-1}, s_{t-2}, \ldots$ to predict $s_{t+1}$)
+- Imitation learning
+  - Learn policies using supervised learning
+- **Behavioral cloning**: learn a policy that mimics an expert's behavior
+  - Collect data from expert
+  - Train a policy to predict the expert's actions
+  - Problems
+    - Distribution mismatch between training and test data
+    - Violates i.i.d. assumption: small errors lead to larger and larger errors over time
