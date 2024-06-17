@@ -9,6 +9,9 @@ Notes from the course "CS 285: Deep RL" taught by Sergey Levine at Berkeley.
 - [Deep Reinforcement Learning](#deep-reinforcement-learning)
   - [1 Introduction](#1-introduction)
   - [2 Supervised Learning of Behaviors](#2-supervised-learning-of-behaviors)
+  - [3 Pytorch Tutorial](#3-pytorch-tutorial)
+  - [4 Introduction to Reinforcement Learning](#4-introduction-to-reinforcement-learning)
+  - [5 Policy Gradients](#5-policy-gradients)
 
 ## 1 Introduction
 
@@ -90,3 +93,21 @@ Lecture [2.1](https://youtu.be/tbLaFtYpWWU?feature=shared), [2.2](https://youtu.
   - Problems
     - Distribution mismatch between training and test data
     - Violates i.i.d. assumption: small errors lead to larger and larger errors over time
+
+## 3 Pytorch Tutorial
+
+See lecture 3 slides.
+
+## 4 Introduction to Reinforcement Learning
+
+Lecture [4.1](https://youtu.be/jds0Wh9jTvE?feature=shared), [4.2](https://youtu.be/Cip5UeGrCEE?feature=shared), [4.3](https://youtu.be/Pua9zO_YmKA?feature=shared), [4.4](https://youtu.be/eG9-F4r5k70?feature=shared), [4.5](https://youtu.be/dFqoGAyofUQ?feature=shared), [4.6](https://youtu.be/hfj9mS3nTLU?feature=shared)
+
+- Markov chain
+  - $\mathcal{M} = \{\mathcal{S}, \mathcal{T}\}$
+    - $\mathcal{S}$: state space
+    - $\mathcal{T}$: transition operator
+  - Consider $p(s_{t+1} | s_t)$
+
+## 5 Policy Gradients
+
+Lecture [5.1](https://youtu.be/GKoKNYaBvM0?feature=shared), [5.2](https://youtu.be/VSPYKXm_hMA?feature=shared), [5.3](https://youtu.be/VgdSubQN35g?feature=shared), [5.4](https://youtu.be/QRLDAQbWc78?feature=shared), [5.5](https://youtu.be/QRLDAQbWc78?feature=shared), [5.6](https://youtu.be/PEzuojy8lVo?feature=shared)

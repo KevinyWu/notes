@@ -6,6 +6,7 @@
     - [(Apr 2017) TCN: Time-Contrastive Networks: Self-Supervised Learning from Video](#apr-2017-tcn-time-contrastive-networks-self-supervised-learning-from-video)
     - [(Jul 2021) DrQ-v2: Mastering Visual Continuous Control: Improved Data-Augmented Reinforcement Learning](#jul-2021-drq-v2-mastering-visual-continuous-control-improved-data-augmented-reinforcement-learning)
     - [(Mar 2022) R3M: A Universal Visual Representation for Robotic Manipulation](#mar-2022-r3m-a-universal-visual-representation-for-robotic-manipulation)
+    - [(Jun 2022) DayDreamer: World Models for Physical Robot Learning](#jun-2022-daydreamer-world-models-for-physical-robot-learning)
     - [(Sep 2022) VIP: Towards Universal Visual Reward and Representation via Value-Implicit Pre-Training](#sep-2022-vip-towards-universal-visual-reward-and-representation-via-value-implicit-pre-training)
     - [(Nov 2022) HOLD: Learning Reward Functions for Robotic Manipulation by Observing Humans](#nov-2022-hold-learning-reward-functions-for-robotic-manipulation-by-observing-humans)
     - [(May 2023) VIPER: Video Prediction Models as Rewards for Reinforcement Learning](#may-2023-viper-video-prediction-models-as-rewards-for-reinforcement-learning)
@@ -119,6 +120,10 @@
 
 [Code](https://github.com/facebookresearch/r3m), [Website](https://sites.google.com/view/robot-r3m/)
   
+### (Jun 2022) DayDreamer: World Models for Physical Robot Learning
+
+[Code](https://github.com/danijar/daydreamer), [Website](https://danijar.com/project/daydreamer/)
+
 ### (Sep 2022) VIP: Towards Universal Visual Reward and Representation via Value-Implicit Pre-Training
 
 [Code](https://github.com/facebookresearch/vip), [Website](https://sites.google.com/view/vip-rl), [Video](https://www.youtube.com/watch?v=K9aKAoLI-ss)
