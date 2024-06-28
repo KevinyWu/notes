@@ -10,6 +10,7 @@
     - [(Apr 2023) ACT: Learning Fine-Grained Bimanual Manipulation with Low-Cost Hardware](#apr-2023-act-learning-fine-grained-bimanual-manipulation-with-low-cost-hardware)
     - [(Dec 2023) Octo: An Open-Source Generalist Robot Policy](#dec-2023-octo-an-open-source-generalist-robot-policy)
     - [(Mar 2024) VQ-BeT: Behavior Generation with Latent Actions](#mar-2024-vq-bet-behavior-generation-with-latent-actions)
+    - [(Jun 2024) OpenVLA: An Open-Source Vision-Language-Action Model](#jun-2024-openvla-an-open-source-vision-language-action-model)
 
 ## Background
 
@@ -157,3 +158,7 @@
 ### (Mar 2024) VQ-BeT: Behavior Generation with Latent Actions
 
 [Code](https://github.com/jayLEE0301/vq_bet_official), [Website](https://sjlee.cc/vq-bet/)
+
+### (Jun 2024) OpenVLA: An Open-Source Vision-Language-Action Model
+
+[Code](https://github.com/openvla/openvla), [Website](https://openvla.github.io/)
