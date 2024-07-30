@@ -199,7 +199,7 @@
 
 - Introduction
   - Unsupervised representation learning successful in NLP but not in vision
-  - Maintain the dictionary as a queue of data samples: the encoded repre- sentations of the current mini-batch are enqueued, and the oldest are dequeued
+  - Maintain the dictionary as a queue of data samples: the encoded representations of the current mini-batch are enqueued, and the oldest are dequeued
   - A slowly progressing key encoder, implemented as a momentum-based moving average of the query encoder, is proposed to maintain consistency
   - A query matches a key if they are encoded views (e.g., different crops) of the same image
 - Method
