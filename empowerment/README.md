@@ -3,7 +3,7 @@
 - [Empowerment-based Learning with a Physical Development Curriculum](#empowerment-based-learning-with-a-physical-development-curriculum)
   - [Background](#background)
   - [Literature](#literature)
-    - [(May 2020) DETR: End-to-End Object Detection with Transformers](#may-2020-detr-end-to-end-object-detection-with-transformers)
+    - [(May 2017) Curiosity-driven Exploration by Self-supervised Prediction](#may-2017-curiosity-driven-exploration-by-self-supervised-prediction)
 
 ## Background
 
@@ -11,6 +11,9 @@
 
 ## Literature
 
-### (May 2020) DETR: End-to-End Object Detection with Transformers
+### (May 2017) Curiosity-driven Exploration by Self-supervised Prediction
 
-[Code](https://github.com/facebookresearch/detr), [Annotated Code 1](https://amaarora.github.io/posts/2021-07-26-annotateddetr.html), [Annotated Code 2](https://amaarora.github.io/posts/2023-03-11_Understanding_CLIP_part_2.html), [Video](https://www.youtube.com/watch?v=T35ba_VXkMY)
+[Code](https://github.com/pathak22/noreward-rl), [Website](https://pathak22.github.io/noreward-rl/)
+
+- Introduction
+  - Formulate curiosity as the error in an agent's ability to predict the consequence of its own actions in a visual feature space learned by a self-supervised inverse dynamics model
