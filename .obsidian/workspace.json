@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#tags",
+                "query": "duckiebo",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -169,13 +170,12 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "omnisearch:Omnisearch": false,
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "d64c7a7602ece8c5",
+  "active": "24de2d3e5b99940f",
   "lastOpenFiles": [
     "An Image is Worth 16x16 Words_ Transformers for Image Recognition at Scale.md",
     "README.md",

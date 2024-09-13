@@ -1,1 +1,0 @@
-{"path":"deep-reinforcement-learning/figures/sample_efficiency.png","text":"off-policy on-policy More efficient Less efficient (fewer samples) (more samples) model-based model-based off-policy actor-critic on-policy policy evolutionary or shallow RL deep RL Q-function style gradient gradient-free learning methods algorithms algorithms","libVersion":"0.3.2","langs":"eng"}
