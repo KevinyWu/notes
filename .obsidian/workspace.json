@@ -18,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "f4f7dadf469bb05b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -187,11 +174,13 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "f4f7dadf469bb05b",
+  "active": "9cd55fe125d4a12c",
   "lastOpenFiles": [
-    "personal-notes/README.md",
-    "README.md",
     "templates/README.md",
+    "Denoising Diffusion Probabilistic Models.md",
+    "README.md",
+    "bib.json",
+    "personal-notes/README.md",
     "Learning Structured Output Representation using Deep Conditional Generative Models.md",
     "personal-notes/RIPL.md",
     "personal-notes/Todo.md",
@@ -222,9 +211,7 @@
     "templates/Talk.md",
     "Auto-Encoding Variational Bayes.md",
     "templates/Chapter.md",
-    "templates/Lecture.md",
     "personal/learning/papers/2023-08 Discrete Diffusion Modeling by Estimating the Ratios of the Data Distribution.pdf",
-    "Recording",
     "papers/appendix/figures/dino_attention.png",
     "papers/appendix/figures/dino.png",
     "Untitled.canvas",
