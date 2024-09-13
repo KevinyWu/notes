@@ -1,0 +1,32 @@
+{
+  "palette": {
+    "seed": 0,
+    "selected": "adaptive-soft",
+    "custom": "e12729-f37324-f8cc1b-72b043-007f4e"
+  },
+  "mixColors": true,
+  "transition": true,
+  "accessibility": {
+    "highTextContrast": false
+  },
+  "knownTags": {
+    "robot-learning": 1,
+    "foundation-models": 2,
+    "tag": 3,
+    "tag1": 4,
+    "tags": 5,
+    "papers": 6,
+    "papers/tags": 1,
+    "lectures": 7,
+    "lectures/tags": 1,
+    "talks": 8,
+    "talks/tags": 1,
+    "lect": 9,
+    "lect/tags": 2,
+    "courses": 10,
+    "courses/tags": 1,
+    "books": 11,
+    "books/tags": 1
+  },
+  "_version": 3
+}

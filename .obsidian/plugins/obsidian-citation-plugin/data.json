@@ -1,0 +1,9 @@
+{
+  "citationExportFormat": "biblatex",
+  "literatureNoteTitleTemplate": "{{title}}",
+  "literatureNoteFolder": "",
+  "literatureNoteContentTemplate": "# {{title}}\n\n**Authors**: {{authorString}}\n\n#tags\n\n[[templates/README|README]]\n\n[Paper]({{URL}})\n[Code](https://github.com/)\n[Website](https://github.com/)\n[Video](https://www.youtube.com/)\n[Blog](https://github.com/)\n[Annotated Code](http://nlp.seas.harvard.edu/annotated-transformer/)\n\n## Abstract\n\n> {{abstract}}\n\n## Summary\n\n- Notes from the introduction and conclusion sections\n\n## Background\n\n- Notes about the background information\n\n## Method\n\n- Notes about the method\n\n## Results\n\n- Notable results from the paper\n",
+  "markdownCitationTemplate": "[@{{citekey}}]",
+  "alternativeMarkdownCitationTemplate": "@{{citekey}}",
+  "citationExportPath": "bib.bib"
+}

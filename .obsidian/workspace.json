@@ -1,0 +1,228 @@
+{
+  "main": {
+    "id": "6abcd9e9e93a9ee0",
+    "type": "split",
+    "children": [
+      {
+        "id": "15da1b7d2a481bc5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d64c7a7602ece8c5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "20984200ee63880a",
+    "type": "split",
+    "children": [
+      {
+        "id": "49bb793c2483cb00",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b3d7463e5f207cbd",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "24de2d3e5b99940f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#tags",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "717803410185094e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 213.5
+  },
+  "right": {
+    "id": "3050ca2fa929a831",
+    "type": "split",
+    "children": [
+      {
+        "id": "c54a0f02d2e2b495",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fe40068f21456365",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "README.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b973c5454313d727",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "README.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "4fd4c9443d720f42",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "e5f261c0701696b5",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "README.md"
+              }
+            }
+          },
+          {
+            "id": "4603a0af26f06c16",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "ebd1aeb24598b074",
+            "type": "leaf",
+            "state": {
+              "type": "copilot-chat-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "a5dcdb161fe40187",
+            "type": "leaf",
+            "state": {
+              "type": "ReferenceListView",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 6
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "command-palette:Open command palette": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "omnisearch:Omnisearch": false,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false
+    }
+  },
+  "active": "d64c7a7602ece8c5",
+  "lastOpenFiles": [
+    "An Image is Worth 16x16 Words_ Transformers for Image Recognition at Scale.md",
+    "README.md",
+    "personal/RIPL.md",
+    "templates/Talk.md",
+    "Auto-Encoding Variational Bayes.md",
+    "templates/README.md",
+    "templates/Chapter.md",
+    "templates/Lecture.md",
+    "templates/Paper.md",
+    "papers/README.md",
+    "personal/learning/papers/2023-08 Discrete Diffusion Modeling by Estimating the Ratios of the Data Distribution.pdf",
+    "talks/2024-08-08 Yunzhu Li.md",
+    "personal/Todo.md",
+    "personal/Ideas.md",
+    "personal/projects/Personal Website.md",
+    "personal/phd/PhD Programs.md",
+    "personal/research/Emergenet.md",
+    "personal/research/Steering.md",
+    "personal/research/Video2Reward.md",
+    "personal/projects/UR5 Teleoperation.md",
+    "personal/projects/Deskbot.md",
+    "books/robot-dynamics-control/README.md",
+    "personal/projects/Duckiebot Arm.md",
+    "personal/learning/Learning.md",
+    "personal/learning/Quick Notes.md",
+    "personal/phd/Recommendations.md",
+    "personal/phd/Personal Statement.md",
+    "Recording",
+    "bib.bib",
+    "bib.json",
+    "zotero",
+    "personal/learning/papers/2024 Clifford-Steerable CNN.pdf",
+    "personal/learning/papers/2023 Discrete Diffusion Models.pdf",
+    "personal/learning/papers/2024 SAPG.pdf",
+    "papers/appendix/papers/2019 MoCo.pdf",
+    "papers/appendix/papers/2013 VAE.pdf",
+    "papers/appendix/figures/dino_attention.png",
+    "papers/appendix/figures/dino.png",
+    "Untitled.canvas",
+    "papers/video2reward/figures/vip.png",
+    "papers/video2reward/figures/rank2reward.png",
+    "papers/video2reward/figures/drqv2.png",
+    "papers/video2reward/figures/hold.png",
+    "papers/video2reward/figures/diffusion_reward.png",
+    "courses/robotic-manipulation/figures/3.7.png",
+    "books/robot-dynamics-control/figures/4.3.png",
+    "books/robot-dynamics-control/figures/4.2.png"
+  ]
+}
