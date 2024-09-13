@@ -1,7 +1,13 @@
 #!/bin/bash
 
+# Check if the notes repository path is provided
+if [ -z "$1" ]; then
+  echo "Usage: $0 <notes_repo_path>"
+  exit 1
+fi
+
 # Define the paths to the repositories
-NOTES_REPO_PATH="/home/kevinywu/kevinywu/notes"
+NOTES_REPO_PATH="$1"
 PERSONAL_NOTES_REPO_PATH="$NOTES_REPO_PATH/personal-notes"
 
 # Sync the notes repository

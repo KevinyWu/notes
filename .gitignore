@@ -1,4 +1,5 @@
 .pandoc/
+.vscode/
 .trash/
 .DS_Store
 
