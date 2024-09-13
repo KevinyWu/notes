@@ -1,13 +1,13 @@
 #!/bin/bash
 
-# Check if the notes repository path is provided
-if [ -z "$1" ]; then
-  echo "Usage: $0 <notes_repo_path>"
-  exit 1
-fi
+# Get the directory where the script is located
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
-# Define the paths to the repositories
-NOTES_REPO_PATH="$1"
+# Define the path to the notes repository
+NOTES_REPO_PATH="$SCRIPT_DIR"
+
+# Print the path for verification
+echo "Notes repository path: $NOTES_REPO_PATH"
 PERSONAL_NOTES_REPO_PATH="$NOTES_REPO_PATH/personal-notes"
 
 # Sync the notes repository
