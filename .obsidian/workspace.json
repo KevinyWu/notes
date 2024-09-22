@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "personal-notes/phd/PhD Programs.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "personal-notes/phd/PhD Programs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "personal-notes/phd/PhD Programs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "personal-notes/phd/PhD Programs.md"
               }
             }
           },
@@ -176,9 +176,14 @@
   },
   "active": "9cd55fe125d4a12c",
   "lastOpenFiles": [
+    "personal-notes/phd/Recommendations.md",
+    "personal-notes/phd/PhD Programs.md",
+    "personal-notes/phd/Personal Statement.md",
+    "personal-notes/phd/Grants.md",
+    "personal-notes/learning/Learning.md",
+    "README.md",
     "templates/README.md",
     "Denoising Diffusion Probabilistic Models.md",
-    "README.md",
     "bib.json",
     "personal-notes/README.md",
     "Learning Structured Output Representation using Deep Conditional Generative Models.md",
@@ -195,13 +200,8 @@
     "personal-notes/projects/Duckiebot Arm.md",
     "personal-notes/projects/Deskbot.md",
     "personal-notes/projects",
-    "personal-notes/phd/Recommendations.md",
-    "personal-notes/phd/PhD Programs.md",
-    "personal-notes/phd/Personal Statement.md",
-    "personal-notes/phd/Grants.md",
     "personal-notes/phd",
     "personal-notes/learning/Quick Notes.md",
-    "personal-notes/learning/Learning.md",
     "personal-notes/learning",
     "personal-notes/journal",
     "personal-notes/LICENSE",
