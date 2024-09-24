@@ -2,7 +2,7 @@
 
 #tags
 
-[[templates/README|README]]
+[[talks/README|README]]
 
 [Recording/Slides](https://www.youtube.com/)
 

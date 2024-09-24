@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "personal-notes/phd/PhD Programs.md",
+                "file": "talks/Tom Silver - Neuro-Symbolic Learning for Bilevel Robot Planning.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "personal-notes/phd/PhD Programs.md",
+                "file": "talks/Tom Silver - Neuro-Symbolic Learning for Bilevel Robot Planning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "personal-notes/phd/PhD Programs.md",
+                "file": "talks/Tom Silver - Neuro-Symbolic Learning for Bilevel Robot Planning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "personal-notes/phd/PhD Programs.md"
+                "file": "talks/Tom Silver - Neuro-Symbolic Learning for Bilevel Robot Planning.md"
               }
             }
           },
@@ -158,7 +158,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -176,52 +176,52 @@
   },
   "active": "9cd55fe125d4a12c",
   "lastOpenFiles": [
-    "personal-notes/phd/Personal Statement.md",
-    "personal-notes/research/Emergenet.md",
-    "personal-notes/Ideas.md",
-    "templates/Talk.md",
-    "templates/README.md",
-    "books/README.md",
-    "courses/robotic-manipulation/README.md",
-    "courses/README.md",
     "talks/README.md",
-    "talks/2024-08-08 Yunzhu Li.md",
-    "papers/unsorted",
+    "talks/Tom Silver - Neuro-Symbolic Learning for Bilevel Robot Planning.md",
+    "talks/Yunzhu Li - Foundation Models for Robotic Manipulation.md",
+    "templates/README.md",
+    "templates/Talk.md",
+    "templates/Paper.md",
+    "templates/Lecture.md",
+    "templates/Chapter.md",
+    "README.md",
+    "personal-notes/Todo.md",
+    "personal-notes/Ideas.md",
+    "personal-notes/README.md",
+    "personal-notes/RIPL.md",
     "papers/README.md",
-    "papers/unsorted/video2reward/figures/diffusion_reward.png",
+    "personal-notes/research/Emergenet.md",
+    "personal-notes/research/Steering.md",
+    "personal-notes/learning/Quick Notes.md",
+    "personal-notes/learning/Learning.md",
     "personal-notes/phd/PhD Programs.md",
+    "personal-notes/phd/Personal Statement.md",
+    "books/README.md",
+    "personal-notes/unsorted/robotic-manipulation/README.md",
+    "courses/README.md",
+    "personal-notes/unsorted",
+    "personal-notes/unsorted/video2reward/figures/diffusion_reward.png",
     "personal-notes/phd/Recommendations.md",
     "personal-notes/phd/Grants.md",
-    "personal-notes/learning/Learning.md",
-    "README.md",
     "Denoising Diffusion Probabilistic Models.md",
     "bib.json",
-    "personal-notes/README.md",
-    "Learning Structured Output Representation using Deep Conditional Generative Models.md",
-    "personal-notes/RIPL.md",
-    "personal-notes/Todo.md",
     "sync.sh",
-    "personal-notes/research/Video2Reward.md",
-    "personal-notes/research/Steering.md",
     "personal-notes/research",
-    "personal-notes/projects/UR5 Teleoperation.md",
-    "personal-notes/projects/Personal Website.md",
-    "personal-notes/projects/Duckiebot Arm.md",
     "personal-notes/projects",
     "personal-notes/phd",
     "personal-notes/learning",
     "personal-notes/journal",
     "personal-notes/LICENSE",
     "personal-notes",
-    "papers/unsorted/appendix/figures/dino_attention.png",
-    "papers/unsorted/appendix/figures/dino.png",
+    "personal-notes/unsorted/appendix/figures/dino_attention.png",
+    "personal-notes/unsorted/appendix/figures/dino.png",
     "Untitled.canvas",
-    "papers/unsorted/video2reward/figures/vip.png",
-    "papers/unsorted/video2reward/figures/rank2reward.png",
-    "papers/unsorted/video2reward/figures/drqv2.png",
-    "papers/unsorted/video2reward/figures/hold.png",
-    "courses/robotic-manipulation/figures/3.7.png",
-    "books/robot-dynamics-control/figures/4.3.png",
-    "books/robot-dynamics-control/figures/4.2.png"
+    "personal-notes/unsorted/video2reward/figures/vip.png",
+    "personal-notes/unsorted/video2reward/figures/rank2reward.png",
+    "personal-notes/unsorted/video2reward/figures/drqv2.png",
+    "personal-notes/unsorted/video2reward/figures/hold.png",
+    "personal-notes/unsorted/robotic-manipulation/figures/3.7.png",
+    "personal-notes/unsorted/robot-dynamics-control/figures/4.3.png",
+    "personal-notes/unsorted/robot-dynamics-control/figures/4.2.png"
   ]
 }

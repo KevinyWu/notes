@@ -4,7 +4,7 @@
 
 #tags
 
-[[templates/README|README]]
+[[papers/README|README]]
 
 [Paper](http://arxiv.org/abs/1706.03762)
 [Code](https://github.com/)

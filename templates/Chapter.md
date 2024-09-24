@@ -2,7 +2,7 @@
 
 #tags
 
-[[templates/README|README]]
+[[books/README|README]]
 
 ## Section 1
 
