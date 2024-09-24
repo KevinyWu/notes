@@ -71,8 +71,8 @@ Notes from the course "Robotic Manipulation" taught by Russ Tedrake at MIT.
 ### 2.2 Arms
 
 - Gears
-  - Gear ratio: output teeth:intput teeth
-    - Exmaple: 10:1 means 10 output teeth for every 1 input tooth, 10 rotations of input gear for 1 rotation of output gear
+  - Gear ratio: output teeth:input teeth
+    - Example: 10:1 means 10 output teeth for every 1 input tooth, 10 rotations of input gear for 1 rotation of output gear
   - **Tradeoff speed for torque**
     - Motor has high speed and low torque, while the work requires low speed and high torque
     - Solution: use a high gear ratio
@@ -248,7 +248,7 @@ Notes from the course "Robotic Manipulation" taught by Russ Tedrake at MIT.
   - When many solutions, $J^+$ gives the solution with the smallest norm
   - When no solutions, $J^+$ gives the joint velocities that produce a spatial velocity as close to desired $V^G$ as possible
 - **Kinematic singularities**: configurations $q$ for which $\text{rank}(J(q)) < 6$
-  - When smallest singular value apporaches zero, the robot is near a singularity: norm of $J^+$ becomes large
+  - When smallest singular value approaches zero, the robot is near a singularity: norm of $J^+$ becomes large
 
 ### 3.7-3.9 Pick and Place
 
@@ -285,7 +285,7 @@ Notes from the course "Robotic Manipulation" taught by Russ Tedrake at MIT.
     - Convex optimization solver normally chooses something reasonable, but we can modify the problem to choose a unique solution
   - **Secondary controller** that attempts to control all the joints
     - Consider simple proportional joint-space controller $v=K(q_0 - q)$
-    - Denote $P(q)$ as an orthonormal basis for the kernal (null space) of a Jacobian
+    - Denote $P(q)$ as an orthonormal basis for the kernel (null space) of a Jacobian
       - Can be implemented with pseudoinverse: $P(q) = I - J^+(q)J(q)$
       - The null space of a Jacobian represents the directions in which the arm can move without changing the end effector pose
     - Adding $Pv = PK(q_0 - q)$ as a secondary objective
