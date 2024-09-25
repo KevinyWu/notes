@@ -1,8 +1,8 @@
-# Lecture Title
+# Tutorial Title
 
 #tags
 
-[[templates/README#[Lecture Number] Lecture Title|README]]
+[[courses/README|README]]
 
 [Recording/Slides](https://www.youtube.com/)
 

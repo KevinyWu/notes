@@ -23,3 +23,9 @@
 #tags
 [[Chapter]]
 - Summarize the key points in three bullets
+
+## [YYYY-MM-DD] Tutorial Title
+
+#tags
+[[Tutorial]]
+- Summarize the key points in three bullets

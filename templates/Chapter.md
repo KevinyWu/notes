@@ -2,7 +2,7 @@
 
 #tags
 
-[[books/README|README]]
+[[templates/README#[Chapter Number] Chapter Title|README]]
 
 ## Section 1
 

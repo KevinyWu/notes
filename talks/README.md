@@ -2,9 +2,13 @@
 
 ## [2024-04-06] Tom Silver - Neuro-Symbolic Learning for Bilevel Robot Planning
 
-#tags
+#robot-learning
+#tamp
+#unsupervised
 [[Tom Silver - Neuro-Symbolic Learning for Bilevel Robot Planning|Talk]]
-- Summarize the key points in three bullets
+- Unified framework for task and motion planning (TAMP)
+- Unsupervised learning of predicate-operator based state abstractions for planning
+- Optimization problem: find trajectory of **low-level** states and actions so that **high-level** abstract states are followed, transitions are valid
 
 ## [2024-08-08] Yunzhu Li - Foundation Models for Robotic Manipulation
 

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "personal-notes/phd/PhD Programs.md",
+                "file": "talks/Tom Silver - Neuro-Symbolic Learning for Bilevel Robot Planning.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "duckiebo",
+                "query": "tag:#tags",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "personal-notes/phd/PhD Programs.md",
+                "file": "talks/Tom Silver - Neuro-Symbolic Learning for Bilevel Robot Planning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "personal-notes/phd/PhD Programs.md",
+                "file": "talks/Tom Silver - Neuro-Symbolic Learning for Bilevel Robot Planning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "personal-notes/phd/PhD Programs.md"
+                "file": "talks/Tom Silver - Neuro-Symbolic Learning for Bilevel Robot Planning.md"
               }
             }
           },
@@ -176,15 +176,22 @@
   },
   "active": "9cd55fe125d4a12c",
   "lastOpenFiles": [
-    "talks/Yunzhu Li - Foundation Models for Robotic Manipulation.md",
-    "talks/Tom Silver - Neuro-Symbolic Learning for Bilevel Robot Planning.md",
-    "personal-notes/phd/Recommendations.md",
-    "personal-notes/phd/PhD Programs.md",
     "personal-notes/phd/Personal Statement.md",
+    "talks/README.md",
+    "talks/Tom Silver - Neuro-Symbolic Learning for Bilevel Robot Planning.md",
+    "talks/Yunzhu Li - Foundation Models for Robotic Manipulation.md",
+    "personal-notes/phd/PhD Programs.md",
     "personal-notes/phd/Grants.md",
+    "templates/README.md",
+    "templates/Tutorial.md",
+    "templates/Talk.md",
+    "templates/Chapter.md",
+    "templates/Lecture.md",
+    "templates/Paper.md",
+    "tutorials",
+    "personal-notes/phd/Recommendations.md",
     "personal-notes/learning/Learning.md",
     "README.md",
-    "templates/README.md",
     "Denoising Diffusion Probabilistic Models.md",
     "bib.json",
     "personal-notes/README.md",
@@ -199,19 +206,12 @@
     "personal-notes/research",
     "personal-notes/projects/UR5 Teleoperation.md",
     "personal-notes/projects/Personal Website.md",
-    "personal-notes/projects/Duckiebot Arm.md",
-    "personal-notes/projects/Deskbot.md",
     "personal-notes/projects",
     "personal-notes/phd",
-    "personal-notes/learning/Quick Notes.md",
     "personal-notes/learning",
     "personal-notes/journal",
     "personal-notes/LICENSE",
     "personal-notes",
-    "An Image is Worth 16x16 Words_ Transformers for Image Recognition at Scale.md",
-    "personal/RIPL.md",
-    "templates/Talk.md",
-    "personal/learning/papers/2023-08 Discrete Diffusion Modeling by Estimating the Ratios of the Data Distribution.pdf",
     "papers/appendix/figures/dino_attention.png",
     "papers/appendix/figures/dino.png",
     "Untitled.canvas",
