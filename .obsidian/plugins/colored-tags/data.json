@@ -28,7 +28,10 @@
     "books": 11,
     "books/tags": 1,
     "tamp": 12,
-    "unsupervised": 13
+    "unsupervised": 13,
+    "robo": 14,
+    "imitation-learning": 15,
+    "supervised": 16
   },
   "_version": 3
 }

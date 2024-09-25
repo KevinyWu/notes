@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "talks/Tom Silver - Neuro-Symbolic Learning for Bilevel Robot Planning.md",
+                "file": "papers/robot-learning/Practice Makes Perfect_ Planning to Learn Skill Parameter Policies.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "talks/Tom Silver - Neuro-Symbolic Learning for Bilevel Robot Planning.md",
+                "file": "papers/robot-learning/Practice Makes Perfect_ Planning to Learn Skill Parameter Policies.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "talks/Tom Silver - Neuro-Symbolic Learning for Bilevel Robot Planning.md",
+                "file": "papers/robot-learning/Practice Makes Perfect_ Planning to Learn Skill Parameter Policies.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "talks/Tom Silver - Neuro-Symbolic Learning for Bilevel Robot Planning.md"
+                "file": "papers/robot-learning/Practice Makes Perfect_ Planning to Learn Skill Parameter Policies.md"
               }
             }
           },
@@ -176,18 +176,24 @@
   },
   "active": "9cd55fe125d4a12c",
   "lastOpenFiles": [
-    "personal-notes/phd/Personal Statement.md",
+    "tutorials/Supervised Policy Learning for Real Robots.md",
+    "tutorials/README.md",
+    "papers/robot-learning/README.md",
+    "papers/README.md",
+    "papers/robot-learning/Practice Makes Perfect_ Planning to Learn Skill Parameter Policies.md",
+    "templates/README.md",
     "talks/README.md",
+    "papers/robot-learning",
+    "templates/Paper.md",
     "talks/Tom Silver - Neuro-Symbolic Learning for Bilevel Robot Planning.md",
     "talks/Yunzhu Li - Foundation Models for Robotic Manipulation.md",
-    "personal-notes/phd/PhD Programs.md",
-    "personal-notes/phd/Grants.md",
-    "templates/README.md",
     "templates/Tutorial.md",
     "templates/Talk.md",
+    "personal-notes/phd/Personal Statement.md",
+    "personal-notes/phd/PhD Programs.md",
+    "personal-notes/phd/Grants.md",
     "templates/Chapter.md",
     "templates/Lecture.md",
-    "templates/Paper.md",
     "tutorials",
     "personal-notes/phd/Recommendations.md",
     "personal-notes/learning/Learning.md",
@@ -200,18 +206,12 @@
     "personal-notes/Todo.md",
     "sync.sh",
     "personal-notes/Ideas.md",
-    "personal-notes/research/Video2Reward.md",
-    "personal-notes/research/Steering.md",
-    "personal-notes/research/Emergenet.md",
     "personal-notes/research",
-    "personal-notes/projects/UR5 Teleoperation.md",
-    "personal-notes/projects/Personal Website.md",
     "personal-notes/projects",
     "personal-notes/phd",
     "personal-notes/learning",
     "personal-notes/journal",
     "personal-notes/LICENSE",
-    "personal-notes",
     "papers/appendix/figures/dino_attention.png",
     "papers/appendix/figures/dino.png",
     "Untitled.canvas",

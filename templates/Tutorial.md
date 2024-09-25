@@ -4,6 +4,7 @@
 
 [[courses/README|README]]
 
+[Website](https://github.com/)
 [Recording/Slides](https://www.youtube.com/)
 
 ## Section 1

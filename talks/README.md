@@ -5,8 +5,8 @@
 #robot-learning
 #tamp
 #unsupervised
-[[Tom Silver - Neuro-Symbolic Learning for Bilevel Robot Planning|Talk]]
-- Unified framework for task and motion planning (TAMP)
+[[Tom Silver - Neuro-Symbolic Learning for Bilevel Robot Planning]]
+- Unified framework for learning abstractions and grounding mechanisms for task and motion planning (TAMP)
 - Unsupervised learning of predicate-operator based state abstractions for planning
 - Optimization problem: find trajectory of **low-level** states and actions so that **high-level** abstract states are followed, transitions are valid
 
@@ -14,6 +14,6 @@
 
 #robot-learning
 #foundation-models
-[[Yunzhu Li - Foundation Models for Robotic Manipulation|Talk]]
+[[Yunzhu Li - Foundation Models for Robotic Manipulation]]
 - VoxPoser: Code is multilingual interface between humans, foundation models, and robot
 - Output may not always be perfect, but should always generate something reasonable!
