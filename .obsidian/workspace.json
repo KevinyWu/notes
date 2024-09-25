@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "papers/robot-learning/Practice Makes Perfect_ Planning to Learn Skill Parameter Policies.md",
+                "file": "personal-notes/phd/PhD Programs.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "papers/robot-learning/Practice Makes Perfect_ Planning to Learn Skill Parameter Policies.md",
+                "file": "personal-notes/phd/PhD Programs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "papers/robot-learning/Practice Makes Perfect_ Planning to Learn Skill Parameter Policies.md",
+                "file": "personal-notes/phd/PhD Programs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "papers/robot-learning/Practice Makes Perfect_ Planning to Learn Skill Parameter Policies.md"
+                "file": "personal-notes/phd/PhD Programs.md"
               }
             }
           },
@@ -176,11 +176,11 @@
   },
   "active": "9cd55fe125d4a12c",
   "lastOpenFiles": [
+    "papers/robot-learning/Practice Makes Perfect_ Planning to Learn Skill Parameter Policies.md",
     "tutorials/Supervised Policy Learning for Real Robots.md",
     "tutorials/README.md",
     "papers/robot-learning/README.md",
     "papers/README.md",
-    "papers/robot-learning/Practice Makes Perfect_ Planning to Learn Skill Parameter Policies.md",
     "templates/README.md",
     "talks/README.md",
     "papers/robot-learning",
