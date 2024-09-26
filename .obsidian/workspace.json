@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "personal-notes/phd/PhD Programs.md",
+                "file": "personal-notes/research/Comparison of Imitation Learning Algorithms on Real-Robot Bimanual Manipulation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5246074d33d657f3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "personal-notes/projects/Deskbot.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,7 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 213.5
+    "width": 286.5
   },
   "right": {
     "id": "3050ca2fa929a831",
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "personal-notes/phd/PhD Programs.md",
+                "file": "personal-notes/projects/Deskbot.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "personal-notes/phd/PhD Programs.md",
+                "file": "personal-notes/projects/Deskbot.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "personal-notes/phd/PhD Programs.md"
+                "file": "personal-notes/projects/Deskbot.md"
               }
             }
           },
@@ -174,44 +187,44 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "9cd55fe125d4a12c",
+  "active": "5246074d33d657f3",
   "lastOpenFiles": [
-    "papers/robot-learning/Practice Makes Perfect_ Planning to Learn Skill Parameter Policies.md",
+    "personal-notes/research/Comparison of Imitation Learning Algorithms on Real-Robot Bimanual Manipulation.md",
     "tutorials/Supervised Policy Learning for Real Robots.md",
     "tutorials/README.md",
+    "personal-notes/projects/Deskbot.md",
+    "talks/Tom Silver - Neuro-Symbolic Learning for Bilevel Robot Planning.md",
     "papers/robot-learning/README.md",
+    "papers/imitation-learning/README.md",
+    "papers/imitation-learning/A Comparison of Imitation Learning Algorithms for Bimanual Manipulation.md",
     "papers/README.md",
+    "papers/robot-learning/Practice Makes Perfect_ Planning to Learn Skill Parameter Policies.md",
+    "personal-notes/phd/PhD Programs.md",
+    "personal-notes/research/Emergenet.md",
+    "personal-notes/research/Steering.md",
+    "papers/imitation-learning",
+    "personal-notes/projects/Personal Website.md",
+    "personal-notes/projects/Duckiebot Arm.md",
+    "personal-notes/research/Video2Reward.md",
+    "personal-notes/projects/UR5 Teleoperation.md",
+    "personal-notes/Todo.md",
+    "personal-notes/learning/Learning.md",
+    "personal-notes/phd/Personal Statement.md",
+    "personal-notes/phd/Grants.md",
+    "personal-notes/phd/Recommendations.md",
     "templates/README.md",
     "talks/README.md",
     "papers/robot-learning",
     "templates/Paper.md",
-    "talks/Tom Silver - Neuro-Symbolic Learning for Bilevel Robot Planning.md",
     "talks/Yunzhu Li - Foundation Models for Robotic Manipulation.md",
-    "templates/Tutorial.md",
-    "templates/Talk.md",
-    "personal-notes/phd/Personal Statement.md",
-    "personal-notes/phd/PhD Programs.md",
-    "personal-notes/phd/Grants.md",
-    "templates/Chapter.md",
-    "templates/Lecture.md",
     "tutorials",
-    "personal-notes/phd/Recommendations.md",
-    "personal-notes/learning/Learning.md",
-    "README.md",
-    "Denoising Diffusion Probabilistic Models.md",
     "bib.json",
-    "personal-notes/README.md",
-    "Learning Structured Output Representation using Deep Conditional Generative Models.md",
-    "personal-notes/RIPL.md",
-    "personal-notes/Todo.md",
     "sync.sh",
-    "personal-notes/Ideas.md",
     "personal-notes/research",
     "personal-notes/projects",
     "personal-notes/phd",
     "personal-notes/learning",
     "personal-notes/journal",
-    "personal-notes/LICENSE",
     "papers/appendix/figures/dino_attention.png",
     "papers/appendix/figures/dino.png",
     "Untitled.canvas",
