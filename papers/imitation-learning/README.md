@@ -2,6 +2,10 @@
 
 ## [2024-08] A Comparison of Imitation Learning Algorithms for Bimanual Manipulation
 
-#tags
+#imitation-learning
+#behavioral-cloning
+#supervised
 [[A Comparison of Imitation Learning Algorithms for Bimanual Manipulation]]
-- Summarize the key points in three bullets
+- RL is hard for manipulation, need good rewards for all areas of environment
+- Imitation learning (specifically BC) does not need an explicit reward function
+- Diffusion Policy and ACT perform the best, but there are only simulated experiments (no real-robot)
