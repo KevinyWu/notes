@@ -13,19 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "talks/README.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3f7b1e61ae8f372a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "personal-notes/phd/PhD Programs.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -67,8 +55,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -134,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "personal-notes/phd/PhD Programs.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "personal-notes/phd/PhD Programs.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "personal-notes/phd/PhD Programs.md"
+                "file": "README.md"
               }
             }
           },
@@ -223,35 +210,35 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "3f7b1e61ae8f372a",
+  "active": "e0e3b5b880b93a94",
   "lastOpenFiles": [
-    "personal-notes/phd/Personal Statement.md",
-    "personal-notes/phd/PhD Programs.md",
-    "personal-notes/projects/Deskbot.md",
-    "personal-notes/research/Comparison of Imitation Learning Algorithms on Real-Robot Bimanual Manipulation.md",
+    "templates/README.md",
+    "README.md",
+    "templates/Paper.md",
     "talks/README.md",
+    "Practice Makes Perfect_ Planning to Learn Skill Parameter Policies.md",
+    "personal-notes/research/Comparison of Imitation Learning Algorithms on Real-Robot Bimanual Manipulation.md",
+    "personal-notes/projects/Deskbot.md",
+    "personal-notes/phd/Personal Statement.md",
+    "papers/imitation-learning/A Comparison of Imitation Learning Algorithms for Bimanual Manipulation.md",
+    "papers/imitation-learning/README.md",
+    "talks/Tom Silver - Neuro-Symbolic Learning for Bilevel Robot Planning.md",
+    "talks/Yunzhu Li - Foundation Models for Robotic Manipulation.md",
+    "personal-notes/phd/PhD Programs.md",
     "talks/Lerrel Pinto - On Building General-Purpose Home Robots.md",
     "personal-notes/research/Steering.md",
     "personal-notes/research/Emergenet.md",
     "personal-notes/research/Video2Reward.md",
-    "talks/Yunzhu Li - Foundation Models for Robotic Manipulation.md",
-    "talks/Tom Silver - Neuro-Symbolic Learning for Bilevel Robot Planning.md",
     "papers/README.md",
     "tutorials/README.md",
     "personal-notes/Todo.md",
     "tutorials/Supervised Policy Learning for Real Robots.md",
     "personal-notes/phd/Grants.md",
     "personal-notes/phd/Recommendations.md",
-    "papers/imitation-learning/README.md",
     "papers/robot-learning/Practice Makes Perfect_ Planning to Learn Skill Parameter Policies.md",
-    "papers/imitation-learning/A Comparison of Imitation Learning Algorithms for Bimanual Manipulation.md",
     "personal-notes/projects/Duckiebot Arm.md",
     "personal-notes/projects/Personal Website.md",
-    "README.md",
-    "papers/robot-learning/README.md",
     "papers/imitation-learning",
-    "personal-notes/projects/UR5 Teleoperation.md",
-    "personal-notes/learning/Learning.md",
     "papers/robot-learning",
     "tutorials",
     "bib.json",
