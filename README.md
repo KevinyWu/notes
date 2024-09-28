@@ -31,7 +31,7 @@ Open a terminal and go to `notes`. Your `personal-notes` should be a subdirector
 
 I use Zotero Connect to download papers onto Zotero. Zotero is good for marking up PDFs.
 
-If you set up citations in Obsidian from Zotero correctly, you can go to the command palette and select *Citations: Open literature note* and select the paper. This generates a nice template to fill out.
+If you set up citations in Obsidian from Zotero correctly, you can go to the command palette and select *Citations: Open literature note*, then choose the paper. This generates a nice template to fill out.
 
 ### Other Notes
 
