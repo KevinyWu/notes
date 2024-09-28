@@ -11,7 +11,7 @@ I've created simple note-taking system to streamline my learning. It uses Obsidi
 3. Install [Better BibTeX for Zotero](https://retorque.re/zotero-better-bibtex/installation/index.html), which facilitates citations in Obsidian using Zotero.
 4. Clone this repository. The `.obsidian` directory contains some default Obsidian workspace settings and plugins.
 5. Open Obsidian and load a new vault from this repository.
-6. Setup citations in Obsidian from Zotero. Go to File -> Export Library. Set the format to "Better BibLaTex" and check "keepUpdated". Click "OK", then change the filename to `bib.bib` at the root of the notes directory. The "Citations" plugin in Obsidian will read from this file (If not, go to Settings -> Community Plugins -> Citations) and modify "Citation database format" to BibLaTeX and "Citation database path" to "bib.bib".
+6. Setup citations in Obsidian from Zotero. Go to File -> Export Library. Set the format to *Better BibLaTex* and check *keepUpdated*. Click OK, then change the filename to `bib.bib` at the root of the notes directory. The Citations plugin in Obsidian will read from this file (If not, go to Settings -> Community Plugins -> Citations) and modify *Citation database format* to "BibLaTeX" and *Citation database path* to "bib.bib".
 
 ### Private Notes
 
@@ -23,15 +23,15 @@ Instead, initialize a separate, private git repository called `personal-notes` a
 
 ### Syncing
 
-Open a terminal and go to `notes`. Your `personal-notes` should be a subdirectory. Running `sync.sh` will sync both repos to GitHub.
+Open a terminal and go to `notes`. Your `personal-notes` should be a subdirectory. Running `./sync.sh` will sync both repos to GitHub.
 
-**Important**: run sync.sh *before* and *after* each note-taking session, especially if you are syncing across multiple devices.
+**Important**: run `./sync.sh` *before* and *after* each note-taking session, especially if you are syncing across multiple devices.
 
 ### Adding Papers
 
 I use Zotero Connect to download papers onto Zotero. Zotero is good for marking up PDFs.
 
-If you set up citations in Obsidian from Zotero correctly, you can go to the command palette and select "Citations: Open literature note" and select the paper. This generates a nice template to fill out.
+If you set up citations in Obsidian from Zotero correctly, you can go to the command palette and select *Citations: Open literature note* and select the paper. This generates a nice template to fill out.
 
 ### Other Notes
 
