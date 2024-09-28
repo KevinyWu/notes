@@ -8,22 +8,67 @@
         "type": "tabs",
         "children": [
           {
-            "id": "72b6e26a99c4271d",
+            "id": "e0e3b5b880b93a94",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-<<<<<<< HEAD
-                "file": "tutorials/README.md",
-=======
-                "file": "papers/robot-learning/Practice Makes Perfect_ Planning to Learn Skill Parameter Policies.md",
->>>>>>> 62bf8f8c10c314d8d9548ca38c73db8c8fed9067
+                "file": "talks/README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3f7b1e61ae8f372a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "personal-notes/phd/PhD Programs.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4eccdd1484624d1b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "personal-notes/phd/Personal Statement.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ee3fefc226efa267",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "personal-notes/projects/Deskbot.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2730339682726308",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "personal-notes/research/Comparison of Imitation Learning Algorithms on Real-Robot Bimanual Manipulation.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -52,7 +97,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#tamp ",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -89,11 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-<<<<<<< HEAD
-                "file": "tutorials/README.md",
-=======
-                "file": "papers/robot-learning/Practice Makes Perfect_ Planning to Learn Skill Parameter Policies.md",
->>>>>>> 62bf8f8c10c314d8d9548ca38c73db8c8fed9067
+                "file": "personal-notes/phd/PhD Programs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,11 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-<<<<<<< HEAD
-                "file": "tutorials/README.md",
-=======
-                "file": "papers/robot-learning/Practice Makes Perfect_ Planning to Learn Skill Parameter Policies.md",
->>>>>>> 62bf8f8c10c314d8d9548ca38c73db8c8fed9067
+                "file": "personal-notes/phd/PhD Programs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,11 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-<<<<<<< HEAD
-                "file": "tutorials/README.md"
-=======
-                "file": "papers/robot-learning/Practice Makes Perfect_ Planning to Learn Skill Parameter Policies.md"
->>>>>>> 62bf8f8c10c314d8d9548ca38c73db8c8fed9067
+                "file": "personal-notes/phd/PhD Programs.md"
               }
             }
           },
@@ -190,63 +223,38 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "72b6e26a99c4271d",
+  "active": "3f7b1e61ae8f372a",
   "lastOpenFiles": [
-<<<<<<< HEAD
-    "personal-notes/Todo.md",
-    "tutorials/README.md",
-    "tutorials/Supervised Policy Learning for Real Robots.md",
     "personal-notes/phd/Personal Statement.md",
-    "personal-notes/phd/Grants.md",
     "personal-notes/phd/PhD Programs.md",
-    "personal-notes/phd/Recommendations.md",
+    "personal-notes/projects/Deskbot.md",
     "personal-notes/research/Comparison of Imitation Learning Algorithms on Real-Robot Bimanual Manipulation.md",
-    "papers/README.md",
-    "papers/imitation-learning/README.md",
-    "papers/robot-learning/Practice Makes Perfect_ Planning to Learn Skill Parameter Policies.md",
-    "papers/imitation-learning/A Comparison of Imitation Learning Algorithms for Bimanual Manipulation.md",
-=======
-    "papers/imitation-learning/A Comparison of Imitation Learning Algorithms for Bimanual Manipulation.md",
-    "papers/robot-learning/Practice Makes Perfect_ Planning to Learn Skill Parameter Policies.md",
-    "personal-notes/phd/PhD Programs.md",
-    "tutorials/Supervised Policy Learning for Real Robots.md",
-    "personal-notes/README.md",
-    "personal-notes/Todo.md",
-    "personal-notes/RIPL.md",
     "talks/README.md",
-    "papers/robot-learning/README.md",
-    "papers/imitation-learning/README.md",
+    "talks/Lerrel Pinto - On Building General-Purpose Home Robots.md",
+    "personal-notes/research/Steering.md",
+    "personal-notes/research/Emergenet.md",
+    "personal-notes/research/Video2Reward.md",
+    "talks/Yunzhu Li - Foundation Models for Robotic Manipulation.md",
+    "talks/Tom Silver - Neuro-Symbolic Learning for Bilevel Robot Planning.md",
     "papers/README.md",
-    "personal-notes/research/Comparison of Imitation Learning Algorithms on Real-Robot Bimanual Manipulation.md",
-    "bib.json",
+    "tutorials/README.md",
+    "personal-notes/Todo.md",
+    "tutorials/Supervised Policy Learning for Real Robots.md",
     "personal-notes/phd/Grants.md",
-    "personal-notes/phd/Personal Statement.md",
->>>>>>> 62bf8f8c10c314d8d9548ca38c73db8c8fed9067
+    "personal-notes/phd/Recommendations.md",
+    "papers/imitation-learning/README.md",
+    "papers/robot-learning/Practice Makes Perfect_ Planning to Learn Skill Parameter Policies.md",
+    "papers/imitation-learning/A Comparison of Imitation Learning Algorithms for Bimanual Manipulation.md",
     "personal-notes/projects/Duckiebot Arm.md",
     "personal-notes/projects/Personal Website.md",
     "README.md",
-    "personal-notes/projects/Deskbot.md",
-<<<<<<< HEAD
-    "talks/Tom Silver - Neuro-Symbolic Learning for Bilevel Robot Planning.md",
     "papers/robot-learning/README.md",
-=======
-    "tutorials/README.md",
-    "talks/Tom Silver - Neuro-Symbolic Learning for Bilevel Robot Planning.md",
->>>>>>> 62bf8f8c10c314d8d9548ca38c73db8c8fed9067
-    "personal-notes/research/Emergenet.md",
-    "personal-notes/research/Steering.md",
     "papers/imitation-learning",
-    "personal-notes/research/Video2Reward.md",
     "personal-notes/projects/UR5 Teleoperation.md",
     "personal-notes/learning/Learning.md",
-<<<<<<< HEAD
-    "templates/README.md",
-    "talks/README.md",
-=======
-    "personal-notes/phd/Recommendations.md",
->>>>>>> 62bf8f8c10c314d8d9548ca38c73db8c8fed9067
     "papers/robot-learning",
     "tutorials",
+    "bib.json",
     "sync.sh",
     "personal-notes/research",
     "personal-notes/projects",
