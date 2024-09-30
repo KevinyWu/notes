@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e0e3b5b880b93a94",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "4eccdd1484624d1b",
             "type": "leaf",
             "state": {
@@ -37,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "personal-notes/projects/Deskbot.md",
+                "file": "personal-notes/phd/PhD Programs.md",
                 "mode": "source",
                 "source": false
               }
@@ -121,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "personal-notes/phd/Personal Statement.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "personal-notes/phd/Personal Statement.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "personal-notes/phd/Personal Statement.md"
               }
             }
           },
@@ -210,34 +198,34 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "e0e3b5b880b93a94",
+  "active": "4eccdd1484624d1b",
   "lastOpenFiles": [
-    "templates/README.md",
+    "personal-notes/research/Comparison of Imitation Learning Algorithms on Real-Robot Bimanual Manipulation.md",
+    "personal-notes/phd/PhD Programs.md",
+    "personal-notes/phd/Personal Statement.md",
+    "personal-notes/phd/Ideas.md",
+    "personal-notes/projects/Personal Website.md",
+    "personal-notes/projects/Deskbot.md",
+    "personal-notes/phd/Grants.md",
+    "personal-notes/research/Emergenet.md",
+    "personal-notes/research/Steering.md",
+    "personal-notes/research/Video2Reward.md",
+    "personal-notes/README.md",
+    "personal-notes/RIPL.md",
+    "personal-notes/Todo.md",
     "README.md",
+    "templates/README.md",
     "templates/Paper.md",
     "talks/README.md",
     "Practice Makes Perfect_ Planning to Learn Skill Parameter Policies.md",
-    "personal-notes/research/Comparison of Imitation Learning Algorithms on Real-Robot Bimanual Manipulation.md",
-    "personal-notes/projects/Deskbot.md",
-    "personal-notes/phd/Personal Statement.md",
     "papers/imitation-learning/A Comparison of Imitation Learning Algorithms for Bimanual Manipulation.md",
     "papers/imitation-learning/README.md",
     "talks/Tom Silver - Neuro-Symbolic Learning for Bilevel Robot Planning.md",
     "talks/Yunzhu Li - Foundation Models for Robotic Manipulation.md",
-    "personal-notes/phd/PhD Programs.md",
     "talks/Lerrel Pinto - On Building General-Purpose Home Robots.md",
-    "personal-notes/research/Steering.md",
-    "personal-notes/research/Emergenet.md",
-    "personal-notes/research/Video2Reward.md",
     "papers/README.md",
     "tutorials/README.md",
-    "personal-notes/Todo.md",
     "tutorials/Supervised Policy Learning for Real Robots.md",
-    "personal-notes/phd/Grants.md",
-    "personal-notes/phd/Recommendations.md",
-    "papers/robot-learning/Practice Makes Perfect_ Planning to Learn Skill Parameter Policies.md",
-    "personal-notes/projects/Duckiebot Arm.md",
-    "personal-notes/projects/Personal Website.md",
     "papers/imitation-learning",
     "papers/robot-learning",
     "tutorials",
