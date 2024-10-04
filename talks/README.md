@@ -1,5 +1,10 @@
 # Talks
 
+## [2022-03-28] Antonio Loquercio - Learning Vision-Based High-Speed Flight
+
+#tags
+[[Antonio Loquercio - Learning Vision-Based High-Speed Flight]]
+
 ## [2024-04-06] Tom Silver - Neuro-Symbolic Learning for Bilevel Robot Planning
 
 #robot-learning

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "personal-notes/Todo.md",
+                "file": "papers/imitation-learning/A Comparison of Imitation Learning Algorithms for Bimanual Manipulation.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,18 +37,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "personal-notes/research/Comparison of Imitation Learning Algorithms on Real-Robot Bimanual Manipulation.md",
+                "file": "talks/README.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "75e88a763eadd1f2",
         "type": "tabs",
         "children": [
+          {
+            "id": "c74dbb1bd5766e92",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "talks/Antonio Loquercio - Learning Vision-Based High-Speed Flight.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
           {
             "id": "8b9543e1b634bd5e",
             "type": "leaf",
@@ -72,8 +85,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "63760bbaba5d7436",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "personal-notes/learning/Quick Notes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -139,7 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "personal-notes/Todo.md",
+                "file": "personal-notes/learning/Quick Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +182,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "personal-notes/Todo.md",
+                "file": "personal-notes/learning/Quick Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +205,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "personal-notes/Todo.md"
+                "file": "personal-notes/learning/Quick Notes.md"
               }
             }
           },
@@ -228,13 +254,21 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "4eccdd1484624d1b",
+  "active": "63760bbaba5d7436",
   "lastOpenFiles": [
-    "personal-notes/phd/Recommendations.md",
-    "personal-notes/phd/PhD Programs.md",
-    "personal-notes/research/Comparison of Imitation Learning Algorithms on Real-Robot Bimanual Manipulation.md",
+    "talks/README.md",
+    "personal-notes/learning/Quick Notes.md",
     "personal-notes/phd/Research Statement.md",
+    "talks/Antonio Loquercio - Learning Vision-Based High-Speed Flight.md",
+    "personal-notes/learning/Learning.md",
     "personal-notes/phd/Essays.md",
+    "personal-notes/phd/PhD Programs.md",
+    "templates/Talk.md",
+    "personal-notes/research/Comparison of Imitation Learning Algorithms on Real-Robot Bimanual Manipulation.md",
+    "talks/Untitled.md",
+    "papers/imitation-learning/A Comparison of Imitation Learning Algorithms for Bimanual Manipulation.md",
+    "personal-notes/Todo.md",
+    "personal-notes/phd/Recommendations.md",
     "personal-notes/phd/Khurram.md",
     "personal-notes/phd/Ideas.md",
     "personal-notes/phd/Personal Statement.md",
@@ -246,16 +280,8 @@
     "personal-notes/research/Video2Reward.md",
     "personal-notes/README.md",
     "personal-notes/RIPL.md",
-    "personal-notes/Todo.md",
     "README.md",
     "templates/README.md",
-    "templates/Paper.md",
-    "talks/README.md",
-    "Practice Makes Perfect_ Planning to Learn Skill Parameter Policies.md",
-    "papers/imitation-learning/A Comparison of Imitation Learning Algorithms for Bimanual Manipulation.md",
-    "papers/imitation-learning/README.md",
-    "talks/Tom Silver - Neuro-Symbolic Learning for Bilevel Robot Planning.md",
-    "talks/Yunzhu Li - Foundation Models for Robotic Manipulation.md",
     "papers/imitation-learning",
     "papers/robot-learning",
     "tutorials",
