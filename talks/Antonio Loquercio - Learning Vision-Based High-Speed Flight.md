@@ -37,7 +37,7 @@
             - $DW(f(M), f(L))\leq DW(M, L)$
             - Task and sensor dependent
             - Ex. $f(img)$ is the depth map, so real and sim look more similar
-    - **Simulator: [Flightmare](https://github.com/uzh-rpg/flightmare?tab=readme-ov-file) **
+    - **Simulator: [Flightmare](https://github.com/uzh-rpg/flightmare?tab=readme-ov-file)**
         - Uses open-source environments from Unity community
         - 230K samples - one sample includes:
             - Stereo image pair

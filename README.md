@@ -4,6 +4,19 @@ When I started learning robotics, I was quickly overwhelmed by the amount of inf
 
 I've created simple note-taking system to streamline my learning. It uses Obsidian, Zotero, and GitHub for (free) syncing. I've included instructions below for setting up these notes locally and using the system for your own notes.
 
+## Contents
+
+- [books](https://github.com/KevinyWu/notes/tree/main/books)
+    - robot-dynamics-and-control
+- [courses](https://github.com/KevinyWu/notes/tree/main/courses)
+    - CS285-deep-reinforcement-learning
+    - MIT6.4210-robotic-manipulation
+- [papers](https://github.com/KevinyWu/notes/tree/main/papers)
+    - [autonomous-flight](https://github.com/KevinyWu/notes/tree/main/papers/autonomous-flight)
+    - [imitation-learning](https://github.com/KevinyWu/notes/tree/main/papers/imitation-learning)
+- [talks](https://github.com/KevinyWu/notes/tree/main/talks)
+- [tutorials](https://github.com/KevinyWu/notes/tree/main/tutorials)
+
 ## Setup
 
 1. Download [Obsidian](https://obsidian.md/) and [Zotero](https://www.zotero.org/).
