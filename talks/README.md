@@ -2,8 +2,11 @@
 
 ## [2022-03-28] Antonio Loquercio - Learning Vision-Based High-Speed Flight
 
-#tags
+#imitation-learning
+#autonomous-flight
 [[Antonio Loquercio - Learning Vision-Based High-Speed Flight]]
+- Imitation learning with simulation training is enough for zero-shot real world high-speed agile flight
+- Need some abstraction function to reduce gap between sim and real
 
 ## [2024-04-06] Tom Silver - Neuro-Symbolic Learning for Bilevel Robot Planning
 

@@ -32,7 +32,9 @@
     "robo": 14,
     "imitation-learning": 15,
     "supervised": 16,
-    "behavioral-cloning": 17
+    "behavioral-cloning": 17,
+    "agile-flight": 18,
+    "autonomous-flight": 19
   },
   "_version": 3
 }
