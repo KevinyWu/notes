@@ -32,18 +32,6 @@
             }
           },
           {
-            "id": "63760bbaba5d7436",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "papers/autonomous-flight/Autonomous Drone Racing - A Survey.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "df0bdd10ea2348e4",
             "type": "leaf",
             "state": {
@@ -68,7 +56,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "papers/autonomous-flight/Autonomous Drone Racing - A Survey.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -140,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "papers/autonomous-flight/Autonomous Drone Racing - A Survey.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "papers/autonomous-flight/Autonomous Drone Racing - A Survey.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "papers/autonomous-flight/Autonomous Drone Racing - A Survey.md"
+                "file": "README.md"
               }
             }
           },
@@ -231,21 +219,21 @@
   },
   "active": "924d26cfdd94fe7c",
   "lastOpenFiles": [
-    "papers/autonomous-flight/README.md",
     "papers/autonomous-flight/Autonomous Drone Racing - A Survey.md",
+    "personal-notes/phd/PhD Programs.md",
+    "personal-notes/phd/Research Statement.md",
+    "personal-notes/learning/Quick Notes.md",
+    "papers/autonomous-flight/README.md",
+    "papers/README.md",
     "papers/imitation-learning/A Comparison of Imitation Learning Algorithms for Bimanual Manipulation.md",
     "talks/Antonio Loquercio - Learning Vision-Based High-Speed Flight.md",
     "tutorials/README.md",
     "tutorials/Supervised Policy Learning for Real Robots.md",
     "talks/README.md",
     "papers/imitation-learning/README.md",
-    "papers/README.md",
     "personal-notes/research/Comparison of Imitation Learning Algorithms on Real-Robot Bimanual Manipulation.md",
     "talks/Tom Silver - Neuro-Symbolic Learning for Bilevel Robot Planning.md",
     "personal-notes/research/Video2Reward.md",
-    "personal-notes/learning/Quick Notes.md",
-    "personal-notes/phd/PhD Programs.md",
-    "personal-notes/phd/Research Statement.md",
     "personal-notes/learning/Learning.md",
     "README.md",
     "personal-notes/phd/Essays.md",

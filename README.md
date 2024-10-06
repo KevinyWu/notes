@@ -6,16 +6,16 @@ I've created simple note-taking system to streamline my learning. It uses Obsidi
 
 ## Contents
 
-- [books](https://github.com/KevinyWu/notes/tree/main/books)
-    - robot-dynamics-and-control
-- [courses](https://github.com/KevinyWu/notes/tree/main/courses)
-    - CS285-deep-reinforcement-learning
-    - MIT6.4210-robotic-manipulation
-- [papers](https://github.com/KevinyWu/notes/tree/main/papers)
-    - [autonomous-flight](https://github.com/KevinyWu/notes/tree/main/papers/autonomous-flight)
-    - [imitation-learning](https://github.com/KevinyWu/notes/tree/main/papers/imitation-learning)
-- [talks](https://github.com/KevinyWu/notes/tree/main/talks)
-- [tutorials](https://github.com/KevinyWu/notes/tree/main/tutorials)
+- [Books](https://github.com/KevinyWu/notes/tree/main/books)
+    - Robot Dynamics and Control
+- [Courses](https://github.com/KevinyWu/notes/tree/main/courses)
+    - CS285 - Deep Reinforcement Learning
+    - MIT 6.4210 - Robotic Manipulation
+- [Papers](https://github.com/KevinyWu/notes/tree/main/papers)
+    - [Autonomous Flight](https://github.com/KevinyWu/notes/tree/main/papers/autonomous-flight)
+    - [Imitation Learning](https://github.com/KevinyWu/notes/tree/main/papers/imitation-learning)
+- [Talks](https://github.com/KevinyWu/notes/tree/main/talks)
+- [Tutorials](https://github.com/KevinyWu/notes/tree/main/tutorials)
 
 ## Setup
 

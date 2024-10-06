@@ -3,4 +3,4 @@
 I have organized my paper notes into rough sections. Each subdirectory contains a README which summarizes each paper in that subdirectory and links to the full notes.
 
 - [[papers/imitation-learning/README|Imitation Learning]]
-- [[papers/autonomous-flight/README|README]]
+- [[papers/autonomous-flight/README|Autonomous Flight]]
