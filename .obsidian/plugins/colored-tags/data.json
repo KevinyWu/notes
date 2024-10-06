@@ -34,7 +34,8 @@
     "supervised": 16,
     "behavioral-cloning": 17,
     "agile-flight": 18,
-    "autonomous-flight": 19
+    "autonomous-flight": 19,
+    "reinforcement-learning": 20
   },
   "_version": 3
 }

@@ -4,28 +4,8 @@
     "type": "split",
     "children": [
       {
-        "id": "2ecb1ed6458515d4",
-        "type": "tabs",
-        "dimension": 56.710628394103956,
-        "children": [
-          {
-            "id": "10d6b978daca679c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
         "id": "75e88a763eadd1f2",
         "type": "tabs",
-        "dimension": 43.289371605896044,
         "children": [
           {
             "id": "8b9543e1b634bd5e",
@@ -45,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "personal-notes/learning/Learning.md",
+                "file": "personal-notes/learning/Quick Notes.md",
                 "mode": "source",
                 "source": false
               }
@@ -57,14 +37,44 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "personal-notes/learning/Quick Notes.md",
+                "file": "papers/autonomous-flight/Autonomous Drone Racing - A Survey.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "df0bdd10ea2348e4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "personal-notes/phd/PhD Programs.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
+      },
+      {
+        "id": "9cb332a049aa7635",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "924d26cfdd94fe7c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "papers/autonomous-flight/Autonomous Drone Racing - A Survey.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -130,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "papers/autonomous-flight/Autonomous Drone Racing - A Survey.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "papers/autonomous-flight/Autonomous Drone Racing - A Survey.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "papers/autonomous-flight/Autonomous Drone Racing - A Survey.md"
               }
             }
           },
@@ -219,39 +229,39 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "10d6b978daca679c",
+  "active": "924d26cfdd94fe7c",
   "lastOpenFiles": [
-    "personal-notes/learning/Learning.md",
-    "personal-notes/phd/Essays.md",
-    "personal-notes/learning/Quick Notes.md",
-    "README.md",
-    "talks/Antonio Loquercio - Learning Vision-Based High-Speed Flight.md",
-    "papers/README.md",
-    "papers/imitation-learning/README.md",
     "papers/autonomous-flight/README.md",
     "papers/autonomous-flight/Autonomous Drone Racing - A Survey.md",
     "papers/imitation-learning/A Comparison of Imitation Learning Algorithms for Bimanual Manipulation.md",
+    "talks/Antonio Loquercio - Learning Vision-Based High-Speed Flight.md",
+    "tutorials/README.md",
+    "tutorials/Supervised Policy Learning for Real Robots.md",
     "talks/README.md",
-    "papers/autonomous-flight",
+    "papers/imitation-learning/README.md",
+    "papers/README.md",
+    "personal-notes/research/Comparison of Imitation Learning Algorithms on Real-Robot Bimanual Manipulation.md",
+    "talks/Tom Silver - Neuro-Symbolic Learning for Bilevel Robot Planning.md",
+    "personal-notes/research/Video2Reward.md",
+    "personal-notes/learning/Quick Notes.md",
     "personal-notes/phd/PhD Programs.md",
+    "personal-notes/phd/Research Statement.md",
+    "personal-notes/learning/Learning.md",
+    "README.md",
+    "personal-notes/phd/Essays.md",
+    "papers/autonomous-flight",
     "talks/img/loquercio-agile-flight 1.png",
     "img/locquercio-agile-flight.md",
     "img",
     "talks/img",
-    "personal-notes/phd/Research Statement.md",
     "talks/img/loquercio-agile-flight.png",
     "templates/Talk.md",
-    "personal-notes/research/Comparison of Imitation Learning Algorithms on Real-Robot Bimanual Manipulation.md",
     "talks/Untitled.md",
     "personal-notes/Todo.md",
     "personal-notes/phd/Recommendations.md",
     "personal-notes/phd/Khurram.md",
     "personal-notes/phd/Ideas.md",
     "personal-notes/phd/Personal Statement.md",
-    "personal-notes/phd/Grants.md",
-    "personal-notes/projects/Personal Website.md",
-    "personal-notes/projects/Deskbot.md",
-    "personal-notes/research/Emergenet.md",
     "papers/imitation-learning",
     "papers/robot-learning",
     "tutorials",
