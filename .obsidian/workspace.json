@@ -4,23 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "75e88a763eadd1f2",
+        "id": "13a1a05437192806",
         "type": "tabs",
         "children": [
           {
-            "id": "8b9543e1b634bd5e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "personal-notes/phd/Research Statement.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "88734732df74cbbd",
+            "id": "56fe1bf9ba6eabda",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -32,37 +20,19 @@
             }
           },
           {
-            "id": "df0bdd10ea2348e4",
+            "id": "e050c4c3936d6c9d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "personal-notes/phd/PhD Programs.md",
+                "file": "personal-notes/learning/Learning.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
-      },
-      {
-        "id": "9cb332a049aa7635",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "924d26cfdd94fe7c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "tutorials/README.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -128,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tutorials/README.md",
+                "file": "personal-notes/learning/Learning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tutorials/README.md",
+                "file": "personal-notes/learning/Learning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tutorials/README.md"
+                "file": "personal-notes/learning/Learning.md"
               }
             }
           },
@@ -217,39 +187,39 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "924d26cfdd94fe7c",
+  "active": "e050c4c3936d6c9d",
   "lastOpenFiles": [
-    "tutorials/Supervised Policy Learning for Real Robots.md",
-    "papers/README.md",
-    "papers/autonomous-flight/README.md",
-    "README.md",
-    "papers/autonomous-flight/Autonomous Drone Racing - A Survey.md",
     "personal-notes/phd/PhD Programs.md",
-    "personal-notes/phd/Research Statement.md",
     "personal-notes/learning/Quick Notes.md",
-    "papers/imitation-learning/A Comparison of Imitation Learning Algorithms for Bimanual Manipulation.md",
-    "talks/Antonio Loquercio - Learning Vision-Based High-Speed Flight.md",
-    "tutorials/README.md",
-    "talks/README.md",
-    "papers/imitation-learning/README.md",
-    "personal-notes/research/Comparison of Imitation Learning Algorithms on Real-Robot Bimanual Manipulation.md",
-    "talks/Tom Silver - Neuro-Symbolic Learning for Bilevel Robot Planning.md",
-    "personal-notes/research/Video2Reward.md",
     "personal-notes/learning/Learning.md",
     "personal-notes/phd/Essays.md",
+    "personal-notes/phd/Ideas.md",
+    "personal-notes/phd/Recommendations.md",
+    "personal-notes/phd/Personal Statement.md",
+    "personal-notes/phd/Research Statement.md",
+    "personal-notes/research/Emergenet.md",
+    "personal-notes/research/Comparison of Imitation Learning Algorithms on Real-Robot Bimanual Manipulation.md",
+    "personal-notes/research/Steering.md",
+    "papers/autonomous-flight/Autonomous Drone Racing - A Survey.md",
+    "personal-notes/phd/Khurram.md",
+    "personal-notes/Todo.md",
+    "personal-notes/RIPL.md",
+    "personal-notes/README.md",
+    "personal-notes/research/Video2Reward.md",
+    "personal-notes/projects/Duckiebot Arm.md",
+    "personal-notes/projects/Deskbot.md",
+    "papers/imitation-learning/A Comparison of Imitation Learning Algorithms for Bimanual Manipulation.md",
+    "papers/autonomous-flight/README.md",
+    "papers/README.md",
+    "tutorials/Supervised Policy Learning for Real Robots.md",
+    "tutorials/README.md",
+    "README.md",
+    "talks/Antonio Loquercio - Learning Vision-Based High-Speed Flight.md",
     "papers/autonomous-flight",
     "talks/img/loquercio-agile-flight 1.png",
-    "img/locquercio-agile-flight.md",
     "img",
     "talks/img",
     "talks/img/loquercio-agile-flight.png",
-    "templates/Talk.md",
-    "talks/Untitled.md",
-    "personal-notes/Todo.md",
-    "personal-notes/phd/Recommendations.md",
-    "personal-notes/phd/Khurram.md",
-    "personal-notes/phd/Ideas.md",
-    "personal-notes/phd/Personal Statement.md",
     "papers/imitation-learning",
     "papers/robot-learning",
     "tutorials",
