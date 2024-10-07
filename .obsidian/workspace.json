@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "13a1a05437192806",
+        "id": "fcd1f39127889110",
         "type": "tabs",
         "children": [
           {
-            "id": "e050c4c3936d6c9d",
+            "id": "6c79f33141b57d3f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "personal-notes/phd/PhD Programs.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "personal-notes/phd/PhD Programs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "personal-notes/phd/PhD Programs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "personal-notes/phd/PhD Programs.md"
-              }
+              "state": {}
             }
           },
           {
@@ -174,34 +166,34 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "e050c4c3936d6c9d",
+  "active": "6c79f33141b57d3f",
   "lastOpenFiles": [
-    "personal-notes/phd/Recommendations.md",
-    "personal-notes/phd/Essays.md",
+    "personal-notes/research/Video2Reward.md",
     "personal-notes/phd/PhD Programs.md",
+    "personal-notes/phd/Essays.md",
     "personal-notes/phd/Khurram.md",
+    "personal-notes/phd/Ideas.md",
+    "personal-notes/projects/UR5 Teleoperation.md",
+    "personal-notes/projects/Duckiebot Arm.md",
+    "personal-notes/projects/Deskbot.md",
+    "personal-notes/README.md",
+    "personal-notes/RIPL.md",
+    "personal-notes/research/Comparison of Imitation Learning Algorithms on Real-Robot Bimanual Manipulation.md",
+    "personal-notes/phd/Recommendations.md",
     "personal-notes/learning/Quick Notes.md",
     "personal-notes/learning/Learning.md",
-    "personal-notes/research/Comparison of Imitation Learning Algorithms on Real-Robot Bimanual Manipulation.md",
-    "personal-notes/phd/Ideas.md",
     "personal-notes/phd/Personal Statement.md",
     "personal-notes/phd/Research Statement.md",
     "personal-notes/research/Emergenet.md",
     "personal-notes/research/Steering.md",
     "papers/autonomous-flight/Autonomous Drone Racing - A Survey.md",
     "personal-notes/Todo.md",
-    "personal-notes/RIPL.md",
-    "personal-notes/README.md",
-    "personal-notes/research/Video2Reward.md",
-    "personal-notes/projects/Duckiebot Arm.md",
-    "personal-notes/projects/Deskbot.md",
     "papers/imitation-learning/A Comparison of Imitation Learning Algorithms for Bimanual Manipulation.md",
     "papers/autonomous-flight/README.md",
     "papers/README.md",
     "tutorials/Supervised Policy Learning for Real Robots.md",
     "tutorials/README.md",
     "README.md",
-    "talks/Antonio Loquercio - Learning Vision-Based High-Speed Flight.md",
     "papers/autonomous-flight",
     "talks/img/loquercio-agile-flight 1.png",
     "img",
