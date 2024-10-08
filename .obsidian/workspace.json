@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "personal-notes/phd/Essays.md",
+                "file": "personal-notes/phd/PhD Programs.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "personal-notes/phd/Essays.md",
+                "file": "personal-notes/phd/PhD Programs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "personal-notes/phd/Essays.md",
+                "file": "personal-notes/phd/PhD Programs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "personal-notes/phd/Essays.md"
+                "file": "personal-notes/phd/PhD Programs.md"
               }
             }
           },
@@ -177,7 +177,12 @@
   },
   "active": "6c79f33141b57d3f",
   "lastOpenFiles": [
+    "personal-notes/phd/Recommendations.md",
     "personal-notes/phd/Ideas.md",
+    "personal-notes/phd/Personal Statement.md",
+    "personal-notes/phd/PhD Programs.md",
+    "personal-notes/phd/Essays.md",
+    "personal-notes/phd/Khurram.md",
     "personal-notes/phd/Research Statement.md",
     "personal-notes/research/BC Benchmark.md",
     "personal-notes/projects/Deskbot.md",
@@ -186,12 +191,7 @@
     "personal-notes/research/Progressor.md",
     "personal-notes/research/Steering.md",
     "personal-notes/research/Emergenet.md",
-    "personal-notes/phd/PhD Programs.md",
     "tutorials/Supervised Policy Learning for Real Robots.md",
-    "personal-notes/phd/Recommendations.md",
-    "personal-notes/phd/Personal Statement.md",
-    "personal-notes/phd/Khurram.md",
-    "personal-notes/phd/Essays.md",
     "personal-notes/learning/Quick Notes.md",
     "personal-notes/learning/Learning.md",
     "personal-notes/projects/UR5 Teleoperation.md",
