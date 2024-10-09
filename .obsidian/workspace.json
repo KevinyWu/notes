@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "personal-notes/phd/PhD Programs.md",
+                "file": "personal-notes/phd/Recommendations.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "personal-notes/phd/PhD Programs.md",
+                "file": "personal-notes/phd/Recommendations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "personal-notes/phd/PhD Programs.md",
+                "file": "personal-notes/phd/Recommendations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "personal-notes/phd/PhD Programs.md"
+                "file": "personal-notes/phd/Recommendations.md"
               }
             }
           },
@@ -177,6 +177,7 @@
   },
   "active": "6c79f33141b57d3f",
   "lastOpenFiles": [
+    "personal-notes/phd/PhD Programs.md",
     "personal-notes/projects/Deskbot.md",
     "personal-notes/learning/Quick Notes.md",
     "personal-notes/phd/Essays.md",
@@ -184,7 +185,6 @@
     "personal-notes/phd/Research Statement.md",
     "personal-notes/phd/Recommendations.md",
     "personal-notes/phd/Personal Statement.md",
-    "personal-notes/phd/PhD Programs.md",
     "personal-notes/phd/Khurram.md",
     "personal-notes/research/BC Benchmark.md",
     "personal-notes/research/Autonomous Flight.md",
