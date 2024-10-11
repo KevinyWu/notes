@@ -35,3 +35,9 @@
 [[Yunzhu Li - Foundation Models for Robotic Manipulation]]
 - **VoxPoser**: Code is multilingual interface between humans, foundation models, and robot
 - Output may not always be perfect, but should always generate something reasonable!
+
+## [2024-10-11] Antonio Loquercio - Simulation-What Made Us Intelligent Will Make Our Robots Intelligent
+
+#tags
+[[Antonio Loquercio - Simulation-What Made Us Intelligent Will Make Our Robots Intelligent]]
+- I
