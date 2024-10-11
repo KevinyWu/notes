@@ -4,22 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "fcd1f39127889110",
+        "id": "84b1f7ec5a0fd4fc",
         "type": "tabs",
         "children": [
           {
-            "id": "6c79f33141b57d3f",
+            "id": "6c5feede7a9a1791",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "personal-notes/phd/PhD Programs.md",
+                "file": "personal-notes/phd/Recommendations.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cb22a64cc1642c73",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "personal-notes/phd/Essays.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "personal-notes/phd/PhD Programs.md",
+                "file": "personal-notes/phd/Essays.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "personal-notes/phd/PhD Programs.md",
+                "file": "personal-notes/phd/Essays.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "personal-notes/phd/PhD Programs.md"
+                "file": "personal-notes/phd/Essays.md"
               }
             }
           },
@@ -175,31 +188,31 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "6c79f33141b57d3f",
+  "active": "cb22a64cc1642c73",
   "lastOpenFiles": [
     "personal-notes/phd/Recommendations.md",
-    "personal-notes/phd/PhD Programs.md",
-    "personal-notes/projects/Deskbot.md",
-    "personal-notes/learning/Quick Notes.md",
     "personal-notes/phd/Essays.md",
     "personal-notes/phd/Ideas.md",
-    "personal-notes/phd/Research Statement.md",
-    "personal-notes/phd/Personal Statement.md",
     "personal-notes/phd/Khurram.md",
-    "personal-notes/research/BC Benchmark.md",
-    "personal-notes/research/Autonomous Flight.md",
-    "personal-notes/research/Contrastive RL with Exploration.md",
-    "personal-notes/research/Progressor.md",
-    "personal-notes/research/Steering.md",
+    "personal-notes/phd/Personal Statement.md",
+    "personal-notes/phd/Research Statement.md",
+    "personal-notes/phd/PhD Programs.md",
+    "personal-notes/Todo.md",
     "personal-notes/research/Emergenet.md",
-    "tutorials/Supervised Policy Learning for Real Robots.md",
+    "personal-notes/projects/Autonomous Flight.md",
+    "personal-notes/research/Steering.md",
+    "personal-notes/research/Contrastive RL with Exploration.md",
+    "personal-notes/research/BC Benchmark.md",
+    "personal-notes/learning/Quick Notes.md",
     "personal-notes/learning/Learning.md",
-    "personal-notes/projects/UR5 Teleoperation.md",
+    "personal-notes/research/Progressor.md",
+    "personal-notes/projects/Deskbot.md",
     "personal-notes/projects/Duckiebot Arm.md",
+    "personal-notes/projects/UR5 Teleoperation.md",
+    "tutorials/Supervised Policy Learning for Real Robots.md",
     "personal-notes/README.md",
     "personal-notes/RIPL.md",
     "papers/autonomous-flight/Autonomous Drone Racing - A Survey.md",
-    "personal-notes/Todo.md",
     "papers/imitation-learning/A Comparison of Imitation Learning Algorithms for Bimanual Manipulation.md",
     "papers/autonomous-flight/README.md",
     "papers/README.md",
