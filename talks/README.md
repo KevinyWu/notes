@@ -4,13 +4,13 @@
 
 #imitation-learning
 #autonomous-flight
+#sim2real
 [[Antonio Loquercio - Learning Vision-Based High-Speed Flight]]
 - Imitation learning with simulation training is enough for zero-shot real world high-speed agile flight
 - Need some abstraction function to reduce gap between sim and real
 
 ## [2024-04-06] Tom Silver - Neuro-Symbolic Learning for Bilevel Robot Planning
 
-#robot-learning
 #tamp
 #unsupervised
 [[Tom Silver - Neuro-Symbolic Learning for Bilevel Robot Planning]]
@@ -21,7 +21,6 @@
 ## [2024-04-09] Lerrel Pinto - On Building General-Purpose Home Robots
 
 #foundation-models
-#robot-learning
 #imitation-learning
 [[Lerrel Pinto - On Building General-Purpose Home Robots]]
 - **OK-Robot**: one-shot pick-and-place using existing pre-trained models: scan room with RGB-D, use **VoxelMap** algorithm to make a 3D point cloud, **OWL-ViT** to create object masks point cloud, **CLIP** image encoder gets image representation that maps to a text representation
@@ -30,7 +29,7 @@
 
 ## [2024-08-08] Yunzhu Li - Foundation Models for Robotic Manipulation
 
-#robot-learning
+#3d-representation
 #foundation-models
 [[Yunzhu Li - Foundation Models for Robotic Manipulation]]
 - **VoxPoser**: Code is multilingual interface between humans, foundation models, and robot
@@ -38,6 +37,11 @@
 
 ## [2024-10-11] Antonio Loquercio - Simulation-What Made Us Intelligent Will Make Our Robots Intelligent
 
-#tags
+#sim2real
+#3d-representation
+#learning-from-video
+#tactile
 [[Antonio Loquercio - Simulation-What Made Us Intelligent Will Make Our Robots Intelligent]]
-- I
+- Sensorimotor simulation enhances both high-level skills (planning) and low-level skills (motor control)
+- Move away from physics-based simulators because a perfect simulator is not feasible or scalable, and include senses beyond vision
+- Robot simulation is a flexible medium between learning from human video and real robots

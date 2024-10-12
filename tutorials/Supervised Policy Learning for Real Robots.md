@@ -1,6 +1,5 @@
 # Supervised Policy Learning for Real Robots
 
-#robot-learning
 #imitation-learning
 #behavioral-cloning
 #supervised

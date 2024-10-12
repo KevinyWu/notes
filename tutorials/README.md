@@ -2,8 +2,8 @@
 
 ## [2024-07-19] Supervised Policy Learning for Real Robots
 
-#robot-learning
 #imitation-learning
+#behavioral-cloning
 #supervised
 [[Supervised Policy Learning for Real Robots]]
 - Behavioral Cloning (BC) shows promise by enabling robots to perform complex tasks using RGB inputs without explicit state estimation or dynamics

@@ -1,6 +1,6 @@
 # Yunzhu Li - Foundation Models for Robotic Manipulation
 
-#robot-learning
+#3d-representation
 #foundation-models
 
 [[talks/README#[2024-08-08] Yunzhu Li - Foundation Models for Robotic Manipulation|README]]

@@ -35,7 +35,13 @@
     "behavioral-cloning": 17,
     "agile-flight": 18,
     "autonomous-flight": 19,
-    "reinforcement-learning": 20
+    "reinforcement-learning": 20,
+    "sim2real": 21,
+    "nerf": 22,
+    "tactile": 23,
+    "learning-from-video": 24,
+    "3D": 25,
+    "3d-representation": 26
   },
   "_version": 3
 }

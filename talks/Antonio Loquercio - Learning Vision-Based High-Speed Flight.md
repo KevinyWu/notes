@@ -2,6 +2,7 @@
 
 #imitation-learning
 #autonomous-flight
+#sim2real
 
 [[talks/README#[2022-03-28] Antonio Loquercio - Learning Vision-Based High-Speed Flight|README]]
 
