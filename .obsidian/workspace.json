@@ -56,7 +56,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "personal-notes/emails/Rachel Holladay.md",
+                "file": "personal-notes/phd/emails/Rachel Holladay.md",
                 "mode": "source",
                 "source": false
               }
@@ -68,7 +68,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "personal-notes/phd/PhD Programs.md",
+                "file": "personal-notes/phd/Recommendations.md",
                 "mode": "source",
                 "source": false
               }
@@ -153,7 +153,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "personal-notes/phd/PhD Programs.md",
+                "file": "personal-notes/phd/Recommendations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -170,7 +170,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "personal-notes/phd/PhD Programs.md",
+                "file": "personal-notes/phd/Recommendations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -193,7 +193,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "personal-notes/phd/PhD Programs.md"
+                "file": "personal-notes/phd/Recommendations.md"
               }
             }
           },
@@ -245,22 +245,22 @@
   },
   "active": "b972240ca3d77224",
   "lastOpenFiles": [
+    "personal-notes/phd/PhD Programs.md",
     "personal-notes/phd/Recommendations.md",
     "personal-notes/research/BC Benchmark.md",
     "personal-notes/research/Contrastive RL with Exploration.md",
     "personal-notes/phd/Ideas.md",
-    "personal-notes/emails/Rachel Holladay.md",
+    "personal-notes/phd/emails/Rachel Holladay.md",
     "talks/Rachel Holladay - Leveraging Mechanics for Multi-step Robotic Manipulation Planning.md",
     "talks/Antonio Loquercio - Simulation-What Made Us Intelligent Will Make Our Robots Intelligent.md",
     "talks/Antonio Loquercio - Learning Vision-Based High-Speed Flight.md",
     "talks/Lerrel Pinto - On Building General-Purpose Home Robots.md",
-    "personal-notes/phd/PhD Programs.md",
     "personal-notes/phd/Essays.md",
     "talks/Saurabh Gupta - Robot Learning by Understanding Egocentric Videos.md",
     "talks/README.md",
-    "personal-notes/emails/Binghao Huang.md",
-    "personal-notes/emails/Antonio Loquercio.md",
-    "personal-notes/emails/Kris Hauser.md",
+    "personal-notes/phd/emails/Binghao Huang.md",
+    "personal-notes/phd/emails/Antonio Loquercio.md",
+    "personal-notes/phd/emails/Kris Hauser.md",
     "personal-notes/phd/Research Statement.md",
     "personal-notes/phd/Personal Statement.md",
     "papers/sim2real/README.md",
@@ -282,7 +282,7 @@
     "papers/3d-representation/img/tarf.png",
     "papers/3d-representation/img",
     "papers/3d-representation",
-    "personal-notes/emails",
+    "personal-notes/phd/emails",
     "papers/sim2real",
     "papers/autonomous-flight",
     "talks/img/loquercio-agile-flight 1.png",
