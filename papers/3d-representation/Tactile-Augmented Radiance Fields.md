@@ -17,16 +17,42 @@
 
 ## Summary
 
-- Notes from the introduction and conclusion sections
+- Collecting tactile data is expensive: requires physical interaction with environment
+- Mount a touch sensor to camera to collect large real-world data set of **aligned visual-tactile data**
+- Cross-modal prediction models can accurately estimate touch from sight for natural scenes
+- Combine **sparse estimates** of touch with quasi-dense tactile signals estimated using diffusion models
+- **Limitation**: touch sensor is zoomed in, so misalignments occur
 
 ## Background
 
-- Notes about the background information
+- Previous work uses NeRF and captured touch data to generate a tactile field for several small objects
+- Recent methods localize objects in NeRFs using joint embeddings between images and language
 
 ## Method
 
-- Notes about the method
+- Human data collector moves through a scene and records a video, then construct NeRF
+    - Simultaneously collect touch signal on the mounted **vision-based tactile sensor** sensor
+    - Find relative 6-DOF $(R, t)$ pose between camera and touch sensor with a braille board
+    - Find $(R,t)$ by minimizing reprojection error
+- Training
+    - First, pre-train a cross-modal visual-tactile encoder with self-supervised contrastive learning on our dataset
+    - We encode visual and tactile data into latent vectors in the resulting shared representation space
+    - Second, train the diffusion model from scratch and pre-train it on the task of unconditional tactile image generation on the YCB-Slide dataset
+- Use a **diffusion model** to estimate the touch signal (represented as an image from a vision-based touch sensor) for other locations within the scene
+    - Dense touch estimation process ![[tarf-method.jpg]]
+        - Evaluated against ground truth using **Frechet Inception Distance**
 
 ## Results
 
-- Notable results from the paper
+- Dataset has 19.3k temporally aligned vision-touch image pairs across 13 scenes
+- Ablations
+    - Removing RGB results in large performance drop
+    - Removing depth image or contrastive pretraining has small effect on CVTP but results in a drop on FID
+- **Tactile localization**
+    - Given a tactile signal, find the corresponding regions in a 2D image or in a 3D scene that are associated with it
+- **Material classification**
+    - Three subtasks
+        - Classify material into one of 20 classes
+        - Softness classification: hard or soft
+        - Hardness classification: rough or smooth
+    - This dataset improves previous baselines, showing that it covers wide range of materials

@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "e072ac0a81da90cb",
@@ -165,7 +164,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "papers/3d-representation/Tactile-Augmented Radiance Fields.md",
+                "file": "papers/3d-representation/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -182,7 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "papers/3d-representation/Tactile-Augmented Radiance Fields.md",
+                "file": "papers/3d-representation/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -205,7 +204,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "papers/3d-representation/Tactile-Augmented Radiance Fields.md"
+                "file": "papers/3d-representation/README.md"
               }
             }
           },
@@ -255,8 +254,15 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "41fdae685d36b7d2",
+  "active": "cb22a64cc1642c73",
   "lastOpenFiles": [
+    "papers/3d-representation/Tactile-Augmented Radiance Fields.md",
+    "papers/3d-representation/README.md",
+    "talks/Antonio Loquercio - Learning Vision-Based High-Speed Flight.md",
+    "talks/Antonio Loquercio - Simulation-What Made Us Intelligent Will Make Our Robots Intelligent.md",
+    "papers/3d-representation/img",
+    "papers/3d-representation/img/tarf-method.jpg",
+    "talks/img/loquercio-agile-flight.png",
     "papers/sim2real/README.md",
     "papers/sim2real/Hand-Object Interaction Pretraining from Videos.md",
     "templates/README.md",
@@ -265,17 +271,13 @@
     "papers/imitation-learning/README.md",
     "papers/autonomous-flight/Autonomous Drone Racing - A Survey.md",
     "papers/autonomous-flight/README.md",
-    "papers/3d-representation/Tactile-Augmented Radiance Fields.md",
-    "papers/3d-representation/README.md",
     "README.md",
     "courses/README.md",
     "books/README.md",
-    "talks/Antonio Loquercio - Simulation-What Made Us Intelligent Will Make Our Robots Intelligent.md",
     "talks/README.md",
     "talks/Yunzhu Li - Foundation Models for Robotic Manipulation.md",
     "talks/Tom Silver - Neuro-Symbolic Learning for Bilevel Robot Planning.md",
     "talks/Lerrel Pinto - On Building General-Purpose Home Robots.md",
-    "talks/Antonio Loquercio - Learning Vision-Based High-Speed Flight.md",
     "tutorials/README.md",
     "tutorials/Supervised Policy Learning for Real Robots.md",
     "papers/3d-representation",
@@ -283,18 +285,15 @@
     "personal-notes/learning/Learning.md",
     "personal-notes/emails/Antonio Loquercio.md",
     "personal-notes/emails/Binghao Huang.md",
-    "personal-notes/phd/PhD Programs.md",
     "personal-notes/emails",
     "papers/sim2real",
     "papers/autonomous-flight",
     "talks/img/loquercio-agile-flight 1.png",
     "img",
     "talks/img",
-    "talks/img/loquercio-agile-flight.png",
     "papers/imitation-learning",
     "papers/robot-learning",
     "tutorials",
-    "bib.json",
     "papers/appendix/figures/dino_attention.png",
     "papers/appendix/figures/dino.png",
     "Untitled.canvas",
@@ -302,7 +301,6 @@
     "papers/video2reward/figures/rank2reward.png",
     "papers/video2reward/figures/drqv2.png",
     "papers/video2reward/figures/hold.png",
-    "papers/video2reward/figures/diffusion_reward.png",
-    "courses/robotic-manipulation/figures/3.7.png"
+    "papers/video2reward/figures/diffusion_reward.png"
   ]
 }

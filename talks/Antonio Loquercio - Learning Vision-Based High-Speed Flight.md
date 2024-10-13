@@ -54,7 +54,7 @@
         - Process all information separately using temporal convolution
             - Concatenate before input to neural network
             - **Predict multiple trajectories**
-        - ![[loquercio-agile-flight.png]]
+        - Sim2real method ![[loquercio-agile-flight.png]]
 - Controlled experiments
     - Goal-reaching in simulation
     - Robust to noise and latency
