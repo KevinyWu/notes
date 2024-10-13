@@ -2,6 +2,7 @@
 
 #tamp
 #unsupervised
+#planning
 
 [[talks/README#[2024-04-06] Tom Silver - Neuro-Symbolic Learning for Bilevel Robot Planning|README]]
 

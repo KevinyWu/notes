@@ -13,6 +13,7 @@
 
 #tamp
 #unsupervised
+#planning
 [[Tom Silver - Neuro-Symbolic Learning for Bilevel Robot Planning]]
 - Unified framework for learning abstractions and grounding mechanisms for task and motion planning (TAMP)
 - Unsupervised learning of predicate-operator based state abstractions for planning

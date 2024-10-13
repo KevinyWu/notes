@@ -41,7 +41,9 @@
     "tactile": 23,
     "learning-from-video": 24,
     "3D": 25,
-    "3d-representation": 26
+    "3d-representation": 26,
+    "multi-agent": 27,
+    "planning": 28
   },
   "_version": 3
 }

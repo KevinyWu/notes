@@ -39,7 +39,7 @@
     - We encode visual and tactile data into latent vectors in the resulting shared representation space
     - Second, train the diffusion model from scratch and pre-train it on the task of unconditional tactile image generation on the YCB-Slide dataset
 - Use a **diffusion model** to estimate the touch signal (represented as an image from a vision-based touch sensor) for other locations within the scene
-    - Dense touch estimation process ![[tarf-method.jpg]]
+    - Dense touch estimation process ![[tarf.png]]
         - Evaluated against ground truth using **Frechet Inception Distance**
 
 ## Results

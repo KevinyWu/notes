@@ -15,6 +15,7 @@ I've created simple note-taking system to streamline my learning. It uses Obsidi
     - [3D Representation](https://github.com/KevinyWu/notes/tree/main/papers/3d-representation)
     - [Autonomous Flight](https://github.com/KevinyWu/notes/tree/main/papers/autonomous-flight)
     - [Imitation Learning](https://github.com/KevinyWu/notes/tree/main/papers/imitation-learning)
+    - [Multi-Agent Interaction](https://github.com/KevinyWu/notes/tree/main/papers/multi-agent)
     - [Sim2Real](https://github.com/KevinyWu/notes/tree/main/papers/sim2real)
 - [Talks](https://github.com/KevinyWu/notes/tree/main/talks)
 - [Tutorials](https://github.com/KevinyWu/notes/tree/main/tutorials)
