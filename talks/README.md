@@ -28,6 +28,12 @@
 - For each CLIP embedding, we can assign a XYZ coordinate, then use A* for pathfinding, LangSAM to segment the object from the image, AnyGrasp pretrained grasping model
 - Versatile Imitation from One Minute of Demonstrations: real-robot RL using optimal transport matching to compute how similar is agent to expert trajectory as reward
 
+## [2024-05-07] Saurabh Gupta - Robot Learning by Understanding Egocentric Videos
+
+#learning-from-video
+[[Saurabh Gupta - Robot Learning by Understanding Egocentric Videos]]
+- O
+
 ## [2024-08-08] Yunzhu Li - Foundation Models for Robotic Manipulation
 
 #3d-representation
@@ -35,6 +41,13 @@
 [[Yunzhu Li - Foundation Models for Robotic Manipulation]]
 - VoxPoser: Code is multilingual interface between humans, foundation models, and robot
 - Output may not always be perfect, but should always generate something reasonable!
+
+## [2024-09-13] Rachel Holladay - Leveraging Mechanics for Multi-step Robotic Manipulation Planning
+
+#tamp
+#planning
+[[Rachel Holladay - Leveraging Mechanics for Multi-step Robotic Manipulation Planning]]
+- a
 
 ## [2024-10-11] Antonio Loquercio - Simulation-What Made Us Intelligent Will Make Our Robots Intelligent
 

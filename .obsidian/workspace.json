@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "e072ac0a81da90cb",
+        "id": "12a9fd0cda499680",
         "type": "tabs",
         "children": [
           {
@@ -13,31 +13,50 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "personal-notes/emails/Binghao Huang.md",
+                "file": "talks/README.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "f03a1056c9c50524",
+            "id": "67b6bb9ffd692a08",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "personal-notes/phd/PhD Programs.md",
+                "file": "talks/Saurabh Gupta - Robot Learning by Understanding Egocentric Videos.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
+          {
+            "id": "c63b86643a25e531",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "talks/Rachel Holladay - Leveraging Mechanics for Multi-step Robotic Manipulation Planning.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      },
+      {
+        "id": "e072ac0a81da90cb",
+        "type": "tabs",
+        "children": [
           {
             "id": "0ea1a64eba6ff64f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "personal-notes/phd/Essays.md",
+                "file": "personal-notes/emails/Rachel Holladay.md",
                 "mode": "source",
                 "source": false
               }
@@ -49,13 +68,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "personal-notes/phd/Ideas.md",
+                "file": "personal-notes/phd/PhD Programs.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7d7423f0010df306",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "personal-notes/phd/Essays.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -84,7 +116,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#nerf",
+                "query": "tag:#learning-from-video",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -121,7 +153,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "personal-notes/emails/Binghao Huang.md",
+                "file": "personal-notes/phd/PhD Programs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +170,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "personal-notes/emails/Binghao Huang.md",
+                "file": "personal-notes/phd/PhD Programs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +193,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "personal-notes/emails/Binghao Huang.md"
+                "file": "personal-notes/phd/PhD Programs.md"
               }
             }
           },
@@ -211,44 +243,44 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "9cb4104521831a35",
+  "active": "b972240ca3d77224",
   "lastOpenFiles": [
+    "personal-notes/phd/Recommendations.md",
+    "personal-notes/research/BC Benchmark.md",
+    "personal-notes/research/Contrastive RL with Exploration.md",
+    "personal-notes/phd/Ideas.md",
+    "personal-notes/emails/Rachel Holladay.md",
+    "talks/Rachel Holladay - Leveraging Mechanics for Multi-step Robotic Manipulation Planning.md",
+    "talks/Antonio Loquercio - Simulation-What Made Us Intelligent Will Make Our Robots Intelligent.md",
+    "talks/Antonio Loquercio - Learning Vision-Based High-Speed Flight.md",
+    "talks/Lerrel Pinto - On Building General-Purpose Home Robots.md",
+    "personal-notes/phd/PhD Programs.md",
+    "personal-notes/phd/Essays.md",
+    "talks/Saurabh Gupta - Robot Learning by Understanding Egocentric Videos.md",
+    "talks/README.md",
+    "personal-notes/emails/Binghao Huang.md",
+    "personal-notes/emails/Antonio Loquercio.md",
+    "personal-notes/emails/Kris Hauser.md",
+    "personal-notes/phd/Research Statement.md",
+    "personal-notes/phd/Personal Statement.md",
     "papers/sim2real/README.md",
     "papers/3d-representation/Tactile-Augmented Radiance Fields.md",
-    "personal-notes/emails/Binghao Huang.md",
     "papers/autonomous-flight/Autonomous Drone Racing - A Survey.md",
-    "personal-notes/emails/Antonio Loquercio.md",
     "papers/sim2real/Hand-Object Interaction Pretraining from Videos.md",
-    "talks/Antonio Loquercio - Simulation-What Made Us Intelligent Will Make Our Robots Intelligent.md",
     "papers/3d-representation/README.md",
     "papers/autonomous-flight/README.md",
     "papers/imitation-learning/README.md",
     "papers/multi-agent/README.md",
-    "papers/README.md",
-    "tutorials/README.md",
-    "talks/README.md",
     "papers/sim2real/img/hop.png",
     "papers/sim2real/img",
-    "personal-notes/phd/Ideas.md",
-    "papers/multi-agent/Learning Vision-based Pursuit-Evasion Robot Policies.md",
-    "README.md",
     "papers/multi-agent",
-    "talks/Tom Silver - Neuro-Symbolic Learning for Bilevel Robot Planning.md",
     "papers/multi-agent/img/pursuit.png",
     "papers/multi-agent/img",
-    "talks/Antonio Loquercio - Learning Vision-Based High-Speed Flight.md",
     "talks/img/loquercio-agile-flight.png",
     "talks/img/agile-flight.png",
     "papers/3d-representation/img/tarf-method.jpg",
     "papers/3d-representation/img/tarf.png",
     "papers/3d-representation/img",
-    "templates/README.md",
-    "papers/imitation-learning/A Comparison of Imitation Learning Algorithms for Bimanual Manipulation.md",
-    "courses/README.md",
-    "books/README.md",
-    "talks/Yunzhu Li - Foundation Models for Robotic Manipulation.md",
-    "talks/Lerrel Pinto - On Building General-Purpose Home Robots.md",
-    "tutorials/Supervised Policy Learning for Real Robots.md",
     "papers/3d-representation",
     "personal-notes/emails",
     "papers/sim2real",
