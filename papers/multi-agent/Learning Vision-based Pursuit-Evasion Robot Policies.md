@@ -30,7 +30,7 @@
 - Partially observable stochastic games impossible to solve with game theory, too computationally intensive
 - **Multi-agent reinforcement learning (MARL)** algorithms exploit large-scale simulation and neural network representations
 - Assume evader's physical state, latent intent, and action are all hidden: **only observation is onboard RGB-D and proprioception**
-- Use **privileged learning**: model has access to additional information during training but not deployment (i.e. different inputs)
+- **Privileged learning**: model has access to additional information during training but not deployment (i.e. different inputs)
     - Privileged data guides the model to focus on relevant patterns to learn faster and more effectively
     - RL was unsuccessful under partial observability
 

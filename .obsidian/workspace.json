@@ -4,37 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "84b1f7ec5a0fd4fc",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "cb22a64cc1642c73",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "papers/multi-agent/README.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "41fdae685d36b7d2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "papers/README.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
         "id": "e072ac0a81da90cb",
         "type": "tabs",
         "children": [
@@ -45,18 +14,6 @@
               "type": "markdown",
               "state": {
                 "file": "personal-notes/emails/Binghao Huang.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "45d89e6dd2a832fa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "personal-notes/emails/Antonio Loquercio.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,8 +55,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -165,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "papers/README.md",
+                "file": "personal-notes/emails/Binghao Huang.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -182,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "papers/README.md",
+                "file": "personal-notes/emails/Binghao Huang.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -205,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "papers/README.md"
+                "file": "personal-notes/emails/Binghao Huang.md"
               }
             }
           },
@@ -255,54 +211,54 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "41fdae685d36b7d2",
+  "active": "9cb4104521831a35",
   "lastOpenFiles": [
-    "README.md",
-    "papers/README.md",
-    "papers/3d-representation/README.md",
-    "papers/3d-representation/Tactile-Augmented Radiance Fields.md",
-    "papers/multi-agent/Learning Vision-based Pursuit-Evasion Robot Policies.md",
-    "papers/multi-agent/README.md",
     "papers/sim2real/README.md",
-    "papers/multi-agent",
+    "papers/3d-representation/Tactile-Augmented Radiance Fields.md",
+    "personal-notes/emails/Binghao Huang.md",
+    "papers/autonomous-flight/Autonomous Drone Racing - A Survey.md",
+    "personal-notes/emails/Antonio Loquercio.md",
+    "papers/sim2real/Hand-Object Interaction Pretraining from Videos.md",
+    "talks/Antonio Loquercio - Simulation-What Made Us Intelligent Will Make Our Robots Intelligent.md",
+    "papers/3d-representation/README.md",
+    "papers/autonomous-flight/README.md",
+    "papers/imitation-learning/README.md",
+    "papers/multi-agent/README.md",
+    "papers/README.md",
+    "tutorials/README.md",
     "talks/README.md",
+    "papers/sim2real/img/hop.png",
+    "papers/sim2real/img",
+    "personal-notes/phd/Ideas.md",
+    "papers/multi-agent/Learning Vision-based Pursuit-Evasion Robot Policies.md",
+    "README.md",
+    "papers/multi-agent",
     "talks/Tom Silver - Neuro-Symbolic Learning for Bilevel Robot Planning.md",
     "papers/multi-agent/img/pursuit.png",
     "papers/multi-agent/img",
-    "papers/sim2real/Hand-Object Interaction Pretraining from Videos.md",
-    "papers/autonomous-flight/Autonomous Drone Racing - A Survey.md",
     "talks/Antonio Loquercio - Learning Vision-Based High-Speed Flight.md",
     "talks/img/loquercio-agile-flight.png",
     "talks/img/agile-flight.png",
-    "talks/Antonio Loquercio - Simulation-What Made Us Intelligent Will Make Our Robots Intelligent.md",
     "papers/3d-representation/img/tarf-method.jpg",
     "papers/3d-representation/img/tarf.png",
     "papers/3d-representation/img",
     "templates/README.md",
     "papers/imitation-learning/A Comparison of Imitation Learning Algorithms for Bimanual Manipulation.md",
-    "papers/imitation-learning/README.md",
-    "papers/autonomous-flight/README.md",
     "courses/README.md",
     "books/README.md",
     "talks/Yunzhu Li - Foundation Models for Robotic Manipulation.md",
     "talks/Lerrel Pinto - On Building General-Purpose Home Robots.md",
-    "tutorials/README.md",
     "tutorials/Supervised Policy Learning for Real Robots.md",
     "papers/3d-representation",
-    "personal-notes/unsorted/video2reward/README.md",
-    "personal-notes/learning/Learning.md",
-    "personal-notes/emails/Antonio Loquercio.md",
     "personal-notes/emails",
     "papers/sim2real",
     "papers/autonomous-flight",
     "talks/img/loquercio-agile-flight 1.png",
     "img",
     "talks/img",
-    "papers/imitation-learning",
     "papers/appendix/figures/dino_attention.png",
     "papers/appendix/figures/dino.png",
     "Untitled.canvas",
-    "papers/video2reward/figures/vip.png",
-    "papers/video2reward/figures/rank2reward.png"
+    "papers/video2reward/figures/vip.png"
   ]
 }

@@ -70,3 +70,4 @@
     - "What I can't predict, I can't act on"
 - Don't specialize but condition on the task
     - Changing architecture for task is not scalable
+    - [[Hand-Object Interaction Pretraining from Videos]] learns basic manipulation actions from human videos regardless of intent
