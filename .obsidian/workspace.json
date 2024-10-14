@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "papers/appendix/README.md",
+                "file": "personal-notes/phd/Recommendations.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "papers/appendix/README.md",
+                "file": "personal-notes/phd/Recommendations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "papers/appendix/README.md",
+                "file": "personal-notes/phd/Recommendations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "papers/appendix/README.md"
+                "file": "personal-notes/phd/Recommendations.md"
               }
             }
           },
@@ -177,6 +177,15 @@
   },
   "active": "e878cb68c23547a7",
   "lastOpenFiles": [
+    "talks/Saurabh Gupta - Robot Learning by Understanding Egocentric Videos.md",
+    "personal-notes/phd/Essays.md",
+    "personal-notes/phd/Khurram.md",
+    "personal-notes/phd/Ideas.md",
+    "personal-notes/phd/Personal Statement.md",
+    "personal-notes/phd/Research Statement.md",
+    "personal-notes/phd/PhD Programs.md",
+    "personal-notes/phd/Recommendations.md",
+    "papers/appendix/README.md",
     "papers/reinforcement-learning/README.md",
     "tutorials/README.md",
     "talks/README.md",
@@ -199,20 +208,11 @@
     "papers/imitation-learning/img/act_train.png",
     "papers/imitation-learning/img/act_test.png",
     "papers/imitation-learning/img",
-    "papers/appendix/README.md",
     "papers/reinforcement-learning/Rank2Reward - Learning Shaped Reward Functions from Passive Video.md",
-    "personal-notes/unsorted/video2reward/README.md",
-    "papers/reinforcement-learning/Mastering Visual Continuous Control - Improved Data-Augmented Reinforcement Learning.md",
-    "papers/reinforcement-learning/Diffusion Reward - Learning Rewards via Conditional Video Diffusion.md",
     "papers/reinforcement-learning/img/rank2reward.png",
-    "papers/reinforcement-learning/Learning Reward Functions for Robotic Manipulation by Observing Humans.md",
-    "talks/Antonio Loquercio - Learning Vision-Based High-Speed Flight.md",
     "papers/reinforcement-learning/img/diffusion_reward.png",
-    "talks/Antonio Loquercio - Simulation-What Made Us Intelligent Will Make Our Robots Intelligent.md",
     "papers/reinforcement-learning/img/hold.png",
     "papers/reinforcement-learning/img/vip.png",
-    "tutorials/Supervised Policy Learning for Real Robots.md",
-    "courses/README.md",
     "books/robot-dynamics-control/Robot Dynamics and Control.pdf",
     "courses/deep-reinforcement-learning/Deep Reinforcement Learning.pdf",
     "papers/reinforcement-learning/img/drqv2.png",
