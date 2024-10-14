@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "bbd7b28171c4325e",
+        "id": "cfc24c2cf4c75879",
         "type": "tabs",
         "children": [
           {
-            "id": "302ebacf26fdcd2e",
+            "id": "e878cb68c23547a7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "papers/reinforcement-learning/README.md",
+                "file": "papers/appendix/README.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "papers/reinforcement-learning/README.md",
+                "file": "papers/appendix/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "papers/reinforcement-learning/README.md",
+                "file": "papers/appendix/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "papers/reinforcement-learning/README.md"
+                "file": "papers/appendix/README.md"
               }
             }
           },
@@ -175,8 +175,9 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "302ebacf26fdcd2e",
+  "active": "e878cb68c23547a7",
   "lastOpenFiles": [
+    "papers/reinforcement-learning/README.md",
     "tutorials/README.md",
     "talks/README.md",
     "papers/imitation-learning/README.md",
@@ -186,7 +187,6 @@
     "templates/README.md",
     "personal-notes/unsorted/foundation/README.md",
     "papers/README.md",
-    "papers/reinforcement-learning/README.md",
     "README.md",
     "papers/sim2real/README.md",
     "papers/foundation-models/img",
