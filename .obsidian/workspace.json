@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "personal-notes/phd/Recommendations.md",
+                "file": "personal-notes/phd/Ideas.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "193f3bf2f3aca595",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "personal-notes/phd/PhD Programs.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "personal-notes/phd/Recommendations.md",
+                "file": "personal-notes/phd/PhD Programs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "personal-notes/phd/Recommendations.md",
+                "file": "personal-notes/phd/PhD Programs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "personal-notes/phd/Recommendations.md"
+                "file": "personal-notes/phd/PhD Programs.md"
               }
             }
           },
@@ -175,16 +188,20 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "e878cb68c23547a7",
+  "active": "193f3bf2f3aca595",
   "lastOpenFiles": [
-    "talks/Saurabh Gupta - Robot Learning by Understanding Egocentric Videos.md",
-    "personal-notes/phd/Essays.md",
-    "personal-notes/phd/Khurram.md",
     "personal-notes/phd/Ideas.md",
-    "personal-notes/phd/Personal Statement.md",
     "personal-notes/phd/Research Statement.md",
     "personal-notes/phd/PhD Programs.md",
+    "personal-notes/phd/emails/Rachel Holladay.md",
+    "personal-notes/phd/emails/Heng Yang.md",
     "personal-notes/phd/Recommendations.md",
+    "personal-notes/phd/Essays.md",
+    "personal-notes/phd/Khurram.md",
+    "personal-notes/phd/Personal Statement.md",
+    "personal-notes/phd/emails/Binghao Huang.md",
+    "personal-notes/phd/emails/Kris Hauser.md",
+    "talks/Saurabh Gupta - Robot Learning by Understanding Egocentric Videos.md",
     "papers/appendix/README.md",
     "papers/reinforcement-learning/README.md",
     "tutorials/README.md",
@@ -201,14 +218,10 @@
     "papers/foundation-models/img",
     "papers/foundation-models",
     "papers/Untitled.md",
-    "personal-notes/README.md",
-    "papers/imitation-learning/A Comparison of Imitation Learning Algorithms for Bimanual Manipulation.md",
-    "papers/reinforcement-learning/VIP - Towards Universal Visual Reward and Representation via Value-Implicit Pre-Training.md",
     "papers/foundation-models/img/octo.png",
     "papers/imitation-learning/img/act_train.png",
     "papers/imitation-learning/img/act_test.png",
     "papers/imitation-learning/img",
-    "papers/reinforcement-learning/Rank2Reward - Learning Shaped Reward Functions from Passive Video.md",
     "papers/reinforcement-learning/img/rank2reward.png",
     "papers/reinforcement-learning/img/diffusion_reward.png",
     "papers/reinforcement-learning/img/hold.png",
