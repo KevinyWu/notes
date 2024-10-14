@@ -9,7 +9,7 @@
 - Techniques like random shift augmentation, double Q-learning, and scheduled exploration noise enhance performance and stability in visual continuous control tasks
 - Key improvements include a larger replay buffer, smaller learning rate, and faster training times (3x faster than DrQ)
 
-# [2022-09] VIP: Towards Universal Visual Reward and Representation via Value-Implicit Pre-Training
+## [2022-09] VIP: Towards Universal Visual Reward and Representation via Value-Implicit Pre-Training
 
 #reinforcement-learning
 #inverse-reinforcement-learning
@@ -18,7 +18,7 @@
 - VIP leverages large-scale, offline human videos for pre-training a visual representation that generates dense rewards for unseen robotic tasks, without requiring task-specific robotic data
 - Formulates reward learning as a goal-conditioned RL problem using a dual value-function approach, avoiding the need for action labels and enabling effective learning from action-free human videos
 
-# [2022-11] Learning Reward Functions for Robotic Manipulation by Observing Humans
+## [2022-11] Learning Reward Functions for Robotic Manipulation by Observing Humans
 
 #reinforcement-learning
 #inverse-reinforcement-learning
@@ -27,7 +27,7 @@
 - HOLD which learns task-agnostic reward functions for robotic manipulation by observing human videos, without needing robot-specific data or predefined human-robot correspondences
 - Two methods for learning state distances relative to a goal image: direct temporal regression (HOLD-R) and time-contrastive learning (HOLD-C)
 
-# [2023-12] Diffusion Reward: Learning Rewards via Conditional Video Diffusion
+## [2023-12] Diffusion Reward: Learning Rewards via Conditional Video Diffusion
 
 #reinforcement-learning
 #inverse-reinforcement-learning
@@ -37,7 +37,7 @@
 - Learns dense rewards for RL from expert videos by leveraging conditional video diffusion models, capturing expert behavior through generative diversity
 - The approach formalizes rewards as negative conditional entropy, where lower generative diversity is associated with expert-like trajectories, promoting better exploration and task performance
 
-# [2024-04] Rank2Reward: Learning Shaped Reward Functions from Passive Video
+## [2024-04] Rank2Reward: Learning Shaped Reward Functions from Passive Video
 
 #reinforcement-learning
 #inverse-reinforcement-learning

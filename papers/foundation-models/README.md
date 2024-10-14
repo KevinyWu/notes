@@ -1,6 +1,6 @@
 # Foundation Models
 
-# [2023-12] Octo: An Open-Source Generalist Robot Policy
+## [2023-12] Octo: An Open-Source Generalist Robot Policy
 
 #foundation-models
 #imitation-learning

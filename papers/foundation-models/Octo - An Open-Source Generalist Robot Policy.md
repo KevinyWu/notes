@@ -11,21 +11,21 @@
 [Code](https://github.com/octo-models/octo)
 [Website](https://octo-models.github.io/)
 
-## Abstract
+# Abstract
 
 > Large policies pretrained on diverse robot datasets have the potential to transform robotic learning: instead of training new policies from scratch, such generalist robot policies may be finetuned with only a little in-domain data, yet generalize broadly. However, to be widely applicable across a range of robotic learning scenarios, environments, and tasks, such policies need to handle diverse sensors and action spaces, accommodate a variety of commonly used robotic platforms, and finetune readily and efficiently to new domains. In this work, we aim to lay the groundwork for developing open-source, widely applicable, generalist policies for robotic manipulation. As a first step, we introduce Octo, a large transformer-based policy trained on 800k trajectories from the Open X-Embodiment dataset, the largest robot manipulation dataset to date. It can be instructed via language commands or goal images and can be effectively finetuned to robot setups with new sensory inputs and action spaces within a few hours on standard consumer GPUs. In experiments across 9 robotic platforms, we demonstrate that Octo serves as a versatile policy initialization that can be effectively finetuned to new observation and action spaces. We also perform detailed ablations of design decisions for the Octo model, from architecture to training data, to guide future research on building generalist robot models.
 
-## Summary
+# Summary
 
 - Octo: pretrained on 800k robot trajectories from Open X-Embodiement
 - **Supports both natural language and goal image conditioning**
 
-## Background
+# Background
 
 - Generalist robot policy (GRP): model that directly maps robot observations to actions and provide zero-shor or few-shot generalization to new tasks
     - Ex. GNM, RoboCat, RT-X
 
-## Method
+# Method
 
 - Architecture ![[octo.png]]
     - Input tokenizers transform language instructions $l$, goal images $g$, and robot observation sequences $o_1, o_2, \ldots, o_H$ into tokens $[\mathcal{T}_l, \mathcal{T}_g, \mathcal{T}_o]$
@@ -54,7 +54,7 @@
             - $x^{k-1} = \alpha (x^k - \gamma \epsilon_{\theta}(x^k, e, k) + \mathcal{N}(0, \sigma^2 I))$
             - Parameters $\alpha, \gamma, \sigma$ correspond to cosine noise schedule
 
-## Results
+# Results
 
 - Things that improved performance
     - Adding one frame of history as context

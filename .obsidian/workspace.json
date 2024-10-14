@@ -11,8 +11,12 @@
             "id": "302ebacf26fdcd2e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "papers/reinforcement-learning/README.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "papers/reinforcement-learning/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "papers/reinforcement-learning/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "papers/reinforcement-learning/README.md"
+              }
             }
           },
           {
@@ -167,17 +175,19 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "b3d7463e5f207cbd",
+  "active": "302ebacf26fdcd2e",
   "lastOpenFiles": [
-    "papers/foundation-models/Octo - An Open-Source Generalist Robot Policy.md",
+    "tutorials/README.md",
+    "talks/README.md",
+    "papers/imitation-learning/README.md",
     "papers/foundation-models/README.md",
+    "papers/foundation-models/Octo - An Open-Source Generalist Robot Policy.md",
     "papers/imitation-learning/Learning Fine-Grained Bimanual Manipulation with Low-Cost Hardware.md",
     "templates/README.md",
     "personal-notes/unsorted/foundation/README.md",
     "papers/README.md",
     "papers/reinforcement-learning/README.md",
     "README.md",
-    "papers/imitation-learning/README.md",
     "papers/sim2real/README.md",
     "papers/foundation-models/img",
     "papers/foundation-models",
@@ -201,8 +211,6 @@
     "talks/Antonio Loquercio - Simulation-What Made Us Intelligent Will Make Our Robots Intelligent.md",
     "papers/reinforcement-learning/img/hold.png",
     "papers/reinforcement-learning/img/vip.png",
-    "talks/README.md",
-    "tutorials/README.md",
     "tutorials/Supervised Policy Learning for Real Robots.md",
     "courses/README.md",
     "books/robot-dynamics-control/Robot Dynamics and Control.pdf",
