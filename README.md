@@ -7,15 +7,17 @@ I've created simple note-taking system to streamline my learning. It uses Obsidi
 ## Contents
 
 - [Books](https://github.com/KevinyWu/notes/tree/main/books)
-    - Robot Dynamics and Control
+    - [Robot Dynamics and Control](https://github.com/KevinyWu/notes/tree/main/books/robot-dynamics-control)
 - [Courses](https://github.com/KevinyWu/notes/tree/main/courses)
-    - CS285 - Deep Reinforcement Learning
-    - MIT 6.4210 - Robotic Manipulation
+    - [CS285 - Deep Reinforcement Learning](https://github.com/KevinyWu/notes/tree/main/courses/deep-reinforcement-learning)
+    - [MIT 6.4210 - Robotic Manipulation](https://github.com/KevinyWu/notes/tree/main/courses/robotic-manipulation)
 - [Papers](https://github.com/KevinyWu/notes/tree/main/papers)
     - [3D Representation](https://github.com/KevinyWu/notes/tree/main/papers/3d-representation)
     - [Autonomous Flight](https://github.com/KevinyWu/notes/tree/main/papers/autonomous-flight)
+    - [Foundation Models](https://github.com/KevinyWu/notes/tree/main/papers/foundation-models)
     - [Imitation Learning](https://github.com/KevinyWu/notes/tree/main/papers/imitation-learning)
     - [Multi-Agent Interaction](https://github.com/KevinyWu/notes/tree/main/papers/multi-agent)
+    - [Reinforcement Learning](https://github.com/KevinyWu/notes/tree/main/papers/reinforcement-learning)
     - [Sim2Real](https://github.com/KevinyWu/notes/tree/main/papers/sim2real)
 - [Talks](https://github.com/KevinyWu/notes/tree/main/talks)
 - [Tutorials](https://github.com/KevinyWu/notes/tree/main/tutorials)

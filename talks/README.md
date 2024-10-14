@@ -47,7 +47,9 @@
 #tamp
 #planning
 [[Rachel Holladay - Leveraging Mechanics for Multi-step Robotic Manipulation Planning]]
-- a
+- Robots must to reason over geometry and physics together to accomplish long-horizon manipulation tasks
+- Planning under uncertainty: dealing with dynamic non-prehensile actions (DNP)
+- Philosophy: allow robot to keep acting my never doing anything catastrophic
 
 ## [2024-10-11] Antonio Loquercio - Simulation-What Made Us Intelligent Will Make Our Robots Intelligent
 

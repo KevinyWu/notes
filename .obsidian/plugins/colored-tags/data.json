@@ -43,7 +43,10 @@
     "3D": 25,
     "3d-representation": 26,
     "multi-agent": 27,
-    "planning": 28
+    "planning": 28,
+    "inverse-reinforcement-learning": 29,
+    "diffusion": 30,
+    "hardware": 31
   },
   "_version": 3
 }

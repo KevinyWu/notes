@@ -4,7 +4,6 @@
 
 #imitation-learning
 #behavioral-cloning
-#supervised
 
 [[papers/imitation-learning/README#[2024-08] A Comparison of Imitation Learning Algorithms for Bimanual Manipulation|README]]
 

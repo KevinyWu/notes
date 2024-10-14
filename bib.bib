@@ -1,3 +1,18 @@
+@online{alakuijalaLearningRewardFunctions2023,
+  title = {Learning {{Reward Functions}} for {{Robotic Manipulation}} by {{Observing Humans}}},
+  author = {Alakuijala, Minttu and Dulac-Arnold, Gabriel and Mairal, Julien and Ponce, Jean and Schmid, Cordelia},
+  date = {2023-03-07},
+  eprint = {2211.09019},
+  eprinttype = {arXiv},
+  doi = {10.48550/arXiv.2211.09019},
+  url = {http://arxiv.org/abs/2211.09019},
+  urldate = {2024-10-14},
+  abstract = {Observing a human demonstrator manipulate objects provides a rich, scalable and inexpensive source of data for learning robotic policies. However, transferring skills from human videos to a robotic manipulator poses several challenges, not least a difference in action and observation spaces. In this work, we use unlabeled videos of humans solving a wide range of manipulation tasks to learn a task-agnostic reward function for robotic manipulation policies. Thanks to the diversity of this training data, the learned reward function sufficiently generalizes to image observations from a previously unseen robot embodiment and environment to provide a meaningful prior for directed exploration in reinforcement learning. We propose two methods for scoring states relative to a goal image: through direct temporal regression, and through distances in an embedding space obtained with time-contrastive learning. By conditioning the function on a goal image, we are able to reuse one model across a variety of tasks. Unlike prior work on leveraging human videos to teach robots, our method, Human Offline Learned Distances (HOLD) requires neither a priori data from the robot environment, nor a set of task-specific human demonstrations, nor a predefined notion of correspondence across morphologies, yet it is able to accelerate training of several manipulation tasks on a simulated robot arm compared to using only a sparse reward obtained from task completion.},
+  pubstate = {prepublished},
+  keywords = {Computer Science - Artificial Intelligence,Computer Science - Computer Vision and Pattern Recognition,Computer Science - Machine Learning,Computer Science - Robotics},
+  file = {/home/kevinywu/snap/zotero-snap/common/Zotero/storage/MNVD9F69/Alakuijala et al. - 2023 - Learning Reward Functions for Robotic Manipulation by Observing Humans.pdf;/home/kevinywu/snap/zotero-snap/common/Zotero/storage/4TKP6TW5/2211.html}
+}
+
 @online{bajcsyLearningVisionbasedPursuitEvasion2023,
   title = {Learning {{Vision-based Pursuit-Evasion Robot Policies}}},
   author = {Bajcsy, Andrea and Loquercio, Antonio and Kumar, Ashish and Malik, Jitendra},
@@ -152,6 +167,22 @@
   file = {/home/kevinywu/snap/zotero-snap/common/Zotero/storage/UNDUGYQP/Holladay et al. - 2021 - Planning for Multi-stage Forceful Manipulation.pdf}
 }
 
+@online{huangDiffusionRewardLearning2024,
+  title = {Diffusion {{Reward}}: {{Learning Rewards}} via {{Conditional Video Diffusion}}},
+  shorttitle = {Diffusion {{Reward}}},
+  author = {Huang, Tao and Jiang, Guangqi and Ze, Yanjie and Xu, Huazhe},
+  date = {2024-08-09},
+  eprint = {2312.14134},
+  eprinttype = {arXiv},
+  doi = {10.48550/arXiv.2312.14134},
+  url = {http://arxiv.org/abs/2312.14134},
+  urldate = {2024-10-14},
+  abstract = {Learning rewards from expert videos offers an affordable and effective solution to specify the intended behaviors for reinforcement learning (RL) tasks. In this work, we propose Diffusion Reward, a novel framework that learns rewards from expert videos via conditional video diffusion models for solving complex visual RL problems. Our key insight is that lower generative diversity is exhibited when conditioning diffusion on expert trajectories. Diffusion Reward is accordingly formalized by the negative of conditional entropy that encourages productive exploration of expert behaviors. We show the efficacy of our method over robotic manipulation tasks in both simulation platforms and the real world with visual input. Moreover, Diffusion Reward can even solve unseen tasks successfully and effectively, largely surpassing baseline methods. Project page and code: https://diffusion-reward.github.io.},
+  pubstate = {prepublished},
+  keywords = {Computer Science - Computer Vision and Pattern Recognition,Computer Science - Machine Learning,Computer Science - Robotics},
+  file = {/home/kevinywu/snap/zotero-snap/common/Zotero/storage/G87XU3QY/Huang et al. - 2024 - Diffusion Reward Learning Rewards via Conditional Video Diffusion.pdf;/home/kevinywu/snap/zotero-snap/common/Zotero/storage/C4AUPHVS/2312.html}
+}
+
 @online{kingmaAutoEncodingVariationalBayes2022,
   title = {Auto-{{Encoding Variational Bayes}}},
   author = {Kingma, Diederik P. and Welling, Max},
@@ -198,6 +229,22 @@
   file = {/home/kevinywu/snap/zotero-snap/common/Zotero/storage/EGHJP2CV/Liu et al. - 2024 - A Single Goal is All You Need Skills and Exploration Emerge from Contrastive RL without Rewards, De.pdf;/home/kevinywu/snap/zotero-snap/common/Zotero/storage/7A8VTL3V/2408.html}
 }
 
+@online{maVIPUniversalVisual2023,
+  title = {{{VIP}}: {{Towards Universal Visual Reward}} and {{Representation}} via {{Value-Implicit Pre-Training}}},
+  shorttitle = {{{VIP}}},
+  author = {Ma, Yecheng Jason and Sodhani, Shagun and Jayaraman, Dinesh and Bastani, Osbert and Kumar, Vikash and Zhang, Amy},
+  date = {2023-03-07},
+  eprint = {2210.00030},
+  eprinttype = {arXiv},
+  doi = {10.48550/arXiv.2210.00030},
+  url = {http://arxiv.org/abs/2210.00030},
+  urldate = {2024-10-14},
+  abstract = {Reward and representation learning are two long-standing challenges for learning an expanding set of robot manipulation skills from sensory observations. Given the inherent cost and scarcity of in-domain, task-specific robot data, learning from large, diverse, offline human videos has emerged as a promising path towards acquiring a generally useful visual representation for control; however, how these human videos can be used for general-purpose reward learning remains an open question. We introduce \$\textbackslash textbf\{V\}\$alue-\$\textbackslash textbf\{I\}\$mplicit \$\textbackslash textbf\{P\}\$re-training (VIP), a self-supervised pre-trained visual representation capable of generating dense and smooth reward functions for unseen robotic tasks. VIP casts representation learning from human videos as an offline goal-conditioned reinforcement learning problem and derives a self-supervised dual goal-conditioned value-function objective that does not depend on actions, enabling pre-training on unlabeled human videos. Theoretically, VIP can be understood as a novel implicit time contrastive objective that generates a temporally smooth embedding, enabling the value function to be implicitly defined via the embedding distance, which can then be used to construct the reward for any goal-image specified downstream task. Trained on large-scale Ego4D human videos and without any fine-tuning on in-domain, task-specific data, VIP's frozen representation can provide dense visual reward for an extensive set of simulated and \$\textbackslash textbf\{real-robot\}\$ tasks, enabling diverse reward-based visual control methods and significantly outperforming all prior pre-trained representations. Notably, VIP can enable simple, \$\textbackslash textbf\{few-shot\}\$ offline RL on a suite of real-world robot tasks with as few as 20 trajectories.},
+  pubstate = {prepublished},
+  keywords = {Computer Science - Artificial Intelligence,Computer Science - Computer Vision and Pattern Recognition,Computer Science - Machine Learning,Computer Science - Robotics},
+  file = {/home/kevinywu/snap/zotero-snap/common/Zotero/storage/ME67B54J/Ma et al. - 2023 - VIP Towards Universal Visual Reward and Representation via Value-Implicit Pre-Training.pdf;/home/kevinywu/snap/zotero-snap/common/Zotero/storage/FH9EQD8B/2210.html}
+}
+
 @online{singhHandObjectInteractionPretraining2024,
   title = {Hand-{{Object Interaction Pretraining}} from {{Videos}}},
   author = {Singh, Himanshu Gaurav and Loquercio, Antonio and Sferrazza, Carmelo and Wu, Jane and Qi, Haozhi and Abbeel, Pieter and Malik, Jitendra},
@@ -226,6 +273,22 @@
   file = {/home/kevinywu/snap/zotero-snap/common/Zotero/storage/A2GM32KN/Sohn et al. - 2015 - Learning Structured Output Representation using Deep Conditional Generative Models.pdf}
 }
 
+@online{teamOctoOpenSourceGeneralist2024,
+  title = {Octo: {{An Open-Source Generalist Robot Policy}}},
+  shorttitle = {Octo},
+  author = {Team, Octo Model and Ghosh, Dibya and Walke, Homer and Pertsch, Karl and Black, Kevin and Mees, Oier and Dasari, Sudeep and Hejna, Joey and Kreiman, Tobias and Xu, Charles and Luo, Jianlan and Tan, You Liang and Chen, Lawrence Yunliang and Sanketi, Pannag and Vuong, Quan and Xiao, Ted and Sadigh, Dorsa and Finn, Chelsea and Levine, Sergey},
+  date = {2024-05-26},
+  eprint = {2405.12213},
+  eprinttype = {arXiv},
+  doi = {10.48550/arXiv.2405.12213},
+  url = {http://arxiv.org/abs/2405.12213},
+  urldate = {2024-10-14},
+  abstract = {Large policies pretrained on diverse robot datasets have the potential to transform robotic learning: instead of training new policies from scratch, such generalist robot policies may be finetuned with only a little in-domain data, yet generalize broadly. However, to be widely applicable across a range of robotic learning scenarios, environments, and tasks, such policies need to handle diverse sensors and action spaces, accommodate a variety of commonly used robotic platforms, and finetune readily and efficiently to new domains. In this work, we aim to lay the groundwork for developing open-source, widely applicable, generalist policies for robotic manipulation. As a first step, we introduce Octo, a large transformer-based policy trained on 800k trajectories from the Open X-Embodiment dataset, the largest robot manipulation dataset to date. It can be instructed via language commands or goal images and can be effectively finetuned to robot setups with new sensory inputs and action spaces within a few hours on standard consumer GPUs. In experiments across 9 robotic platforms, we demonstrate that Octo serves as a versatile policy initialization that can be effectively finetuned to new observation and action spaces. We also perform detailed ablations of design decisions for the Octo model, from architecture to training data, to guide future research on building generalist robot models.},
+  pubstate = {prepublished},
+  keywords = {Computer Science - Machine Learning,Computer Science - Robotics},
+  file = {/home/kevinywu/snap/zotero-snap/common/Zotero/storage/P2CKSU9E/Team et al. - 2024 - Octo An Open-Source Generalist Robot Policy.pdf;/home/kevinywu/snap/zotero-snap/common/Zotero/storage/L5TBXLU5/2405.html}
+}
+
 @online{vaswaniAttentionAllYou2023,
   title = {Attention {{Is All You Need}}},
   author = {Vaswani, Ashish and Shazeer, Noam and Parmar, Niki and Uszkoreit, Jakob and Jones, Llion and Gomez, Aidan N. and Kaiser, Lukasz and Polosukhin, Illia},
@@ -240,4 +303,51 @@
   pubstate = {prepublished},
   keywords = {Computer Science - Computation and Language,Computer Science - Machine Learning},
   file = {/home/kevinywu/snap/zotero-snap/common/Zotero/storage/X43IG47J/Vaswani et al. - 2023 - Attention Is All You Need.pdf}
+}
+
+@online{yangRank2RewardLearningShaped2024,
+  title = {{{Rank2Reward}}: {{Learning Shaped Reward Functions}} from {{Passive Video}}},
+  shorttitle = {{{Rank2Reward}}},
+  author = {Yang, Daniel and Tjia, Davin and Berg, Jacob and Damen, Dima and Agrawal, Pulkit and Gupta, Abhishek},
+  date = {2024-04-23},
+  eprint = {2404.14735},
+  eprinttype = {arXiv},
+  doi = {10.48550/arXiv.2404.14735},
+  url = {http://arxiv.org/abs/2404.14735},
+  urldate = {2024-10-14},
+  abstract = {Teaching robots novel skills with demonstrations via human-in-the-loop data collection techniques like kinesthetic teaching or teleoperation puts a heavy burden on human supervisors. In contrast to this paradigm, it is often significantly easier to provide raw, action-free visual data of tasks being performed. Moreover, this data can even be mined from video datasets or the web. Ideally, this data can serve to guide robot learning for new tasks in novel environments, informing both "what" to do and "how" to do it. A powerful way to encode both the "what" and the "how" is to infer a well-shaped reward function for reinforcement learning. The challenge is determining how to ground visual demonstration inputs into a well-shaped and informative reward function. We propose a technique Rank2Reward for learning behaviors from videos of tasks being performed without access to any low-level states and actions. We do so by leveraging the videos to learn a reward function that measures incremental "progress" through a task by learning how to temporally rank the video frames in a demonstration. By inferring an appropriate ranking, the reward function is able to guide reinforcement learning by indicating when task progress is being made. This ranking function can be integrated into an adversarial imitation learning scheme resulting in an algorithm that can learn behaviors without exploiting the learned reward function. We demonstrate the effectiveness of Rank2Reward at learning behaviors from raw video on a number of tabletop manipulation tasks in both simulations and on a real-world robotic arm. We also demonstrate how Rank2Reward can be easily extended to be applicable to web-scale video datasets.},
+  pubstate = {prepublished},
+  keywords = {Computer Science - Robotics},
+  file = {/home/kevinywu/snap/zotero-snap/common/Zotero/storage/RQQQQWFI/Yang et al. - 2024 - Rank2Reward Learning Shaped Reward Functions from Passive Video.pdf;/home/kevinywu/snap/zotero-snap/common/Zotero/storage/EPBSPV6H/2404.html}
+}
+
+@online{yaratsMasteringVisualContinuous2021,
+  title = {Mastering {{Visual Continuous Control}}: {{Improved Data-Augmented Reinforcement Learning}}},
+  shorttitle = {Mastering {{Visual Continuous Control}}},
+  author = {Yarats, Denis and Fergus, Rob and Lazaric, Alessandro and Pinto, Lerrel},
+  date = {2021-07-20},
+  eprint = {2107.09645},
+  eprinttype = {arXiv},
+  doi = {10.48550/arXiv.2107.09645},
+  url = {http://arxiv.org/abs/2107.09645},
+  urldate = {2024-10-14},
+  abstract = {We present DrQ-v2, a model-free reinforcement learning (RL) algorithm for visual continuous control. DrQ-v2 builds on DrQ, an off-policy actor-critic approach that uses data augmentation to learn directly from pixels. We introduce several improvements that yield state-of-the-art results on the DeepMind Control Suite. Notably, DrQ-v2 is able to solve complex humanoid locomotion tasks directly from pixel observations, previously unattained by model-free RL. DrQ-v2 is conceptually simple, easy to implement, and provides significantly better computational footprint compared to prior work, with the majority of tasks taking just 8 hours to train on a single GPU. Finally, we publicly release DrQ-v2's implementation to provide RL practitioners with a strong and computationally efficient baseline.},
+  pubstate = {prepublished},
+  keywords = {Computer Science - Artificial Intelligence,Computer Science - Machine Learning},
+  file = {/home/kevinywu/snap/zotero-snap/common/Zotero/storage/6CMF9333/Yarats et al. - 2021 - Mastering Visual Continuous Control Improved Data-Augmented Reinforcement Learning.pdf;/home/kevinywu/snap/zotero-snap/common/Zotero/storage/D2WYQZME/2107.html}
+}
+
+@online{zhaoLearningFineGrainedBimanual2023,
+  title = {Learning {{Fine-Grained Bimanual Manipulation}} with {{Low-Cost Hardware}}},
+  author = {Zhao, Tony Z. and Kumar, Vikash and Levine, Sergey and Finn, Chelsea},
+  date = {2023-04-23},
+  eprint = {2304.13705},
+  eprinttype = {arXiv},
+  doi = {10.48550/arXiv.2304.13705},
+  url = {http://arxiv.org/abs/2304.13705},
+  urldate = {2024-10-14},
+  abstract = {Fine manipulation tasks, such as threading cable ties or slotting a battery, are notoriously difficult for robots because they require precision, careful coordination of contact forces, and closed-loop visual feedback. Performing these tasks typically requires high-end robots, accurate sensors, or careful calibration, which can be expensive and difficult to set up. Can learning enable low-cost and imprecise hardware to perform these fine manipulation tasks? We present a low-cost system that performs end-to-end imitation learning directly from real demonstrations, collected with a custom teleoperation interface. Imitation learning, however, presents its own challenges, particularly in high-precision domains: errors in the policy can compound over time, and human demonstrations can be non-stationary. To address these challenges, we develop a simple yet novel algorithm, Action Chunking with Transformers (ACT), which learns a generative model over action sequences. ACT allows the robot to learn 6 difficult tasks in the real world, such as opening a translucent condiment cup and slotting a battery with 80-90\% success, with only 10 minutes worth of demonstrations. Project website: https://tonyzhaozh.github.io/aloha/},
+  pubstate = {prepublished},
+  keywords = {Computer Science - Machine Learning,Computer Science - Robotics},
+  file = {/home/kevinywu/snap/zotero-snap/common/Zotero/storage/EDC8RM9Z/Zhao et al. - 2023 - Learning Fine-Grained Bimanual Manipulation with Low-Cost Hardware.pdf;/home/kevinywu/snap/zotero-snap/common/Zotero/storage/4FXH7N66/2304.html}
 }

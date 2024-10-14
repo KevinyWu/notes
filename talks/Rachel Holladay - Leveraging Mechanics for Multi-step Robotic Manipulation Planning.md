@@ -11,7 +11,7 @@
 
 - Goal: solve long-horizon contact-rich tasks
 - Most work has been reasoning over geometry
-    - **Need to reason over geometry and physics**
+    - **Need to reason over geometry and physics to accomplish long-horizon manipulation tasks**
 - Example: cutting cucumber, need to reason over force
 
 ## Forceful Manipulation
@@ -53,7 +53,7 @@
 ## Robust Decision Making
 
 - Cutting a cucumber
-    - Many ways to grasp knift
+    - Many ways to grasp knife
     - Different grasp better in different scenarios
 - Experiment: perturb physical parameters from first section
     - Cost of an action is the negative log of the probability of success using that action under many different perturbations
@@ -67,3 +67,19 @@
 - Learn a model
     - Collect sparse amount of demonstrations
     - learn **outcome volumes**: capture the space of resulting configurations given the action
+    - Planner generates action sequence, execute first action, look, then repeat
+    - Problem: **dead ends**, or states from which reaching the goal is impossible
+    - Leverage outcome volumes avoid dead ends
+- **GUARD: Guiding Uncertainty Accounting for Risk and Dynamics**
+    - Setup
+        - Problem: robot moving object to a goal
+        - Environment has obstacles and dead ends
+        - Assume discrete action space
+        - Tabletop assumption: represent configuration of target object as $q_0=(f_{j}, \theta_{k}, (x,y))$
+            - Face in contact, discretized planar orientation, planar position
+            - Makes computation faster
+    - Algorithm
+        - Compute action regions, danger zones
+        - Graph search using planner to reach goal while avoiding danger
+    - Compared to baselines, GUARD never hits dead end (but sometimes reaches timeout)
+    - **Philosophy: allow robot to keep acting my never doing anything catastrophic**
