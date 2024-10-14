@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "personal-notes/phd/PhD Programs.md",
+                "file": "personal-notes/phd/Ideas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "personal-notes/phd/PhD Programs.md",
+                "file": "personal-notes/phd/Ideas.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "personal-notes/phd/PhD Programs.md"
+                "file": "personal-notes/phd/Ideas.md"
               }
             }
           },
@@ -188,11 +187,11 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "193f3bf2f3aca595",
+  "active": "e878cb68c23547a7",
   "lastOpenFiles": [
+    "personal-notes/phd/PhD Programs.md",
     "personal-notes/phd/Ideas.md",
     "personal-notes/phd/Research Statement.md",
-    "personal-notes/phd/PhD Programs.md",
     "personal-notes/phd/emails/Rachel Holladay.md",
     "personal-notes/phd/emails/Heng Yang.md",
     "personal-notes/phd/Recommendations.md",
