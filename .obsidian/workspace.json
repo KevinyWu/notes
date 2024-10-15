@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "papers/visual-representations/Masked Autoencoders Are Scalable Vision Learners.md",
+                "file": "talks/Saurabh Gupta - Robot Learning by Understanding Egocentric Videos.md",
                 "mode": "source",
                 "source": false
               }
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "papers/visual-representations/Masked Autoencoders Are Scalable Vision Learners.md",
+                "file": "talks/Saurabh Gupta - Robot Learning by Understanding Egocentric Videos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "papers/visual-representations/Masked Autoencoders Are Scalable Vision Learners.md",
+                "file": "talks/Saurabh Gupta - Robot Learning by Understanding Egocentric Videos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "papers/visual-representations/Masked Autoencoders Are Scalable Vision Learners.md"
+                "file": "talks/Saurabh Gupta - Robot Learning by Understanding Egocentric Videos.md"
               }
             }
           },
@@ -195,11 +195,12 @@
   },
   "active": "b98a7f8274cdd05a",
   "lastOpenFiles": [
+    "personal-notes/phd/emails/Rachel Holladay.md",
+    "talks/Saurabh Gupta - Robot Learning by Understanding Egocentric Videos.md",
     "papers/visual-representations/README.md",
     "papers/visual-representations/Masked Autoencoders Are Scalable Vision Learners.md",
     "README.md",
     "papers/README.md",
-    "personal-notes/phd/emails/Rachel Holladay.md",
     "papers/appendix/README.md",
     "papers/visual-representations/Momentum Contrast for Unsupervised Visual Representation Learning.md",
     "papers/visual-representations/Emerging Properties in Self-Supervised Vision Transformers.md",
@@ -226,7 +227,6 @@
     "papers/transformers/img",
     "papers/visual-representations/img",
     "papers/visual-representations",
-    "talks/Yunzhu Li - Foundation Models for Robotic Manipulation.md",
     "papers/generative-models",
     "papers/transformers",
     "papers/foundation-models/img",
