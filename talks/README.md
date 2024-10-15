@@ -31,8 +31,12 @@
 ## [2024-05-07] Saurabh Gupta - Robot Learning by Understanding Egocentric Videos
 
 #learning-from-video
+#visual-representations
+#diffusion
 [[Saurabh Gupta - Robot Learning by Understanding Egocentric Videos]]
-- O
+- Learning factored representations: segment out agent, then Video Inpainting Diffusion Model (VIDM) recovers pixels behind agent; use this factored representation to learn affordances or reward functions
+- WildHands for improved 3D hand pose estimation in the wild
+- Diffusion Meets DAgger uses diffusion models to generate observations and action labels in out of distribution (OOD) states for imitation learning
 
 ## [2024-08-08] Yunzhu Li - Foundation Models for Robotic Manipulation
 
