@@ -45,6 +45,6 @@
 #unsupervised
 #transformers
 [[Masked Autoencoders Are Scalable Vision Learners]]
-- Self-supervised ViT features explicitly capture scene layout and object boundaries, leveraging self-attention modules in the final layer, which distinguishes them from features learned by supervised ViTs or convnets
-- DINO is a self-distillation method with no labels that predicts the outputs of a dynamically constructed teacher network, utilizing momentum encoding to enhance stability and consistency in learning
-- To avoid collapse in representation learning, DINO employs centering and sharpening techniques on teacher outputs, promoting diversity and preventing uniform distribution while maintaining effective local-to-global correspondence in image crops
+- Masked autoencoders (MAE) utilize an asymmetric encoder-decoder architecture, where the encoder processes only visible patches of an image while the lightweight decoder reconstructs the full image from latent representations and masked patches
+- Masks a high proportion of input images (up to 75%), allowing for meaningful self-supervised learning that significantly improves generalization
+- Does not heavily depend on data augmentation techniques

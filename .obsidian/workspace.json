@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "papers/visual-representations/Masked Autoencoders Are Scalable Vision Learners.md",
                 "mode": "source",
                 "source": false
               }
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "papers/visual-representations/Masked Autoencoders Are Scalable Vision Learners.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "papers/visual-representations/Masked Autoencoders Are Scalable Vision Learners.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "papers/visual-representations/Masked Autoencoders Are Scalable Vision Learners.md"
               }
             }
           },
@@ -195,11 +195,12 @@
   },
   "active": "b98a7f8274cdd05a",
   "lastOpenFiles": [
-    "papers/README.md",
     "papers/visual-representations/README.md",
+    "papers/visual-representations/Masked Autoencoders Are Scalable Vision Learners.md",
+    "README.md",
+    "papers/README.md",
     "personal-notes/phd/emails/Rachel Holladay.md",
     "papers/appendix/README.md",
-    "papers/visual-representations/Masked Autoencoders Are Scalable Vision Learners.md",
     "papers/visual-representations/Momentum Contrast for Unsupervised Visual Representation Learning.md",
     "papers/visual-representations/Emerging Properties in Self-Supervised Vision Transformers.md",
     "papers/visual-representations/A Simple Framework for Contrastive Learning of Visual Representations.md",
@@ -224,7 +225,6 @@
     "papers/generative-models/img",
     "papers/transformers/img",
     "papers/visual-representations/img",
-    "README.md",
     "papers/visual-representations",
     "talks/Yunzhu Li - Foundation Models for Robotic Manipulation.md",
     "papers/generative-models",
