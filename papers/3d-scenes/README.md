@@ -2,7 +2,7 @@
 
 ## [2024-05] Tactile-Augmented Radiance Fields
 
-#3d-representation
+#3d-scenes
 #tactile
 [[Tactile-Augmented Radiance Fields]]
 - First dataset to capture quasi-dense, scene-level, and spatially-aligned visual-tactile data

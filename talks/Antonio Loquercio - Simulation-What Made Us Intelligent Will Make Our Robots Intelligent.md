@@ -1,7 +1,7 @@
 # Antonio Loquercio - Simulation-What Made Us Intelligent Will Make Our Robots Intelligent
 
 #sim2real
-#3d-representation
+#3d-scenes
 #learning-from-video
 #tactile
 

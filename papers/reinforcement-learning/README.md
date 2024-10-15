@@ -1,5 +1,14 @@
 # Reinforcement Learning
 
+## [2013-12] Playing Atari with Deep Reinforcement Learning
+
+#reinforcement-learning
+#q-learning
+[[Playing Atari with Deep Reinforcement Learning]]
+- Uses CNNs with Q-learning to approximate the optimal action-value function, learning control policies directly from raw pixel input in Atari games
+- Stores agent experiences in a replay buffer and samples random minibatches for training, breaking the correlation between consecutive experiences and improving data efficiency
+- Uses an $\epsilon$-greedy policy that randomly selects actions with probability $\epsilon$ and otherwise selects the action that maximizes the Q-value, balancing exploration and exploitation during training
+
 ## [2021-07] Mastering Visual Continuous Control: Improved Data-Augmented Reinforcement Learning
 
 #reinforcement-learning

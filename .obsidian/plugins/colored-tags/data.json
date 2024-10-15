@@ -46,7 +46,13 @@
     "planning": 28,
     "inverse-reinforcement-learning": 29,
     "diffusion": 30,
-    "hardware": 31
+    "hardware": 31,
+    "3d-representations": 32,
+    "3d-scenes": 33,
+    "transformers": 34,
+    "visual-representations": 35,
+    "q-learning": 36,
+    "knowledge-distillation": 37
   },
   "_version": 3
 }

@@ -2,10 +2,11 @@
 
 **Authors**: Yiming Dou, Fengyu Yang, Yi Liu, Antonio Loquercio, Andrew Owens
 
-#3d-representation
+#3d-scenes
 #tactile
+#nerf
 
-[[papers/3d-representation/README#[2024-05] Tactile-Augmented Radiance Fields|README]]
+[[papers/3d-scenes/README#[2024-05] Tactile-Augmented Radiance Fields|README]]
 
 [Paper](http://arxiv.org/abs/2405.04534)
 [Code](https://github.com/Dou-Yiming/TaRF)

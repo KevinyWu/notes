@@ -54,6 +54,51 @@
   file = {/home/kevinywu/snap/zotero-snap/common/Zotero/storage/3NEWRFB8/Belkhale et al. - 2023 - HYDRA Hybrid Robot Actions for Imitation Learning.pdf}
 }
 
+@online{caronEmergingPropertiesSelfSupervised2021,
+  title = {Emerging {{Properties}} in {{Self-Supervised Vision Transformers}}},
+  author = {Caron, Mathilde and Touvron, Hugo and Misra, Ishan and Jégou, Hervé and Mairal, Julien and Bojanowski, Piotr and Joulin, Armand},
+  date = {2021-05-24},
+  eprint = {2104.14294},
+  eprinttype = {arXiv},
+  doi = {10.48550/arXiv.2104.14294},
+  url = {http://arxiv.org/abs/2104.14294},
+  urldate = {2024-10-15},
+  abstract = {In this paper, we question if self-supervised learning provides new properties to Vision Transformer (ViT) that stand out compared to convolutional networks (convnets). Beyond the fact that adapting self-supervised methods to this architecture works particularly well, we make the following observations: first, self-supervised ViT features contain explicit information about the semantic segmentation of an image, which does not emerge as clearly with supervised ViTs, nor with convnets. Second, these features are also excellent k-NN classifiers, reaching 78.3\% top-1 on ImageNet with a small ViT. Our study also underlines the importance of momentum encoder, multi-crop training, and the use of small patches with ViTs. We implement our findings into a simple self-supervised method, called DINO, which we interpret as a form of self-distillation with no labels. We show the synergy between DINO and ViTs by achieving 80.1\% top-1 on ImageNet in linear evaluation with ViT-Base.},
+  pubstate = {prepublished},
+  keywords = {Computer Science - Computer Vision and Pattern Recognition},
+  file = {/home/kevinywu/snap/zotero-snap/common/Zotero/storage/P5FCGE5U/Caron et al. - 2021 - Emerging Properties in Self-Supervised Vision Transformers.pdf;/home/kevinywu/snap/zotero-snap/common/Zotero/storage/QUAHIMIC/2104.html}
+}
+
+@online{chenBigSelfSupervisedModels2020,
+  title = {Big {{Self-Supervised Models}} Are {{Strong Semi-Supervised Learners}}},
+  author = {Chen, Ting and Kornblith, Simon and Swersky, Kevin and Norouzi, Mohammad and Hinton, Geoffrey},
+  date = {2020-10-26},
+  eprint = {2006.10029},
+  eprinttype = {arXiv},
+  doi = {10.48550/arXiv.2006.10029},
+  url = {http://arxiv.org/abs/2006.10029},
+  urldate = {2024-10-15},
+  abstract = {One paradigm for learning from few labeled examples while making best use of a large amount of unlabeled data is unsupervised pretraining followed by supervised fine-tuning. Although this paradigm uses unlabeled data in a task-agnostic way, in contrast to common approaches to semi-supervised learning for computer vision, we show that it is surprisingly effective for semi-supervised learning on ImageNet. A key ingredient of our approach is the use of big (deep and wide) networks during pretraining and fine-tuning. We find that, the fewer the labels, the more this approach (task-agnostic use of unlabeled data) benefits from a bigger network. After fine-tuning, the big network can be further improved and distilled into a much smaller one with little loss in classification accuracy by using the unlabeled examples for a second time, but in a task-specific way. The proposed semi-supervised learning algorithm can be summarized in three steps: unsupervised pretraining of a big ResNet model using SimCLRv2, supervised fine-tuning on a few labeled examples, and distillation with unlabeled examples for refining and transferring the task-specific knowledge. This procedure achieves 73.9\% ImageNet top-1 accuracy with just 1\% of the labels (\$\textbackslash le\$13 labeled images per class) using ResNet-50, a \$10\textbackslash times\$ improvement in label efficiency over the previous state-of-the-art. With 10\% of labels, ResNet-50 trained with our method achieves 77.5\% top-1 accuracy, outperforming standard supervised training with all of the labels.},
+  pubstate = {prepublished},
+  keywords = {Computer Science - Computer Vision and Pattern Recognition,Computer Science - Machine Learning,Statistics - Machine Learning},
+  file = {/home/kevinywu/snap/zotero-snap/common/Zotero/storage/BNKGNNTI/Chen et al. - 2020 - Big Self-Supervised Models are Strong Semi-Supervised Learners.pdf}
+}
+
+@online{chenSimpleFrameworkContrastive2020,
+  title = {A {{Simple Framework}} for {{Contrastive Learning}} of {{Visual Representations}}},
+  author = {Chen, Ting and Kornblith, Simon and Norouzi, Mohammad and Hinton, Geoffrey},
+  date = {2020-07-01},
+  eprint = {2002.05709},
+  eprinttype = {arXiv},
+  doi = {10.48550/arXiv.2002.05709},
+  url = {http://arxiv.org/abs/2002.05709},
+  urldate = {2024-10-15},
+  abstract = {This paper presents SimCLR: a simple framework for contrastive learning of visual representations. We simplify recently proposed contrastive self-supervised learning algorithms without requiring specialized architectures or a memory bank. In order to understand what enables the contrastive prediction tasks to learn useful representations, we systematically study the major components of our framework. We show that (1) composition of data augmentations plays a critical role in defining effective predictive tasks, (2) introducing a learnable nonlinear transformation between the representation and the contrastive loss substantially improves the quality of the learned representations, and (3) contrastive learning benefits from larger batch sizes and more training steps compared to supervised learning. By combining these findings, we are able to considerably outperform previous methods for self-supervised and semi-supervised learning on ImageNet. A linear classifier trained on self-supervised representations learned by SimCLR achieves 76.5\% top-1 accuracy, which is a 7\% relative improvement over previous state-of-the-art, matching the performance of a supervised ResNet-50. When fine-tuned on only 1\% of the labels, we achieve 85.8\% top-5 accuracy, outperforming AlexNet with 100X fewer labels.},
+  pubstate = {prepublished},
+  keywords = {Computer Science - Computer Vision and Pattern Recognition,Computer Science - Machine Learning,Statistics - Machine Learning},
+  file = {/home/kevinywu/snap/zotero-snap/common/Zotero/storage/HSEV7AJL/Chen et al. - 2020 - A Simple Framework for Contrastive Learning of Visual Representations.pdf;/home/kevinywu/snap/zotero-snap/common/Zotero/storage/ZMA87PQU/2002.html}
+}
+
 @online{dosovitskiyImageWorth16x162021,
   title = {An {{Image}} Is {{Worth}} 16x16 {{Words}}: {{Transformers}} for {{Image Recognition}} at {{Scale}}},
   shorttitle = {An {{Image}} Is {{Worth}} 16x16 {{Words}}},
@@ -137,6 +182,37 @@
   abstract = {Over the last decade, the use of autonomous drone systems for surveying, search and rescue, or last-mile delivery has increased exponentially. With the rise of these applications comes the need for highly robust, safety-critical algorithms which can operate drones in complex and uncertain environments. Additionally, flying fast enables drones to cover more ground which in turn increases productivity and further strengthens their use case. One proxy for developing algorithms used in high-speed navigation is the task of autonomous drone racing, where researchers program drones to fly through a sequence of gates and avoid obstacles as quickly as possible using onboard sensors and limited computational power. Speeds and accelerations exceed over 80 kph and 4 g respectively, raising significant challenges across perception, planning, control, and state estimation. To achieve maximum performance, systems require real-time algorithms that are robust to motion blur, high dynamic range, model uncertainties, aerodynamic disturbances, and often unpredictable opponents. This survey covers the progression of autonomous drone racing across model-based and learning-based approaches. We provide an overview of the field, its evolution over the years, and conclude with the biggest challenges and open questions to be faced in the future.},
   keywords = {Computer Science - Robotics},
   file = {/home/kevinywu/snap/zotero-snap/common/Zotero/storage/FP2IIEZB/Hanover et al. - 2024 - Autonomous Drone Racing A Survey.pdf;/home/kevinywu/snap/zotero-snap/common/Zotero/storage/5ZUR2EUY/2301.html}
+}
+
+@online{heMaskedAutoencodersAre2021,
+  title = {Masked {{Autoencoders Are Scalable Vision Learners}}},
+  author = {He, Kaiming and Chen, Xinlei and Xie, Saining and Li, Yanghao and Dollár, Piotr and Girshick, Ross},
+  date = {2021-12-19},
+  eprint = {2111.06377},
+  eprinttype = {arXiv},
+  doi = {10.48550/arXiv.2111.06377},
+  url = {http://arxiv.org/abs/2111.06377},
+  urldate = {2024-10-15},
+  abstract = {This paper shows that masked autoencoders (MAE) are scalable self-supervised learners for computer vision. Our MAE approach is simple: we mask random patches of the input image and reconstruct the missing pixels. It is based on two core designs. First, we develop an asymmetric encoder-decoder architecture, with an encoder that operates only on the visible subset of patches (without mask tokens), along with a lightweight decoder that reconstructs the original image from the latent representation and mask tokens. Second, we find that masking a high proportion of the input image, e.g., 75\%, yields a nontrivial and meaningful self-supervisory task. Coupling these two designs enables us to train large models efficiently and effectively: we accelerate training (by 3x or more) and improve accuracy. Our scalable approach allows for learning high-capacity models that generalize well: e.g., a vanilla ViT-Huge model achieves the best accuracy (87.8\%) among methods that use only ImageNet-1K data. Transfer performance in downstream tasks outperforms supervised pre-training and shows promising scaling behavior.},
+  pubstate = {prepublished},
+  keywords = {Computer Science - Computer Vision and Pattern Recognition},
+  file = {/home/kevinywu/snap/zotero-snap/common/Zotero/storage/C5X2WHGJ/He et al. - 2021 - Masked Autoencoders Are Scalable Vision Learners.pdf;/home/kevinywu/snap/zotero-snap/common/Zotero/storage/K42M8CHG/2111.html}
+}
+
+@online{heMomentumContrastUnsupervised2020,
+  title = {Momentum {{Contrast}} for {{Unsupervised Visual Representation Learning}}},
+  author = {He, Kaiming and Fan, Haoqi and Wu, Yuxin and Xie, Saining and Girshick, Ross},
+  date = {2020-03-23},
+  eprint = {1911.05722},
+  eprinttype = {arXiv},
+  eprintclass = {cs},
+  url = {http://arxiv.org/abs/1911.05722},
+  urldate = {2024-10-15},
+  abstract = {We present Momentum Contrast (MoCo) for unsupervised visual representation learning. From a perspective on contrastive learning [29] as dictionary look-up, we build a dynamic dictionary with a queue and a moving-averaged encoder. This enables building a large and consistent dictionary on-the-fly that facilitates contrastive unsupervised learning. MoCo provides competitive results under the common linear protocol on ImageNet classification. More importantly, the representations learned by MoCo transfer well to downstream tasks. MoCo can outperform its supervised pre-training counterpart in 7 detection/segmentation tasks on PASCAL VOC, COCO, and other datasets, sometimes surpassing it by large margins. This suggests that the gap between unsupervised and supervised representation learning has been largely closed in many vision tasks.},
+  langid = {english},
+  pubstate = {prepublished},
+  keywords = {Computer Science - Computer Vision and Pattern Recognition},
+  file = {/home/kevinywu/snap/zotero-snap/common/Zotero/storage/S5YVJUVL/He et al. - 2020 - Momentum Contrast for Unsupervised Visual Representation Learning.pdf}
 }
 
 @online{hoDenoisingDiffusionProbabilistic2020,
@@ -243,6 +319,21 @@
   pubstate = {prepublished},
   keywords = {Computer Science - Artificial Intelligence,Computer Science - Computer Vision and Pattern Recognition,Computer Science - Machine Learning,Computer Science - Robotics},
   file = {/home/kevinywu/snap/zotero-snap/common/Zotero/storage/ME67B54J/Ma et al. - 2023 - VIP Towards Universal Visual Reward and Representation via Value-Implicit Pre-Training.pdf;/home/kevinywu/snap/zotero-snap/common/Zotero/storage/FH9EQD8B/2210.html}
+}
+
+@online{mnihPlayingAtariDeep2013,
+  title = {Playing {{Atari}} with {{Deep Reinforcement Learning}}},
+  author = {Mnih, Volodymyr and Kavukcuoglu, Koray and Silver, David and Graves, Alex and Antonoglou, Ioannis and Wierstra, Daan and Riedmiller, Martin},
+  date = {2013-12-19},
+  eprint = {1312.5602},
+  eprinttype = {arXiv},
+  doi = {10.48550/arXiv.1312.5602},
+  url = {http://arxiv.org/abs/1312.5602},
+  urldate = {2024-10-15},
+  abstract = {We present the first deep learning model to successfully learn control policies directly from high-dimensional sensory input using reinforcement learning. The model is a convolutional neural network, trained with a variant of Q-learning, whose input is raw pixels and whose output is a value function estimating future rewards. We apply our method to seven Atari 2600 games from the Arcade Learning Environment, with no adjustment of the architecture or learning algorithm. We find that it outperforms all previous approaches on six of the games and surpasses a human expert on three of them.},
+  pubstate = {prepublished},
+  keywords = {Computer Science - Machine Learning},
+  file = {/home/kevinywu/snap/zotero-snap/common/Zotero/storage/83UPZ5AI/Mnih et al. - 2013 - Playing Atari with Deep Reinforcement Learning.pdf;/home/kevinywu/snap/zotero-snap/common/Zotero/storage/V3P48HSS/1312.html}
 }
 
 @online{singhHandObjectInteractionPretraining2024,

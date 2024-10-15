@@ -4,28 +4,34 @@
     "type": "split",
     "children": [
       {
-        "id": "cfc24c2cf4c75879",
+        "id": "65f637aa21740b30",
         "type": "tabs",
         "children": [
           {
-            "id": "e878cb68c23547a7",
+            "id": "b98a7f8274cdd05a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "personal-notes/phd/Ideas.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "27a1429fd62d57d5",
+        "type": "tabs",
+        "children": [
           {
-            "id": "193f3bf2f3aca595",
+            "id": "53e433e95231b2c2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "personal-notes/phd/PhD Programs.md",
+                "file": "personal-notes/phd/emails/Rachel Holladay.md",
                 "mode": "source",
                 "source": false
               }
@@ -60,7 +66,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#learning-from-video",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -97,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "personal-notes/phd/Ideas.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "personal-notes/phd/Ideas.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "personal-notes/phd/Ideas.md"
+                "file": "README.md"
               }
             }
           },
@@ -187,36 +193,44 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "e878cb68c23547a7",
+  "active": "b98a7f8274cdd05a",
   "lastOpenFiles": [
-    "personal-notes/phd/PhD Programs.md",
-    "personal-notes/phd/Ideas.md",
-    "personal-notes/phd/Research Statement.md",
-    "personal-notes/phd/emails/Rachel Holladay.md",
-    "personal-notes/phd/emails/Heng Yang.md",
-    "personal-notes/phd/Recommendations.md",
-    "personal-notes/phd/Essays.md",
-    "personal-notes/phd/Khurram.md",
-    "personal-notes/phd/Personal Statement.md",
-    "personal-notes/phd/emails/Binghao Huang.md",
-    "personal-notes/phd/emails/Kris Hauser.md",
-    "talks/Saurabh Gupta - Robot Learning by Understanding Egocentric Videos.md",
-    "papers/appendix/README.md",
-    "papers/reinforcement-learning/README.md",
-    "tutorials/README.md",
-    "talks/README.md",
-    "papers/imitation-learning/README.md",
-    "papers/foundation-models/README.md",
-    "papers/foundation-models/Octo - An Open-Source Generalist Robot Policy.md",
-    "papers/imitation-learning/Learning Fine-Grained Bimanual Manipulation with Low-Cost Hardware.md",
-    "templates/README.md",
-    "personal-notes/unsorted/foundation/README.md",
     "papers/README.md",
-    "README.md",
+    "papers/visual-representations/README.md",
+    "personal-notes/phd/emails/Rachel Holladay.md",
+    "papers/appendix/README.md",
+    "papers/visual-representations/Masked Autoencoders Are Scalable Vision Learners.md",
+    "papers/visual-representations/Momentum Contrast for Unsupervised Visual Representation Learning.md",
+    "papers/visual-representations/Emerging Properties in Self-Supervised Vision Transformers.md",
+    "papers/visual-representations/A Simple Framework for Contrastive Learning of Visual Representations.md",
+    "papers/visual-representations/Big Self-Supervised Models are Strong Semi-Supervised Learners.md",
+    "templates/README.md",
+    "papers/multi-agent/Learning Vision-based Pursuit-Evasion Robot Policies.md",
+    "papers/multi-agent/README.md",
+    "papers/reinforcement-learning/README.md",
     "papers/sim2real/README.md",
+    "papers/sim2real/Hand-Object Interaction Pretraining from Videos.md",
+    "papers/transformers/README.md",
+    "papers/transformers/An Image is Worth 16x16 Words - Transformers for Image Recognition at Scale.md",
+    "personal-notes/phd/emails/Antonio Loquercio.md",
+    "talks/Antonio Loquercio - Learning Vision-Based High-Speed Flight.md",
+    "talks/Rachel Holladay - Leveraging Mechanics for Multi-step Robotic Manipulation Planning.md",
+    "papers/reinforcement-learning/Playing Atari with Deep Reinforcement Learning.md",
+    "papers/reinforcement-learning/Rank2Reward - Learning Shaped Reward Functions from Passive Video.md",
+    "papers/foundation-models/Octo - An Open-Source Generalist Robot Policy.md",
+    "papers/transformers/img/vit.png",
+    "papers/transformers/img/vit_internal.png",
+    "papers/generative-models/README.md",
+    "papers/generative-models/img",
+    "papers/transformers/img",
+    "papers/visual-representations/img",
+    "README.md",
+    "papers/visual-representations",
+    "talks/Yunzhu Li - Foundation Models for Robotic Manipulation.md",
+    "papers/generative-models",
+    "papers/transformers",
     "papers/foundation-models/img",
     "papers/foundation-models",
-    "papers/Untitled.md",
     "papers/foundation-models/img/octo.png",
     "papers/imitation-learning/img/act_train.png",
     "papers/imitation-learning/img/act_test.png",
@@ -226,15 +240,7 @@
     "papers/reinforcement-learning/img/hold.png",
     "papers/reinforcement-learning/img/vip.png",
     "books/robot-dynamics-control/Robot Dynamics and Control.pdf",
-    "courses/deep-reinforcement-learning/Deep Reinforcement Learning.pdf",
     "papers/reinforcement-learning/img/drqv2.png",
-    "papers/reinforcement-learning",
-    "papers/sim2real/img/hop.png",
-    "papers/sim2real/img",
-    "papers/multi-agent",
-    "papers/multi-agent/img/pursuit.png",
-    "papers/multi-agent/img",
-    "papers/3d-representation/img",
     "Untitled.canvas"
   ]
 }

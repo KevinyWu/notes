@@ -36,7 +36,7 @@
 
 ## [2024-08-08] Yunzhu Li - Foundation Models for Robotic Manipulation
 
-#3d-representation
+#3d-scenes
 #foundation-models
 [[Yunzhu Li - Foundation Models for Robotic Manipulation]]
 - VoxPoser: Code is multilingual interface between humans, foundation models, and robot
@@ -54,7 +54,7 @@
 ## [2024-10-11] Antonio Loquercio - Simulation-What Made Us Intelligent Will Make Our Robots Intelligent
 
 #sim2real
-#3d-representation
+#3d-scenes
 #learning-from-video
 #tactile
 [[Antonio Loquercio - Simulation-What Made Us Intelligent Will Make Our Robots Intelligent]]
