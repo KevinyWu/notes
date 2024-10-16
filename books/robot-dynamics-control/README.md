@@ -5,10 +5,10 @@ Notes from the book "Robot Dynamics and Control, 2nd Edition" by Mark W. Spong, 
 ## Contents
 
 - [[books/robot-dynamics-control/README#[1] Introduction|1 Introduction]]
-	- [[1 Introduction#1.1 Robotics|1.1 Robotics]]
-	- [[1 Introduction#1.2 History of Robotics|1.2 History of Robotics]]
-	- [[1 Introduction#1.3 Components and Structure of Robots|1.3 Components and Structure of Robots]]
-	- [[1 Introduction#1.4 Outline of the Text|1.4 Outline of the Text]]
+	- [[books/robot-dynamics-control/1 Introduction#1.1 Robotics|1.1 Robotics]]
+	- [[books/robot-dynamics-control/1 Introduction#1.2 History of Robotics|1.2 History of Robotics]]
+	- [[books/robot-dynamics-control/1 Introduction#1.3 Components and Structure of Robots|1.3 Components and Structure of Robots]]
+	- [[books/robot-dynamics-control/1 Introduction#1.4 Outline of the Text|1.4 Outline of the Text]]
 - [[books/robot-dynamics-control/README#[2] Rigid Motions and Homogeneous Transformations|2 Rigid Motions and Homogeneous Transformations]]
 	- [[2 Rigid Motions and Homogeneous Transformations#2.1 Representing Positions|2.1 Representing Positions]]
 	- [[2 Rigid Motions and Homogeneous Transformations#2.2 Representing Rotations|2.2 Representing Rotations]]
@@ -29,7 +29,7 @@ Notes from the book "Robot Dynamics and Control, 2nd Edition" by Mark W. Spong, 
 ## [1] Introduction
 
 #robotics
-[[1 Introduction]]
+[[books/robot-dynamics-control/1 Introduction|1 Introduction]]
 - Robotics involves kinematics, dynamics, motion planning, computer vision, and control, with robots defined as reprogrammable manipulators for various tasks
 - Robots consist of links, joints, degrees of freedom, workspaces, servo control, and control resolution
 - The text covers forward/inverse kinematics, velocity kinematics, path planning, vision, dynamics, and control strategies

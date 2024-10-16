@@ -13,7 +13,25 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "books/robot-dynamics-control/README.md",
+                "file": "courses/deep-reinforcement-learning/4 Introduction to Reinforcement Learning.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "66e384564153fe17",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "72f86603ac4ef274",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "courses/deep-reinforcement-learning/README.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +87,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 237.5
   },
   "right": {
     "id": "3050ca2fa929a831",
@@ -85,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "books/robot-dynamics-control/README.md",
+                "file": "courses/deep-reinforcement-learning/4 Introduction to Reinforcement Learning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "books/robot-dynamics-control/README.md",
+                "file": "courses/deep-reinforcement-learning/4 Introduction to Reinforcement Learning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "books/robot-dynamics-control/README.md"
+                "file": "courses/deep-reinforcement-learning/4 Introduction to Reinforcement Learning.md"
               }
             }
           },
@@ -177,12 +195,26 @@
   },
   "active": "6bc24de665df0d45",
   "lastOpenFiles": [
-    "books/robot-dynamics-control/4 Inverse Kinematics.md",
+    "courses/deep-reinforcement-learning/6 Actor-Critic Algorithms.md",
+    "courses/deep-reinforcement-learning/README.md",
+    "courses/deep-reinforcement-learning/2 Supervised Learning of Behaviors.md",
+    "courses/deep-reinforcement-learning/4 Introduction to Reinforcement Learning.md",
+    "courses/deep-reinforcement-learning/5 Policy Gradients.md",
+    "papers/reinforcement-learning/README.md",
+    "papers/reinforcement-learning/Playing Atari with Deep Reinforcement Learning.md",
+    "courses/deep-reinforcement-learning/1 Introduction.md",
     "books/robot-dynamics-control/README.md",
-    "books/robot-dynamics-control/2 Rigid Motions and Homogeneous Transformations.md",
-    "books/robot-dynamics-control/3 Forward Kinematics - The Denavit-Hartenberg Convention.md",
     "books/robot-dynamics-control/1 Introduction.md",
+    "books/robot-dynamics-control/2 Rigid Motions and Homogeneous Transformations.md",
     "books/README.md",
+    "courses/deep-reinforcement-learning/Deep Reinforcement Learning.pdf",
+    "books/robot-dynamics-control/4 Inverse Kinematics.md",
+    "books/robot-dynamics-control/3 Forward Kinematics - The Denavit-Hartenberg Convention.md",
+    "templates/Tutorial.md",
+    "templates/Lecture.md",
+    "courses/robotic-manipulation/README.md",
+    "courses/deep-reinforcement-learning/slides/2 Supervised Learning of Behaviors.pdf",
+    "courses/deep-reinforcement-learning/slides/1 Introduction.pdf",
     "templates/Chapter.md",
     "papers/visual-representations/README.md",
     "templates/README.md",
@@ -194,17 +226,6 @@
     "personal-notes/phd/PhD Programs.md",
     "talks/Rachel Holladay - Leveraging Mechanics for Multi-step Robotic Manipulation Planning.md",
     "talks/Saurabh Gupta - Robot Learning by Understanding Egocentric Videos.md",
-    "personal-notes/phd/Ideas.md",
-    "personal-notes/phd/Personal Statement.md",
-    "personal-notes/phd/Khurram.md",
-    "personal-notes/projects/Autonomous Flight.md",
-    "personal-notes/projects/UR5 Teleoperation.md",
-    "personal-notes/projects/Duckiebot Arm.md",
-    "personal-notes/projects/Deskbot.md",
-    "talks/README.md",
-    "papers/sim2real/Hand-Object Interaction Pretraining from Videos.md",
-    "personal-notes/phd/emails/Kris Hauser.md",
-    "personal-notes/phd/emails/Heng Yang.md",
     "papers/visual-representations/img/simclrv2.png",
     "papers/visual-representations/img/simclr.png",
     "papers/visual-representations/img/moco.png",
@@ -219,9 +240,6 @@
     "papers/transformers",
     "papers/generative-models",
     "papers/3d-scenes/img/tarf.png",
-    "papers/3d-scenes/img",
-    "papers/3d-scenes",
-    "papers/foundation-models/img",
     "papers/foundation-models/img/octo.png",
     "Untitled.canvas"
   ]

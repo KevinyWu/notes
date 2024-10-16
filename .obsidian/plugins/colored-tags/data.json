@@ -58,7 +58,8 @@
     "transformations": 40,
     "robotics": 41,
     "kinematics": 42,
-    "inverse-kinematics": 43
+    "inverse-kinematics": 43,
+    "markov-decision-process": 44
   },
   "_version": 3
 }
