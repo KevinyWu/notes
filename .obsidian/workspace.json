@@ -11,8 +11,30 @@
             "id": "7711a29c5c8816ce",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "talks/Rachel Holladay - Leveraging Mechanics for Multi-step Robotic Manipulation Planning.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "d0979511a1f7c33b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1f994c704f4149e7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "personal-notes/phd/emails/Rachel Holladay.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "personal-notes/phd/emails/Rachel Holladay.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "personal-notes/phd/emails/Rachel Holladay.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +142,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "personal-notes/phd/emails/Rachel Holladay.md"
+              }
             }
           },
           {
@@ -167,9 +193,11 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "7711a29c5c8816ce",
+  "active": "b3d7463e5f207cbd",
   "lastOpenFiles": [
+    "talks/Rachel Holladay - Leveraging Mechanics for Multi-step Robotic Manipulation Planning.md",
     "courses/deep-reinforcement-learning/README.md",
+    "courses/README.md",
     "courses/robotic-manipulation/1 Introduction.md",
     "courses/robotic-manipulation/README.md",
     "courses/robotic-manipulation/2 Let's Get You a Robot.md",
@@ -187,7 +215,6 @@
     "courses/deep-reinforcement-learning/1 Introduction.md",
     "papers/3d-scenes/Tactile-Augmented Radiance Fields.md",
     "books/robot-dynamics-control/2 Rigid Motions and Homogeneous Transformations.md",
-    "courses/README.md",
     "papers/reinforcement-learning/README.md",
     "papers/reinforcement-learning/Playing Atari with Deep Reinforcement Learning.md",
     "courses/deep-reinforcement-learning/Deep Reinforcement Learning.pdf",
@@ -197,7 +224,6 @@
     "courses/deep-reinforcement-learning/slides/1 Introduction.pdf",
     "templates/Chapter.md",
     "papers/visual-representations/README.md",
-    "templates/README.md",
     "books/robot-dynamics-control/Robot Dynamics and Control.pdf",
     "books/robot-dynamics-control/Spong et al. - Robot Dynamics and Control.pdf",
     "papers/visual-representations/img/simclrv2.png",
