@@ -52,7 +52,13 @@
     "transformers": 34,
     "visual-representations": 35,
     "q-learning": 36,
-    "knowledge-distillation": 37
+    "knowledge-distillation": 37,
+    "tr": 38,
+    "rotations": 39,
+    "transformations": 40,
+    "robotics": 41,
+    "kinematics": 42,
+    "inverse-kinematics": 43
   },
   "_version": 3
 }

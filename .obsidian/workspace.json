@@ -4,71 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "5416cc2cb4b2c775",
+        "id": "c3dc8a5707806d22",
         "type": "tabs",
         "children": [
           {
-            "id": "3042d960bdcc6516",
+            "id": "6bc24de665df0d45",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "personal-notes/phd/Ideas.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "962a3a49e4006e57",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "talks/Saurabh Gupta - Robot Learning by Understanding Egocentric Videos.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cd927781add41a78",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "personal-notes/phd/emails/Rachel Holladay.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "01cd71179701dd1b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "talks/Rachel Holladay - Leveraging Mechanics for Multi-step Robotic Manipulation Planning.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bcb94296efe3339a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "personal-notes/phd/PhD Programs.md",
+                "file": "books/robot-dynamics-control/README.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -97,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#learning-from-video",
+                "query": "ro",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -134,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "personal-notes/phd/PhD Programs.md",
+                "file": "books/robot-dynamics-control/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "personal-notes/phd/PhD Programs.md",
+                "file": "books/robot-dynamics-control/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "personal-notes/phd/PhD Programs.md"
+                "file": "books/robot-dynamics-control/README.md"
               }
             }
           },
@@ -224,30 +175,36 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "bcb94296efe3339a",
+  "active": "6bc24de665df0d45",
   "lastOpenFiles": [
+    "books/robot-dynamics-control/4 Inverse Kinematics.md",
+    "books/robot-dynamics-control/README.md",
+    "books/robot-dynamics-control/2 Rigid Motions and Homogeneous Transformations.md",
+    "books/robot-dynamics-control/3 Forward Kinematics - The Denavit-Hartenberg Convention.md",
+    "books/robot-dynamics-control/1 Introduction.md",
+    "books/README.md",
+    "templates/Chapter.md",
+    "papers/visual-representations/README.md",
+    "templates/README.md",
+    "tutorials/README.md",
+    "Robot Dynamics and Control.md",
+    "books/robot-dynamics-control/Robot Dynamics and Control.pdf",
+    "books/robot-dynamics-control/Spong et al. - Robot Dynamics and Control.pdf",
+    "personal-notes/phd/emails/Rachel Holladay.md",
+    "personal-notes/phd/PhD Programs.md",
+    "talks/Rachel Holladay - Leveraging Mechanics for Multi-step Robotic Manipulation Planning.md",
+    "talks/Saurabh Gupta - Robot Learning by Understanding Egocentric Videos.md",
+    "personal-notes/phd/Ideas.md",
     "personal-notes/phd/Personal Statement.md",
     "personal-notes/phd/Khurram.md",
     "personal-notes/projects/Autonomous Flight.md",
     "personal-notes/projects/UR5 Teleoperation.md",
     "personal-notes/projects/Duckiebot Arm.md",
     "personal-notes/projects/Deskbot.md",
-    "personal-notes/phd/Ideas.md",
-    "personal-notes/phd/emails/Rachel Holladay.md",
-    "talks/Rachel Holladay - Leveraging Mechanics for Multi-step Robotic Manipulation Planning.md",
-    "talks/Saurabh Gupta - Robot Learning by Understanding Egocentric Videos.md",
     "talks/README.md",
     "papers/sim2real/Hand-Object Interaction Pretraining from Videos.md",
     "personal-notes/phd/emails/Kris Hauser.md",
     "personal-notes/phd/emails/Heng Yang.md",
-    "personal-notes/phd/emails/Binghao Huang.md",
-    "personal-notes/phd/emails/Antonio Loquercio.md",
-    "personal-notes/phd/Essays.md",
-    "personal-notes/phd/PhD Programs.md",
-    "talks/Antonio Loquercio - Learning Vision-Based High-Speed Flight.md",
-    "talks/Antonio Loquercio - Simulation-What Made Us Intelligent Will Make Our Robots Intelligent.md",
-    "personal-notes/phd/Research Statement.md",
-    "personal-notes/phd/Recommendations.md",
     "papers/visual-representations/img/simclrv2.png",
     "papers/visual-representations/img/simclr.png",
     "papers/visual-representations/img/moco.png",
@@ -255,10 +212,6 @@
     "papers/visual-representations/img/dino_attention.png",
     "papers/visual-representations/img/dino.png",
     "papers/visual-representations/img",
-    "papers/visual-representations/README.md",
-    "papers/visual-representations/Momentum Contrast for Unsupervised Visual Representation Learning.md",
-    "papers/visual-representations/Masked Autoencoders Are Scalable Vision Learners.md",
-    "papers/visual-representations/Emerging Properties in Self-Supervised Vision Transformers.md",
     "papers/visual-representations",
     "papers/transformers/img/vit_internal.png",
     "papers/transformers/img/vit.png",
@@ -269,9 +222,7 @@
     "papers/3d-scenes/img",
     "papers/3d-scenes",
     "papers/foundation-models/img",
-    "papers/foundation-models",
     "papers/foundation-models/img/octo.png",
-    "papers/imitation-learning/img",
     "Untitled.canvas"
   ]
 }
