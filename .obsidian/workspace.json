@@ -4,37 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "c3dc8a5707806d22",
+        "id": "45bc1e414729874d",
         "type": "tabs",
         "children": [
           {
-            "id": "6bc24de665df0d45",
+            "id": "7711a29c5c8816ce",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "courses/deep-reinforcement-learning/4 Introduction to Reinforcement Learning.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "66e384564153fe17",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "72f86603ac4ef274",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "courses/deep-reinforcement-learning/README.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -66,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ro",
+                "query": "tag:#robotics",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -103,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "courses/deep-reinforcement-learning/4 Introduction to Reinforcement Learning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "courses/deep-reinforcement-learning/4 Introduction to Reinforcement Learning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "courses/deep-reinforcement-learning/4 Introduction to Reinforcement Learning.md"
-              }
+              "state": {}
             }
           },
           {
@@ -193,39 +167,39 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "6bc24de665df0d45",
+  "active": "7711a29c5c8816ce",
   "lastOpenFiles": [
-    "courses/deep-reinforcement-learning/6 Actor-Critic Algorithms.md",
     "courses/deep-reinforcement-learning/README.md",
+    "courses/robotic-manipulation/1 Introduction.md",
+    "courses/robotic-manipulation/README.md",
+    "courses/robotic-manipulation/2 Let's Get You a Robot.md",
+    "courses/robotic-manipulation/3 Basic Pick-and-Place.md",
+    "courses/robotic-manipulation/4 Geometric Pose Estimation.md",
+    "books/README.md",
+    "books/robot-dynamics-control/README.md",
+    "books/robot-dynamics-control/3 Forward Kinematics - The Denavit-Hartenberg Convention.md",
+    "books/robot-dynamics-control/1 Introduction.md",
     "courses/deep-reinforcement-learning/2 Supervised Learning of Behaviors.md",
-    "courses/deep-reinforcement-learning/4 Introduction to Reinforcement Learning.md",
+    "books/robot-dynamics-control/4 Inverse Kinematics.md",
+    "courses/deep-reinforcement-learning/6 Actor-Critic Algorithms.md",
     "courses/deep-reinforcement-learning/5 Policy Gradients.md",
+    "courses/deep-reinforcement-learning/4 Introduction to Reinforcement Learning.md",
+    "courses/deep-reinforcement-learning/1 Introduction.md",
+    "papers/3d-scenes/Tactile-Augmented Radiance Fields.md",
+    "books/robot-dynamics-control/2 Rigid Motions and Homogeneous Transformations.md",
+    "courses/README.md",
     "papers/reinforcement-learning/README.md",
     "papers/reinforcement-learning/Playing Atari with Deep Reinforcement Learning.md",
-    "courses/deep-reinforcement-learning/1 Introduction.md",
-    "books/robot-dynamics-control/README.md",
-    "books/robot-dynamics-control/1 Introduction.md",
-    "books/robot-dynamics-control/2 Rigid Motions and Homogeneous Transformations.md",
-    "books/README.md",
     "courses/deep-reinforcement-learning/Deep Reinforcement Learning.pdf",
-    "books/robot-dynamics-control/4 Inverse Kinematics.md",
-    "books/robot-dynamics-control/3 Forward Kinematics - The Denavit-Hartenberg Convention.md",
     "templates/Tutorial.md",
     "templates/Lecture.md",
-    "courses/robotic-manipulation/README.md",
     "courses/deep-reinforcement-learning/slides/2 Supervised Learning of Behaviors.pdf",
     "courses/deep-reinforcement-learning/slides/1 Introduction.pdf",
     "templates/Chapter.md",
     "papers/visual-representations/README.md",
     "templates/README.md",
-    "tutorials/README.md",
-    "Robot Dynamics and Control.md",
     "books/robot-dynamics-control/Robot Dynamics and Control.pdf",
     "books/robot-dynamics-control/Spong et al. - Robot Dynamics and Control.pdf",
-    "personal-notes/phd/emails/Rachel Holladay.md",
-    "personal-notes/phd/PhD Programs.md",
-    "talks/Rachel Holladay - Leveraging Mechanics for Multi-step Robotic Manipulation Planning.md",
-    "talks/Saurabh Gupta - Robot Learning by Understanding Egocentric Videos.md",
     "papers/visual-representations/img/simclrv2.png",
     "papers/visual-representations/img/simclr.png",
     "papers/visual-representations/img/moco.png",
