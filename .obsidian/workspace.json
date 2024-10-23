@@ -1,56 +1,61 @@
 {
   "main": {
-    "id": "6abcd9e9e93a9ee0",
+    "id": "d845a379c09002eb",
     "type": "split",
     "children": [
       {
-        "id": "007d664c087673cb",
+        "id": "1cbeeed6de9a6f37",
         "type": "tabs",
         "children": [
           {
-            "id": "c9b4d41e35471e74",
+            "id": "ee92dc07e2ad67a1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "personal-notes/phd/Khurram.md",
+                "file": "personal-notes/phd/Recommendations.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Khurram"
-            }
-          },
-          {
-            "id": "5c83e156957d8bdf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "personal-notes/phd/PhD Programs.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "PhD Programs"
+              "title": "Recommendations"
             }
           }
-        ],
-        "currentTab": 1
+        ]
+      },
+      {
+        "id": "c65f3722686debde",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e39fd8b3bee7c4d9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "personal-notes/phd/Essays.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Essays"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "20984200ee63880a",
+    "id": "ab02be10a50e7207",
     "type": "split",
     "children": [
       {
-        "id": "49bb793c2483cb00",
+        "id": "f09a591edc56d131",
         "type": "tabs",
         "children": [
           {
-            "id": "b3d7463e5f207cbd",
+            "id": "679a209fe853bfb4",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -62,12 +67,12 @@
             }
           },
           {
-            "id": "24de2d3e5b99940f",
+            "id": "4dfc916cff1fa8c9",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#robotics",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -79,7 +84,7 @@
             }
           },
           {
-            "id": "717803410185094e",
+            "id": "f73a3b01cae698d6",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -92,23 +97,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237.5
+    "width": 300
   },
   "right": {
-    "id": "3050ca2fa929a831",
+    "id": "80d2e4dc7c5a034c",
     "type": "split",
     "children": [
       {
-        "id": "c54a0f02d2e2b495",
+        "id": "1eb6facb5bbace28",
         "type": "tabs",
         "children": [
           {
-            "id": "fe40068f21456365",
+            "id": "a91f4ffb93bba7a1",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "personal-notes/phd/PhD Programs.md",
+                "file": "personal-notes/phd/Essays.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,25 +123,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for PhD Programs"
+              "title": "Backlinks for Essays"
             }
           },
           {
-            "id": "b973c5454313d727",
+            "id": "640e308015534d1b",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "personal-notes/phd/PhD Programs.md",
+                "file": "personal-notes/phd/Essays.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from PhD Programs"
+              "title": "Outgoing links from Essays"
             }
           },
           {
-            "id": "4fd4c9443d720f42",
+            "id": "4655b58a610bf43f",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -149,126 +154,48 @@
             }
           },
           {
-            "id": "e5f261c0701696b5",
+            "id": "4a502816712ade51",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "personal-notes/phd/PhD Programs.md"
+                "file": "personal-notes/phd/Essays.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of PhD Programs"
-            }
-          },
-          {
-            "id": "4603a0af26f06c16",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {},
-              "icon": "spreadsheet",
-              "title": "Advanced Tables"
-            }
-          },
-          {
-            "id": "ebd1aeb24598b074",
-            "type": "leaf",
-            "state": {
-              "type": "copilot-chat-view",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          },
-          {
-            "id": "a5dcdb161fe40187",
-            "type": "leaf",
-            "state": {
-              "type": "ReferenceListView",
-              "state": {},
-              "icon": "quote-glyph",
-              "title": "References"
+              "title": "Outline of Essays"
             }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
+    "width": 300,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
       "switcher:Open quick switcher": false,
-      "command-palette:Open command palette": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
+      "command-palette:Open command palette": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "5c83e156957d8bdf",
+  "active": "e39fd8b3bee7c4d9",
   "lastOpenFiles": [
-<<<<<<< HEAD
+    "personal-notes/phd/Recommendations.md",
+    "personal-notes/phd/PhD Programs.md",
     "personal-notes/phd/Khurram.md",
     "personal-notes/phd/Ideas.md",
     "personal-notes/phd/Essays.md",
-    "personal-notes/phd/emails/Rachel Holladay.md",
-    "personal-notes/phd/Recommendations.md",
-    "personal-notes/phd/PhD Programs.md",
-=======
-    "personal-notes/phd/Essays.md",
-    "personal-notes/phd/Khurram.md",
-    "personal-notes/phd/Ideas.md",
-    "personal-notes/phd/PhD Programs.md",
-    "personal-notes/phd/Recommendations.md",
-    "personal-notes/phd/emails/Rachel Holladay.md",
->>>>>>> 00c4a4334a5f95a27e8fda1970013d4afeb93487
-    "talks/Tom Silver - Neuro-Symbolic Learning for Bilevel Robot Planning.md",
-    "personal-notes/phd/Research Statement.md",
-    "personal-notes/phd/Personal Statement.md",
-    "personal-notes/phd/emails/Antonio Loquercio.md",
-    "personal-notes/research/Progressor.md",
-    "talks/Antonio Loquercio - Simulation-What Made Us Intelligent Will Make Our Robots Intelligent.md",
-    "talks/Saurabh Gupta - Robot Learning by Understanding Egocentric Videos.md",
-    "personal-notes/phd/emails/Yuchen Cui.md",
-    "personal-notes/phd/emails/Sherry Yang.md",
-    "personal-notes/research/Emergenet.md",
-    "personal-notes/research/Contrastive RL with Exploration.md",
-    "personal-notes/phd/emails/Lerrel Pinto.md",
-    "personal-notes/phd/emails/Binghao Huang.md",
     "personal-notes/phd/emails/Heng Yang.md",
-    "personal-notes/phd/emails/Kris Hauser.md",
-    "tutorials/Supervised Policy Learning for Real Robots.md",
-    "personal-notes/research/BC Benchmark.md",
-    "personal-notes/projects/Deskbot.md",
-    "Manipulation.md",
-    "[Manipulation.md",
-    "courses/deep-reinforcement-learning/Deep Reinforcement Learning.pdf",
-    "courses/deep-reinforcement-learning/slides/2 Supervised Learning of Behaviors.pdf",
-    "courses/deep-reinforcement-learning/slides/1 Introduction.pdf",
-    "books/robot-dynamics-control/Robot Dynamics and Control.pdf",
-    "books/robot-dynamics-control/Spong et al. - Robot Dynamics and Control.pdf",
-    "papers/visual-representations/img/simclrv2.png",
-    "papers/visual-representations/img/simclr.png",
-    "papers/visual-representations/img/moco.png",
-    "papers/visual-representations/img/mae.png",
-    "papers/visual-representations/img/dino_attention.png",
-    "papers/visual-representations/img/dino.png",
-    "papers/visual-representations/img",
-    "papers/visual-representations",
-    "papers/transformers/img/vit_internal.png",
-    "papers/transformers/img/vit.png",
-    "papers/transformers/img",
-    "papers/transformers",
-    "papers/generative-models",
-    "papers/3d-scenes/img/tarf.png",
-    "papers/foundation-models/img/octo.png",
-    "Untitled.canvas"
+    "personal-notes/phd/emails/Binghao Huang.md",
+    "personal-notes/phd/emails/Antonio Loquercio.md",
+    "personal-notes/research/Contrastive RL with Exploration.md"
   ]
 }
