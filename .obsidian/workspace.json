@@ -20,13 +20,7 @@
               "icon": "lucide-file",
               "title": "Recommendations"
             }
-          }
-        ]
-      },
-      {
-        "id": "c65f3722686debde",
-        "type": "tabs",
-        "children": [
+          },
           {
             "id": "e39fd8b3bee7c4d9",
             "type": "leaf",
@@ -41,7 +35,8 @@
               "title": "Essays"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "80d2e4dc7c5a034c",
@@ -188,10 +183,10 @@
   },
   "active": "e39fd8b3bee7c4d9",
   "lastOpenFiles": [
-    "personal-notes/phd/Recommendations.md",
-    "personal-notes/phd/PhD Programs.md",
-    "personal-notes/phd/Khurram.md",
     "personal-notes/phd/Ideas.md",
+    "personal-notes/phd/Khurram.md",
+    "personal-notes/phd/PhD Programs.md",
+    "personal-notes/phd/Recommendations.md",
     "personal-notes/phd/Essays.md",
     "personal-notes/phd/emails/Heng Yang.md",
     "personal-notes/phd/emails/Binghao Huang.md",
