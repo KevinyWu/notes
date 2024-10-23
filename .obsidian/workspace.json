@@ -214,12 +214,21 @@
   },
   "active": "5c83e156957d8bdf",
   "lastOpenFiles": [
+<<<<<<< HEAD
     "personal-notes/phd/Khurram.md",
     "personal-notes/phd/Ideas.md",
     "personal-notes/phd/Essays.md",
     "personal-notes/phd/emails/Rachel Holladay.md",
     "personal-notes/phd/Recommendations.md",
     "personal-notes/phd/PhD Programs.md",
+=======
+    "personal-notes/phd/Essays.md",
+    "personal-notes/phd/Khurram.md",
+    "personal-notes/phd/Ideas.md",
+    "personal-notes/phd/PhD Programs.md",
+    "personal-notes/phd/Recommendations.md",
+    "personal-notes/phd/emails/Rachel Holladay.md",
+>>>>>>> 00c4a4334a5f95a27e8fda1970013d4afeb93487
     "talks/Tom Silver - Neuro-Symbolic Learning for Bilevel Robot Planning.md",
     "personal-notes/phd/Research Statement.md",
     "personal-notes/phd/Personal Statement.md",
