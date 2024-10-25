@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "personal-notes/phd/Recommendations.md",
+                "file": "personal-notes/phd/emails/Heng Yang.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Recommendations"
+              "title": "Heng Yang"
             }
           },
           {
@@ -182,15 +182,17 @@
   },
   "active": "558aef26565fe6e7",
   "lastOpenFiles": [
-    "personal-notes/phd/emails/Lillian Chin.md",
+    "personal-notes/phd/emails/Kris Hauser.md",
+    "personal-notes/phd/emails/Lerrel Pinto.md",
+    "personal-notes/phd/emails/Rachel Holladay.md",
+    "personal-notes/phd/emails/Yuchen Cui.md",
+    "personal-notes/phd/emails/Sherry Yang.md",
     "personal-notes/phd/Recommendations.md",
+    "personal-notes/phd/emails/Lillian Chin.md",
     "personal-notes/phd/PhD Programs.md",
     "personal-notes/phd/Khurram.md",
     "personal-notes/phd/Ideas.md",
     "personal-notes/phd/Essays.md",
-    "personal-notes/phd/emails/Rachel Holladay.md",
-    "personal-notes/phd/emails/Sherry Yang.md",
-    "personal-notes/phd/emails/Kris Hauser.md",
     "personal-notes/phd/emails/Heng Yang.md",
     "papers/3d-scenes/Tactile-Augmented Radiance Fields.md",
     "papers/autonomous-flight/README.md",
