@@ -17,6 +17,7 @@ I've created simple note-taking system to streamline my learning. It uses Obsidi
     - [Foundation Models](https://github.com/KevinyWu/notes/tree/main/papers/foundation-models)
     - [Generative Models](https://github.com/KevinyWu/notes/tree/main/papers/generative-models)
     - [Imitation Learning](https://github.com/KevinyWu/notes/tree/main/papers/imitation-learning)
+    - [Marine Robotics](https://github.com/KevinyWu/notes/tree/main/papers/marine-robotics)
     - [Multi-Agent Interaction](https://github.com/KevinyWu/notes/tree/main/papers/multi-agent)
     - [Reinforcement Learning](https://github.com/KevinyWu/notes/tree/main/papers/reinforcement-learning)
     - [Sim2Real](https://github.com/KevinyWu/notes/tree/main/papers/sim2real)

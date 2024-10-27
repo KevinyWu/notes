@@ -65,3 +65,14 @@
 - Sensorimotor simulation enhances both high-level skills (planning) and low-level skills (motor control)
 - Move away from physics-based simulators because a perfect simulator is not feasible or scalable, and include senses beyond vision
 - Robot simulation is a flexible medium between learning from human video and real robots
+
+## [2024-08-25] Carl Vondrick - Making Sense of the Multimodal World
+
+#unsupervised
+#marine-robotics
+#reinforcement-learning
+#behavioral-cloning
+[[Carl Vondrick - Making Sense of the Multimodal World]]
+- Surrogate models that predict the performance of a predicted action can be used to guide online self-learning
+- Underwater is a good environment for self-learning due to safety and environment reset (objects dropping to seafloor)
+- GenAI can be used to generate videos of people doing a task, and robots can imitate these videos to generalize to unseen objects

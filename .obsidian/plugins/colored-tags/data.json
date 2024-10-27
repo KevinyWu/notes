@@ -59,7 +59,8 @@
     "robotics": 41,
     "kinematics": 42,
     "inverse-kinematics": 43,
-    "markov-decision-process": 44
+    "markov-decision-process": 44,
+    "marine-robotics": 45
   },
   "_version": 3
 }
