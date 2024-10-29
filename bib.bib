@@ -13,6 +13,21 @@
   file = {/home/kevinywu/snap/zotero-snap/common/Zotero/storage/MNVD9F69/Alakuijala et al. - 2023 - Learning Reward Functions for Robotic Manipulation by Observing Humans.pdf;/home/kevinywu/snap/zotero-snap/common/Zotero/storage/4TKP6TW5/2211.html}
 }
 
+@online{andrychowiczHindsightExperienceReplay2018,
+  title = {Hindsight {{Experience Replay}}},
+  author = {Andrychowicz, Marcin and Wolski, Filip and Ray, Alex and Schneider, Jonas and Fong, Rachel and Welinder, Peter and McGrew, Bob and Tobin, Josh and Abbeel, Pieter and Zaremba, Wojciech},
+  date = {2018-02-23},
+  eprint = {1707.01495},
+  eprinttype = {arXiv},
+  doi = {10.48550/arXiv.1707.01495},
+  url = {http://arxiv.org/abs/1707.01495},
+  urldate = {2024-10-29},
+  abstract = {Dealing with sparse rewards is one of the biggest challenges in Reinforcement Learning (RL). We present a novel technique called Hindsight Experience Replay which allows sample-efficient learning from rewards which are sparse and binary and therefore avoid the need for complicated reward engineering. It can be combined with an arbitrary off-policy RL algorithm and may be seen as a form of implicit curriculum. We demonstrate our approach on the task of manipulating objects with a robotic arm. In particular, we run experiments on three different tasks: pushing, sliding, and pick-and-place, in each case using only binary rewards indicating whether or not the task is completed. Our ablation studies show that Hindsight Experience Replay is a crucial ingredient which makes training possible in these challenging environments. We show that our policies trained on a physics simulation can be deployed on a physical robot and successfully complete the task.},
+  pubstate = {prepublished},
+  keywords = {Computer Science - Artificial Intelligence,Computer Science - Machine Learning,Computer Science - Neural and Evolutionary Computing,Computer Science - Robotics},
+  file = {/home/kevinywu/snap/zotero-snap/common/Zotero/storage/PHHCL756/Andrychowicz et al. - 2018 - Hindsight Experience Replay.pdf;/home/kevinywu/snap/zotero-snap/common/Zotero/storage/U7EI3KPE/1707.html}
+}
+
 @online{bajcsyLearningVisionbasedPursuitEvasion2023,
   title = {Learning {{Vision-based Pursuit-Evasion Robot Policies}}},
   author = {Bajcsy, Andrea and Loquercio, Antonio and Kumar, Ashish and Malik, Jitendra},
@@ -67,6 +82,21 @@
   pubstate = {prepublished},
   keywords = {Computer Science - Computer Vision and Pattern Recognition},
   file = {/home/kevinywu/snap/zotero-snap/common/Zotero/storage/P5FCGE5U/Caron et al. - 2021 - Emerging Properties in Self-Supervised Vision Transformers.pdf;/home/kevinywu/snap/zotero-snap/common/Zotero/storage/QUAHIMIC/2104.html}
+}
+
+@online{chane-saneGoalConditionedReinforcementLearning2021,
+  title = {Goal-{{Conditioned Reinforcement Learning}} with {{Imagined Subgoals}}},
+  author = {Chane-Sane, Elliot and Schmid, Cordelia and Laptev, Ivan},
+  date = {2021-07-01},
+  eprint = {2107.00541},
+  eprinttype = {arXiv},
+  doi = {10.48550/arXiv.2107.00541},
+  url = {http://arxiv.org/abs/2107.00541},
+  urldate = {2024-10-29},
+  abstract = {Goal-conditioned reinforcement learning endows an agent with a large variety of skills, but it often struggles to solve tasks that require more temporally extended reasoning. In this work, we propose to incorporate imagined subgoals into policy learning to facilitate learning of complex tasks. Imagined subgoals are predicted by a separate high-level policy, which is trained simultaneously with the policy and its critic. This high-level policy predicts intermediate states halfway to the goal using the value function as a reachability metric. We don't require the policy to reach these subgoals explicitly. Instead, we use them to define a prior policy, and incorporate this prior into a KL-constrained policy iteration scheme to speed up and regularize learning. Imagined subgoals are used during policy learning, but not during test time, where we only apply the learned policy. We evaluate our approach on complex robotic navigation and manipulation tasks and show that it outperforms existing methods by a large margin.},
+  pubstate = {prepublished},
+  keywords = {Computer Science - Machine Learning,Computer Science - Robotics},
+  file = {/home/kevinywu/snap/zotero-snap/common/Zotero/storage/GQX4XT2Q/Chane-Sane et al. - 2021 - Goal-Conditioned Reinforcement Learning with Imagined Subgoals.pdf;/home/kevinywu/snap/zotero-snap/common/Zotero/storage/Z5VQURVJ/2107.html}
 }
 
 @online{chenBigSelfSupervisedModels2020,
@@ -161,6 +191,37 @@
   pubstate = {prepublished},
   keywords = {Computer Science - Machine Learning,Computer Science - Robotics},
   file = {/home/kevinywu/snap/zotero-snap/common/Zotero/storage/VZSGGXCK/Drolet et al. - 2024 - A Comparison of Imitation Learning Algorithms for Bimanual Manipulation.pdf;/home/kevinywu/snap/zotero-snap/common/Zotero/storage/Z9HWRJQ2/2408.html}
+}
+
+@online{eysenbachContrastiveLearningGoalConditioned2023,
+  title = {Contrastive {{Learning}} as {{Goal-Conditioned Reinforcement Learning}}},
+  author = {Eysenbach, Benjamin and Zhang, Tianjun and Salakhutdinov, Ruslan and Levine, Sergey},
+  date = {2023-02-17},
+  eprint = {2206.07568},
+  eprinttype = {arXiv},
+  doi = {10.48550/arXiv.2206.07568},
+  url = {http://arxiv.org/abs/2206.07568},
+  urldate = {2024-10-28},
+  abstract = {In reinforcement learning (RL), it is easier to solve a task if given a good representation. While deep RL should automatically acquire such good representations, prior work often finds that learning representations in an end-to-end fashion is unstable and instead equip RL algorithms with additional representation learning parts (e.g., auxiliary losses, data augmentation). How can we design RL algorithms that directly acquire good representations? In this paper, instead of adding representation learning parts to an existing RL algorithm, we show (contrastive) representation learning methods can be cast as RL algorithms in their own right. To do this, we build upon prior work and apply contrastive representation learning to action-labeled trajectories, in such a way that the (inner product of) learned representations exactly corresponds to a goal-conditioned value function. We use this idea to reinterpret a prior RL method as performing contrastive learning, and then use the idea to propose a much simpler method that achieves similar performance. Across a range of goal-conditioned RL tasks, we demonstrate that contrastive RL methods achieve higher success rates than prior non-contrastive methods, including in the offline RL setting. We also show that contrastive RL outperforms prior methods on image-based tasks, without using data augmentation or auxiliary objectives.},
+  pubstate = {prepublished},
+  keywords = {Computer Science - Artificial Intelligence,Computer Science - Machine Learning},
+  file = {/home/kevinywu/snap/zotero-snap/common/Zotero/storage/WJKEIQYF/Eysenbach et al. - 2023 - Contrastive Learning as Goal-Conditioned Reinforcement Learning.pdf;/home/kevinywu/snap/zotero-snap/common/Zotero/storage/8DE4GJST/2206.html}
+}
+
+@online{eysenbachInferenceInterpolationContrastive2024,
+  title = {Inference via {{Interpolation}}: {{Contrastive Representations Provably Enable Planning}} and {{Inference}}},
+  shorttitle = {Inference via {{Interpolation}}},
+  author = {Eysenbach, Benjamin and Myers, Vivek and Salakhutdinov, Ruslan and Levine, Sergey},
+  date = {2024-06-18},
+  eprint = {2403.04082},
+  eprinttype = {arXiv},
+  doi = {10.48550/arXiv.2403.04082},
+  url = {http://arxiv.org/abs/2403.04082},
+  urldate = {2024-10-29},
+  abstract = {Given time series data, how can we answer questions like "what will happen in the future?" and "how did we get here?" These sorts of probabilistic inference questions are challenging when observations are high-dimensional. In this paper, we show how these questions can have compact, closed form solutions in terms of learned representations. The key idea is to apply a variant of contrastive learning to time series data. Prior work already shows that the representations learned by contrastive learning encode a probability ratio. By extending prior work to show that the marginal distribution over representations is Gaussian, we can then prove that joint distribution of representations is also Gaussian. Taken together, these results show that representations learned via temporal contrastive learning follow a Gauss-Markov chain, a graphical model where inference (e.g., prediction, planning) over representations corresponds to inverting a low-dimensional matrix. In one special case, inferring intermediate representations will be equivalent to interpolating between the learned representations. We validate our theory using numerical simulations on tasks up to 46-dimensions.},
+  pubstate = {prepublished},
+  keywords = {Computer Science - Machine Learning,Statistics - Machine Learning},
+  file = {/home/kevinywu/snap/zotero-snap/common/Zotero/storage/2R6AU66U/Eysenbach et al. - 2024 - Inference via Interpolation Contrastive Representations Provably Enable Planning and Inference.pdf;/home/kevinywu/snap/zotero-snap/common/Zotero/storage/KMLR6RPG/2403.html}
 }
 
 @online{goodfellowGenerativeAdversarialNetworks2014,
@@ -259,13 +320,6 @@
   file = {/home/kevinywu/snap/zotero-snap/common/Zotero/storage/UNDUGYQP/Holladay et al. - 2021 - Planning for Multi-stage Forceful Manipulation.pdf}
 }
 
-@online{HttpsWwwkramireznetRobotica,
-  title = {{{https://www.kramirez.net/Robotica/Tareas/Kinematics.pdf}}},
-  url = {https://www.kramirez.net/Robotica/Tareas/Kinematics.pdf},
-  urldate = {2024-10-16},
-  file = {/home/kevinywu/snap/zotero-snap/common/Zotero/storage/D32SDWVC/Kinematics.pdf}
-}
-
 @online{huangDiffusionRewardLearning2024,
   title = {Diffusion {{Reward}}: {{Learning Rewards}} via {{Conditional Video Diffusion}}},
   shorttitle = {Diffusion {{Reward}}},
@@ -311,6 +365,21 @@
   file = {/home/kevinywu/snap/zotero-snap/common/Zotero/storage/DCQRAFWD/Kumar et al. - 2024 - Practice Makes Perfect Planning to Learn Skill Parameter Policies.pdf}
 }
 
+@online{linReinforcementLearningGroundTruth2019,
+  title = {Reinforcement {{Learning}} without {{Ground-Truth State}}},
+  author = {Lin, Xingyu and Baweja, Harjatin Singh and Held, David},
+  date = {2019-07-15},
+  eprint = {1905.07866},
+  eprinttype = {arXiv},
+  doi = {10.48550/arXiv.1905.07866},
+  url = {http://arxiv.org/abs/1905.07866},
+  urldate = {2024-10-29},
+  abstract = {To perform robot manipulation tasks, a low-dimensional state of the environment typically needs to be estimated. However, designing a state estimator can sometimes be difficult, especially in environments with deformable objects. An alternative is to learn an end-to-end policy that maps directly from high-dimensional sensor inputs to actions. However, if this policy is trained with reinforcement learning, then without a state estimator, it is hard to specify a reward function based on high-dimensional observations. To meet this challenge, we propose a simple indicator reward function for goal-conditioned reinforcement learning: we only give a positive reward when the robot's observation exactly matches a target goal observation. We show that by relabeling the original goal with the achieved goal to obtain positive rewards (Andrychowicz et al., 2017), we can learn with the indicator reward function even in continuous state spaces. We propose two methods to further speed up convergence with indicator rewards: reward balancing and reward filtering. We show comparable performance between our method and an oracle which uses the ground-truth state for computing rewards. We show that our method can perform complex tasks in continuous state spaces such as rope manipulation from RGB-D images, without knowledge of the ground-truth state.},
+  pubstate = {prepublished},
+  keywords = {Computer Science - Machine Learning,Computer Science - Robotics},
+  file = {/home/kevinywu/snap/zotero-snap/common/Zotero/storage/J6M4LE9H/Lin et al. - 2019 - Reinforcement Learning without Ground-Truth State.pdf;/home/kevinywu/snap/zotero-snap/common/Zotero/storage/TFQ64QP3/1905.html}
+}
+
 @online{liuSelfImprovingAutonomousUnderwater2024,
   title = {Self-{{Improving Autonomous Underwater Manipulation}}},
   author = {Liu, Ruoshi and Ha, Huy and Hou, Mengxue and Song, Shuran and Vondrick, Carl},
@@ -340,7 +409,7 @@
   abstract = {In this paper, we present empirical evidence of skills and directed exploration emerging from a simple RL algorithm long before any successful trials are observed. For example, in a manipulation task, the agent is given a single observation of the goal state and learns skills, first for moving its end-effector, then for pushing the block, and finally for picking up and placing the block. These skills emerge before the agent has ever successfully placed the block at the goal location and without the aid of any reward functions, demonstrations, or manually-specified distance metrics. Once the agent has learned to reach the goal state reliably, exploration is reduced. Implementing our method involves a simple modification of prior work and does not require density estimates, ensembles, or any additional hyperparameters. Intuitively, the proposed method seems like it should be terrible at exploration, and we lack a clear theoretical understanding of why it works so effectively, though our experiments provide some hints.},
   pubstate = {prepublished},
   keywords = {Computer Science - Artificial Intelligence,Computer Science - Machine Learning},
-  file = {/home/kevinywu/snap/zotero-snap/common/Zotero/storage/EGHJP2CV/Liu et al. - 2024 - A Single Goal is All You Need Skills and Exploration Emerge from Contrastive RL without Rewards, De.pdf;/home/kevinywu/snap/zotero-snap/common/Zotero/storage/7A8VTL3V/2408.html}
+  file = {/home/kevinywu/snap/zotero-snap/common/Zotero/storage/BC82PDW6/Liu et al. - 2024 - A Single Goal is All You Need Skills and Exploration Emerge from Contrastive RL without Rewards, De.pdf;/home/kevinywu/snap/zotero-snap/common/Zotero/storage/EGHJP2CV/Liu et al. - 2024 - A Single Goal is All You Need Skills and Exploration Emerge from Contrastive RL without Rewards, De.pdf;/home/kevinywu/snap/zotero-snap/common/Zotero/storage/7A8VTL3V/2408.html;/home/kevinywu/snap/zotero-snap/common/Zotero/storage/QMW57Y78/2408.html}
 }
 
 @online{maVIPUniversalVisual2023,
@@ -374,6 +443,68 @@
   file = {/home/kevinywu/snap/zotero-snap/common/Zotero/storage/83UPZ5AI/Mnih et al. - 2013 - Playing Atari with Deep Reinforcement Learning.pdf;/home/kevinywu/snap/zotero-snap/common/Zotero/storage/V3P48HSS/1312.html}
 }
 
+@online{myersLearningTemporalDistances2024,
+  title = {Learning {{Temporal Distances}}: {{Contrastive Successor Features Can Provide}} a {{Metric Structure}} for {{Decision-Making}}},
+  shorttitle = {Learning {{Temporal Distances}}},
+  author = {Myers, Vivek and Zheng, Chongyi and Dragan, Anca and Levine, Sergey and Eysenbach, Benjamin},
+  date = {2024-06-24},
+  eprint = {2406.17098},
+  eprinttype = {arXiv},
+  doi = {10.48550/arXiv.2406.17098},
+  url = {http://arxiv.org/abs/2406.17098},
+  urldate = {2024-10-29},
+  abstract = {Temporal distances lie at the heart of many algorithms for planning, control, and reinforcement learning that involve reaching goals, allowing one to estimate the transit time between two states. However, prior attempts to define such temporal distances in stochastic settings have been stymied by an important limitation: these prior approaches do not satisfy the triangle inequality. This is not merely a definitional concern, but translates to an inability to generalize and find shortest paths. In this paper, we build on prior work in contrastive learning and quasimetrics to show how successor features learned by contrastive learning (after a change of variables) form a temporal distance that does satisfy the triangle inequality, even in stochastic settings. Importantly, this temporal distance is computationally efficient to estimate, even in high-dimensional and stochastic settings. Experiments in controlled settings and benchmark suites demonstrate that an RL algorithm based on these new temporal distances exhibits combinatorial generalization (i.e., "stitching") and can sometimes learn more quickly than prior methods, including those based on quasimetrics.},
+  pubstate = {prepublished},
+  keywords = {Computer Science - Artificial Intelligence,Computer Science - Machine Learning},
+  file = {/home/kevinywu/snap/zotero-snap/common/Zotero/storage/NV6UAYBN/Myers et al. - 2024 - Learning Temporal Distances Contrastive Successor Features Can Provide a Metric Structure for Decis.pdf;/home/kevinywu/snap/zotero-snap/common/Zotero/storage/36Z56KH5/2406.html}
+}
+
+@online{nasirianyPIVOTIterativeVisual2024,
+  title = {{{PIVOT}}: {{Iterative Visual Prompting Elicits Actionable Knowledge}} for {{VLMs}}},
+  shorttitle = {{{PIVOT}}},
+  author = {Nasiriany, Soroush and Xia, Fei and Yu, Wenhao and Xiao, Ted and Liang, Jacky and Dasgupta, Ishita and Xie, Annie and Driess, Danny and Wahid, Ayzaan and Xu, Zhuo and Vuong, Quan and Zhang, Tingnan and Lee, Tsang-Wei Edward and Lee, Kuang-Huei and Xu, Peng and Kirmani, Sean and Zhu, Yuke and Zeng, Andy and Hausman, Karol and Heess, Nicolas and Finn, Chelsea and Levine, Sergey and Ichter, Brian},
+  date = {2024-02-12},
+  eprint = {2402.07872},
+  eprinttype = {arXiv},
+  doi = {10.48550/arXiv.2402.07872},
+  url = {http://arxiv.org/abs/2402.07872},
+  urldate = {2024-10-29},
+  abstract = {Vision language models (VLMs) have shown impressive capabilities across a variety of tasks, from logical reasoning to visual understanding. This opens the door to richer interaction with the world, for example robotic control. However, VLMs produce only textual outputs, while robotic control and other spatial tasks require outputting continuous coordinates, actions, or trajectories. How can we enable VLMs to handle such settings without fine-tuning on task-specific data? In this paper, we propose a novel visual prompting approach for VLMs that we call Prompting with Iterative Visual Optimization (PIVOT), which casts tasks as iterative visual question answering. In each iteration, the image is annotated with a visual representation of proposals that the VLM can refer to (e.g., candidate robot actions, localizations, or trajectories). The VLM then selects the best ones for the task. These proposals are iteratively refined, allowing the VLM to eventually zero in on the best available answer. We investigate PIVOT on real-world robotic navigation, real-world manipulation from images, instruction following in simulation, and additional spatial inference tasks such as localization. We find, perhaps surprisingly, that our approach enables zero-shot control of robotic systems without any robot training data, navigation in a variety of environments, and other capabilities. Although current performance is far from perfect, our work highlights potentials and limitations of this new regime and shows a promising approach for Internet-Scale VLMs in robotic and spatial reasoning domains. Website: pivot-prompt.github.io and HuggingFace: https://huggingface.co/spaces/pivot-prompt/pivot-prompt-demo.},
+  pubstate = {prepublished},
+  keywords = {Computer Science - Computation and Language,Computer Science - Computer Vision and Pattern Recognition,Computer Science - Machine Learning,Computer Science - Robotics},
+  file = {/home/kevinywu/snap/zotero-snap/common/Zotero/storage/7Y59IFTZ/Nasiriany et al. - 2024 - PIVOT Iterative Visual Prompting Elicits Actionable Knowledge for VLMs.pdf;/home/kevinywu/snap/zotero-snap/common/Zotero/storage/AXSFJUNB/2402.html}
+}
+
+@online{openaiAsymmetricSelfplayAutomatic2021,
+  title = {Asymmetric Self-Play for Automatic Goal Discovery in Robotic Manipulation},
+  author = {OpenAI, OpenAI and Plappert, Matthias and Sampedro, Raul and Xu, Tao and Akkaya, Ilge and Kosaraju, Vineet and Welinder, Peter and D'Sa, Ruben and Petron, Arthur and Pinto, Henrique P. d O. and Paino, Alex and Noh, Hyeonwoo and Weng, Lilian and Yuan, Qiming and Chu, Casey and Zaremba, Wojciech},
+  date = {2021-01-13},
+  eprint = {2101.04882},
+  eprinttype = {arXiv},
+  doi = {10.48550/arXiv.2101.04882},
+  url = {http://arxiv.org/abs/2101.04882},
+  urldate = {2024-10-29},
+  abstract = {We train a single, goal-conditioned policy that can solve many robotic manipulation tasks, including tasks with previously unseen goals and objects. We rely on asymmetric self-play for goal discovery, where two agents, Alice and Bob, play a game. Alice is asked to propose challenging goals and Bob aims to solve them. We show that this method can discover highly diverse and complex goals without any human priors. Bob can be trained with only sparse rewards, because the interaction between Alice and Bob results in a natural curriculum and Bob can learn from Alice's trajectory when relabeled as a goal-conditioned demonstration. Finally, our method scales, resulting in a single policy that can generalize to many unseen tasks such as setting a table, stacking blocks, and solving simple puzzles. Videos of a learned policy is available at https://robotics-self-play.github.io.},
+  pubstate = {prepublished},
+  keywords = {Computer Science - Artificial Intelligence,Computer Science - Computer Vision and Pattern Recognition,Computer Science - Machine Learning,Computer Science - Robotics},
+  file = {/home/kevinywu/snap/zotero-snap/common/Zotero/storage/HIIMCWKE/OpenAI et al. - 2021 - Asymmetric self-play for automatic goal discovery in robotic manipulation.pdf;/home/kevinywu/snap/zotero-snap/common/Zotero/storage/GE62AMTP/2101.html}
+}
+
+@online{pathakCuriositydrivenExplorationSelfsupervised2017,
+  title = {Curiosity-Driven {{Exploration}} by {{Self-supervised Prediction}}},
+  author = {Pathak, Deepak and Agrawal, Pulkit and Efros, Alexei A. and Darrell, Trevor},
+  date = {2017-05-15},
+  eprint = {1705.05363},
+  eprinttype = {arXiv},
+  doi = {10.48550/arXiv.1705.05363},
+  url = {http://arxiv.org/abs/1705.05363},
+  urldate = {2024-10-29},
+  abstract = {In many real-world scenarios, rewards extrinsic to the agent are extremely sparse, or absent altogether. In such cases, curiosity can serve as an intrinsic reward signal to enable the agent to explore its environment and learn skills that might be useful later in its life. We formulate curiosity as the error in an agent's ability to predict the consequence of its own actions in a visual feature space learned by a self-supervised inverse dynamics model. Our formulation scales to high-dimensional continuous state spaces like images, bypasses the difficulties of directly predicting pixels, and, critically, ignores the aspects of the environment that cannot affect the agent. The proposed approach is evaluated in two environments: VizDoom and Super Mario Bros. Three broad settings are investigated: 1) sparse extrinsic reward, where curiosity allows for far fewer interactions with the environment to reach the goal; 2) exploration with no extrinsic reward, where curiosity pushes the agent to explore more efficiently; and 3) generalization to unseen scenarios (e.g. new levels of the same game) where the knowledge gained from earlier experience helps the agent explore new places much faster than starting from scratch. Demo video and code available at https://pathak22.github.io/noreward-rl/},
+  pubstate = {prepublished},
+  keywords = {Computer Science - Artificial Intelligence,Computer Science - Computer Vision and Pattern Recognition,Computer Science - Machine Learning,Computer Science - Robotics,Statistics - Machine Learning},
+  file = {/home/kevinywu/snap/zotero-snap/common/Zotero/storage/F6F3N4BB/Pathak et al. - 2017 - Curiosity-driven Exploration by Self-supervised Prediction.pdf;/home/kevinywu/snap/zotero-snap/common/Zotero/storage/FT943TB3/1705.html}
+}
+
 @online{qiControlorientedClusteringVisual2024,
   title = {Control-Oriented {{Clustering}} of {{Visual Latent Representation}}},
   author = {Qi, Han and Yin, Haocheng and Yang, Heng},
@@ -387,6 +518,21 @@
   pubstate = {prepublished},
   keywords = {Computer Science - Computer Vision and Pattern Recognition,Computer Science - Machine Learning,Computer Science - Robotics},
   file = {/home/kevinywu/snap/zotero-snap/common/Zotero/storage/DIANHNAX/Qi et al. - 2024 - Control-oriented Clustering of Visual Latent Representation.pdf;/home/kevinywu/snap/zotero-snap/common/Zotero/storage/GUVSRWKF/2410.html}
+}
+
+@online{shahRapidExplorationOpenWorld2023,
+  title = {Rapid {{Exploration}} for {{Open-World Navigation}} with {{Latent Goal Models}}},
+  author = {Shah, Dhruv and Eysenbach, Benjamin and Kahn, Gregory and Rhinehart, Nicholas and Levine, Sergey},
+  date = {2023-10-11},
+  eprint = {2104.05859},
+  eprinttype = {arXiv},
+  doi = {10.48550/arXiv.2104.05859},
+  url = {http://arxiv.org/abs/2104.05859},
+  urldate = {2024-10-29},
+  abstract = {We describe a robotic learning system for autonomous exploration and navigation in diverse, open-world environments. At the core of our method is a learned latent variable model of distances and actions, along with a non-parametric topological memory of images. We use an information bottleneck to regularize the learned policy, giving us (i) a compact visual representation of goals, (ii) improved generalization capabilities, and (iii) a mechanism for sampling feasible goals for exploration. Trained on a large offline dataset of prior experience, the model acquires a representation of visual goals that is robust to task-irrelevant distractors. We demonstrate our method on a mobile ground robot in open-world exploration scenarios. Given an image of a goal that is up to 80 meters away, our method leverages its representation to explore and discover the goal in under 20 minutes, even amidst previously-unseen obstacles and weather conditions. Please check out the project website for videos of our experiments and information about the real-world dataset used at https://sites.google.com/view/recon-robot.},
+  pubstate = {prepublished},
+  keywords = {Computer Science - Artificial Intelligence,Computer Science - Machine Learning,Computer Science - Robotics},
+  file = {/home/kevinywu/snap/zotero-snap/common/Zotero/storage/FBH3UXXK/Shah et al. - 2023 - Rapid Exploration for Open-World Navigation with Latent Goal Models.pdf;/home/kevinywu/snap/zotero-snap/common/Zotero/storage/52UMKTJX/2104.html}
 }
 
 @online{singhHandObjectInteractionPretraining2024,
@@ -456,6 +602,21 @@
   file = {/home/kevinywu/snap/zotero-snap/common/Zotero/storage/X43IG47J/Vaswani et al. - 2023 - Attention Is All You Need.pdf}
 }
 
+@online{xuTactilebasedObjectRetrieval2024,
+  title = {Tactile-Based {{Object Retrieval From Granular Media}}},
+  author = {Xu, Jingxi and Jia, Yinsen and Yang, Dongxiao and Meng, Patrick and Zhu, Xinyue and Guo, Zihan and Song, Shuran and Ciocarlie, Matei},
+  date = {2024-02-21},
+  eprint = {2402.04536},
+  eprinttype = {arXiv},
+  doi = {10.48550/arXiv.2402.04536},
+  url = {http://arxiv.org/abs/2402.04536},
+  urldate = {2024-10-29},
+  abstract = {We introduce GEOTACT, a robotic manipulation method capable of retrieving objects buried in granular media. This is a challenging task due to the need to interact with granular media, and doing so based exclusively on tactile feedback, since a buried object can be completely hidden from vision. Tactile feedback is in itself challenging in this context, due to ubiquitous contact with the surrounding media, and the inherent noise level induced by the tactile readings. To address these challenges, we use a learning method trained end-to-end with simulated sensor noise. We show that our problem formulation leads to the natural emergence of learned pushing behaviors that the manipulator uses to reduce uncertainty and funnel the object to a stable grasp despite spurious and noisy tactile readings. We also introduce a training curriculum that enables learning these behaviors in simulation, followed by zero-shot transfer to real hardware. To the best of our knowledge, GEOTACT is the first method to reliably retrieve a number of different objects from a granular environment, doing so on real hardware and with integrated tactile sensing. Videos and additional information can be found at https://jxu.ai/geotact.},
+  pubstate = {prepublished},
+  keywords = {Computer Science - Artificial Intelligence,Computer Science - Machine Learning,Computer Science - Robotics},
+  file = {/home/kevinywu/snap/zotero-snap/common/Zotero/storage/UC8J3ZRR/Xu et al. - 2024 - Tactile-based Object Retrieval From Granular Media.pdf;/home/kevinywu/snap/zotero-snap/common/Zotero/storage/U3B4A6IU/2402.html}
+}
+
 @online{yangFoundationModelsDecision2023,
   title = {Foundation {{Models}} for {{Decision Making}}: {{Problems}}, {{Methods}}, and {{Opportunities}}},
   shorttitle = {Foundation {{Models}} for {{Decision Making}}},
@@ -472,21 +633,6 @@
   file = {/home/kevinywu/snap/zotero-snap/common/Zotero/storage/PZJGKJNY/Yang et al. - 2023 - Foundation Models for Decision Making Problems, Methods, and Opportunities.pdf;/home/kevinywu/snap/zotero-snap/common/Zotero/storage/83672LQV/2303.html}
 }
 
-@online{yangLearningInteractiveRealWorld2024,
-  title = {Learning {{Interactive Real-World Simulators}}},
-  author = {Yang, Sherry and Du, Yilun and Ghasemipour, Kamyar and Tompson, Jonathan and Kaelbling, Leslie and Schuurmans, Dale and Abbeel, Pieter},
-  date = {2024-09-26},
-  eprint = {2310.06114},
-  eprinttype = {arXiv},
-  doi = {10.48550/arXiv.2310.06114},
-  url = {http://arxiv.org/abs/2310.06114},
-  urldate = {2024-10-22},
-  abstract = {Generative models trained on internet data have revolutionized how text, image, and video content can be created. Perhaps the next milestone for generative models is to simulate realistic experience in response to actions taken by humans, robots, and other interactive agents. Applications of a real-world simulator range from controllable content creation in games and movies, to training embodied agents purely in simulation that can be directly deployed in the real world. We explore the possibility of learning a universal simulator (UniSim) of real-world interaction through generative modeling. We first make the important observation that natural datasets available for learning a real-world simulator are often rich along different dimensions (e.g., abundant objects in image data, densely sampled actions in robotics data, and diverse movements in navigation data). With careful orchestration of diverse datasets, each providing a different aspect of the overall experience, we can simulate the visual outcome of both high-level instructions such as "open the drawer" and low-level controls from otherwise static scenes and objects. We use the simulator to train both high-level vision-language policies and low-level reinforcement learning policies, each of which can be deployed in the real world in zero shot after training purely in simulation. We also show that other types of intelligence such as video captioning models can benefit from training with simulated experience, opening up even wider applications. Video demos can be found at https://universal-simulator.github.io.},
-  pubstate = {prepublished},
-  keywords = {Computer Science - Artificial Intelligence},
-  file = {/home/kevinywu/snap/zotero-snap/common/Zotero/storage/3W8SDFKI/Yang et al. - 2024 - Learning Interactive Real-World Simulators.pdf;/home/kevinywu/snap/zotero-snap/common/Zotero/storage/SSRUFN62/2310.html}
-}
-
 @online{yangRank2RewardLearningShaped2024,
   title = {{{Rank2Reward}}: {{Learning Shaped Reward Functions}} from {{Passive Video}}},
   shorttitle = {{{Rank2Reward}}},
@@ -501,21 +647,6 @@
   pubstate = {prepublished},
   keywords = {Computer Science - Robotics},
   file = {/home/kevinywu/snap/zotero-snap/common/Zotero/storage/RQQQQWFI/Yang et al. - 2024 - Rank2Reward Learning Shaped Reward Functions from Passive Video.pdf;/home/kevinywu/snap/zotero-snap/common/Zotero/storage/EPBSPV6H/2404.html}
-}
-
-@online{yangVideoNewLanguage2024,
-  title = {Video as the {{New Language}} for {{Real-World Decision Making}}},
-  author = {Yang, Sherry and Walker, Jacob and Parker-Holder, Jack and Du, Yilun and Bruce, Jake and Barreto, Andre and Abbeel, Pieter and Schuurmans, Dale},
-  date = {2024-02-27},
-  eprint = {2402.17139},
-  eprinttype = {arXiv},
-  doi = {10.48550/arXiv.2402.17139},
-  url = {http://arxiv.org/abs/2402.17139},
-  urldate = {2024-10-22},
-  abstract = {Both text and video data are abundant on the internet and support large-scale self-supervised learning through next token or frame prediction. However, they have not been equally leveraged: language models have had significant real-world impact, whereas video generation has remained largely limited to media entertainment. Yet video data captures important information about the physical world that is difficult to express in language. To address this gap, we discuss an under-appreciated opportunity to extend video generation to solve tasks in the real world. We observe how, akin to language, video can serve as a unified interface that can absorb internet knowledge and represent diverse tasks. Moreover, we demonstrate how, like language models, video generation can serve as planners, agents, compute engines, and environment simulators through techniques such as in-context learning, planning and reinforcement learning. We identify major impact opportunities in domains such as robotics, self-driving, and science, supported by recent work that demonstrates how such advanced capabilities in video generation are plausibly within reach. Lastly, we identify key challenges in video generation that mitigate progress. Addressing these challenges will enable video generation models to demonstrate unique value alongside language models in a wider array of AI applications.},
-  pubstate = {prepublished},
-  keywords = {Computer Science - Artificial Intelligence,Computer Science - Computer Vision and Pattern Recognition},
-  file = {/home/kevinywu/snap/zotero-snap/common/Zotero/storage/76V2QU35/Yang et al. - 2024 - Video as the New Language for Real-World Decision Making.pdf;/home/kevinywu/snap/zotero-snap/common/Zotero/storage/RGUUNFWP/2402.html}
 }
 
 @online{yaratsMasteringVisualContinuous2021,

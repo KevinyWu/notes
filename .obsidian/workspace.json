@@ -6,6 +6,7 @@
       {
         "id": "1cbeeed6de9a6f37",
         "type": "tabs",
+        "dimension": 53.10262529832935,
         "children": [
           {
             "id": "a08777117882af3c",
@@ -13,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "personal-notes/research/Contrastive RL with Exploration.md",
+                "file": "personal-notes/research/Exploration.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Contrastive RL with Exploration"
+              "title": "Exploration"
             }
           }
         ]
@@ -26,6 +27,7 @@
       {
         "id": "5d50a33d51b421e1",
         "type": "tabs",
+        "dimension": 46.89737470167065,
         "children": [
           {
             "id": "e84463a0edd9431b",
@@ -186,26 +188,33 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "e84463a0edd9431b",
+  "active": "679a209fe853bfb4",
   "lastOpenFiles": [
-    "personal-notes/phd/PhD Programs.md",
-    "personal-notes/research/Contrastive RL with Exploration.md",
-    "personal-notes/phd/emails/Lillian Chin.md",
-    "personal-notes/phd/Recommendations.md",
+    "personal-notes/learning/Learning.md",
+    "personal-notes/research/Exploration.md",
     "personal-notes/phd/Essays.md",
+    "papers/reinforcement-learning/VIP - Towards Universal Visual Reward and Representation via Value-Implicit Pre-Training.md",
+    "papers/reinforcement-learning/Mastering Visual Continuous Control - Improved Data-Augmented Reinforcement Learning.md",
+    "papers/tactile-sensing",
+    "papers/planning",
+    "papers/sim2real/README.md",
+    "papers/sim2real/Hand-Object Interaction Pretraining from Videos.md",
+    "personal-notes/phd/emails/Antonio Loquercio.md",
+    "README.md",
+    "personal-notes/phd/emails/Lillian Chin.md",
+    "personal-notes/phd/PhD Programs.md",
+    "personal-notes/phd/Recommendations.md",
     "papers/marine-robotics/Self-Improving Autonomous Underwater Manipulation.md",
     "papers/marine-robotics/README.md",
     "talks/Carl Vondrick - Making Sense of the Multimodal World.md",
     "papers/marine-robotics/img/aquabot.png",
     "papers/marine-robotics/img",
     "personal-notes/phd/emails/Carl Vondrick.md",
-    "personal-notes/phd/emails/Antonio Loquercio.md",
     "personal-notes/phd/emails/Rachel Holladay.md",
     "talks/README.md",
     "talks/img/dreamitate.png",
     "talks/img/aquabot.png",
     "talks/img/paper_plane.png",
-    "README.md",
     "papers/README.md",
     "papers/multi-agent/README.md",
     "papers/marine-robotics",
@@ -214,11 +223,6 @@
     "personal-notes/phd/emails/Kris Hauser.md",
     "personal-notes/projects/Autonomous Flight.md",
     "personal-notes/projects/Deskbot.md",
-    "personal-notes/projects/Duckiebot Arm.md",
-    "personal-notes/projects/UR5 Teleoperation.md",
-    "personal-notes/research/Emergenet.md",
-    "personal-notes/research/Progressor.md",
-    "personal-notes/research/BC Benchmark.md",
-    "personal-notes/phd/emails/Sherry Yang.md"
+    "personal-notes/projects/Duckiebot Arm.md"
   ]
 }
