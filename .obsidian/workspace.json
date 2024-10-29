@@ -188,10 +188,11 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "679a209fe853bfb4",
+  "active": "a08777117882af3c",
   "lastOpenFiles": [
-    "personal-notes/learning/Learning.md",
+    "personal-notes/research/Progressor.md",
     "personal-notes/research/Exploration.md",
+    "personal-notes/learning/Learning.md",
     "personal-notes/phd/Essays.md",
     "papers/reinforcement-learning/VIP - Towards Universal Visual Reward and Representation via Value-Implicit Pre-Training.md",
     "papers/reinforcement-learning/Mastering Visual Continuous Control - Improved Data-Augmented Reinforcement Learning.md",
@@ -222,7 +223,6 @@
     "personal-notes/phd/emails/Yuchen Cui.md",
     "personal-notes/phd/emails/Kris Hauser.md",
     "personal-notes/projects/Autonomous Flight.md",
-    "personal-notes/projects/Deskbot.md",
-    "personal-notes/projects/Duckiebot Arm.md"
+    "personal-notes/projects/Deskbot.md"
   ]
 }
