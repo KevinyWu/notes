@@ -1,55 +1,123 @@
 {
   "main": {
-    "id": "d845a379c09002eb",
+    "id": "9526861a82ce5bef",
     "type": "split",
     "children": [
       {
-        "id": "5d50a33d51b421e1",
+        "id": "a5441583f63d612b",
         "type": "tabs",
         "children": [
           {
-            "id": "e84463a0edd9431b",
+            "id": "9966fed8a98bc61b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "personal-notes/phd/fellowships/Fellowship Essays.md",
+                "file": "personal-notes/phd/fellowships/NDSEG Tips.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Fellowship Essays"
+              "title": "NDSEG Tips"
             }
           },
           {
-            "id": "432bf0099ac236b9",
+            "id": "8338e7d1faf7eab6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "personal-notes/phd/PhD Programs.md",
+                "file": "personal-notes/research/Exploration.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PhD Programs"
+              "title": "Exploration"
             }
           }
-        ]
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "e2840cb9e2229e00",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "178ab16eca46e809",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "personal-notes/phd/fellowships/examples/NDSEG/NDSEG 2024 Ellis Brown Research.pdf",
+                "page": 2,
+                "left": -17,
+                "top": 370,
+                "zoom": 0.8799019607843137
+              },
+              "icon": "lucide-file-text",
+              "title": "NDSEG 2024 Ellis Brown Research"
+            }
+          },
+          {
+            "id": "f9b4a57fce4d0e41",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "personal-notes/phd/fellowships/examples/NDSEG/NDSEG 2023 Research.pdf",
+                "page": 3,
+                "left": -17,
+                "top": 582,
+                "zoom": 0.8799019607843137
+              },
+              "icon": "lucide-file-text",
+              "title": "NDSEG 2023 Research"
+            }
+          },
+          {
+            "id": "8a7e6238bf74cbbc",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "personal-notes/phd/fellowships/examples/NDSEG/NDSEG 2024 Tzofi Klinghoffer Research.png"
+              },
+              "icon": "lucide-image",
+              "title": "NDSEG 2024 Tzofi Klinghoffer Research"
+            }
+          },
+          {
+            "id": "72634707f4d603c3",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "personal-notes/phd/fellowships/examples/NDSEG/NDSEG 2020 Matthew Weidner Research.pdf",
+                "page": 1,
+                "left": -17,
+                "top": 499,
+                "zoom": 0.8799019607843137
+              },
+              "icon": "lucide-file-text",
+              "title": "NDSEG 2020 Matthew Weidner Research"
+            }
+          }
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "ab02be10a50e7207",
+    "id": "c8a4562ed6fc0cc7",
     "type": "split",
     "children": [
       {
-        "id": "f09a591edc56d131",
+        "id": "c32929bb8ba22a91",
         "type": "tabs",
         "children": [
           {
-            "id": "679a209fe853bfb4",
+            "id": "99efc0fe800f6a59",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -61,7 +129,7 @@
             }
           },
           {
-            "id": "4dfc916cff1fa8c9",
+            "id": "438f61c0a8d3a43f",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -78,7 +146,7 @@
             }
           },
           {
-            "id": "f73a3b01cae698d6",
+            "id": "349a0c96acf42338",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -91,23 +159,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 359.50390243530273
+    "width": 338.5
   },
   "right": {
-    "id": "80d2e4dc7c5a034c",
+    "id": "54bfd14cd7e39e7d",
     "type": "split",
     "children": [
       {
-        "id": "1eb6facb5bbace28",
+        "id": "e142df3dd3d00f91",
         "type": "tabs",
         "children": [
           {
-            "id": "a91f4ffb93bba7a1",
+            "id": "742b3c453b45ef34",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "personal-notes/phd/Essays.md",
+                "file": "personal-notes/phd/fellowships/examples/NDSEG/NDSEG 2020 Matthew Weidner Research.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,25 +185,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Essays"
+              "title": "Backlinks for NDSEG 2020 Matthew Weidner Research"
             }
           },
           {
-            "id": "640e308015534d1b",
+            "id": "e985bcdf43a2168c",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "personal-notes/phd/Essays.md",
+                "file": "personal-notes/phd/fellowships/examples/NDSEG/NDSEG 2020 Matthew Weidner Research.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Essays"
+              "title": "Outgoing links from NDSEG 2020 Matthew Weidner Research"
             }
           },
           {
-            "id": "4655b58a610bf43f",
+            "id": "0d2bcee5c0318174",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -148,15 +216,15 @@
             }
           },
           {
-            "id": "4a502816712ade51",
+            "id": "6784c41fae7b0dc5",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "personal-notes/phd/Essays.md"
+                "file": "personal-notes/phd/fellowships/examples/NDSEG/NDSEG 2020 Matthew Weidner Research.pdf"
               },
               "icon": "lucide-list",
-              "title": "Outline of Essays"
+              "title": "Outline of NDSEG 2020 Matthew Weidner Research"
             }
           }
         ]
@@ -180,60 +248,24 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "e84463a0edd9431b",
+  "active": "72634707f4d603c3",
   "lastOpenFiles": [
-<<<<<<< HEAD
-    "personal-notes/phd/PhD Programs.md",
-    "personal-notes/phd/Essays.md",
-=======
-    "personal-notes/phd/fellowships/NDSEG Tips.md",
-    "personal-notes/phd/fellowships/NSF Tips.md",
-    "personal-notes/phd/fellowships/examples/NDSEG/NDSEG 2020 Matthew Weidner Research.pdf",
-    "personal-notes/phd/fellowships/examples/NDSEG/NDSEG 2020 Matthew Weidner Personal.pdf",
+    "personal-notes/phd/fellowships/examples/NDSEG/NDSEG 2024 Tzofi Klinghoffer Research.png",
     "personal-notes/phd/fellowships/examples/NDSEG/NDSEG 2023 Research.pdf",
-    "NDSEG 2023-24 Tzofi Klinghoffer.png.md",
-    "personal-notes/phd/fellowships/examples/NSF/NSF 2018 Alvin Wan Personal.pdf",
+    "personal-notes/phd/fellowships/examples/NDSEG/NDSEG 2024 Ellis Brown Research.pdf",
+    "personal-notes/phd/fellowships/examples/NDSEG/NDSEG 2020 Matthew Weidner Research.pdf",
+    "papers/reinforcement-learning/Playing Atari with Deep Reinforcement Learning.md",
+    "personal-notes/research/Exploration.md",
+    "personal-notes/phd/fellowships/NDSEG Tips.md",
+    "personal-notes/phd/fellowships/examples/NDSEG/NDSEG 2020 Matthew Weidner Personal.pdf",
+    "personal-notes/phd/fellowships/examples/NDSEG/NDSEG 2024 Tzofi Klinghoffer Personal.pdf",
     "personal-notes/phd/fellowships/examples/NSF/NSF 2022 A. Li Research.pdf",
     "personal-notes/phd/fellowships/examples/NSF/NSF 2022 A. Li Personal.pdf",
-    "personal-notes/phd/fellowships/examples/NSF/NSF 2020 Nate Weinman Personal.pdf",
     "personal-notes/phd/fellowships/examples/NSF/NSF 2020 Victoria Dean Research.pdf",
     "personal-notes/phd/fellowships/examples/NSF/NSF 2020 Tara Safavi Personal.pdf",
-    "personal-notes/phd/fellowships/examples/NSF/NSF 2020 Joshua Zhanson Research.pdf",
-    "personal-notes/phd/fellowships/examples/NDSEG/NDSEG 2024 Tzofi Klinghoffer Research.png",
-    "personal-notes/phd/fellowships/examples/NDSEG/NDSEG 2024 Tzofi Klinghoffer Proposal.png",
-    "personal-notes/phd/fellowships/examples/NDSEG/NDSEG 2023-24 Tzofi Klinghoffer Proposal.png",
-    "personal-notes/phd/fellowships/examples/NDSEG/NDSEG 2023-24 Tzofi Klinghoffer Research.png",
-    "personal-notes/phd/fellowships/examples/NDSEG/NDSEG 2023-24 Tzofi Klinghoffer.png",
-    "personal-notes/phd/fellowships/Fellowship Essays.md",
-    "personal-notes/phd/Applications.md",
-    "personal-notes/phd/Recommendations.md",
+    "personal-notes/phd/fellowships/examples/NSF/NSF 2020 Nate Weinman Personal.pdf",
     "personal-notes/phd/PhD Programs.md",
-    "personal-notes/phd/Ideas.md",
-    "personal-notes/phd/sop-examples/Khurram.md",
->>>>>>> 6056cb2c9e14e3576612b52aa8b63b8ff990bc78
-    "personal-notes/research/Exploration.md",
-    "personal-notes/research/Progressor.md",
-    "personal-notes/learning/Learning.md",
-    "papers/reinforcement-learning/VIP - Towards Universal Visual Reward and Representation via Value-Implicit Pre-Training.md",
-    "papers/reinforcement-learning/Mastering Visual Continuous Control - Improved Data-Augmented Reinforcement Learning.md",
-    "papers/sim2real/README.md",
-    "papers/sim2real/Hand-Object Interaction Pretraining from Videos.md",
-    "personal-notes/phd/emails/Antonio Loquercio.md",
-    "README.md",
-    "personal-notes/phd/emails/Lillian Chin.md",
-<<<<<<< HEAD
-    "personal-notes/phd/Recommendations.md",
-=======
->>>>>>> 6056cb2c9e14e3576612b52aa8b63b8ff990bc78
-    "papers/marine-robotics/Self-Improving Autonomous Underwater Manipulation.md",
-    "papers/marine-robotics/README.md",
-    "talks/Carl Vondrick - Making Sense of the Multimodal World.md",
-    "papers/marine-robotics/img/aquabot.png",
-    "personal-notes/phd/emails/Carl Vondrick.md",
-    "personal-notes/phd/emails/Rachel Holladay.md",
-    "talks/README.md",
-    "talks/img/dreamitate.png",
-    "talks/img/aquabot.png",
-    "talks/img/paper_plane.png"
+    "personal-notes/phd/fellowships/Fellowship Essays.md",
+    "personal-notes/phd/Recommendations.md"
   ]
 }
