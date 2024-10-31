@@ -6,7 +6,7 @@
       {
         "id": "a5441583f63d612b",
         "type": "tabs",
-        "dimension": 40.43795620437956,
+        "dimension": 42.06762028608583,
         "children": [
           {
             "id": "9966fed8a98bc61b",
@@ -28,21 +28,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "personal-notes/research/Exploration.md",
+                "file": "personal-notes/phd/Recommendations.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Exploration"
+              "title": "Recommendations"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "e2840cb9e2229e00",
         "type": "tabs",
-        "dimension": 59.56204379562043,
+        "dimension": 57.93237971391417,
         "children": [
           {
             "id": "178ab16eca46e809",
@@ -51,10 +50,10 @@
               "type": "pdf",
               "state": {
                 "file": "personal-notes/phd/fellowships/examples/NDSEG/NDSEG 2024 Ellis Brown Research.pdf",
-                "page": 1,
-                "left": -79,
-                "top": 792,
-                "zoom": 0.8799019607843137
+                "page": 2,
+                "left": -15,
+                "top": 774,
+                "zoom": 1.0294117647058825
               },
               "icon": "lucide-file-text",
               "title": "NDSEG 2024 Ellis Brown Research"
@@ -68,8 +67,8 @@
               "state": {
                 "file": "personal-notes/phd/fellowships/examples/NDSEG/NDSEG 2023 Research.pdf",
                 "page": 3,
-                "left": -14,
-                "top": 592,
+                "left": -5,
+                "top": 281,
                 "zoom": 1.0600490196078431
               },
               "icon": "lucide-file-text",
@@ -95,16 +94,17 @@
               "type": "pdf",
               "state": {
                 "file": "personal-notes/phd/fellowships/examples/NDSEG/NDSEG 2020 Matthew Weidner Research.pdf",
-                "page": 2,
-                "left": -19,
-                "top": 154,
+                "page": 3,
+                "left": -120,
+                "top": 705,
                 "zoom": 0.7732843137254902
               },
               "icon": "lucide-file-text",
               "title": "NDSEG 2020 Matthew Weidner Research"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -249,17 +249,20 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "985100f015b0ec71",
+  "active": "9966fed8a98bc61b",
   "lastOpenFiles": [
-    "personal-notes/learning/Learning.md",
-    "personal-notes/research/Exploration.md",
-    "personal-notes/phd/fellowships/examples/NDSEG/NDSEG 2024 Ellis Brown Research.pdf",
-    "personal-notes/phd/fellowships/examples/NDSEG/NDSEG 2024 Tzofi Klinghoffer Research.png",
+    "personal-notes/phd/Recommendations.md",
     "personal-notes/phd/fellowships/examples/NDSEG/NDSEG 2023 Research.pdf",
+    "personal-notes/phd/fellowships/examples/NDSEG/NDSEG 2024 Tzofi Klinghoffer Research.png",
+    "personal-notes/phd/fellowships/examples/NDSEG/NDSEG 2020 Matthew Weidner Research.pdf",
+    "personal-notes/phd/fellowships/examples/NDSEG/NDSEG 2024 Ellis Brown Research.pdf",
+    "personal-notes/learning/Learning.md",
+    "personal-notes/phd/fellowships/Fellowship Essays.md",
+    "personal-notes/phd/fellowships/NSF Tips.md",
+    "personal-notes/phd/fellowships/NDSEG Tips.md",
+    "personal-notes/research/Exploration.md",
     "personal-notes/research/Emergenet.md",
     "personal-notes/phd/fellowships/examples/NDSEG/NDSEG 2024 Tzofi Klinghoffer Personal.pdf",
-    "personal-notes/phd/fellowships/NDSEG Tips.md",
-    "personal-notes/phd/fellowships/examples/NDSEG/NDSEG 2020 Matthew Weidner Research.pdf",
     "papers/reinforcement-learning/Playing Atari with Deep Reinforcement Learning.md",
     "personal-notes/phd/fellowships/examples/NDSEG/NDSEG 2020 Matthew Weidner Personal.pdf",
     "personal-notes/phd/fellowships/examples/NSF/NSF 2022 A. Li Research.pdf",
@@ -267,8 +270,6 @@
     "personal-notes/phd/fellowships/examples/NSF/NSF 2020 Victoria Dean Research.pdf",
     "personal-notes/phd/fellowships/examples/NSF/NSF 2020 Tara Safavi Personal.pdf",
     "personal-notes/phd/fellowships/examples/NSF/NSF 2020 Nate Weinman Personal.pdf",
-    "personal-notes/phd/PhD Programs.md",
-    "personal-notes/phd/fellowships/Fellowship Essays.md",
-    "personal-notes/phd/Recommendations.md"
+    "personal-notes/phd/PhD Programs.md"
   ]
 }
