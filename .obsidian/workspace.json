@@ -4,24 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "a5441583f63d612b",
+        "id": "2ad49c24d732d827",
         "type": "tabs",
         "children": [
           {
-            "id": "985100f015b0ec71",
+            "id": "095f72a5d6bf24eb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "talks/Saurabh Gupta - Robot Learning by Understanding Egocentric Videos.md",
+                "file": "personal-notes/phd/Recommendations.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Saurabh Gupta - Robot Learning by Understanding Egocentric Videos"
+              "title": "Recommendations"
+            }
+          },
+          {
+            "id": "db77ad4ec85702ef",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "personal-notes/phd/PhD Programs.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "PhD Programs"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -166,8 +181,9 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "985100f015b0ec71",
+  "active": "db77ad4ec85702ef",
   "lastOpenFiles": [
+    "personal-notes/phd/Recommendations.md",
     "personal-notes/phd/PhD Programs.md",
     "talks/Saurabh Gupta - Robot Learning by Understanding Egocentric Videos.md",
     "personal-notes/learning/Learning.md",
@@ -179,7 +195,6 @@
     "personal-notes/phd/fellowships/examples/NDSEG/NDSEG 2024 Ellis Brown Research.pdf",
     "personal-notes/phd/fellowships/examples/NDSEG/NDSEG 2023 Research.pdf",
     "personal-notes/phd/fellowships/examples/NDSEG/NDSEG 2020 Matthew Weidner Research.pdf",
-    "personal-notes/phd/Recommendations.md",
     "personal-notes/phd/fellowships/Fellowship Essays.md",
     "personal-notes/phd/fellowships/NSF Tips.md",
     "personal-notes/research/Exploration.md",
