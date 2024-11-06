@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "personal-notes/phd/Recommendations.md",
+                "file": "personal-notes/learning/Learning.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Recommendations"
+              "title": "Learning"
             }
           },
           {
@@ -183,11 +183,11 @@
   },
   "active": "db77ad4ec85702ef",
   "lastOpenFiles": [
+    "personal-notes/learning/Learning.md",
+    "personal-notes/phd/Ideas.md",
     "personal-notes/phd/Recommendations.md",
     "personal-notes/phd/PhD Programs.md",
     "talks/Saurabh Gupta - Robot Learning by Understanding Egocentric Videos.md",
-    "personal-notes/learning/Learning.md",
-    "personal-notes/phd/Ideas.md",
     "personal-notes/phd/fellowships/NDSEG Tips.md",
     "personal-notes/phd/fellowships/examples/NDSEG/NDSEG 2020 Matthew Weidner Personal.pdf",
     "personal-notes/phd/fellowships/examples/NDSEG/NDSEG 2024 Tzofi Klinghoffer Personal.pdf",
