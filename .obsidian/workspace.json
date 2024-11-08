@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "personal-notes/learning/Learning.md",
+                "file": "personal-notes/phd/sop-examples/Khurram.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Learning"
+              "title": "Khurram"
             }
           },
           {
@@ -184,9 +184,12 @@
   "active": "db77ad4ec85702ef",
   "lastOpenFiles": [
     "personal-notes/learning/Learning.md",
+    "personal-notes/phd/Applications.md",
+    "personal-notes/phd/sop-examples/Khurram.md",
+    "personal-notes/learning/Quick Notes.md",
     "personal-notes/phd/Ideas.md",
-    "personal-notes/phd/Recommendations.md",
     "personal-notes/phd/PhD Programs.md",
+    "personal-notes/phd/Recommendations.md",
     "talks/Saurabh Gupta - Robot Learning by Understanding Egocentric Videos.md",
     "personal-notes/phd/fellowships/NDSEG Tips.md",
     "personal-notes/phd/fellowships/examples/NDSEG/NDSEG 2020 Matthew Weidner Personal.pdf",
