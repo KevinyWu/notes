@@ -1,28 +1,28 @@
 {
   "main": {
-    "id": "9526861a82ce5bef",
+    "id": "daff00426d9bd331",
     "type": "split",
     "children": [
       {
-        "id": "2ad49c24d732d827",
+        "id": "cd1711c5fa860246",
         "type": "tabs",
         "children": [
           {
-            "id": "095f72a5d6bf24eb",
+            "id": "96c2003e30d0281d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "personal-notes/phd/sop-examples/Khurram.md",
+                "file": "personal-notes/phd/PhD Programs.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Khurram"
+              "title": "PhD Programs"
             }
           },
           {
-            "id": "db77ad4ec85702ef",
+            "id": "d310e2cece89d6dc",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -35,22 +35,21 @@
               "title": "Applications"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "c8a4562ed6fc0cc7",
+    "id": "a07b10e4b6f89515",
     "type": "split",
     "children": [
       {
-        "id": "c32929bb8ba22a91",
+        "id": "150ce5a87c29f571",
         "type": "tabs",
         "children": [
           {
-            "id": "99efc0fe800f6a59",
+            "id": "895941eccf265634",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -62,7 +61,7 @@
             }
           },
           {
-            "id": "438f61c0a8d3a43f",
+            "id": "9d6f3f61a7c68473",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -79,7 +78,7 @@
             }
           },
           {
-            "id": "349a0c96acf42338",
+            "id": "12c636cb8ad18dd7",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -92,23 +91,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 219.50390243530273
+    "width": 300
   },
   "right": {
-    "id": "54bfd14cd7e39e7d",
+    "id": "69a8df9329d0be32",
     "type": "split",
     "children": [
       {
-        "id": "e142df3dd3d00f91",
+        "id": "1db2bc7b4d0d848c",
         "type": "tabs",
         "children": [
           {
-            "id": "742b3c453b45ef34",
+            "id": "adb0266ed506dcd8",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "personal-notes/phd/fellowships/examples/NDSEG/NDSEG 2020 Matthew Weidner Research.pdf",
+                "file": "personal-notes/phd/PhD Programs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,25 +117,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for NDSEG 2020 Matthew Weidner Research"
+              "title": "Backlinks for PhD Programs"
             }
           },
           {
-            "id": "e985bcdf43a2168c",
+            "id": "9311ac9bdda5c307",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "personal-notes/phd/fellowships/examples/NDSEG/NDSEG 2020 Matthew Weidner Research.pdf",
+                "file": "personal-notes/phd/PhD Programs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from NDSEG 2020 Matthew Weidner Research"
+              "title": "Outgoing links from PhD Programs"
             }
           },
           {
-            "id": "0d2bcee5c0318174",
+            "id": "be8d4c2982d4a83a",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -149,15 +148,15 @@
             }
           },
           {
-            "id": "6784c41fae7b0dc5",
+            "id": "e6b8eea4100f5571",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "personal-notes/phd/fellowships/examples/NDSEG/NDSEG 2020 Matthew Weidner Research.pdf"
+                "file": "personal-notes/phd/PhD Programs.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of NDSEG 2020 Matthew Weidner Research"
+              "title": "Outline of PhD Programs"
             }
           }
         ]
@@ -181,35 +180,28 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "db77ad4ec85702ef",
+  "active": "96c2003e30d0281d",
   "lastOpenFiles": [
+    "personal-notes/phd/emails/Sherry Yang.md",
+    "personal-notes/phd/emails/Lillian Chin.md",
+    "personal-notes/phd/emails/Lerrel Pinto.md",
+    "personal-notes/phd/emails/Kris Hauser.md",
+    "personal-notes/phd/PhD Programs.md",
     "personal-notes/learning/Learning.md",
     "personal-notes/phd/Applications.md",
-<<<<<<< HEAD
     "personal-notes/phd/sop-examples/Khurram.md",
-    "personal-notes/learning/Quick Notes.md",
-=======
->>>>>>> 66e54bb (Sync notes repository)
+    "courses/robotic-manipulation/2 Let's Get You a Robot.md",
+    "courses/robotic-manipulation/README.md",
+    "courses/robotic-manipulation/4 Geometric Pose Estimation.md",
+    "courses/robotic-manipulation/3 Basic Pick-and-Place.md",
+    "courses/robotic-manipulation/img/3.7.png",
+    "courses/robotic-manipulation/img/2.7.png",
     "personal-notes/phd/Ideas.md",
-    "personal-notes/phd/PhD Programs.md",
+    "courses/robotic-manipulation/1 Introduction.md",
     "personal-notes/phd/Recommendations.md",
-    "talks/Saurabh Gupta - Robot Learning by Understanding Egocentric Videos.md",
-    "personal-notes/phd/fellowships/NDSEG Tips.md",
-    "personal-notes/phd/fellowships/examples/NDSEG/NDSEG 2020 Matthew Weidner Personal.pdf",
-    "personal-notes/phd/fellowships/examples/NDSEG/NDSEG 2024 Tzofi Klinghoffer Personal.pdf",
-    "personal-notes/phd/fellowships/examples/NDSEG/NDSEG 2024 Tzofi Klinghoffer Research.png",
-    "personal-notes/phd/fellowships/examples/NDSEG/NDSEG 2024 Ellis Brown Research.pdf",
-    "personal-notes/phd/fellowships/examples/NDSEG/NDSEG 2023 Research.pdf",
-    "personal-notes/phd/fellowships/examples/NDSEG/NDSEG 2020 Matthew Weidner Research.pdf",
-    "personal-notes/phd/fellowships/Fellowship Essays.md",
-    "personal-notes/phd/fellowships/NSF Tips.md",
-    "personal-notes/research/Exploration.md",
-    "personal-notes/research/Emergenet.md",
-    "papers/reinforcement-learning/Playing Atari with Deep Reinforcement Learning.md",
-    "personal-notes/phd/fellowships/examples/NSF/NSF 2022 A. Li Research.pdf",
-    "personal-notes/phd/fellowships/examples/NSF/NSF 2022 A. Li Personal.pdf",
-    "personal-notes/phd/fellowships/examples/NSF/NSF 2020 Victoria Dean Research.pdf",
-    "personal-notes/phd/fellowships/examples/NSF/NSF 2020 Tara Safavi Personal.pdf",
-    "personal-notes/phd/fellowships/examples/NSF/NSF 2020 Nate Weinman Personal.pdf"
+    "personal-notes/README.md",
+    "personal-notes/projects/Autonomous Flight.md",
+    "personal-notes/projects/UR5 Teleoperation.md",
+    "personal-notes/projects/Duckiebot Arm.md"
   ]
 }

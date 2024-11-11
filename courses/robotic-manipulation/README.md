@@ -15,6 +15,8 @@ Notes from the course "Robotic Manipulation" taught by Russ Tedrake at MIT.
 	- [[2 Let's Get You a Robot#2.2 Arms|2.2 Arms]]
 	- [[2 Let's Get You a Robot#2.3 Hands|2.3 Hands]]
 	- [[2 Let's Get You a Robot#2.4 Sensors|2.4 Sensors]]
+	- [[2 Let's Get You a Robot#2.5-2.6 Putting It All Together|2.5-2.6 Putting It All Together]]
+	- [[2 Let's Get You a Robot#2.7 Exercises|2.7 Exercises]]
 - [[courses/robotic-manipulation/README#[3] Basic Pick-and-Place|3 Basic Pick-and-Place]]
 	- [[3 Basic Pick-and-Place#3.1 Monogram Notation|3.1 Monogram Notation]]
 	- [[3 Basic Pick-and-Place#3.2 Pick and Place via Spatial Transforms|3.2 Pick and Place via Spatial Transforms]]
