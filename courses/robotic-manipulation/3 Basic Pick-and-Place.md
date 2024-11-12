@@ -23,8 +23,8 @@
 - $B_i$ denotes the frame for body $i$
 - $^BR^A$ denotes the orientation of frame $A$ measured from frame $B$
 - Frame $F$ can be specified by position and rotation relative to another frame
-	- Spatial pose = position + orientation
-	- **Transform is the verb form of pose**
+	- "Spatial pose" = position + orientation
+	- **"Transform" is the verb form of "pose"**
 	- $^BX^A$ denotes the pose of frame $A$ relative to frame $B$
 	- When we refer to pose of object $O$ without mentioning relative frame, we mean $^WX^O$
 	- No subscript, we always want pose expressed in the reference frame
@@ -63,6 +63,9 @@
 - In practice, transforms implemented as homogeneous coordinates
 - 3D rotation representations
 	- $3 \times 3$ rotation matrix
+		- Orthonormal: columns are orthogonal and unit vectors
+			- Orthogonality preserves angles after rotation
+			- Norm of 1 preserves lengths of vector after rotation
 	- Euler angles (roll-pitch-yaw)
 	- Axis angles
 	- Unit quaternions
@@ -95,8 +98,8 @@
 	- Properties
 	    - Adding angular velocities: $^A\omega^B_F + ^B\omega^C_F = ^A\omega^C_F$
 	    - Additive inverse: $^A\omega^B_F + ^B\omega^A_F = 0$
-	    - Translational velocities compose: $^Av^C_F = ^Av^B_F + ^Bv^C_F + ^A\omega^B_F \cdot ^Bp^C_F$
-	    - Additive inverse: $-^Av^B_F = ^Bv^A_F + ^A\omega^B_F \cdot ^Bp^A_F$
+	    - Translational velocities compose: $^Av^C_F = ^Av^B_F + ^Bv^C_F + ^A\omega^B_F \times ^Bp^C_F$
+	    - Additive inverse: $-^Av^B_F = ^Bv^A_F + ^A\omega^B_F \times ^Bp^A_F$
 	  - There can be many other representations kinematic Jacobian due to different representations of 3D rotation
 	    - **Analytic Jacobian** is the one previously defined: $dX^G = J^G(q)dq$
 			- Linearly relates pose change with joint changes
@@ -164,3 +167,5 @@
     - $\min_{v_n} |J^G(q)v_n - V^{G_d}|_2^2 + \epsilon |P(q)(v_n - K(q_0 - q))|^2_2$ subject to constraints
 		- **This secondary objective represents the velocity (projected onto the null space) that tries to achieve the desired velocity and reduce the configuration error $q_0 - q$**
 		- $\epsilon \ll 1$ only needed if there are constraints because constraints cause these two objectives to clash
+
+## 3.11 Exercises

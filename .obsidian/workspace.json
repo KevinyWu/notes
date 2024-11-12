@@ -8,21 +8,21 @@
         "type": "tabs",
         "children": [
           {
-            "id": "96c2003e30d0281d",
+            "id": "49a8606f56c59afc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "personal-notes/phd/PhD Programs.md",
+                "file": "courses/robotic-manipulation/3 Basic Pick-and-Place.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PhD Programs"
+              "title": "3 Basic Pick-and-Place"
             }
           },
           {
-            "id": "d310e2cece89d6dc",
+            "id": "7401acd0389d009e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -35,7 +35,8 @@
               "title": "Applications"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -180,28 +181,35 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "96c2003e30d0281d",
+  "active": "7401acd0389d009e",
   "lastOpenFiles": [
-    "personal-notes/phd/emails/Sherry Yang.md",
-    "personal-notes/phd/emails/Lillian Chin.md",
-    "personal-notes/phd/emails/Lerrel Pinto.md",
-    "personal-notes/phd/emails/Kris Hauser.md",
-    "personal-notes/phd/PhD Programs.md",
-    "personal-notes/learning/Learning.md",
-    "personal-notes/phd/Applications.md",
-    "personal-notes/phd/sop-examples/Khurram.md",
-    "courses/robotic-manipulation/2 Let's Get You a Robot.md",
-    "courses/robotic-manipulation/README.md",
-    "courses/robotic-manipulation/4 Geometric Pose Estimation.md",
-    "courses/robotic-manipulation/3 Basic Pick-and-Place.md",
-    "courses/robotic-manipulation/img/3.7.png",
-    "courses/robotic-manipulation/img/2.7.png",
-    "personal-notes/phd/Ideas.md",
-    "courses/robotic-manipulation/1 Introduction.md",
     "personal-notes/phd/Recommendations.md",
-    "personal-notes/README.md",
-    "personal-notes/projects/Autonomous Flight.md",
-    "personal-notes/projects/UR5 Teleoperation.md",
-    "personal-notes/projects/Duckiebot Arm.md"
+    "personal-notes/phd/Ideas.md",
+    "personal-notes/phd/Applications.md",
+    "personal-notes/phd/Applications.md",
+    "courses/robotic-manipulation/3 Basic Pick-and-Place.md",
+    "personal-notes/phd/professors/Shuran Song.md",
+    "personal-notes/phd/professors/Yilin Du.md",
+    "personal-notes/phd/sop-examples/Khurram.md",
+    "personal-notes/learning/Quick Notes.md",
+    "personal-notes/phd/professors/Professor.md",
+    "personal-notes/phd/professors/Lillian Chin.md",
+    "personal-notes/phd/professors/Roberto Martin-Martin.md",
+    "personal-notes/phd/professors/Yuke Zhu.md",
+    "personal-notes/phd/professors/Wenzhen Yuan.md",
+    "personal-notes/phd/professors/Peter Stone.md",
+    "personal-notes/phd/professors/Dieter Fox.md",
+    "personal-notes/phd/professors/Saurabh Gupta.md",
+    "personal-notes/phd/professors/Kris Hauser.md",
+    "personal-notes/phd/professors/Siddhartha Srinivasa.md",
+    "personal-notes/phd/professors/Byron Boots.md",
+    "personal-notes/phd/professors/Abishek Gupta.md",
+    "personal-notes/phd/professors/Dinesh Jayaraman.md",
+    "personal-notes/phd/professors/Michael Posa.md",
+    "personal-notes/phd/professors/Rachel Holladay.md",
+    "personal-notes/phd/professors/Antonio Loquercio.md",
+    "personal-notes/phd/professors/Sanjiban Choudhury.md",
+    "courses/robotic-manipulation/img/3.7.png",
+    "courses/robotic-manipulation/img/2.7.png"
   ]
 }

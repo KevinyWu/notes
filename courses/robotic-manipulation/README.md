@@ -26,6 +26,7 @@ Notes from the course "Robotic Manipulation" taught by Russ Tedrake at MIT.
 	- [[3 Basic Pick-and-Place#3.6 Differential Inverse Kinematics|3.6 Differential Inverse Kinematics]]
 	- [[3 Basic Pick-and-Place#3.7-3.9 Pick and Place|3.7-3.9 Pick and Place]]
 	- [[3 Basic Pick-and-Place#3.10 Differential Inverse Kinematics with Constraints|3.10 Differential Inverse Kinematics with Constraints]]
+	- [[3 Basic Pick-and-Place#3.11 Exercises|3.11 Exercises]]
 - [[courses/robotic-manipulation/README#[4] Geometric Pose Estimation|4 Geometric Pose Estimation]]
 	- [[4 Geometric Pose Estimation#4.1 Cameras and Depth Sensors|4.1 Cameras and Depth Sensors]]
 	- [[4 Geometric Pose Estimation#4.2 Representations for Geometry|4.2 Representations for Geometry]]
