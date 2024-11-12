@@ -163,9 +163,11 @@
     - Denote $P(q)$ as an orthonormal basis for the kernel (null space) of a Jacobian
 		- Can be implemented with pseudoinverse: $P(q) = I - J^+(q)J(q)$
 		- The null space of a Jacobian represents the directions in which the arm can move without changing the end effector pose
+		- Secondary controller acts only in null space so does not interfere with primary end-effector control
     - Adding $Pv = PK(q_0 - q)$ as a secondary objective
     - $\min_{v_n} |J^G(q)v_n - V^{G_d}|_2^2 + \epsilon |P(q)(v_n - K(q_0 - q))|^2_2$ subject to constraints
 		- **This secondary objective represents the velocity (projected onto the null space) that tries to achieve the desired velocity and reduce the configuration error $q_0 - q$**
+		- $q_0$ is the nominal (or "home") configuration of the robot, a preferred joint configuration that we would like the robot to maintain or return to when possible, assuming it doesn't interfere with the primary task
 		- $\epsilon \ll 1$ only needed if there are constraints because constraints cause these two objectives to clash
 
 ## 3.11 Exercises
