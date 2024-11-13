@@ -168,6 +168,7 @@
   },
   "active": "49a8606f56c59afc",
   "lastOpenFiles": [
+<<<<<<< HEAD
     "courses/robotic-manipulation/3 Basic Pick-and-Place.md",
     "personal-notes/phd/Applications.md",
     "personal-notes/phd/Recommendations.md",
@@ -175,7 +176,17 @@
     "personal-notes/phd/professors/Shuran Song.md",
     "personal-notes/phd/professors/Yilin Du.md",
     "personal-notes/phd/sop-examples/Khurram.md",
+=======
+    "personal-notes/learning/Learning.md",
+>>>>>>> 746283a85c98c584f52933106c3eaa699b0c55e7
     "personal-notes/learning/Quick Notes.md",
+    "personal-notes/phd/Ideas.md",
+    "personal-notes/phd/Applications.md",
+    "courses/robotic-manipulation/3 Basic Pick-and-Place.md",
+    "personal-notes/phd/professors/Yilin Du.md",
+    "personal-notes/phd/Recommendations.md",
+    "personal-notes/phd/professors/Shuran Song.md",
+    "personal-notes/phd/sop-examples/Khurram.md",
     "personal-notes/phd/professors/Professor.md",
     "personal-notes/phd/professors/Lillian Chin.md",
     "personal-notes/phd/professors/Roberto Martin-Martin.md",
