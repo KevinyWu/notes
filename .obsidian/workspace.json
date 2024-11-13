@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "courses/robotic-manipulation/3 Basic Pick-and-Place.md",
+                "file": "personal-notes/phd/Ideas.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3 Basic Pick-and-Place"
+              "title": "Ideas"
             }
           }
         ]
@@ -166,12 +166,12 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "895941eccf265634",
+  "active": "49a8606f56c59afc",
   "lastOpenFiles": [
+    "courses/robotic-manipulation/3 Basic Pick-and-Place.md",
     "personal-notes/phd/Applications.md",
     "personal-notes/phd/Recommendations.md",
     "personal-notes/phd/Ideas.md",
-    "courses/robotic-manipulation/3 Basic Pick-and-Place.md",
     "personal-notes/phd/professors/Shuran Song.md",
     "personal-notes/phd/professors/Yilin Du.md",
     "personal-notes/phd/sop-examples/Khurram.md",
