@@ -1,41 +1,56 @@
 {
   "main": {
-    "id": "daff00426d9bd331",
+    "id": "b4b20b486d3acc33",
     "type": "split",
     "children": [
       {
-        "id": "cd1711c5fa860246",
+        "id": "5f11f862f8c224c3",
         "type": "tabs",
         "children": [
           {
-            "id": "49a8606f56c59afc",
+            "id": "a7f88ad4ba899c77",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "personal-notes/phd/Ideas.md",
+                "file": "talks/README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Ideas"
+              "title": "README"
+            }
+          },
+          {
+            "id": "6abeabb4b824b9f1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "personal-notes/phd/professors/David Held.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "David Held"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "a07b10e4b6f89515",
+    "id": "5cf7cd95ee94c23b",
     "type": "split",
     "children": [
       {
-        "id": "150ce5a87c29f571",
+        "id": "f1fe79fea50754b7",
         "type": "tabs",
         "children": [
           {
-            "id": "895941eccf265634",
+            "id": "f1a08af3b8dfb9c6",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -47,7 +62,7 @@
             }
           },
           {
-            "id": "9d6f3f61a7c68473",
+            "id": "90dd48e64c27f165",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -64,7 +79,7 @@
             }
           },
           {
-            "id": "12c636cb8ad18dd7",
+            "id": "cc47704d17d154d6",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -80,20 +95,20 @@
     "width": 300
   },
   "right": {
-    "id": "69a8df9329d0be32",
+    "id": "ff29eaabd02957ad",
     "type": "split",
     "children": [
       {
-        "id": "1db2bc7b4d0d848c",
+        "id": "a9b5491ec767ba11",
         "type": "tabs",
         "children": [
           {
-            "id": "adb0266ed506dcd8",
+            "id": "c97c180883a9047d",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "personal-notes/phd/PhD Programs.md",
+                "file": "personal-notes/phd/professors/David Held.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,25 +118,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for PhD Programs"
+              "title": "Backlinks for David Held"
             }
           },
           {
-            "id": "9311ac9bdda5c307",
+            "id": "945756f59e29a7ec",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "personal-notes/phd/PhD Programs.md",
+                "file": "personal-notes/phd/professors/David Held.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from PhD Programs"
+              "title": "Outgoing links from David Held"
             }
           },
           {
-            "id": "be8d4c2982d4a83a",
+            "id": "b529f40070ac0c77",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -134,15 +149,15 @@
             }
           },
           {
-            "id": "e6b8eea4100f5571",
+            "id": "d70b61326644acc9",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "personal-notes/phd/PhD Programs.md"
+                "file": "personal-notes/phd/professors/David Held.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of PhD Programs"
+              "title": "Outline of David Held"
             }
           }
         ]
@@ -166,45 +181,27 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "49a8606f56c59afc",
+  "active": "6abeabb4b824b9f1",
   "lastOpenFiles": [
-<<<<<<< HEAD
-    "courses/robotic-manipulation/3 Basic Pick-and-Place.md",
+    "talks/README.md",
+    "talks/David Held - Spatially-aware Robot Learning for Deformable Object Manipulation.md",
+    "personal-notes/phd/professors/David Held.md",
+    "talks/img/action_conditioned_cloth_tracking.png",
+    "talks/img/cloth_reconstruction.png",
+    "talks/Lerrel Pinto - On Building General-Purpose Home Robots.md",
+    "templates/README.md",
     "personal-notes/phd/Applications.md",
-    "personal-notes/phd/Recommendations.md",
-    "personal-notes/phd/Ideas.md",
-    "personal-notes/phd/professors/Shuran Song.md",
-    "personal-notes/phd/professors/Yilin Du.md",
-    "personal-notes/phd/sop-examples/Khurram.md",
-=======
+    "personal-notes/phd/professors/Andrea Bajcsy.md",
+    "personal-notes/phd/professors/Kuan Fang.md",
+    "personal-notes/phd/professors/Andreea Bobu.md",
+    "personal-notes/phd/professors/Changliu Liu.md",
+    "personal-notes/phd/professors/Guanya Shi.md",
     "personal-notes/learning/Learning.md",
->>>>>>> 746283a85c98c584f52933106c3eaa699b0c55e7
     "personal-notes/learning/Quick Notes.md",
     "personal-notes/phd/Ideas.md",
-    "personal-notes/phd/Applications.md",
-    "courses/robotic-manipulation/3 Basic Pick-and-Place.md",
-    "personal-notes/phd/professors/Yilin Du.md",
     "personal-notes/phd/Recommendations.md",
-    "personal-notes/phd/professors/Shuran Song.md",
-    "personal-notes/phd/sop-examples/Khurram.md",
-    "personal-notes/phd/professors/Professor.md",
-    "personal-notes/phd/professors/Lillian Chin.md",
-    "personal-notes/phd/professors/Roberto Martin-Martin.md",
-    "personal-notes/phd/professors/Yuke Zhu.md",
-    "personal-notes/phd/professors/Wenzhen Yuan.md",
-    "personal-notes/phd/professors/Peter Stone.md",
-    "personal-notes/phd/professors/Dieter Fox.md",
-    "personal-notes/phd/professors/Saurabh Gupta.md",
-    "personal-notes/phd/professors/Kris Hauser.md",
-    "personal-notes/phd/professors/Siddhartha Srinivasa.md",
-    "personal-notes/phd/professors/Byron Boots.md",
-    "personal-notes/phd/professors/Abishek Gupta.md",
-    "personal-notes/phd/professors/Dinesh Jayaraman.md",
-    "personal-notes/phd/professors/Michael Posa.md",
-    "personal-notes/phd/professors/Rachel Holladay.md",
-    "personal-notes/phd/professors/Antonio Loquercio.md",
-    "personal-notes/phd/professors/Sanjiban Choudhury.md",
-    "courses/robotic-manipulation/img/3.7.png",
-    "courses/robotic-manipulation/img/2.7.png"
+    "personal-notes/phd/professors/Deepak Pathak.md",
+    "personal-notes/phd/professors/Chen Feng.md",
+    "courses/robotic-manipulation/3 Basic Pick-and-Place.md"
   ]
 }

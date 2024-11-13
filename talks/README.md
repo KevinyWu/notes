@@ -38,6 +38,15 @@
 - WildHands for improved 3D hand pose estimation in the wild
 - Diffusion Meets DAgger uses diffusion models to generate observations and action labels in out of distribution (OOD) states for imitation learning
 
+## [2024-06-14] David Held - Spatially-aware Robot Learning for Deformable Object Manipulation
+
+#unsupervised
+#deformable-objects
+#sim2real
+[[David Held - Spatially-aware Robot Learning for Deformable Object Manipulation]]
+- Self-supervised fine-tuning for deformable objects (MEDOR) uses Chamfer distance and mapping consistency loss at test time to refine cloth manipulation, improving model accuracy through occlusion-aware mesh reconstruction
+- Action-conditioned cloth tracking predicts future cloth states based on current mesh and action input, leveraging real-world video data and using Chamfer and neighborhood consistency losses to mitigate prediction errors
+
 ## [2024-08-08] Yunzhu Li - Foundation Models for Robotic Manipulation
 
 #3d-scenes
