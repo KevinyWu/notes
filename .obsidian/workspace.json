@@ -37,7 +37,7 @@
                 "page": 1,
                 "left": -25,
                 "top": 792,
-                "zoom": 0.590686274509804
+                "zoom": 0.5906862745098039
               },
               "icon": "lucide-file-text",
               "title": "Himanshu Gaurav Singh"
@@ -234,8 +234,9 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "bec4464c1729e23f",
+  "active": "6abeabb4b824b9f1",
   "lastOpenFiles": [
+    "personal-notes/research/Progressor.md",
     "personal-notes/phd/Applications.md",
     "personal-notes/phd/sop-examples/Himanshu Gaurav Singh.pdf",
     "personal-notes/Himanshu Gaurav Singh.pdf",
