@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "1597ca1d827d0c70",
+        "id": "5f11f862f8c224c3",
         "type": "tabs",
         "children": [
           {
@@ -22,27 +22,6 @@
             }
           },
           {
-            "id": "bdb5f58a1dcab5b1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "personal-notes/phd/Recommendations.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Recommendations"
-            }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "5f11f862f8c224c3",
-        "type": "tabs",
-        "children": [
-          {
             "id": "bec4464c1729e23f",
             "type": "leaf",
             "state": {
@@ -50,8 +29,8 @@
               "state": {
                 "file": "personal-notes/phd/sop-examples/Himanshu Gaurav Singh.pdf",
                 "page": 1,
-                "left": -4,
-                "top": 504,
+                "left": 58,
+                "top": 96,
                 "zoom": 1
               },
               "icon": "lucide-file-text",
@@ -79,10 +58,10 @@
               "type": "pdf",
               "state": {
                 "file": "personal-notes/phd/sop-examples/Nishanth Kumar.pdf",
-                "page": 1,
-                "left": -17,
-                "top": 792,
-                "zoom": 0.8590686274509803
+                "page": 2,
+                "left": 41,
+                "top": 412,
+                "zoom": 0.84
               },
               "icon": "lucide-file-text",
               "title": "Nishanth Kumar"
@@ -104,8 +83,7 @@
               "title": "MIT"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -251,37 +229,37 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "bdb5f58a1dcab5b1",
+  "active": "e90c93551b48a25e",
   "lastOpenFiles": [
+    "personal-notes/research/Exploration.md",
     "personal-notes/phd/Applications.md",
+    "personal-notes/phd/professors/Stephanie Gil.md",
+    "personal-notes/phd/professors/Heng Yang.md",
+    "personal-notes/phd/professors/Yilin Du.md",
+    "personal-notes/phd/sop-examples/Khurram.md",
+    "personal-notes/phd/professors/Changliu Liu.md",
+    "personal-notes/phd/professors/David Held.md",
+    "personal-notes/phd/professors/Stephanie Tellex.md",
+    "personal-notes/phd/sop-examples/Nishanth Kumar.pdf",
+    "personal-notes/phd/professors/George Konidaris.md",
+    "personal-notes/phd/sop-examples/Himanshu Gaurav Singh.pdf",
+    "personal-notes/phd/professors/Serena Booth.md",
     "personal-notes/phd/Recommendations.md",
     "personal-notes/phd/Ideas.md",
     "personal-notes/learning/Learning.md",
     "personal-notes/research/Latent Actions.md",
     "personal-notes/research/Progressor.md",
-    "personal-notes/research/Exploration.md",
     "personal-notes/research/Emergenet.md",
-    "personal-notes/phd/professors/David Held.md",
     "personal-notes/phd/professors/Andrea Bajcsy.md",
-    "personal-notes/phd/professors/Changliu Liu.md",
     "personal-notes/phd/professors/Deepak Pathak.md",
     "personal-notes/phd/professors/Jitendra Malik.md",
     "papers/multi-agent/Learning Vision-based Pursuit-Evasion Robot Policies.md",
-    "personal-notes/phd/sop-examples/Nishanth Kumar.pdf",
     "personal-notes/phd/sop-examples/MIT.pdf",
-    "personal-notes/phd/sop-examples/Khurram.md",
     "personal-notes/phd/professors/Yunzhu Li.md",
     "personal-notes/phd/professors/Hod Lipson.md",
     "personal-notes/phd/professors/Carl Vondrick.md",
     "papers/marine-robotics/Self-Improving Autonomous Underwater Manipulation.md",
     "personal-notes/phd/professors/Tapo Bhattacharjee.md",
-    "personal-notes/phd/professors/Sanjiban Choudhury.md",
-    "personal-notes/phd/professors/Kuan Fang.md",
-    "talks/Yunzhu Li - Foundation Models for Robotic Manipulation.md",
-    "personal-notes/phd/professors/Hadas Kress-Gazit.md",
-    "personal-notes/phd/professors/Anca Dragan.md",
-    "personal-notes/phd/professors/Serena Booth.md",
-    "personal-notes/phd/sop-examples/Himanshu Gaurav Singh.pdf",
     "talks/img/46206208_1415661678566484_2082402283441618944_n.jpg",
     "personal-notes/Himanshu Gaurav Singh.pdf",
     "Himanshu Gaurav Singh.pdf",
