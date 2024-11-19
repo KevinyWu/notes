@@ -35,7 +35,8 @@
               "title": "Recommendations"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "5f11f862f8c224c3",
@@ -79,9 +80,9 @@
               "state": {
                 "file": "personal-notes/phd/sop-examples/Nishanth Kumar.pdf",
                 "page": 1,
-                "left": -25,
+                "left": -17,
                 "top": 792,
-                "zoom": 0.5906862745098039
+                "zoom": 0.8590686274509803
               },
               "icon": "lucide-file-text",
               "title": "Nishanth Kumar"
@@ -250,10 +251,16 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "e90c93551b48a25e",
+  "active": "bdb5f58a1dcab5b1",
   "lastOpenFiles": [
-    "personal-notes/phd/Recommendations.md",
     "personal-notes/phd/Applications.md",
+    "personal-notes/phd/Recommendations.md",
+    "personal-notes/phd/Ideas.md",
+    "personal-notes/learning/Learning.md",
+    "personal-notes/research/Latent Actions.md",
+    "personal-notes/research/Progressor.md",
+    "personal-notes/research/Exploration.md",
+    "personal-notes/research/Emergenet.md",
     "personal-notes/phd/professors/David Held.md",
     "personal-notes/phd/professors/Andrea Bajcsy.md",
     "personal-notes/phd/professors/Changliu Liu.md",
@@ -274,13 +281,7 @@
     "personal-notes/phd/professors/Hadas Kress-Gazit.md",
     "personal-notes/phd/professors/Anca Dragan.md",
     "personal-notes/phd/professors/Serena Booth.md",
-    "personal-notes/phd/professors/George Konidaris.md",
-    "personal-notes/phd/professors/Stephanie Tellex.md",
     "personal-notes/phd/sop-examples/Himanshu Gaurav Singh.pdf",
-    "personal-notes/phd/professors/Ken Goldberg.md",
-    "personal-notes/phd/professors/Sergey Levine.md",
-    "papers/sim2real/Hand-Object Interaction Pretraining from Videos.md",
-    "papers/sim2real/README.md",
     "talks/img/46206208_1415661678566484_2082402283441618944_n.jpg",
     "personal-notes/Himanshu Gaurav Singh.pdf",
     "Himanshu Gaurav Singh.pdf",
