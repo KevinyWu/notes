@@ -83,7 +83,8 @@
               "title": "MIT"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -229,11 +230,11 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "e90c93551b48a25e",
+  "active": "bec4464c1729e23f",
   "lastOpenFiles": [
+    "personal-notes/phd/Ideas.md",
     "personal-notes/phd/sop-examples/Nishanth Kumar.pdf",
     "personal-notes/phd/sop-examples/Khurram.md",
-    "personal-notes/phd/Ideas.md",
     "personal-notes/phd/sop-examples/MIT.pdf",
     "talks/Antonio Loquercio - Simulation-What Made Us Intelligent Will Make Our Robots Intelligent.md",
     "personal-notes/learning/Learning.md",
