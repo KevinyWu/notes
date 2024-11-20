@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "personal-notes/phd/Applications.md",
+                "file": "personal-notes/learning/Learning.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Applications"
+              "title": "Learning"
             }
           },
           {
@@ -231,9 +231,9 @@
   },
   "active": "e90c93551b48a25e",
   "lastOpenFiles": [
+    "personal-notes/phd/Applications.md",
     "personal-notes/phd/professors/Jiatao Gu.md",
     "personal-notes/phd/professors/Jitendra Malik.md",
-    "personal-notes/phd/Applications.md",
     "personal-notes/phd/sop-examples/Khurram.md",
     "personal-notes/phd/sop-examples/MIT.pdf",
     "personal-notes/phd/sop-examples/Nishanth Kumar.pdf",
