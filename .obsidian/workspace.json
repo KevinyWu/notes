@@ -29,7 +29,7 @@
               "state": {
                 "file": "personal-notes/phd/sop-examples/Himanshu Gaurav Singh.pdf",
                 "page": 1,
-                "left": 58,
+                "left": -294,
                 "top": 96,
                 "zoom": 1
               },
@@ -59,7 +59,7 @@
               "state": {
                 "file": "personal-notes/phd/sop-examples/Nishanth Kumar.pdf",
                 "page": 2,
-                "left": 41,
+                "left": -408,
                 "top": 412,
                 "zoom": 0.84
               },
@@ -75,9 +75,9 @@
               "state": {
                 "file": "personal-notes/phd/sop-examples/MIT.pdf",
                 "page": 1,
-                "left": -4,
+                "left": -8,
                 "top": 792,
-                "zoom": 1
+                "zoom": 1.9105392156862746
               },
               "icon": "lucide-file-text",
               "title": "MIT"
@@ -231,18 +231,19 @@
   },
   "active": "e90c93551b48a25e",
   "lastOpenFiles": [
-    "personal-notes/research/Exploration.md",
+    "personal-notes/phd/sop-examples/Khurram.md",
+    "personal-notes/phd/sop-examples/MIT.pdf",
     "personal-notes/phd/Applications.md",
+    "personal-notes/phd/sop-examples/Nishanth Kumar.pdf",
+    "personal-notes/phd/sop-examples/Himanshu Gaurav Singh.pdf",
+    "personal-notes/research/Exploration.md",
     "personal-notes/phd/professors/Stephanie Gil.md",
     "personal-notes/phd/professors/Heng Yang.md",
     "personal-notes/phd/professors/Yilin Du.md",
-    "personal-notes/phd/sop-examples/Khurram.md",
     "personal-notes/phd/professors/Changliu Liu.md",
     "personal-notes/phd/professors/David Held.md",
     "personal-notes/phd/professors/Stephanie Tellex.md",
-    "personal-notes/phd/sop-examples/Nishanth Kumar.pdf",
     "personal-notes/phd/professors/George Konidaris.md",
-    "personal-notes/phd/sop-examples/Himanshu Gaurav Singh.pdf",
     "personal-notes/phd/professors/Serena Booth.md",
     "personal-notes/phd/Recommendations.md",
     "personal-notes/phd/Ideas.md",
@@ -254,12 +255,10 @@
     "personal-notes/phd/professors/Deepak Pathak.md",
     "personal-notes/phd/professors/Jitendra Malik.md",
     "papers/multi-agent/Learning Vision-based Pursuit-Evasion Robot Policies.md",
-    "personal-notes/phd/sop-examples/MIT.pdf",
     "personal-notes/phd/professors/Yunzhu Li.md",
     "personal-notes/phd/professors/Hod Lipson.md",
     "personal-notes/phd/professors/Carl Vondrick.md",
     "papers/marine-robotics/Self-Improving Autonomous Underwater Manipulation.md",
-    "personal-notes/phd/professors/Tapo Bhattacharjee.md",
     "talks/img/46206208_1415661678566484_2082402283441618944_n.jpg",
     "personal-notes/Himanshu Gaurav Singh.pdf",
     "Himanshu Gaurav Singh.pdf",
