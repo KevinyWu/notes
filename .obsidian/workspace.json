@@ -22,19 +22,17 @@
             }
           },
           {
-            "id": "bec4464c1729e23f",
+            "id": "a95aa73322e2bdd1",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "personal-notes/phd/sop-examples/Himanshu Gaurav Singh.pdf",
-                "page": 1,
-                "left": -294,
-                "top": 96,
-                "zoom": 1
+                "file": "personal-notes/phd/Applications.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "Himanshu Gaurav Singh"
+              "icon": "lucide-file",
+              "title": "Applications"
             }
           },
           {
@@ -52,22 +50,6 @@
             }
           },
           {
-            "id": "a95aa73322e2bdd1",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "personal-notes/phd/sop-examples/Nishanth Kumar.pdf",
-                "page": 2,
-                "left": -408,
-                "top": 412,
-                "zoom": 0.84
-              },
-              "icon": "lucide-file-text",
-              "title": "Nishanth Kumar"
-            }
-          },
-          {
             "id": "6d003e214e1b2b47",
             "type": "leaf",
             "state": {
@@ -75,15 +57,48 @@
               "state": {
                 "file": "personal-notes/phd/sop-examples/MIT.pdf",
                 "page": 1,
-                "left": -8,
+                "left": -21,
                 "top": 792,
                 "zoom": 1.9105392156862746
               },
               "icon": "lucide-file-text",
               "title": "MIT"
             }
+          },
+          {
+            "id": "bbaf96b8c19b1537",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "personal-notes/phd/sop-examples/Nishanth Kumar.pdf",
+                "page": 1,
+                "left": -8,
+                "top": 741,
+                "zoom": 1.991421568627451
+              },
+              "icon": "lucide-file-text",
+              "title": "Nishanth Kumar"
+            }
+          },
+          {
+            "id": "ba7f63bd1d0785f6",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "personal-notes/phd/sop-examples/Himanshu Gaurav Singh.pdf",
+                "page": 1,
+                "left": -8,
+                "top": 96,
+                "zoom": 1.991421568627451
+              },
+              "icon": "lucide-file-text",
+              "title": "Himanshu Gaurav Singh"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -229,15 +244,16 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "e90c93551b48a25e",
+  "active": "a95aa73322e2bdd1",
   "lastOpenFiles": [
+    "personal-notes/phd/sop-examples/Himanshu Gaurav Singh.pdf",
+    "personal-notes/phd/sop-examples/Nishanth Kumar.pdf",
+    "personal-notes/phd/sop-examples/Khurram.md",
     "personal-notes/phd/Applications.md",
+    "personal-notes/learning/Learning.md",
+    "personal-notes/phd/sop-examples/MIT.pdf",
     "personal-notes/phd/professors/Jiatao Gu.md",
     "personal-notes/phd/professors/Jitendra Malik.md",
-    "personal-notes/phd/sop-examples/Khurram.md",
-    "personal-notes/phd/sop-examples/MIT.pdf",
-    "personal-notes/phd/sop-examples/Nishanth Kumar.pdf",
-    "personal-notes/phd/sop-examples/Himanshu Gaurav Singh.pdf",
     "personal-notes/research/Exploration.md",
     "personal-notes/phd/professors/Stephanie Gil.md",
     "personal-notes/phd/professors/Heng Yang.md",
@@ -249,7 +265,6 @@
     "personal-notes/phd/professors/Serena Booth.md",
     "personal-notes/phd/Recommendations.md",
     "personal-notes/phd/Ideas.md",
-    "personal-notes/learning/Learning.md",
     "personal-notes/research/Latent Actions.md",
     "personal-notes/research/Progressor.md",
     "personal-notes/research/Emergenet.md",
@@ -259,7 +274,6 @@
     "personal-notes/phd/professors/Yunzhu Li.md",
     "personal-notes/phd/professors/Hod Lipson.md",
     "personal-notes/phd/professors/Carl Vondrick.md",
-    "papers/marine-robotics/Self-Improving Autonomous Underwater Manipulation.md",
     "talks/img/46206208_1415661678566484_2082402283441618944_n.jpg",
     "personal-notes/Himanshu Gaurav Singh.pdf",
     "Himanshu Gaurav Singh.pdf",
