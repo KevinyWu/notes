@@ -1,150 +1,41 @@
 {
   "main": {
-    "id": "b4b20b486d3acc33",
+    "id": "8c080300662e21e7",
     "type": "split",
     "children": [
       {
-        "id": "5f11f862f8c224c3",
+        "id": "ab81019164e7235c",
         "type": "tabs",
         "children": [
           {
-            "id": "e90c93551b48a25e",
+            "id": "0b57063703183c2d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "personal-notes/phd/Ideas.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Ideas"
-            }
-          },
-          {
-            "id": "a95aa73322e2bdd1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-<<<<<<< HEAD
                 "file": "personal-notes/phd/Applications.md",
                 "mode": "source",
                 "source": false
-=======
-                "file": "personal-notes/phd/sop-examples/Himanshu Gaurav Singh.pdf",
-                "page": 1,
-                "left": -12,
-                "top": 188,
-                "zoom": 1.2463235294117647
->>>>>>> 379e91254110e987edecf5e36d46e4adc8585eff
               },
               "icon": "lucide-file",
               "title": "Applications"
             }
-          },
-          {
-            "id": "351f665acc39f57e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "personal-notes/phd/sop-examples/Khurram.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Khurram"
-            }
-          },
-          {
-<<<<<<< HEAD
-=======
-            "id": "a95aa73322e2bdd1",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "personal-notes/phd/sop-examples/Nishanth Kumar.pdf",
-                "page": 2,
-                "left": -166,
-                "top": 560,
-                "zoom": 0.84
-              },
-              "icon": "lucide-file-text",
-              "title": "Nishanth Kumar"
-            }
-          },
-          {
->>>>>>> 379e91254110e987edecf5e36d46e4adc8585eff
-            "id": "6d003e214e1b2b47",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "personal-notes/phd/sop-examples/MIT.pdf",
-                "page": 1,
-<<<<<<< HEAD
-                "left": -21,
-                "top": 792,
-=======
-                "left": 172,
-                "top": 669,
->>>>>>> 379e91254110e987edecf5e36d46e4adc8585eff
-                "zoom": 1.9105392156862746
-              },
-              "icon": "lucide-file-text",
-              "title": "MIT"
-            }
-          },
-          {
-            "id": "bbaf96b8c19b1537",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "personal-notes/phd/sop-examples/Nishanth Kumar.pdf",
-                "page": 1,
-                "left": -8,
-                "top": 741,
-                "zoom": 1.991421568627451
-              },
-              "icon": "lucide-file-text",
-              "title": "Nishanth Kumar"
-            }
-          },
-          {
-            "id": "ba7f63bd1d0785f6",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "personal-notes/phd/sop-examples/Himanshu Gaurav Singh.pdf",
-                "page": 1,
-                "left": -8,
-                "top": 96,
-                "zoom": 1.991421568627451
-              },
-              "icon": "lucide-file-text",
-              "title": "Himanshu Gaurav Singh"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "5cf7cd95ee94c23b",
+    "id": "a3a8894640a40638",
     "type": "split",
     "children": [
       {
-        "id": "f1fe79fea50754b7",
+        "id": "b5c5c67012c9a447",
         "type": "tabs",
         "children": [
           {
-            "id": "f1a08af3b8dfb9c6",
+            "id": "d1fff69c35a107ed",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -156,7 +47,7 @@
             }
           },
           {
-            "id": "90dd48e64c27f165",
+            "id": "378d4767562a815a",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -173,7 +64,7 @@
             }
           },
           {
-            "id": "cc47704d17d154d6",
+            "id": "34f84c6749df993f",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -186,23 +77,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300
   },
   "right": {
-    "id": "ff29eaabd02957ad",
+    "id": "bd8d4cdad6d580be",
     "type": "split",
     "children": [
       {
-        "id": "a9b5491ec767ba11",
+        "id": "97c0b5750f3833da",
         "type": "tabs",
         "children": [
           {
-            "id": "c97c180883a9047d",
+            "id": "d00e13708c6c0b4a",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "personal-notes/phd/sop-examples/MIT.pdf",
+                "file": "personal-notes/phd/Applications.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -212,11 +103,11 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for MIT"
+              "title": "Backlinks for Applications"
             }
           },
           {
-            "id": "945756f59e29a7ec",
+            "id": "8c2eefee1c934bee",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
@@ -230,7 +121,7 @@
             }
           },
           {
-            "id": "b529f40070ac0c77",
+            "id": "d45725c145b3ee5e",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -243,7 +134,7 @@
             }
           },
           {
-            "id": "d70b61326644acc9",
+            "id": "77303514e40f0d91",
             "type": "leaf",
             "state": {
               "type": "outline",
@@ -254,8 +145,7 @@
               "title": "Outline of Applications"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -276,61 +166,6 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-<<<<<<< HEAD
-  "active": "a95aa73322e2bdd1",
-  "lastOpenFiles": [
-    "personal-notes/phd/sop-examples/Himanshu Gaurav Singh.pdf",
-    "personal-notes/phd/sop-examples/Nishanth Kumar.pdf",
-    "personal-notes/phd/sop-examples/Khurram.md",
-=======
-  "active": "bec4464c1729e23f",
-  "lastOpenFiles": [
-    "personal-notes/phd/Ideas.md",
-    "personal-notes/phd/sop-examples/Nishanth Kumar.pdf",
-    "personal-notes/phd/sop-examples/Khurram.md",
-    "personal-notes/phd/sop-examples/MIT.pdf",
-    "talks/Antonio Loquercio - Simulation-What Made Us Intelligent Will Make Our Robots Intelligent.md",
-    "personal-notes/learning/Learning.md",
-    "papers/3d-scenes/Tactile-Augmented Radiance Fields.md",
-    "personal-notes/phd/sop-examples/Himanshu Gaurav Singh.pdf",
-    "talks/Antonio Loquercio - Learning Vision-Based High-Speed Flight.md",
-    "talks/Saurabh Gupta - Robot Learning by Understanding Egocentric Videos.md",
->>>>>>> 379e91254110e987edecf5e36d46e4adc8585eff
-    "personal-notes/phd/Applications.md",
-    "personal-notes/learning/Learning.md",
-    "personal-notes/phd/sop-examples/MIT.pdf",
-    "personal-notes/phd/professors/Jiatao Gu.md",
-    "personal-notes/phd/professors/Jitendra Malik.md",
-    "personal-notes/research/Exploration.md",
-    "personal-notes/phd/professors/Stephanie Gil.md",
-    "personal-notes/phd/professors/Heng Yang.md",
-    "personal-notes/phd/professors/Yilin Du.md",
-    "personal-notes/phd/professors/Changliu Liu.md",
-    "personal-notes/phd/professors/David Held.md",
-    "personal-notes/phd/professors/Stephanie Tellex.md",
-    "personal-notes/phd/professors/George Konidaris.md",
-    "personal-notes/phd/professors/Serena Booth.md",
-    "personal-notes/phd/Recommendations.md",
-<<<<<<< HEAD
-    "personal-notes/phd/Ideas.md",
-=======
->>>>>>> 379e91254110e987edecf5e36d46e4adc8585eff
-    "personal-notes/research/Latent Actions.md",
-    "personal-notes/research/Progressor.md",
-    "personal-notes/research/Emergenet.md",
-    "personal-notes/phd/professors/Andrea Bajcsy.md",
-    "personal-notes/phd/professors/Deepak Pathak.md",
-<<<<<<< HEAD
-    "papers/multi-agent/Learning Vision-based Pursuit-Evasion Robot Policies.md",
-    "personal-notes/phd/professors/Yunzhu Li.md",
-    "personal-notes/phd/professors/Hod Lipson.md",
-    "personal-notes/phd/professors/Carl Vondrick.md",
-=======
->>>>>>> 379e91254110e987edecf5e36d46e4adc8585eff
-    "talks/img/46206208_1415661678566484_2082402283441618944_n.jpg",
-    "personal-notes/Himanshu Gaurav Singh.pdf",
-    "Himanshu Gaurav Singh.pdf",
-    "talks/img/action_conditioned_cloth_tracking.png",
-    "talks/img/cloth_reconstruction.png"
-  ]
+  "active": "0b57063703183c2d",
+  "lastOpenFiles": []
 }
