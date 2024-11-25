@@ -97,7 +97,8 @@
               "title": "Himanshu Gaurav Singh"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -243,35 +244,35 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "0b57063703183c2d",
+  "active": "f05cca8db3a7232e",
   "lastOpenFiles": [
-    "personal-notes/phd/professors/Nick Roy.md",
     "personal-notes/phd/Applications.md",
-    "personal-notes/phd/professors/Sertac Karaman.md",
+    "personal-notes/phd/professors/John Leonard.md",
+    "personal-notes/phd/Ideas.md",
+    "personal-notes/phd/professors/Yogesh Girdhar.md",
+    "personal-notes/phd/professors/Nare Karapetyan.md",
+    "personal-notes/phd/professors/Lerrel Pinto.md",
+    "personal-notes/phd/professors/Sherry Yang.md",
+    "personal-notes/phd/professors/Leslie Kaelbling and Tomas Lozano-Perez.md",
+    "personal-notes/phd/professors/Russ Tedrake.md",
+    "personal-notes/phd/professors/Pulkit Agarwal.md",
+    "personal-notes/phd/professors/Abishek Gupta.md",
     "personal-notes/phd/professors/Andreea Bobu.md",
+    "personal-notes/phd/professors/Dieter Fox.md",
+    "personal-notes/phd/professors/Yilin Du.md",
+    "personal-notes/phd/professors/Tom Silver.md",
+    "personal-notes/phd/professors/Nick Roy.md",
+    "personal-notes/phd/professors/Max Simchowitz.md",
+    "tutorials/Supervised Policy Learning for Real Robots.md",
+    "personal-notes/phd/professors/Shuran Song.md",
+    "().md",
+    "personal-notes/phd/professors/Sertac Karaman.md",
     "personal-notes/phd/professors/Anca Dragan.md",
     "personal-notes/phd/professors/Stephanie Gil.md",
     "personal-notes/phd/professors/Heng Yang.md",
-    "personal-notes/phd/professors/Yilin Du.md",
-    "personal-notes/phd/professors/Sherry Yang.md",
     "personal-notes/phd/professors/Andrea Bajcsy.md",
     "personal-notes/phd/professors/Tapo Bhattacharjee.md",
-    "personal-notes/phd/sop-examples/Khurram.md",
-    "personal-notes/phd/professors/Sanjiban Choudhury.md",
-    "personal-notes/phd/professors/Kuan Fang.md",
-    "personal-notes/phd/Ideas.md",
-    "personal-notes/phd/professors/Yunzhu Li.md",
-    "personal-notes/phd/professors/Carl Vondrick.md",
-    "personal-notes/phd/professors/Hod Lipson.md",
-    "talks/Carl Vondrick - Making Sense of the Multimodal World.md",
-    "papers/marine-robotics/Self-Improving Autonomous Underwater Manipulation.md",
-    "papers/marine-robotics/README.md",
-    "talks/Yunzhu Li - Foundation Models for Robotic Manipulation.md",
-    "personal-notes/phd/professors/Deepak Pathak.md",
-    "personal-notes/phd/professors/Max Simchowitz.md",
-    "personal-notes/phd/professors/David Held.md",
     "personal-notes/phd/sop-examples/Nishanth Kumar.pdf",
-    "personal-notes/phd/professors/Stefanie Tellex.md",
     "personal-notes/phd/sop-examples/MIT.pdf",
     "personal-notes/phd/sop-examples/Himanshu Gaurav Singh.pdf"
   ]
