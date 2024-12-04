@@ -20,13 +20,7 @@
               "icon": "lucide-file",
               "title": "Applications"
             }
-          }
-        ]
-      },
-      {
-        "id": "b826834a87ff4b47",
-        "type": "tabs",
-        "children": [
+          },
           {
             "id": "f05cca8db3a7232e",
             "type": "leaf",
@@ -97,7 +91,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240.50390243530273
+    "width": 240.50390243530273,
+    "collapsed": true
   },
   "right": {
     "id": "bd8d4cdad6d580be",
@@ -188,34 +183,33 @@
   },
   "active": "0b57063703183c2d",
   "lastOpenFiles": [
+    "personal-notes/phd/sop-examples/Nishanth Kumar.pdf",
+    "personal-notes/phd/Applications.md",
+    "personal-notes/phd/sop-examples/MIT.pdf",
+    "personal-notes/phd/sop-examples/Himanshu Gaurav Singh.pdf",
+    "personal-notes/phd/professors/Jeannette Bohg.md",
     "personal-notes/phd/Ideas.md",
+    "personal-notes/phd/professors/Dorsa Sadigh.md",
+    "personal-notes/phd/professors/Chelsea Finn.md",
+    "personal-notes/phd/professors/Shuran Song.md",
+    "personal-notes/phd/professors/Sanjiban Choudhury.md",
+    "personal-notes/phd/professors/Dinesh Jayaraman.md",
+    "personal-notes/phd/professors/Dhruv Shah.md",
     "personal-notes/research/Latent Actions.md",
     "personal-notes/research/Exploration.md",
     "personal-notes/research/Steering.md",
-    "personal-notes/phd/Applications.md",
     "personal-notes/phd/professors/Dieter Fox.md",
     "personal-notes/phd/professors/Yuke Zhu.md",
     "personal-notes/phd/professors/Peter Stone.md",
     "personal-notes/phd/professors/Wenzhen Yuan.md",
-    "personal-notes/phd/professors/Dorsa Sadigh.md",
-    "personal-notes/phd/sop-examples/Nishanth Kumar.pdf",
-    "personal-notes/phd/sop-examples/MIT.pdf",
     "personal-notes/phd/sop-examples/Khurram.md",
-    "personal-notes/phd/professors/Jeannette Bohg.md",
-    "personal-notes/phd/professors/Chelsea Finn.md",
     "personal-notes/phd/professors/Ludovic Righetti.md",
     "personal-notes/phd/professors/Chen Feng.md",
     "personal-notes/learning/Learning.md",
     "personal-notes/phd/Recommendations.md",
-    "personal-notes/phd/professors/Shuran Song.md",
     "personal-notes/phd/professors/Sergey Levine.md",
     "personal-notes/phd/professors/Russ Tedrake.md",
     "personal-notes/phd/professors/Carl Vondrick.md",
-    "personal-notes/phd/professors/Anirudha Majumdar.md",
-    "personal-notes/phd/professors/Max Simchowitz.md",
-    "personal-notes/phd/professors/Dhruv Shah.md",
-    "personal-notes/phd/professors/Benjamin Eysenbach.md",
-    "personal-notes/phd/professors/Tom Silver.md",
-    "personal-notes/phd/sop-examples/Himanshu Gaurav Singh.pdf"
+    "personal-notes/phd/professors/Anirudha Majumdar.md"
   ]
 }
