@@ -35,7 +35,8 @@
               "title": "Ideas"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -181,10 +182,11 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "0b57063703183c2d",
+  "active": "f05cca8db3a7232e",
   "lastOpenFiles": [
-    "personal-notes/phd/sop-examples/Nishanth Kumar.pdf",
     "personal-notes/phd/Applications.md",
+    "personal-notes/phd/professors/Yuchen Cui.md",
+    "personal-notes/phd/sop-examples/Nishanth Kumar.pdf",
     "personal-notes/phd/sop-examples/MIT.pdf",
     "personal-notes/phd/sop-examples/Himanshu Gaurav Singh.pdf",
     "personal-notes/phd/professors/Jeannette Bohg.md",
