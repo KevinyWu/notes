@@ -13,14 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "personal-notes/phd/professors/Erdem Biyik.md",
+                "file": "personal-notes/phd/Applications.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Erdem Biyik"
+              "title": "Applications"
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "d70398f3a38616c6",
+        "type": "tabs",
+        "children": [
           {
             "id": "f05cca8db3a7232e",
             "type": "leaf",
@@ -182,7 +188,9 @@
   },
   "active": "0b57063703183c2d",
   "lastOpenFiles": [
+    "personal-notes/phd/professors/Abishek Gupta.md",
     "personal-notes/phd/Applications.md",
+    "personal-notes/phd/professors/Byron Boots.md",
     "personal-notes/phd/professors/Erdem Biyik.md",
     "personal-notes/phd/professors/Dinesh Jayaraman.md",
     "personal-notes/phd/professors/Michael Posa.md",
@@ -201,7 +209,6 @@
     "personal-notes/phd/professors/Dorsa Sadigh.md",
     "personal-notes/phd/professors/Ludovic Righetti.md",
     "personal-notes/phd/professors/Anirudha Majumdar.md",
-    "personal-notes/phd/professors/Abishek Gupta.md",
     "personal-notes/phd/Ideas.md",
     "personal-notes/phd/sop-examples/Nishanth Kumar.pdf",
     "personal-notes/phd/sop-examples/MIT.pdf",
@@ -209,7 +216,6 @@
     "personal-notes/phd/professors/Jeannette Bohg.md",
     "personal-notes/phd/professors/Chelsea Finn.md",
     "personal-notes/phd/professors/Shuran Song.md",
-    "personal-notes/phd/professors/Sanjiban Choudhury.md",
-    "personal-notes/phd/professors/Dhruv Shah.md"
+    "personal-notes/phd/professors/Sanjiban Choudhury.md"
   ]
 }
