@@ -63,7 +63,10 @@
     "marine-robotics": 45,
     "deformable": 46,
     "deformable-m": 47,
-    "deformable-objects": 48
+    "deformable-objects": 48,
+    "h": 49,
+    "representation": 50,
+    "human-robot-interaction": 51
   },
   "_version": 3
 }

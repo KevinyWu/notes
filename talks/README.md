@@ -47,6 +47,15 @@
 - Self-supervised fine-tuning for deformable objects (MEDOR) uses Chamfer distance and mapping consistency loss at test time to refine cloth manipulation, improving model accuracy through occlusion-aware mesh reconstruction
 - Action-conditioned cloth tracking predicts future cloth states based on current mesh and action input, leveraging real-world video data and using Chamfer and neighborhood consistency losses to mitigate prediction errors
 
+## [2024-07-10] Andreea Bobu - Aligning Robot and Human Representations
+
+#human-robot-interaction
+#inverse-reinforcement-learning
+[[Andreea Bobu - Aligning Robot and Human Representations]]
+- Robots need to interact with humans to establish shared representations, focusing on learning these representations from human input before using them for tasks
+- Proposes using relative human-labeled data and simulation to augment limited data, enabling zero-shot transfer and leveraging models for generalization
+- Misaligned representations are detected through confidence models, improving robustness by avoiding unreliable human inputs
+
 ## [2024-08-08] Yunzhu Li - Foundation Models for Robotic Manipulation
 
 #3d-scenes
