@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "personal-notes/phd/Applications.md",
+                "file": "personal-notes/phd/professors/Kuan Fang.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Applications"
+              "title": "Kuan Fang"
             }
           }
         ]
@@ -200,11 +200,12 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "94e403a4e6c340f2",
+  "active": "f05cca8db3a7232e",
   "lastOpenFiles": [
-    "personal-notes/phd/professors/Dinesh Jayaraman.md",
-    "personal-notes/phd/Ideas.md",
+    "personal-notes/phd/professors/Kuan Fang.md",
     "personal-notes/phd/Applications.md",
+    "personal-notes/phd/Ideas.md",
+    "personal-notes/phd/professors/Dinesh Jayaraman.md",
     "personal-notes/phd/professors/Rachel Holladay.md",
     "personal-notes/phd/professors/Lerrel Pinto.md",
     "talks/Lerrel Pinto - On Building General-Purpose Home Robots.md",
@@ -213,7 +214,6 @@
     "personal-notes/learning/Learning.md",
     "personal-notes/phd/professors/Andrea Bajcsy.md",
     "personal-notes/phd/professors/Andreea Bobu.md",
-    "personal-notes/phd/professors/Kuan Fang.md",
     "personal-notes/phd/professors/Serena Booth.md",
     "papers/sim2real/Hand-Object Interaction Pretraining from Videos.md",
     "talks/Andreea Bobu - Aligning Robot and Human Representations.md",
