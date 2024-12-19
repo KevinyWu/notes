@@ -55,7 +55,8 @@
               "title": "Learning"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -200,12 +201,12 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "94e403a4e6c340f2",
+  "active": "8465513657622297",
   "lastOpenFiles": [
-    "personal-notes/phd/professors/Benjamin Eysenbach.md",
     "personal-notes/phd/Ideas.md",
-    "personal-notes/learning/Learning.md",
     "personal-notes/phd/Applications.md",
+    "personal-notes/phd/professors/Benjamin Eysenbach.md",
+    "personal-notes/learning/Learning.md",
     "personal-notes/phd/professors/Chelsea Finn.md",
     "personal-notes/research/Progressor.md",
     "personal-notes/research/Steering.md",
