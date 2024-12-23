@@ -6,6 +6,7 @@
       {
         "id": "ab81019164e7235c",
         "type": "tabs",
+        "dimension": 49.12621359223301,
         "children": [
           {
             "id": "94e403a4e6c340f2",
@@ -26,6 +27,7 @@
       {
         "id": "5c6df29c696ce277",
         "type": "tabs",
+        "dimension": 50.873786407766985,
         "children": [
           {
             "id": "f05cca8db3a7232e",
@@ -55,8 +57,7 @@
               "title": "Learning"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -87,7 +88,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "docs.google",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -201,35 +202,35 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "8465513657622297",
+  "active": "94e403a4e6c340f2",
   "lastOpenFiles": [
-    "personal-notes/phd/Ideas.md",
-    "personal-notes/phd/Applications.md",
-    "personal-notes/phd/professors/Benjamin Eysenbach.md",
-    "personal-notes/learning/Learning.md",
-    "personal-notes/phd/professors/Chelsea Finn.md",
-    "personal-notes/research/Progressor.md",
-    "personal-notes/research/Steering.md",
-    "personal-notes/phd/professors/Abhishek Gupta.md",
-    "personal-notes/phd/sop-examples/Himanshu Gaurav Singh.pdf",
-    "personal-notes/phd/professors/Kuan Fang.md",
-    "personal-notes/phd/professors/Dinesh Jayaraman.md",
-    "personal-notes/phd/professors/Rachel Holladay.md",
-    "personal-notes/phd/professors/Lerrel Pinto.md",
-    "talks/Lerrel Pinto - On Building General-Purpose Home Robots.md",
-    "talks/README.md",
     "personal-notes/phd/professors/Stefanos Nikolaidis.md",
+    "personal-notes/phd/Applications.md",
     "personal-notes/phd/professors/Andrea Bajcsy.md",
+    "personal-notes/phd/professors/Hod Lipson.md",
+    "personal-notes/phd/professors/Kuan Fang.md",
+    "personal-notes/phd/professors/Lerrel Pinto.md",
     "personal-notes/phd/professors/Andreea Bobu.md",
-    "personal-notes/phd/professors/Serena Booth.md",
-    "papers/sim2real/Hand-Object Interaction Pretraining from Videos.md",
-    "talks/Andreea Bobu - Aligning Robot and Human Representations.md",
-    "personal-notes/phd/professors/Carl Vondrick.md",
-    "personal-notes/phd/professors/Yunzhu Li.md",
-    "personal-notes/phd/professors/Jeannette Bohg.md",
-    "personal-notes/phd/professors/Dorsa Sadigh.md",
+    "personal-notes/phd/professors/Yuchen Cui.md",
+    "personal-notes/phd/professors/Bolei Zhou.md",
+    "personal-notes/phd/professors/Stefanie Tellex.md",
+    "personal-notes/phd/professors/Rachel Holladay.md",
+    "personal-notes/phd/professors/Antonio Loquercio.md",
+    "personal-notes/phd/professors/Lillian Chin.md",
+    "personal-notes/phd/Ideas.md",
+    "personal-notes/learning/Learning.md",
+    "personal-notes/phd/professors/Pulkit Agarwal.md",
     "personal-notes/phd/professors/Dieter Fox.md",
     "personal-notes/phd/professors/Byron Boots.md",
+    "personal-notes/phd/professors/Abhishek Gupta.md",
+    "personal-notes/phd/professors/Yuke Zhu.md",
+    "personal-notes/phd/professors/Daniel Seita.md",
+    "personal-notes/phd/professors/Yue Wang.md",
+    "personal-notes/phd/professors/Wenzhen Yuan.md",
+    "personal-notes/phd/professors/Saurabh Gupta.md",
+    "personal-notes/phd/professors/Shuran Song.md",
+    "personal-notes/phd/professors/Jeannette Bohg.md",
+    "personal-notes/phd/sop-examples/Himanshu Gaurav Singh.pdf",
     "personal-notes/phd/sop-examples/Nishanth Kumar.pdf",
     "personal-notes/phd/sop-examples/MIT.pdf"
   ]
