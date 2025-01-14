@@ -1,4 +1,4 @@
-# # Rachel Holladay - Leveraging Mechanics for Multi-step Robotic Manipulation Planning
+# Rachel Holladay - Leveraging Mechanics for Multi-step Robotic Manipulation Planning
 
 #tamp
 #planning

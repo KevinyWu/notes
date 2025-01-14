@@ -64,6 +64,16 @@
 - VoxPoser: Code is multilingual interface between humans, foundation models, and robot
 - Output may not always be perfect, but should always generate something reasonable!
 
+## [2024-08-27] Yilun Du - Generalizing Outside The Data Distribution through Compositional Generation
+
+#diffusion
+#planning
+#energy-based-models
+[[Yilun Du - Generalizing Outside The Data Distribution through Compositional Generation]]
+- Energy-based models (EBMs) enable compositional generation by representing distributions probabilistically as energy landscapes, allowing flexible combination of constraints for tasks like planning and multimodal reasoning
+- Compositionality in EBMs facilitates generalization outside training data by combining independent factors, supporting tasks like generating compositional scenes, adapting styles, and solving robotic manipulation problems
+- Applications span robotics, planning, and multimodal tasks, with EBMs combining diverse data sources (e.g., video, language, and visual models) to optimize long-horizon goals and tasks using unified energy landscapes
+
 ## [2024-09-13] Rachel Holladay - Leveraging Mechanics for Multi-step Robotic Manipulation Planning
 
 #tamp
