@@ -5,8 +5,9 @@
 #reinforcement-learning
 #inverse-reinforcement-learning
 #learning-from-video
+#visual-representations
 
-[[papers/reinforcement-learning/README#[2022-09] VIP Towards Universal Visual Reward and Representation via Value-Implicit Pre-Training|README]]
+[[papers/visual-representations/README#[2022-09] VIP Towards Universal Visual Reward and Representation via Value-Implicit Pre-Training|README]]
 
 [Paper](http://arxiv.org/abs/2210.00030)
 [Code](https://github.com/facebookresearch/vip)

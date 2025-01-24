@@ -18,15 +18,6 @@
 - Techniques like random shift augmentation, double Q-learning, and scheduled exploration noise enhance performance and stability in visual continuous control tasks
 - Key improvements include a larger replay buffer, smaller learning rate, and faster training times (3x faster than DrQ)
 
-## [2022-09] VIP: Towards Universal Visual Reward and Representation via Value-Implicit Pre-Training
-
-#reinforcement-learning
-#inverse-reinforcement-learning
-#learning-from-video
-[[VIP - Towards Universal Visual Reward and Representation via Value-Implicit Pre-Training]]
-- VIP leverages large-scale, offline human videos for pre-training a visual representation that generates dense rewards for unseen robotic tasks, without requiring task-specific robotic data
-- Formulates reward learning as a goal-conditioned RL problem using a dual value-function approach, avoiding the need for action labels and enabling effective learning from action-free human videos
-
 ## [2022-11] Learning Reward Functions for Robotic Manipulation by Observing Humans
 
 #reinforcement-learning

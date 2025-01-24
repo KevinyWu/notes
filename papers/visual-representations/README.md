@@ -48,3 +48,13 @@
 - Masked autoencoders (MAE) utilize an asymmetric encoder-decoder architecture, where the encoder processes only visible patches of an image while the lightweight decoder reconstructs the full image from latent representations and masked patches
 - Masks a high proportion of input images (up to 75%), allowing for meaningful self-supervised learning that significantly improves generalization
 - Does not heavily depend on data augmentation techniques
+
+## [2022-09] VIP: Towards Universal Visual Reward and Representation via Value-Implicit Pre-Training
+
+#reinforcement-learning
+#inverse-reinforcement-learning
+#learning-from-video
+#visual-representations
+[[VIP - Towards Universal Visual Reward and Representation via Value-Implicit Pre-Training]]
+- VIP leverages large-scale, offline human videos for pre-training a visual representation that generates dense rewards for unseen robotic tasks, without requiring task-specific robotic data
+- Formulates reward learning as a goal-conditioned RL problem using a dual value-function approach, avoiding the need for action labels and enabling effective learning from action-free human videos

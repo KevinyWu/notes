@@ -98,7 +98,8 @@
               "title": "Learning"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -243,6 +244,7 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
+<<<<<<< HEAD
   "active": "c6133fa65019ef46",
   "lastOpenFiles": [
     "talks/Yilun Du - Generalizing Outside The Data Distribution through Compositional Generation.md",
@@ -251,6 +253,27 @@
     "personal-notes/phd/Ideas.md",
     "personal-notes/phd/Interview.md",
     "personal-notes/research/Exploration.md",
+=======
+  "active": "d957424ede6f629a",
+  "lastOpenFiles": [
+    "personal-notes/phd/Ideas.md",
+    "papers/reinforcement-learning/README.md",
+    "papers/visual-representations/README.md",
+    "papers/visual-representations/VIP - Towards Universal Visual Reward and Representation via Value-Implicit Pre-Training.md",
+    "papers/reinforcement-learning/Rank2Reward - Learning Shaped Reward Functions from Passive Video.md",
+    "papers/reinforcement-learning/Playing Atari with Deep Reinforcement Learning.md",
+    "papers/reinforcement-learning/Mastering Visual Continuous Control - Improved Data-Augmented Reinforcement Learning.md",
+    "papers/reinforcement-learning/Diffusion Reward - Learning Rewards via Conditional Video Diffusion.md",
+    "personal-notes/research/Emergenet.md",
+    "personal-notes/research/BC Benchmark.md",
+    "personal-notes/research/Exploration.md",
+    "personal-notes/research/Latent Actions.md",
+    "personal-notes/research/Steering.md",
+    "personal-notes/research/Progressor.md",
+    "personal-notes/projects/Deskbot.md",
+    "personal-notes/phd/professors/Yilun Du.md",
+    "personal-notes/phd/Interview.md",
+>>>>>>> 99da544 (Sync notes repository)
     "personal-notes/phd/Applications.md",
     "personal-notes/phd/professors/Max Simchowitz.md",
     "personal-notes/phd/professors/Andreea Bobu.md",
@@ -260,9 +283,12 @@
     "personal-notes/phd/professors/Rachel Holladay.md",
     "personal-notes/phd/professors/Dinesh Jayaraman.md",
     "personal-notes/phd/professors/Roberto Martín-Martín.md",
+<<<<<<< HEAD
     "personal-notes/phd/professors/Lillian Chin.md",
     "personal-notes/phd/professors/Sergey Levine.md",
     "talks/README.md",
+=======
+>>>>>>> 99da544 (Sync notes repository)
     "talks/img/ebm_video_planning.png",
     "talks/img/ebm_vqa.png",
     "talks/img/ebm_goal.png",
@@ -272,6 +298,7 @@
     "talks/img/ebm_training.png",
     "talks/img/energy_based_model.png",
     "talks/img/46206208_1415661678566484_2082402283441618944_n.jpg",
+<<<<<<< HEAD
     "personal-notes/phd/professors/Russ Tedrake.md",
     "talks/Tom Silver - Neuro-Symbolic Learning for Bilevel Robot Planning.md",
     "talks/Yunzhu Li - Foundation Models for Robotic Manipulation.md",
@@ -280,6 +307,8 @@
     "personal-notes/phd/Recommendations.md",
     "papers/sim2real/Hand-Object Interaction Pretraining from Videos.md",
     "personal-notes/phd/professors/Sherry Yang.md",
+=======
+>>>>>>> 99da544 (Sync notes repository)
     "personal-notes/phd/fellowships/NDSEG_Fellowship_Proposal.pdf",
     "personal-notes/phd/sop-examples/Himanshu Gaurav Singh.pdf",
     "personal-notes/phd/sop-examples/Nishanth Kumar.pdf",
