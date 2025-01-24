@@ -1,119 +1,37 @@
 {
   "main": {
-    "id": "8c080300662e21e7",
+    "id": "8e8ee6d543c6a1b0",
     "type": "split",
     "children": [
       {
-        "id": "4e85a991571998aa",
+        "id": "f0364015e54aada1",
         "type": "tabs",
         "children": [
           {
-            "id": "5b46fa22e48ceb6c",
+            "id": "dd6b1105b5489732",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "personal-notes/phd/Interview.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Interview"
-            }
-          },
-          {
-            "id": "c6133fa65019ef46",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "personal-notes/research/Exploration.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Exploration"
-            }
-          },
-          {
-            "id": "8440bd474dfba5ee",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "talks/Yilun Du - Generalizing Outside The Data Distribution through Compositional Generation.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Yilun Du - Generalizing Outside The Data Distribution through Compositional Generation"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "e091055f890a1247",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "b6ccbdeb2495ee59",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "personal-notes/phd/professors/Yilun Du.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Yilun Du"
-            }
-          },
-          {
-            "id": "3c66396e41bc4ef6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "personal-notes/phd/Ideas.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Ideas"
-            }
-          },
-          {
-            "id": "d957424ede6f629a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "personal-notes/learning/Learning.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Learning"
-            }
-          }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "a3a8894640a40638",
+    "id": "5ef6b1eaae213ccb",
     "type": "split",
     "children": [
       {
-        "id": "b5c5c67012c9a447",
+        "id": "ea05bb374ea5e54b",
         "type": "tabs",
         "children": [
           {
-            "id": "d1fff69c35a107ed",
+            "id": "1ef5240235abf41d",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -125,7 +43,7 @@
             }
           },
           {
-            "id": "378d4767562a815a",
+            "id": "55fbf35415eadeae",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -142,7 +60,7 @@
             }
           },
           {
-            "id": "34f84c6749df993f",
+            "id": "32cfa6a8c99d8a79",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -155,23 +73,22 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300
   },
   "right": {
-    "id": "bd8d4cdad6d580be",
+    "id": "db81aa8145141e1b",
     "type": "split",
     "children": [
       {
-        "id": "97c0b5750f3833da",
+        "id": "5ad7545fbb2b4813",
         "type": "tabs",
         "children": [
           {
-            "id": "d00e13708c6c0b4a",
+            "id": "ac568914f5bfac5b",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "personal-notes/phd/Applications.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -181,25 +98,24 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Applications"
+              "title": "Backlinks"
             }
           },
           {
-            "id": "8c2eefee1c934bee",
+            "id": "eaec31c2909b7aa2",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "personal-notes/phd/Applications.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Applications"
+              "title": "Outgoing links"
             }
           },
           {
-            "id": "d45725c145b3ee5e",
+            "id": "206a8edcdff6b52d",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -212,15 +128,13 @@
             }
           },
           {
-            "id": "77303514e40f0d91",
+            "id": "d2303f1450c8793d",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "personal-notes/phd/Applications.md"
-              },
+              "state": {},
               "icon": "lucide-list",
-              "title": "Outline of Applications"
+              "title": "Outline"
             }
           }
         ]
@@ -244,74 +158,6 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-<<<<<<< HEAD
-  "active": "c6133fa65019ef46",
-  "lastOpenFiles": [
-    "talks/Yilun Du - Generalizing Outside The Data Distribution through Compositional Generation.md",
-    "personal-notes/phd/professors/Yilun Du.md",
-    "personal-notes/learning/Learning.md",
-    "personal-notes/phd/Ideas.md",
-    "personal-notes/phd/Interview.md",
-    "personal-notes/research/Exploration.md",
-=======
-  "active": "d957424ede6f629a",
-  "lastOpenFiles": [
-    "personal-notes/phd/Ideas.md",
-    "papers/reinforcement-learning/README.md",
-    "papers/visual-representations/README.md",
-    "papers/visual-representations/VIP - Towards Universal Visual Reward and Representation via Value-Implicit Pre-Training.md",
-    "papers/reinforcement-learning/Rank2Reward - Learning Shaped Reward Functions from Passive Video.md",
-    "papers/reinforcement-learning/Playing Atari with Deep Reinforcement Learning.md",
-    "papers/reinforcement-learning/Mastering Visual Continuous Control - Improved Data-Augmented Reinforcement Learning.md",
-    "papers/reinforcement-learning/Diffusion Reward - Learning Rewards via Conditional Video Diffusion.md",
-    "personal-notes/research/Emergenet.md",
-    "personal-notes/research/BC Benchmark.md",
-    "personal-notes/research/Exploration.md",
-    "personal-notes/research/Latent Actions.md",
-    "personal-notes/research/Steering.md",
-    "personal-notes/research/Progressor.md",
-    "personal-notes/projects/Deskbot.md",
-    "personal-notes/phd/professors/Yilun Du.md",
-    "personal-notes/phd/Interview.md",
->>>>>>> 99da544 (Sync notes repository)
-    "personal-notes/phd/Applications.md",
-    "personal-notes/phd/professors/Max Simchowitz.md",
-    "personal-notes/phd/professors/Andreea Bobu.md",
-    "personal-notes/phd/professors/Yogesh Girdhar.md",
-    "personal-notes/phd/professors/Kris Hauser.md",
-    "personal-notes/phd/professors/Antonio Loquercio.md",
-    "personal-notes/phd/professors/Rachel Holladay.md",
-    "personal-notes/phd/professors/Dinesh Jayaraman.md",
-    "personal-notes/phd/professors/Roberto Martín-Martín.md",
-<<<<<<< HEAD
-    "personal-notes/phd/professors/Lillian Chin.md",
-    "personal-notes/phd/professors/Sergey Levine.md",
-    "talks/README.md",
-=======
->>>>>>> 99da544 (Sync notes repository)
-    "talks/img/ebm_video_planning.png",
-    "talks/img/ebm_vqa.png",
-    "talks/img/ebm_goal.png",
-    "talks/img/ebm_rl.png",
-    "talks/img/ebm_factor_discovery.png",
-    "talks/img/ebm_applications.png",
-    "talks/img/ebm_training.png",
-    "talks/img/energy_based_model.png",
-    "talks/img/46206208_1415661678566484_2082402283441618944_n.jpg",
-<<<<<<< HEAD
-    "personal-notes/phd/professors/Russ Tedrake.md",
-    "talks/Tom Silver - Neuro-Symbolic Learning for Bilevel Robot Planning.md",
-    "talks/Yunzhu Li - Foundation Models for Robotic Manipulation.md",
-    "talks/Lerrel Pinto - On Building General-Purpose Home Robots.md",
-    "talks/Rachel Holladay - Leveraging Mechanics for Multi-step Robotic Manipulation Planning.md",
-    "personal-notes/phd/Recommendations.md",
-    "papers/sim2real/Hand-Object Interaction Pretraining from Videos.md",
-    "personal-notes/phd/professors/Sherry Yang.md",
-=======
->>>>>>> 99da544 (Sync notes repository)
-    "personal-notes/phd/fellowships/NDSEG_Fellowship_Proposal.pdf",
-    "personal-notes/phd/sop-examples/Himanshu Gaurav Singh.pdf",
-    "personal-notes/phd/sop-examples/Nishanth Kumar.pdf",
-    "personal-notes/phd/sop-examples/MIT.pdf"
-  ]
+  "active": "dd6b1105b5489732",
+  "lastOpenFiles": []
 }
