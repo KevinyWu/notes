@@ -35,7 +35,8 @@
               "title": "Interview"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "2e61bdb7da803191",
@@ -210,10 +211,10 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "96553082a5878338",
+  "active": "22565bb00a0de2f4",
   "lastOpenFiles": [
-    "personal-notes/phd/professors/Dinesh Jayaraman.md",
     "personal-notes/phd/Applications.md",
+    "personal-notes/phd/professors/Dinesh Jayaraman.md",
     "personal-notes/phd/professors/Yogesh Girdhar.md",
     "personal-notes/phd/Interview.md",
     "personal-notes/phd/professors/Yunzhu Li.md",
