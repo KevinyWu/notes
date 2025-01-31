@@ -88,7 +88,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -212,12 +213,12 @@
   },
   "active": "96553082a5878338",
   "lastOpenFiles": [
-    "personal-notes/phd/professors/Rachel Holladay.md",
+    "personal-notes/phd/professors/Yogesh Girdhar.md",
     "personal-notes/phd/Applications.md",
+    "personal-notes/phd/professors/Rachel Holladay.md",
     "personal-notes/phd/professors/Antonio Loquercio.md",
     "personal-notes/phd/Interview.md",
     "personal-notes/phd/professors/Dinesh Jayaraman.md",
-    "personal-notes/phd/professors/Yogesh Girdhar.md",
     "personal-notes/phd/professors/Yunzhu Li.md",
     "personal-notes/phd/Ideas.md",
     "personal-notes/learning/Learning.md",
