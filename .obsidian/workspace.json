@@ -35,8 +35,7 @@
               "title": "Interview"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "2e61bdb7da803191",
@@ -211,16 +210,17 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "22565bb00a0de2f4",
+  "active": "96553082a5878338",
   "lastOpenFiles": [
+    "personal-notes/phd/professors/Rachel Holladay.md",
     "personal-notes/phd/Applications.md",
+    "personal-notes/phd/professors/Antonio Loquercio.md",
+    "personal-notes/phd/Interview.md",
     "personal-notes/phd/professors/Dinesh Jayaraman.md",
     "personal-notes/phd/professors/Yogesh Girdhar.md",
-    "personal-notes/phd/Interview.md",
     "personal-notes/phd/professors/Yunzhu Li.md",
     "personal-notes/phd/Ideas.md",
     "personal-notes/learning/Learning.md",
-    "personal-notes/phd/professors/Antonio Loquercio.md",
     "personal-notes/phd/professors/Yilun Du.md",
     "personal-notes/research/Exploration.md",
     "talks/Yilun Du - Generalizing Outside The Data Distribution through Compositional Generation.md",
