@@ -49,8 +49,7 @@
               "title": "Interview"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "4ec74e68f5944770",
@@ -227,18 +226,18 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "a8d9b0eb839489a6",
+  "active": "22565bb00a0de2f4",
   "lastOpenFiles": [
+    "personal-notes/phd/professors/Serena Booth.md",
+    "personal-notes/phd/Applications.md",
+    "personal-notes/phd/Interview.md",
     "personal-notes/phd/Ideas.md",
     "personal-notes/learning/Learning.md",
-    "personal-notes/phd/Interview.md",
     "personal-notes/phd/professors/Dinesh Jayaraman.md",
-    "personal-notes/phd/Applications.md",
     "papers/reinforcement-learning/Mastering Visual Continuous Control - Improved Data-Augmented Reinforcement Learning.md",
     "papers/reinforcement-learning/Interactively shaping agents via human reinforcement - The TAMER framework.md",
     "Untitled.md",
     "personal-notes/phd/professors/Andreea Bobu.md",
-    "personal-notes/phd/professors/Serena Booth.md",
     "papers/reinforcement-learning/README.md",
     "personal-notes/phd/professors/Yogesh Girdhar.md",
     "personal-notes/phd/professors/Antonio Loquercio.md",
