@@ -1,5 +1,14 @@
 # Reinforcement Learning
 
+## [2009-09] Interactively Shaping Agents via Human Reinforcement: The TAMER Framework
+
+#reinforcement-learning
+#rl-human-feedback
+[[Interactively shaping agents via human reinforcement - The TAMER framework]]
+- TAMER framework enables human trainers to shape an agent's policy using reinforcement signals without requiring an environmental reward function, reducing sample complexity
+- The agent models human reinforcement as a supervised learning problem, prioritizing short-term feedback over long-term reward maximization
+- Experiments in Tetris and Mountain Car show TAMER achieves good performance quickly, but results depend on trainer quality and consistency
+
 ## [2013-12] Playing Atari with Deep Reinforcement Learning
 
 #reinforcement-learning

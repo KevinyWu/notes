@@ -67,7 +67,9 @@
     "h": 49,
     "representation": 50,
     "human-robot-interaction": 51,
-    "energy-based-models": 52
+    "energy-based-models": 52,
+    "re": 53,
+    "rl-human-feedback": 54
   },
   "_version": 3
 }
