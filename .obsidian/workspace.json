@@ -49,7 +49,8 @@
               "title": "Interview"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "4ec74e68f5944770",
@@ -226,10 +227,13 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "22565bb00a0de2f4",
+  "active": "a8d9b0eb839489a6",
   "lastOpenFiles": [
     "personal-notes/phd/professors/Serena Booth.md",
     "personal-notes/phd/Applications.md",
+    "personal-notes/phd/professors/Yogesh Girdhar.md",
+    "personal-notes/phd/professors/Rachel Holladay.md",
+    "personal-notes/phd/professors/Antonio Loquercio.md",
     "personal-notes/phd/Interview.md",
     "personal-notes/phd/Ideas.md",
     "personal-notes/learning/Learning.md",
@@ -239,8 +243,6 @@
     "Untitled.md",
     "personal-notes/phd/professors/Andreea Bobu.md",
     "papers/reinforcement-learning/README.md",
-    "personal-notes/phd/professors/Yogesh Girdhar.md",
-    "personal-notes/phd/professors/Antonio Loquercio.md",
     "papers/reinforcement-learning/img/tamer_algorithm_credit.png",
     "papers/reinforcement-learning/img/tamer_algorithm.png",
     "papers/reinforcement-learning/img/tamer.png",
@@ -249,7 +251,6 @@
     "papers/reinforcement-learning/Rank2Reward - Learning Shaped Reward Functions from Passive Video.md",
     "papers/reinforcement-learning/Learning Reward Functions for Robotic Manipulation by Observing Humans.md",
     "papers/reinforcement-learning/Diffusion Reward - Learning Rewards via Conditional Video Diffusion.md",
-    "personal-notes/phd/professors/Rachel Holladay.md",
     "personal-notes/learning/Quick Notes.md",
     "talks/Rachel Holladay - Leveraging Mechanics for Multi-step Robotic Manipulation Planning.md",
     "personal-notes/research/Exploration.md",
