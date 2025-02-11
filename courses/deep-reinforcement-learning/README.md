@@ -1,6 +1,6 @@
 # Deep Reinforcement Learning
 
-Notes from the course "CS 285: Deep RL" taught by Sergey Levine at Berkeley.
+Notes from the course "CS 285: Deep RL" taught by Sergey Levine at Berkeley (Fall 2023).
 
 [Lectures (fall 2023)](https://youtube.com/playlist?list=PL_iWQOsE6TfVYGEGiAOMaOzzv41Jfm_Ps&feature=shared)
 [Course website](https://rail.eecs.berkeley.edu/deeprlcourse/)

@@ -1,6 +1,6 @@
 # Robotic Manipulation
 
-Notes from the course "Robotic Manipulation" taught by Russ Tedrake at MIT.
+Notes from the course "Robotic Manipulation" taught by Russ Tedrake at MIT (Fall 2023).
 
 [Lectures (fall 2023)](https://youtube.com/playlist?list=PLkx8KyIQkMfWr191lqbN8WfV08j-ui8WX&feature=shared)
 [Full course notes](https://manipulation.csail.mit.edu/)
