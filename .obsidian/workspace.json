@@ -64,22 +64,6 @@
             }
           },
           {
-            "id": "f4267bcd01c12490",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "courses/deep-reinforcement-learning/slides/3 Pytorch Tutorial.pdf",
-                "page": 1,
-                "left": -25,
-                "top": 96,
-                "zoom": 0.603125
-              },
-              "icon": "lucide-file-text",
-              "title": "3 Pytorch Tutorial"
-            }
-          },
-          {
             "id": "8f1ab8e48564e4d2",
             "type": "leaf",
             "state": {
@@ -154,9 +138,9 @@
               "state": {
                 "file": "courses/real-world-robot-learning/slides/6 Robot Perception.pdf",
                 "page": 1,
-                "left": -25,
-                "top": 544,
-                "zoom": 0.603125
+                "left": -33,
+                "top": 543,
+                "zoom": 0.45468749999999997
               },
               "icon": "lucide-file-text",
               "title": "6 Robot Perception"
@@ -220,7 +204,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 230.50390243530273
+    "width": 230.50390243530273,
+    "collapsed": true
   },
   "right": {
     "id": "db81aa8145141e1b",
@@ -305,14 +290,18 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "8f1ab8e48564e4d2",
+  "active": "616969e06574507e",
   "lastOpenFiles": [
-    "courses/deep-reinforcement-learning/slides/3 Pytorch Tutorial.pdf",
-    "courses/real-world-robot-learning/3 Intro To Imitation Learning & Reinforcement Learning Part II.md",
     "courses/real-world-robot-learning/README.md",
+    "courses/real-world-robot-learning/3 Intro To Imitation Learning & Reinforcement Learning Part II.md",
+    "courses/deep-reinforcement-learning/4 Introduction to Reinforcement Learning.md",
+    "courses/deep-reinforcement-learning/5 Policy Gradients.md",
+    "courses/deep-reinforcement-learning/2 Supervised Learning of Behaviors.md",
+    "courses/deep-reinforcement-learning/1 Introduction.md",
+    "personal-notes/research/PROGRESSOR.md",
+    "courses/deep-reinforcement-learning/slides/3 Pytorch Tutorial.pdf",
     "personal-notes/phd/Interview.md",
     "personal-notes/research/Exploration.md",
-    "personal-notes/research/PROGRESSOR.md",
     "courses/real-world-robot-learning/slides/6 Robot Perception.pdf",
     "courses/real-world-robot-learning/slides/4 Intro To Imitation Learning & Reinforcement Learning Part III.pdf",
     "courses/real-world-robot-learning/slides/3 Intro To Imitation Learning & Reinforcement Learning Part II.pdf",
@@ -327,14 +316,11 @@
     "courses/real-world-robot-learning/6 Robot Perception I.md",
     "courses/README.md",
     "5 Robot Perception.pdf",
-    "courses/deep-reinforcement-learning/4 Introduction to Reinforcement Learning.md",
     "courses/deep-reinforcement-learning/6 Actor-Critic Algorithms.md",
-    "courses/deep-reinforcement-learning/5 Policy Gradients.md",
     "courses/real-world-robot-learning/1 Introduction.md",
     "courses/real-world-robot-learning/4 Intro To Imitation Learning & Reinforcement Learning Part III.pdf",
     "courses/real-world-robot-learning/3 Intro To Imitation Learning & Reinforcement Learning Part II.pdf",
     "Intro To Imitation Learning & Reinforcement Learning Part I.pdf",
-    "courses/deep-reinforcement-learning/1 Introduction.md",
     "README.md",
     "personal-notes/projects/Deskbot.md",
     "personal-notes/phd/Ideas.md",
