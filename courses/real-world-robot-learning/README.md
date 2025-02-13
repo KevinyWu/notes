@@ -35,6 +35,9 @@ Notes from the course "CS 7000: Real World Robot Learning" taught by Antonio Loq
 #imitation-learning
 #reinforcement-learning
 [[3 Intro To Imitation Learning & Reinforcement Learning Part II]]
+- Inverse reinforcement learning improves upon behavioral cloning by explicitly learning the reward function, making policies more generalizable beyond expert demonstrations
+- Reinforcement learning optimizes policies by balancing exploration and exploitation, solving problems where correct actions aren't explicitly labeled, unlike supervised learning
+- Policy gradient methods optimize expected rewards by directly updating policies using sampled trajectories, with rewards often estimated via a Q-function
 
 ## [4] Intro To Imitation Learning & Reinforcement Learning Part III
 

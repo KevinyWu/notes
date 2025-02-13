@@ -4,150 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "e2c7bfd1fa5700f1",
+        "id": "6464451a4f7d6902",
         "type": "tabs",
         "children": [
           {
-            "id": "da549025afe4a24f",
+            "id": "4563d16c1b8bbf4c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "personal-notes/phd/professors/Antonio Loquercio.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Antonio Loquercio"
-            }
-          },
-          {
-            "id": "48f337b9850b2e4d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "personal-notes/phd/Interview.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Interview"
-            }
-          },
-          {
-            "id": "1d5b4c5f887924ec",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "personal-notes/research/Exploration.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Exploration"
-            }
-          },
-          {
-            "id": "70b83002c883d266",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "personal-notes/research/PROGRESSOR.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "PROGRESSOR"
-            }
-          },
-          {
-            "id": "8f1ab8e48564e4d2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "courses/real-world-robot-learning/README.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "README"
-            }
-          },
-          {
-            "id": "616969e06574507e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "courses/real-world-robot-learning/3 Intro To Imitation Learning & Reinforcement Learning Part II.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "3 Intro To Imitation Learning & Reinforcement Learning Part II"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 5
-      },
-      {
-        "id": "0e207742dcb58d9d",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "34b55ec91b3b4894",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "courses/real-world-robot-learning/slides/3 Intro To Imitation Learning & Reinforcement Learning Part II.pdf",
-                "page": 1,
-                "left": -25,
-                "top": 544,
-                "zoom": 0.603125
-              },
-              "icon": "lucide-file-text",
-              "title": "3 Intro To Imitation Learning & Reinforcement Learning Part II"
-            }
-          },
-          {
-            "id": "4111e9269c48107f",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "courses/real-world-robot-learning/slides/4 Intro To Imitation Learning & Reinforcement Learning Part III.pdf",
-                "page": 1,
-                "left": -25,
-                "top": 544,
-                "zoom": 0.603125
-              },
-              "icon": "lucide-file-text",
-              "title": "4 Intro To Imitation Learning & Reinforcement Learning Part III"
-            }
-          },
-          {
-            "id": "c667b1348a1f9d52",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "courses/real-world-robot-learning/slides/6 Robot Perception.pdf",
-                "page": 1,
-                "left": -33,
-                "top": 543,
-                "zoom": 0.45468749999999997
-              },
-              "icon": "lucide-file-text",
-              "title": "6 Robot Perception"
-            }
-          }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -204,8 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 230.50390243530273,
-    "collapsed": true
+    "width": 230.50390243530273
   },
   "right": {
     "id": "db81aa8145141e1b",
@@ -290,30 +159,35 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "616969e06574507e",
+  "active": "4563d16c1b8bbf4c",
   "lastOpenFiles": [
-    "courses/real-world-robot-learning/README.md",
-    "courses/real-world-robot-learning/3 Intro To Imitation Learning & Reinforcement Learning Part II.md",
-    "courses/deep-reinforcement-learning/4 Introduction to Reinforcement Learning.md",
-    "courses/deep-reinforcement-learning/5 Policy Gradients.md",
-    "courses/deep-reinforcement-learning/2 Supervised Learning of Behaviors.md",
-    "courses/deep-reinforcement-learning/1 Introduction.md",
-    "personal-notes/research/PROGRESSOR.md",
-    "courses/deep-reinforcement-learning/slides/3 Pytorch Tutorial.pdf",
+    "personal-notes/phd/professors/Antonio Loquercio.md",
+    "talks/Antonio Loquercio - Simulation-What Made Us Intelligent Will Make Our Robots Intelligent.md",
+    "talks/Antonio Loquercio - Learning Vision-Based High-Speed Flight.md",
     "personal-notes/phd/Interview.md",
     "personal-notes/research/Exploration.md",
-    "courses/real-world-robot-learning/slides/6 Robot Perception.pdf",
+    "personal-notes/research/PROGRESSOR.md",
+    "courses/real-world-robot-learning/3 Intro To Imitation Learning & Reinforcement Learning Part II.md",
     "courses/real-world-robot-learning/slides/4 Intro To Imitation Learning & Reinforcement Learning Part III.pdf",
-    "courses/real-world-robot-learning/slides/3 Intro To Imitation Learning & Reinforcement Learning Part II.pdf",
-    "personal-notes/phd/professors/Antonio Loquercio.md",
+    "courses/deep-reinforcement-learning/4 Introduction to Reinforcement Learning.md",
+    "courses/robotic-manipulation/3 Basic Pick-and-Place.md",
+    "courses/robotic-manipulation/4 Geometric Pose Estimation.md",
+    "books/robot-dynamics-control/4 Inverse Kinematics.md",
+    "courses/real-world-robot-learning/README.md",
+    "courses/real-world-robot-learning/2 Intro To Imitation Learning & Reinforcement Learning Part I.md",
     "personal-notes/learning/Learning.md",
+    "courses/real-world-robot-learning/4 Intro To Imitation Learning & Reinforcement Learning Part III.md",
+    "courses/real-world-robot-learning/slides/6 Robot Perception.pdf",
+    "courses/real-world-robot-learning/6 Robot Perception I.md",
+    "courses/deep-reinforcement-learning/2 Supervised Learning of Behaviors.md",
+    "courses/deep-reinforcement-learning/1 Introduction.md",
+    "courses/real-world-robot-learning/slides/3 Intro To Imitation Learning & Reinforcement Learning Part II.pdf",
+    "courses/deep-reinforcement-learning/5 Policy Gradients.md",
+    "courses/deep-reinforcement-learning/slides/3 Pytorch Tutorial.pdf",
     "courses/robotic-manipulation/README.md",
     "courses/real-world-robot-learning/slides/2 Intro To Imitation Learning & Reinforcement Learning Part I.pdf",
-    "courses/real-world-robot-learning/2 Intro To Imitation Learning & Reinforcement Learning Part I.md",
     "courses/real-world-robot-learning/slides/5 Robot Perception.pdf",
-    "courses/real-world-robot-learning/4 Intro To Imitation Learning & Reinforcement Learning Part III.md",
     "courses/deep-reinforcement-learning/README.md",
-    "courses/real-world-robot-learning/6 Robot Perception I.md",
     "courses/README.md",
     "5 Robot Perception.pdf",
     "courses/deep-reinforcement-learning/6 Actor-Critic Algorithms.md",
@@ -323,11 +197,6 @@
     "Intro To Imitation Learning & Reinforcement Learning Part I.pdf",
     "README.md",
     "personal-notes/projects/Deskbot.md",
-    "personal-notes/phd/Ideas.md",
-    "personal-notes/phd/Applications.md",
-    "personal-notes/phd/Recommendations.md",
-    "personal-notes/phd/professors/Dinesh Jayaraman.md",
-    "papers/reinforcement-learning/Rank2Reward - Learning Shaped Reward Functions from Passive Video.md",
     "papers/reinforcement-learning/img/tamer_algorithm_credit.png",
     "papers/reinforcement-learning/img/tamer_algorithm.png",
     "papers/reinforcement-learning/img/tamer.png"
