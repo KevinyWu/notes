@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "6464451a4f7d6902",
+        "id": "a2c7dcc7403440c1",
         "type": "tabs",
         "children": [
           {
-            "id": "4563d16c1b8bbf4c",
+            "id": "cc514c4d30c960ab",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -74,7 +74,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 230.50390243530273
+    "width": 230.50390243530273,
+    "collapsed": true
   },
   "right": {
     "id": "db81aa8145141e1b",
@@ -108,11 +109,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "papers/generative-models/Make-An-Agent - A Generalizable Policy Network Generator with Behavior-Prompted Diffusion.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from Make-An-Agent - A Generalizable Policy Network Generator with Behavior-Prompted Diffusion"
             }
           },
           {
@@ -122,7 +124,9 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "Tags"
@@ -133,16 +137,32 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "papers/generative-models/Make-An-Agent - A Generalizable Policy Network Generator with Behavior-Prompted Diffusion.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Make-An-Agent - A Generalizable Policy Network Generator with Behavior-Prompted Diffusion"
+            }
+          },
+          {
+            "id": "71bad8ca6e1dd1da",
+            "type": "leaf",
+            "state": {
+              "type": "ReferenceListView",
+              "state": {},
+              "icon": "quote-glyph",
+              "title": "References"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
@@ -159,44 +179,44 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "4563d16c1b8bbf4c",
+  "active": "cc514c4d30c960ab",
   "lastOpenFiles": [
+    "courses/deep-reinforcement-learning/4 Introduction to Reinforcement Learning.md",
+    "courses/real-world-robot-learning/slides/4 Intro To Imitation Learning & Reinforcement Learning Part III.pdf",
+    "courses/real-world-robot-learning/README.md",
     "personal-notes/phd/professors/Antonio Loquercio.md",
+    "personal-notes/research/Exploration.md",
+    "papers/generative-models/Make-An-Agent - A Generalizable Policy Network Generator with Behavior-Prompted Diffusion.md",
+    "personal-notes/research/PROGRESSOR.md",
+    "personal-notes/phd/Interview.md",
+    "papers/generative-models/README.md",
+    "personal-notes/learning/Learning.md",
+    "papers/reinforcement-learning/Interactively shaping agents via human reinforcement - The TAMER framework.md",
+    "courses/deep-reinforcement-learning/slides/5 Policy Gradients.pdf",
+    "courses/real-world-robot-learning/4 Intro To Imitation Learning & Reinforcement Learning Part III.md",
+    "courses/robotic-manipulation/README.md",
+    "templates/Lecture.md",
+    "personal-notes/phd/Applications.md",
+    "personal-notes/learning/Quick Notes.md",
+    "papers/generative-models/img/make_an_agent.png",
+    "tutorials/Supervised Policy Learning for Real Robots.md",
+    "papers/README.md",
+    "README.md",
+    "papers/foundation-models/Octo - An Open-Source Generalist Robot Policy.md",
+    "papers/foundation-models/README.md",
     "talks/Antonio Loquercio - Simulation-What Made Us Intelligent Will Make Our Robots Intelligent.md",
     "talks/Antonio Loquercio - Learning Vision-Based High-Speed Flight.md",
-    "personal-notes/phd/Interview.md",
-    "personal-notes/research/Exploration.md",
-    "personal-notes/research/PROGRESSOR.md",
     "courses/real-world-robot-learning/3 Intro To Imitation Learning & Reinforcement Learning Part II.md",
-    "courses/real-world-robot-learning/slides/4 Intro To Imitation Learning & Reinforcement Learning Part III.pdf",
-    "courses/deep-reinforcement-learning/4 Introduction to Reinforcement Learning.md",
     "courses/robotic-manipulation/3 Basic Pick-and-Place.md",
     "courses/robotic-manipulation/4 Geometric Pose Estimation.md",
-    "books/robot-dynamics-control/4 Inverse Kinematics.md",
-    "courses/real-world-robot-learning/README.md",
-    "courses/real-world-robot-learning/2 Intro To Imitation Learning & Reinforcement Learning Part I.md",
-    "personal-notes/learning/Learning.md",
-    "courses/real-world-robot-learning/4 Intro To Imitation Learning & Reinforcement Learning Part III.md",
     "courses/real-world-robot-learning/slides/6 Robot Perception.pdf",
-    "courses/real-world-robot-learning/6 Robot Perception I.md",
-    "courses/deep-reinforcement-learning/2 Supervised Learning of Behaviors.md",
-    "courses/deep-reinforcement-learning/1 Introduction.md",
     "courses/real-world-robot-learning/slides/3 Intro To Imitation Learning & Reinforcement Learning Part II.pdf",
-    "courses/deep-reinforcement-learning/5 Policy Gradients.md",
     "courses/deep-reinforcement-learning/slides/3 Pytorch Tutorial.pdf",
-    "courses/robotic-manipulation/README.md",
     "courses/real-world-robot-learning/slides/2 Intro To Imitation Learning & Reinforcement Learning Part I.pdf",
     "courses/real-world-robot-learning/slides/5 Robot Perception.pdf",
-    "courses/deep-reinforcement-learning/README.md",
-    "courses/README.md",
     "5 Robot Perception.pdf",
-    "courses/deep-reinforcement-learning/6 Actor-Critic Algorithms.md",
-    "courses/real-world-robot-learning/1 Introduction.md",
     "courses/real-world-robot-learning/4 Intro To Imitation Learning & Reinforcement Learning Part III.pdf",
     "courses/real-world-robot-learning/3 Intro To Imitation Learning & Reinforcement Learning Part II.pdf",
-    "Intro To Imitation Learning & Reinforcement Learning Part I.pdf",
-    "README.md",
-    "personal-notes/projects/Deskbot.md",
     "papers/reinforcement-learning/img/tamer_algorithm_credit.png",
     "papers/reinforcement-learning/img/tamer_algorithm.png",
     "papers/reinforcement-learning/img/tamer.png"
