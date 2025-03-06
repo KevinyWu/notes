@@ -11,10 +11,14 @@
             "id": "cc514c4d30c960ab",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "personal-notes/learning/Learning.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Learning"
             }
           }
         ]
@@ -74,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 230.50390243530273,
-    "collapsed": true
+    "width": 230.50390243530273
   },
   "right": {
     "id": "db81aa8145141e1b",
