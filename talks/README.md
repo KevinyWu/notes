@@ -104,3 +104,9 @@
 - Surrogate models that predict the performance of a predicted action can be used to guide online self-learning
 - Underwater is a good environment for self-learning due to safety and environment reset (objects dropping to seafloor)
 - GenAI can be used to generate videos of people doing a task, and robots can imitate these videos to generalize to unseen objects
+
+## [2025-02-10] Peter Stone - Human-in-the-Loop Machine Learning for Robot Navigation and Manipulation
+
+#tags
+[[Peter Stone - Human-in-the-Loop Machine Learning for Robot Navigation and Manipulation]]
+- Notes
