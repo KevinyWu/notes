@@ -105,8 +105,18 @@
 - Underwater is a good environment for self-learning due to safety and environment reset (objects dropping to seafloor)
 - GenAI can be used to generate videos of people doing a task, and robots can imitate these videos to generalize to unseen objects
 
-## [2025-02-10] Peter Stone - Human-in-the-Loop Machine Learning for Robot Navigation and Manipulation
+## [2025-11-04] Yuke Zhu - Data Pyramid and Data Flywheel for Robotic Foundation Models
 
 #tags
-[[Peter Stone - Human-in-the-Loop Machine Learning for Robot Navigation and Manipulation]]
+[[Yuke Zhu - Data Pyramid and Data Flywheel for Robotic Foundation Models]]
 - Notes
+
+## [2025-02-10] Peter Stone - Human-in-the-Loop Machine Learning for Robot Navigation and Manipulation
+
+#reinforcement-learning
+#imitation-learning
+#learning-from-video
+[[Peter Stone - Human-in-the-Loop Machine Learning for Robot Navigation and Manipulation]]
+- Human-in-the-loop learning improves robot navigation and manipulation by integrating human feedback through various modalities such as demonstration, intervention, evaluative feedback, and reinforcement learning
+- Adaptive Planner Parameter Learning (APPL) enhances navigation by learning local planner parameters from human input, reducing the need for expert tuning and adapting to different environments dynamically
+- ORION enables vision-based manipulation from a single human video by constructing object-centric representations and open-world object graphs, allowing robots to generalize manipulation skills from minimal demonstrations
