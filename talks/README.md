@@ -108,8 +108,12 @@
 ## [2024-11-04] Yuke Zhu - Data Pyramid and Data Flywheel for Robotic Foundation Models
 
 #humanoid
+#sim2real
+#foundation-models
 [[Yuke Zhu - Data Pyramid and Data Flywheel for Robotic Foundation Models]]
-- Notes
+- First generalist, then better specialist: prioritize developing generalist robotic capabilities before refining specialized skills
+- Need to learn to generalize across the data pyramid: effective robotic foundation models must leverage and generalize across web, synthetic, and real-robot data
+- Data flywheel through trustworthy and safe deployment: continuous improvement comes from real-world deployment, where more data leads to better learning, more capable robots, and further data collection
 
 ## [2025-02-10] Peter Stone - Human-in-the-Loop Machine Learning for Robot Navigation and Manipulation
 

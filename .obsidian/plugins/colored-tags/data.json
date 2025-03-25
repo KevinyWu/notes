@@ -70,7 +70,8 @@
     "energy-based-models": 52,
     "re": 53,
     "rl-human-feedback": 54,
-    "humanoid": 55
+    "humanoid": 55,
+    "r": 56
   },
   "_version": 3
 }
