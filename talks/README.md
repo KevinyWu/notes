@@ -105,9 +105,9 @@
 - Underwater is a good environment for self-learning due to safety and environment reset (objects dropping to seafloor)
 - GenAI can be used to generate videos of people doing a task, and robots can imitate these videos to generalize to unseen objects
 
-## [2025-11-04] Yuke Zhu - Data Pyramid and Data Flywheel for Robotic Foundation Models
+## [2024-11-04] Yuke Zhu - Data Pyramid and Data Flywheel for Robotic Foundation Models
 
-#tags
+#humanoid
 [[Yuke Zhu - Data Pyramid and Data Flywheel for Robotic Foundation Models]]
 - Notes
 
