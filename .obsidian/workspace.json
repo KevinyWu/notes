@@ -22,76 +22,6 @@
             }
           },
           {
-            "id": "de430f1514c747d5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "personal-notes/phd/professors/Yuke Zhu.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Yuke Zhu"
-            }
-          },
-          {
-            "id": "374df3a2e7f9aa19",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "personal-notes/phd/professors/Peter Stone.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Peter Stone"
-            }
-          },
-          {
-            "id": "5a4d266423ea2e5f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "personal-notes/phd/professors/Amy Zhang.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Amy Zhang"
-            }
-          },
-          {
-            "id": "cc69cff9b36418f6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "personal-notes/phd/professors/Roberto Martín-Martín.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Roberto Martín-Martín"
-            }
-          },
-          {
-            "id": "5a9e2742463ded6d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "personal-notes/phd/professors/Lillian Chin.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Lillian Chin"
-            }
-          },
-          {
             "id": "029fd05889a01adc",
             "type": "leaf",
             "state": {
@@ -106,7 +36,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -269,16 +199,18 @@
   },
   "active": "029fd05889a01adc",
   "lastOpenFiles": [
-    "personal-notes/phd/Interview.md",
-    "personal-notes/phd/Visit Day.md",
-    "personal-notes/phd/Applications.md",
-    "personal-notes/phd/professors/Lillian Chin.md",
-    "personal-notes/phd/Ideas.md",
     "personal-notes/phd/professors/Roberto Martín-Martín.md",
-    "personal-notes/phd/professors/Amy Zhang.md",
+    "personal-notes/phd/Visit Day.md",
+    "personal-notes/phd/professors/Volkan Isler.md",
+    "personal-notes/phd/professors/Brad Knox.md",
     "personal-notes/phd/professors/Peter Stone.md",
-    "personal-notes/phd/professors/Yuke Zhu.md",
+    "personal-notes/phd/professors/Amy Zhang.md",
     "personal-notes/learning/Learning.md",
+    "personal-notes/phd/professors/Lillian Chin.md",
+    "personal-notes/phd/Interview.md",
+    "personal-notes/phd/Applications.md",
+    "personal-notes/phd/Ideas.md",
+    "personal-notes/phd/professors/Yuke Zhu.md",
     "talks/README.md",
     "talks/Yuke Zhu - Data Pyramid and Data Flywheel for Robotic Foundation Models.md",
     "personal-notes/learning/Quick Notes.md",
@@ -295,7 +227,6 @@
     "talks/Rachel Holladay - Leveraging Mechanics for Multi-step Robotic Manipulation Planning.md",
     "talks/Saurabh Gupta - Robot Learning by Understanding Egocentric Videos.md",
     "talks/Tom Silver - Neuro-Symbolic Learning for Bilevel Robot Planning.md",
-    "talks/Yunzhu Li - Foundation Models for Robotic Manipulation.md",
     "talks/img/orion_test.png",
     "talks/img/orion_train.png",
     "talks/img/orion_train.png",
@@ -303,7 +234,6 @@
     "talks/img/apple.png",
     "talks/img/appli.png",
     "talks/img/appld.png",
-    "papers/reinforcement-learning/Interactively shaping agents via human reinforcement - The TAMER framework.md",
     "courses/real-world-robot-learning/slides/4 Intro To Imitation Learning & Reinforcement Learning Part III.pdf",
     "courses/deep-reinforcement-learning/slides/5 Policy Gradients.pdf",
     "papers/generative-models/img/make_an_agent.png",
