@@ -1,6 +1,5 @@
 # Carl Vondrick - Making Sense of the Multimodal World
 
-#unsupervised
 #marine-robotics
 #reinforcement-learning
 #behavioral-cloning

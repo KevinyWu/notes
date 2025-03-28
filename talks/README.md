@@ -96,7 +96,6 @@
 
 ## [2024-08-25] Carl Vondrick - Making Sense of the Multimodal World
 
-#unsupervised
 #marine-robotics
 #reinforcement-learning
 #behavioral-cloning
@@ -104,6 +103,14 @@
 - Surrogate models that predict the performance of a predicted action can be used to guide online self-learning
 - Underwater is a good environment for self-learning due to safety and environment reset (objects dropping to seafloor)
 - GenAI can be used to generate videos of people doing a task, and robots can imitate these videos to generalize to unseen objects
+
+## [2024-10-01] Peter Stone - Practical Reinforcement Learning - Lessons from 30 Years of Research
+
+#reinforcement-learning
+[[Peter Stone - Practical Reinforcement Learning - Lessons from 30 Years of Research]]
+- Practical RL requires choosing the right algorithm, learning useful representations, and balancing exploration with decision-making
+- Multiagent RL is complex, but interactions with humans can simplify learning through guidance and teamwork
+- Decomposing problems, leveraging past experiences, and acknowledging finite time are key to efficient RL in real-world applications
 
 ## [2024-11-04] Yuke Zhu - Data Pyramid and Data Flywheel for Robotic Foundation Models
 

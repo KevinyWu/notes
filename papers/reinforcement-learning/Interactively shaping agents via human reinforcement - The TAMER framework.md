@@ -62,7 +62,7 @@
 		- They greedily choose action expected to receive highest reward
 			- How does this lead to good exploration? Some better states may only be reach by going first to an undesirable state
 			- **Is myopic approach optimal?**
-				- **Myopia puts more burden on the trainer who mus micromanage the agents behavior?**
+				- **Myopia puts more burden on the trainer who must micromanage the agents behavior?**
 				- **Long-term reward algorithms are easier on the trainer but harder to design?**
 	- Comparison to RL
 		- RL: agent maximizes discounted sum of future reward
