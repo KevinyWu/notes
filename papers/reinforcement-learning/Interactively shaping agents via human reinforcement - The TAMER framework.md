@@ -42,7 +42,7 @@
 	- Some tasks are too difficult for human trainer, like flying a helicoptor or multi-agent environments
 - Learning from reinforcement (shaping)
 	- Clicker training: when trainer only gives positive reinforcement
-	- The tamer system is distinct from previous work on human-delivered reinforcement in that it is designed both for a human-agent team and to work in complex domains through function approximation, generalizing to unseen states
+	- The TAMER system is distinct from previous work on human-delivered reinforcement in that it is designed both for a human-agent team and to work in complex domains through function approximation, generalizing to unseen states
 
 ## Method
 
@@ -72,7 +72,7 @@
 			- MDP\R: $R$ is removed and $H$ is sole determinant of good and bad behavior
 - High-level algorithm ![[tamer_algorithm.png]]
 - Credit assignment to a dense state-action history
-	- In some task domains, the frequency of time steps is too high for human trainers to respond to specific stateaction pairs before the next one occurs
+	- In some task domains, the frequency of time steps is too high for human trainers to respond to specific state-action pairs before the next one occurs
 	- For these faster domains, credit from the human's reinforcement must be appropriately distributed across some subset of the previous time steps
 	- **The weight for any time step is its "credit"**
 	- TAMER with credit ![[tamer_algorithm_credit.png]]
