@@ -34,9 +34,23 @@
               "icon": "lucide-file",
               "title": "Peter Stone"
             }
+          },
+          {
+            "id": "07665f3e616b35bd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "personal-notes/learning/Learning.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Learning"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -197,11 +211,11 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "9ff27b2dcdae7ed5",
+  "active": "07665f3e616b35bd",
   "lastOpenFiles": [
+    "personal-notes/phd/professors/Peter Stone.md",
     "personal-notes/phd/visit/Visit Day.md",
     "personal-notes/phd/professors/Brad Knox.md",
-    "personal-notes/phd/professors/Peter Stone.md",
     "personal-notes/research/Exploration.md",
     "personal-notes/phd/Interview.md",
     "personal-notes/research/PROGRESSOR.md",
