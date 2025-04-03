@@ -11,10 +11,112 @@
             "id": "414ce68d54cf93a7",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "personal-notes/phd/Applications.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Applications"
+            }
+          },
+          {
+            "id": "d22be48aea002ce1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "personal-notes/phd/professors/Dorsa Sadigh.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Dorsa Sadigh"
+            }
+          },
+          {
+            "id": "be0906358a47ca50",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "personal-notes/phd/professors/Lerrel Pinto.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Lerrel Pinto"
+            }
+          },
+          {
+            "id": "82a439250a105c2b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "personal-notes/phd/professors/Russ Tedrake.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Russ Tedrake"
+            }
+          },
+          {
+            "id": "8f7de44ea453d26c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "personal-notes/phd/professors/Nick Roy.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Nick Roy"
+            }
+          },
+          {
+            "id": "bc1a8948c77686a9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "personal-notes/phd/professors/Carl Vondrick.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Carl Vondrick"
+            }
+          },
+          {
+            "id": "9474de39bc14b7c7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "personal-notes/phd/professors/Andrea Bajcsy.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Andrea Bajcsy"
+            }
+          },
+          {
+            "id": "63b40f2026b9ccb2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "personal-notes/phd/professors/Sergey Levine.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Sergey Levine"
             }
           }
         ]
@@ -157,12 +259,11 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -180,14 +281,29 @@
   },
   "active": "414ce68d54cf93a7",
   "lastOpenFiles": [
+    "personal-notes/phd/professors/Sergey Levine.md",
+    "personal-notes/phd/Applications.md",
+    "personal-notes/phd/professors/Dorsa Sadigh.md",
+    "personal-notes/phd/professors/Jeannette Bohg.md",
+    "personal-notes/phd/visit/Visit Day.md",
+    "personal-notes/phd/professors/Lerrel Pinto.md",
+    "personal-notes/phd/professors/Russ Tedrake.md",
+    "personal-notes/phd/professors/Nick Roy.md",
+    "personal-notes/phd/professors/Sanjiban Choudhury.md",
+    "personal-notes/phd/professors/Carl Vondrick.md",
+    "personal-notes/phd/professors/Andrea Bajcsy.md",
+    "NVIDIA et al. - 2025 - GR00T N1 An Open Foundation Model for Generalist Humanoid Robots.pdf",
+    "Labiosa et al. - 2025 - Reinforcement Learning Within the Classical Robotics Stack A Case Study in Robot Soccer.pdf",
+    "Zhu et al. - 2024 - Vision-based Manipulation from Single Human Video with Open-World Object Graphs.pdf",
+    "Zhu et al. - 2024 - Vision-based Manipulation from Single Human Video with Open-World Object Graphs.pdf.pdf",
+    "ORION.pdf",
+    "Hu et al. - 2024 - Disentangled Unsupervised Skill Discovery for Efficient Hierarchical Reinforcement Learning.pdf",
+    "Disentangled Unsupervised Skill Discovery.pdf",
+    "Shah et al. - 2024 - BUMBLE Unifying Reasoning and Acting with Vision-Language Models for Building-wide Mobile Manipulat.pdf",
     "Robot Soccer.pdf",
     "personal-notes/learning/Learning.md",
-    "ORION.pdf",
     "GR00T.pdf",
-    "Disentangled Unsupervised Skill Discovery.pdf",
-    "BUMBLE.pdf",
     "personal-notes/phd/professors/Peter Stone.md",
-    "personal-notes/phd/visit/Visit Day.md",
     "personal-notes/phd/professors/Joydeep Biswas.md",
     "personal-notes/learning/Quick Notes.md",
     "personal-notes/README.md",
@@ -201,18 +317,6 @@
     "papers/reinforcement-learning/Interactively shaping agents via human reinforcement - The TAMER framework.md",
     "talks/README.md",
     "talks/Peter Stone - Practical Reinforcement Learning - Lessons from 30 Years of Research.md",
-    "talks/Yuke Zhu - Data Pyramid and Data Flywheel for Robotic Foundation Models.md",
-    "talks/Peter Stone - Human-in-the-Loop Machine Learning for Robot Navigation and Manipulation.md",
-    "talks/Carl Vondrick - Making Sense of the Multimodal World.md",
-    "personal-notes/phd/professors/Volkan Isler.md",
-    "personal-notes/phd/professors/Lillian Chin.md",
-    "personal-notes/phd/professors/Yuke Zhu.md",
-    "personal-notes/phd/visit/Get-Advisor.pdf",
-    "personal-notes/phd/visit/Visit Questions.pdf",
-    "personal-notes/phd/professors/John Leonard.md",
-    "personal-notes/phd/professors/Amy Zhang.md",
-    "personal-notes/phd/professors/Dhruv Shah.md",
-    "personal-notes/phd/visit",
     "talks/img/okami_retargeting.png",
     "talks/img/okami_planning.png",
     "talks/img/orion_test.png",
@@ -222,8 +326,6 @@
     "talks/img/apple.png",
     "talks/img/appli.png",
     "talks/img/appld.png",
-    "courses/real-world-robot-learning/slides/4 Intro To Imitation Learning & Reinforcement Learning Part III.pdf",
-    "courses/deep-reinforcement-learning/slides/5 Policy Gradients.pdf",
     "papers/generative-models/img/make_an_agent.png"
   ]
 }
