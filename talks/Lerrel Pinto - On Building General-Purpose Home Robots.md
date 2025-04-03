@@ -32,7 +32,7 @@
     - Need to update the point cloud
     - No solution currently
 - Failure modes
-    - VLM incantaions
+    - VLM failures
         - Ex. Model cannot detect "Grey eye glass box" but can detect "grey eyeglass box" (with no space)
     - Grasping models fail with transparent objects (like empty bottles), flat objects (intersect with surface)
 - Limitations
