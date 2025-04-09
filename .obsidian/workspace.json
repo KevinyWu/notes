@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "a44c358fa1d5d6c5",
+        "id": "6d92b7da0e09a312",
         "type": "tabs",
         "children": [
           {
-            "id": "085aa9760d67e07f",
+            "id": "395624cfb32b79d5",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -74,7 +74,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "db81aa8145141e1b",
@@ -178,16 +179,18 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "085aa9760d67e07f",
+  "active": "395624cfb32b79d5",
   "lastOpenFiles": [
+    "personal-notes/phd/Interview.md",
+    "personal-notes/research/PROGRESSOR.md",
+    "personal-notes/research/Exploration.md",
+    "personal-notes/phd/professors/Yunzhu Li.md",
     "personal-notes/phd/professors/Peter Stone.md",
     "personal-notes/phd/visit/Visit Day.md",
     "personal-notes/phd/Applications.md",
     "personal-notes/phd/professors/Nick Roy.md",
     "personal-notes/phd/professors/Andreea Bobu.md",
     "personal-notes/phd/professors/Lerrel Pinto.md",
-    "personal-notes/phd/Interview.md",
-    "personal-notes/research/Exploration.md",
     "talks/Lerrel Pinto - On Building General-Purpose Home Robots.md",
     "personal-notes/phd/professors/Chelsea Finn.md",
     "personal-notes/phd/professors/Jeannette Bohg.md",
@@ -198,14 +201,12 @@
     "personal-notes/phd/professors/Jitendra Malik.md",
     "personal-notes/phd/professors/Ken Goldberg.md",
     "personal-notes/phd/professors/Anca Dragan.md",
-    "personal-notes/phd/professors/Yunzhu Li.md",
     "personal-notes/phd/professors/Carl Vondrick.md",
     "personal-notes/phd/professors/Sergey Levine.md",
     "personal-notes/phd/professors/Shuran Song.md",
     "personal-notes/phd/professors/Guanya Shi.md",
     "personal-notes/learning/Learning.md",
     "personal-notes/learning/Quick Notes.md",
-    "personal-notes/phd/professors/Joydeep Biswas.md",
     "NVIDIA et al. - 2025 - GR00T N1 An Open Foundation Model for Generalist Humanoid Robots.pdf",
     "Labiosa et al. - 2025 - Reinforcement Learning Within the Classical Robotics Stack A Case Study in Robot Soccer.pdf",
     "Zhu et al. - 2024 - Vision-based Manipulation from Single Human Video with Open-World Object Graphs.pdf",
