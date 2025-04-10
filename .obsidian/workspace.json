@@ -11,10 +11,14 @@
             "id": "395624cfb32b79d5",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "personal-notes/phd/visit/Visit Day.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Visit Day"
             }
           }
         ]
@@ -74,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "db81aa8145141e1b",
@@ -181,13 +184,13 @@
   },
   "active": "395624cfb32b79d5",
   "lastOpenFiles": [
+    "personal-notes/phd/Applications.md",
     "personal-notes/phd/Interview.md",
     "personal-notes/research/PROGRESSOR.md",
     "personal-notes/research/Exploration.md",
     "personal-notes/phd/professors/Yunzhu Li.md",
     "personal-notes/phd/professors/Peter Stone.md",
     "personal-notes/phd/visit/Visit Day.md",
-    "personal-notes/phd/Applications.md",
     "personal-notes/phd/professors/Nick Roy.md",
     "personal-notes/phd/professors/Andreea Bobu.md",
     "personal-notes/phd/professors/Lerrel Pinto.md",
