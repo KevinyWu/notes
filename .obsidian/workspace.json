@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "310d432a01f23387",
+        "id": "1b36f55b36e72446",
         "type": "tabs",
         "children": [
           {
-            "id": "87c522af7f6c696f",
+            "id": "7e416bc7cb80eccc",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -178,7 +178,7 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "87c522af7f6c696f",
+  "active": "7e416bc7cb80eccc",
   "lastOpenFiles": [
     "personal-notes/phd/professors/Peter Stone.md",
     "personal-notes/phd/professors/Yunzhu Li.md",
