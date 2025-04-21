@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "personal-notes/README.md",
+                "file": "personal-notes/learning/Learning.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Learning"
             }
           }
         ]
@@ -182,9 +182,16 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "7e416bc7cb80eccc",
+  "active": "1ef5240235abf41d",
   "lastOpenFiles": [
     "personal-notes/learning/Learning.md",
+    "README.md",
+    "courses/README.md",
+    "courses/real-world-robot-learning/4 Intro To Imitation Learning & Reinforcement Learning Part III.md",
+    "courses/real-world-robot-learning/3 Intro To Imitation Learning & Reinforcement Learning Part II.md",
+    "courses/real-world-robot-learning/2 Intro To Imitation Learning & Reinforcement Learning Part I.md",
+    "courses/real-world-robot-learning/1 Introduction.md",
+    "personal-notes/README.md",
     "personal-notes/research/BC Benchmark.md",
     "personal-notes/research/Emergenet.md",
     "personal-notes/research/Exploration.md",
@@ -203,13 +210,6 @@
     "personal-notes/phd/professors/Dorsa Sadigh.md",
     "personal-notes/phd/professors/Dieter Fox.md",
     "personal-notes/phd/professors/Dhruv Shah.md",
-    "personal-notes/phd/professors/Deepak Pathak.md",
-    "personal-notes/phd/professors/Daniel Seita.md",
-    "personal-notes/phd/professors/David Held.md",
-    "personal-notes/phd/professors/Chen Feng.md",
-    "personal-notes/phd/professors/Chelsea Finn.md",
-    "personal-notes/phd/professors/Carl Vondrick.md",
-    "personal-notes/phd/professors/Byron Boots.md",
     "personal-notes/phd/visit/Get-Advisor.pdf",
     "NVIDIA et al. - 2025 - GR00T N1 An Open Foundation Model for Generalist Humanoid Robots.pdf",
     "Labiosa et al. - 2025 - Reinforcement Learning Within the Classical Robotics Stack A Case Study in Robot Soccer.pdf",
