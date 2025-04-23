@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "db81aa8145141e1b",
@@ -184,7 +185,13 @@
   },
   "active": "7e416bc7cb80eccc",
   "lastOpenFiles": [
+    "talks/Mahi Shafiullah - Robotic Intelligence for Solving Everyday Problems.md",
+    "talks/README.md",
     "personal-notes/learning/Learning.md",
+    "talks/img/vq_bet.png",
+    "talks/Yunzhu Li - Foundation Models for Robotic Manipulation.md",
+    "talks/Lerrel Pinto - On Building General-Purpose Home Robots.md",
+    "talks/Peter Stone - Human-in-the-Loop Machine Learning for Robot Navigation and Manipulation.md",
     "README.md",
     "courses/README.md",
     "courses/real-world-robot-learning/4 Intro To Imitation Learning & Reinforcement Learning Part III.md",
@@ -204,12 +211,6 @@
     "personal-notes/phd/professors/Hod Lipson.md",
     "personal-notes/phd/professors/Heng Yang.md",
     "personal-notes/phd/professors/Guanya Shi.md",
-    "personal-notes/phd/professors/George Konidaris.md",
-    "personal-notes/phd/professors/Erdem Biyik.md",
-    "personal-notes/phd/professors/Dinesh Jayaraman.md",
-    "personal-notes/phd/professors/Dorsa Sadigh.md",
-    "personal-notes/phd/professors/Dieter Fox.md",
-    "personal-notes/phd/professors/Dhruv Shah.md",
     "personal-notes/phd/visit/Get-Advisor.pdf",
     "NVIDIA et al. - 2025 - GR00T N1 An Open Foundation Model for Generalist Humanoid Robots.pdf",
     "Labiosa et al. - 2025 - Reinforcement Learning Within the Classical Robotics Stack A Case Study in Robot Soccer.pdf",
@@ -228,7 +229,6 @@
     "talks/img/applr.png",
     "talks/img/apple.png",
     "talks/img/appli.png",
-    "talks/img/appld.png",
-    "papers/generative-models/img/make_an_agent.png"
+    "talks/img/appld.png"
   ]
 }

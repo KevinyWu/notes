@@ -131,3 +131,13 @@
 - Human-in-the-loop learning improves robot navigation and manipulation by integrating human feedback through various modalities such as demonstration, intervention, evaluative feedback, and reinforcement learning
 - Adaptive Planner Parameter Learning (APPL) enhances navigation by learning local planner parameters from human input, reducing the need for expert tuning and adapting to different environments dynamically
 - ORION enables vision-based manipulation from a single human video by constructing object-centric representations and open-world object graphs, allowing robots to generalize manipulation skills from minimal demonstrations
+
+## [2025-04-23] Mahi Shafiullah - Robotic Intelligence for Solving Everyday Problems
+
+#foundation-models
+#behavioral-cloning
+#imitation-learning
+[[Mahi Shafiullah - Robotic Intelligence for Solving Everyday Problems]]
+- Develop accessible, low-cost systems to collect robot data across embodiments using minimal hardware and mobile devices
+- VQ-BeT and Robot Utility Models to efficiently learn multimodal behaviors from real-world data, achieving high zero-shot success rates
+- Tackled long-horizon mobile manipulation with hybrid memory (DynaMem)
