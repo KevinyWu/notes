@@ -1,20 +1,24 @@
 {
   "main": {
-    "id": "8e8ee6d543c6a1b0",
+    "id": "4bdc4be9881de744",
     "type": "split",
     "children": [
       {
-        "id": "1b36f55b36e72446",
+        "id": "c7a6d28ba2bbdf3a",
         "type": "tabs",
         "children": [
           {
-            "id": "047d09f6079e25f3",
+            "id": "6ae4bb7c189f3127",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "personal-notes/learning/Learning.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Learning"
             }
           }
         ]
@@ -23,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "5ef6b1eaae213ccb",
+    "id": "47740d0e49b4ef87",
     "type": "split",
     "children": [
       {
-        "id": "ea05bb374ea5e54b",
+        "id": "bedc5c62f174c52c",
         "type": "tabs",
         "children": [
           {
-            "id": "1ef5240235abf41d",
+            "id": "74e69740303e1e6a",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -44,7 +48,7 @@
             }
           },
           {
-            "id": "55fbf35415eadeae",
+            "id": "233d437f2deeadf5",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -61,7 +65,7 @@
             }
           },
           {
-            "id": "32cfa6a8c99d8a79",
+            "id": "a18f07b6fdec58fa",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -74,22 +78,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300
   },
   "right": {
-    "id": "db81aa8145141e1b",
+    "id": "41e4c9e01392561c",
     "type": "split",
     "children": [
       {
-        "id": "5ad7545fbb2b4813",
+        "id": "331bc0f38dbc9062",
         "type": "tabs",
         "children": [
           {
-            "id": "ac568914f5bfac5b",
+            "id": "90521df60918e908",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "personal-notes/learning/Learning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,25 +104,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Learning"
             }
           },
           {
-            "id": "eaec31c2909b7aa2",
+            "id": "15e664b19b796316",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "papers/generative-models/Make-An-Agent - A Generalizable Policy Network Generator with Behavior-Prompted Diffusion.md",
+                "file": "personal-notes/learning/Learning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Make-An-Agent - A Generalizable Policy Network Generator with Behavior-Prompted Diffusion"
+              "title": "Outgoing links from Learning"
             }
           },
           {
-            "id": "206a8edcdff6b52d",
+            "id": "3ad39952aa3bf83b",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -132,36 +137,25 @@
             }
           },
           {
-            "id": "d2303f1450c8793d",
+            "id": "b45c2e8054e389b1",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "personal-notes/phd/visit/Visit Day.md",
+                "file": "personal-notes/learning/Learning.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Visit Day"
-            }
-          },
-          {
-            "id": "71bad8ca6e1dd1da",
-            "type": "leaf",
-            "state": {
-              "type": "ReferenceListView",
-              "state": {},
-              "icon": "quote-glyph",
-              "title": "References"
+              "title": "Outline of Learning"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
+    "width": 300,
     "collapsed": true
   },
   "left-ribbon": {
@@ -178,57 +172,6 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "047d09f6079e25f3",
-  "lastOpenFiles": [
-<<<<<<< HEAD
-    "personal-notes/phd/Ideas.md",
-=======
-    "MORDOR.md",
->>>>>>> e018cf5 (Sync notes repository)
-    "personal-notes/learning/Learning.md",
-    "talks/Mahi Shafiullah - Robotic Intelligence for Solving Everyday Problems.md",
-    "talks/README.md",
-    "talks/img/vq_bet.png",
-    "talks/Yunzhu Li - Foundation Models for Robotic Manipulation.md",
-    "talks/Lerrel Pinto - On Building General-Purpose Home Robots.md",
-    "talks/Peter Stone - Human-in-the-Loop Machine Learning for Robot Navigation and Manipulation.md",
-    "README.md",
-    "courses/README.md",
-    "courses/real-world-robot-learning/4 Intro To Imitation Learning & Reinforcement Learning Part III.md",
-    "courses/real-world-robot-learning/3 Intro To Imitation Learning & Reinforcement Learning Part II.md",
-    "courses/real-world-robot-learning/2 Intro To Imitation Learning & Reinforcement Learning Part I.md",
-    "courses/real-world-robot-learning/1 Introduction.md",
-    "personal-notes/README.md",
-    "personal-notes/research/BC Benchmark.md",
-    "personal-notes/research/Emergenet.md",
-    "personal-notes/research/Exploration.md",
-    "personal-notes/research/PROGRESSOR.md",
-    "personal-notes/research/Latent Actions.md",
-    "personal-notes/research/Steering.md",
-    "personal-notes/phd/professors/Peter Stone.md",
-    "personal-notes/phd/professors/Yunzhu Li.md",
-    "personal-notes/phd/Applications.md",
-    "personal-notes/phd/professors/Hod Lipson.md",
-    "personal-notes/phd/professors/Heng Yang.md",
-    "personal-notes/phd/professors/Guanya Shi.md",
-    "personal-notes/phd/visit/Get-Advisor.pdf",
-    "NVIDIA et al. - 2025 - GR00T N1 An Open Foundation Model for Generalist Humanoid Robots.pdf",
-    "Labiosa et al. - 2025 - Reinforcement Learning Within the Classical Robotics Stack A Case Study in Robot Soccer.pdf",
-    "Zhu et al. - 2024 - Vision-based Manipulation from Single Human Video with Open-World Object Graphs.pdf",
-    "Zhu et al. - 2024 - Vision-based Manipulation from Single Human Video with Open-World Object Graphs.pdf.pdf",
-    "ORION.pdf",
-    "Hu et al. - 2024 - Disentangled Unsupervised Skill Discovery for Efficient Hierarchical Reinforcement Learning.pdf",
-    "Disentangled Unsupervised Skill Discovery.pdf",
-    "Shah et al. - 2024 - BUMBLE Unifying Reasoning and Acting with Vision-Language Models for Building-wide Mobile Manipulat.pdf",
-    "Robot Soccer.pdf",
-    "talks/img/okami_retargeting.png",
-    "talks/img/okami_planning.png",
-    "talks/img/orion_test.png",
-    "talks/img/orion_train.png",
-    "talks/img/orion_train.png",
-    "talks/img/applr.png",
-    "talks/img/apple.png",
-    "talks/img/appli.png",
-    "talks/img/appld.png"
-  ]
+  "active": "6ae4bb7c189f3127",
+  "lastOpenFiles": []
 }
