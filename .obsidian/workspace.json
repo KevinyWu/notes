@@ -8,17 +8,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "7e416bc7cb80eccc",
+            "id": "047d09f6079e25f3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "personal-notes/learning/Learning.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Learning"
+              "title": "New tab"
             }
           }
         ]
@@ -182,9 +178,13 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "7e416bc7cb80eccc",
+  "active": "047d09f6079e25f3",
   "lastOpenFiles": [
+<<<<<<< HEAD
     "personal-notes/phd/Ideas.md",
+=======
+    "MORDOR.md",
+>>>>>>> e018cf5 (Sync notes repository)
     "personal-notes/learning/Learning.md",
     "talks/Mahi Shafiullah - Robotic Intelligence for Solving Everyday Problems.md",
     "talks/README.md",
