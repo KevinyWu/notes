@@ -175,6 +175,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -190,6 +191,7 @@
   "active": "ce1c2617d798a00e",
   "lastOpenFiles": [
     "personal-notes/learning/Quick Notes.md",
+    "personal-notes/learning/Learning.md",
     "personal-notes/phd/Interview.md",
     "personal-notes/phd/Ideas.md",
     "personal-notes/phd/Applications.md",
@@ -201,7 +203,6 @@
     "personal-notes/projects/UR5 Teleoperation.md",
     "personal-notes/projects/Duckiebot Arm.md",
     "personal-notes/research/BC Benchmark.md",
-    "personal-notes/learning/Learning.md",
     "README.md",
     "personal-notes/phd/Recommendations.md",
     "books/robot-dynamics-control/4 Inverse Kinematics.md",
