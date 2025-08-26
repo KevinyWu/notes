@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "personal-notes/learning/Mac Setup.md",
+                "file": "personal-notes/learning/Setup.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Mac Setup"
+              "title": "Setup"
             }
           }
         ],
@@ -107,7 +107,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "41e4c9e01392561c",
@@ -204,9 +204,9 @@
   },
   "active": "79075c5a91832dfc",
   "lastOpenFiles": [
-    "personal-notes/learning/Quick Notes.md",
-    "personal-notes/learning/Mac Setup.md",
     "personal-notes/learning/Learning.md",
+    "personal-notes/learning/Setup.md",
+    "personal-notes/learning/Quick Notes.md",
     "personal-notes/phd/Interview.md",
     "personal-notes/phd/Ideas.md",
     "personal-notes/phd/Applications.md",
