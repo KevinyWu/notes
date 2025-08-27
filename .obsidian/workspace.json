@@ -22,7 +22,7 @@
             }
           },
           {
-            "id": "ce1c2617d798a00e",
+            "id": "80efd922bcd47d2a",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -34,9 +34,23 @@
               "icon": "lucide-file",
               "title": "Learning"
             }
+          },
+          {
+            "id": "ce1c2617d798a00e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "personal-notes/research/Tactile RUM.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Tactile RUM"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -190,16 +204,19 @@
   },
   "active": "ce1c2617d798a00e",
   "lastOpenFiles": [
-    "personal-notes/learning/Setup.md",
-    "personal-notes/learning/Learning.md",
-    "personal-notes/learning/Quick Notes.md",
-    "personal-notes/phd/Interview.md",
     "personal-notes/phd/Ideas.md",
-    "personal-notes/phd/Applications.md",
-    "personal-notes/research/Exploration.md",
-    "personal-notes/research/PROGRESSOR.md",
-    "personal-notes/research/Emergenet.md",
+    "papers/3d-scenes/Tactile-Augmented Radiance Fields.md",
+    "personal-notes/research/Tactile RUM.md",
+    "personal-notes/learning/Learning.md",
     "personal-notes/README.md",
+    "personal-notes/research/PROGRESSOR.md",
+    "personal-notes/research/Exploration.md",
+    "personal-notes/research/Emergenet.md",
+    "personal-notes/learning/Quick Notes.md",
+    "papers/transformers/An Image is Worth 16x16 Words - Transformers for Image Recognition at Scale.md",
+    "personal-notes/learning/Setup.md",
+    "personal-notes/phd/Interview.md",
+    "personal-notes/phd/Applications.md",
     "personal-notes/projects/Deskbot.md",
     "personal-notes/projects/UR5 Teleoperation.md",
     "personal-notes/projects/Duckiebot Arm.md",
@@ -213,9 +230,6 @@
     "courses/deep-reinforcement-learning/4 Introduction to Reinforcement Learning.md",
     "courses/deep-reinforcement-learning/2 Supervised Learning of Behaviors.md",
     "courses/deep-reinforcement-learning/1 Introduction.md",
-    "courses/deep-reinforcement-learning/README.md",
-    "courses/deep-reinforcement-learning/Deep Reinforcement Learning.pdf",
-    "courses/robotic-manipulation/4 Geometric Pose Estimation.md",
-    "courses/robotic-manipulation/3 Basic Pick-and-Place.md"
+    "courses/deep-reinforcement-learning/Deep Reinforcement Learning.pdf"
   ]
 }
