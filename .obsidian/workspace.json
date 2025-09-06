@@ -6,7 +6,7 @@
       {
         "id": "c7a6d28ba2bbdf3a",
         "type": "tabs",
-        "dimension": 51.4018691588785,
+        "dimension": 52.5390625,
         "children": [
           {
             "id": "ce1c2617d798a00e",
@@ -55,7 +55,7 @@
       {
         "id": "36051a7d6f82a757",
         "type": "tabs",
-        "dimension": 48.598130841121495,
+        "dimension": 47.4609375,
         "children": [
           {
             "id": "2bbdca3d7fc96b11",
@@ -113,8 +113,7 @@
               "title": "Tactile RUM"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -268,18 +267,18 @@
   },
   "active": "ce1c2617d798a00e",
   "lastOpenFiles": [
-    "personal-notes/learning/Learning.md",
-    "personal-notes/learning/Ideas.md",
+    "personal-notes/learning/Setup.md",
     "personal-notes/calendar/2025-09.md",
+    "personal-notes/research/IPhone Inference.md",
+    "personal-notes/research/Tactile RUM.md",
+    "personal-notes/research/Bimanual Manipulation.md",
+    "personal-notes/research/Exploration.md",
+    "personal-notes/learning/Ideas.md",
+    "personal-notes/learning/Learning.md",
     "README.md",
     "Flow Matching for Generative Modeling.md",
     "Untitled.md",
     "Auto-Encoding Variational Bayes.md",
-    "personal-notes/learning/Setup.md",
-    "personal-notes/research/Tactile RUM.md",
-    "personal-notes/research/Exploration.md",
-    "personal-notes/research/Bimanual Manipulation.md",
-    "personal-notes/research/IPhone Inference.md",
     "personal-notes/learning/Quick Notes.md",
     "personal-notes/research/PROGRESSOR.md",
     "personal-notes/research/Emergenet.md",
