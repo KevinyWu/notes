@@ -141,3 +141,9 @@
 - Develop accessible, low-cost systems to collect robot data across embodiments using minimal hardware and mobile devices
 - VQ-BeT and Robot Utility Models to efficiently learn multimodal behaviors from real-world data, achieving high zero-shot success rates
 - Tackled long-horizon mobile manipulation with hybrid memory (DynaMem)
+
+## [2025-04-25] Russ Tedrake - Multitask Transfer in TRI's Large Behavior Models for Dexterous Manipulation
+
+#evaluations
+#foundation-models
+[[Russ Tedrake - Multitask Transfer in TRI’s Large Behavior Models for Dexterous Manipulation]]
