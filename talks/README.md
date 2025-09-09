@@ -147,3 +147,6 @@
 #evaluations
 #foundation-models
 [[Russ Tedrake - Multitask Transfer in TRI’s Large Behavior Models for Dexterous Manipulation]]
+- LBM pretraining reduces the amount of task-specific data required
+- Given the same amount of task-specific data, finetuned specialists derived from pretrained LBMs outperform single-task models when aggregating over tasks
+- Data normalization is much more important than architecture changes
