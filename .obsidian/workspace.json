@@ -6,8 +6,22 @@
       {
         "id": "c7a6d28ba2bbdf3a",
         "type": "tabs",
-        "dimension": 52.5390625,
+        "dimension": 51.18296529968455,
         "children": [
+          {
+            "id": "6f4c4d7a570b0694",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "personal-notes/calendar/2025-09.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2025-09"
+            }
+          },
           {
             "id": "5b686be29a4880c2",
             "type": "leaf",
@@ -37,26 +51,40 @@
             }
           },
           {
-            "id": "6f4c4d7a570b0694",
+            "id": "db54157c4250b310",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "personal-notes/calendar/2025-09.md",
+                "file": "personal-notes/learning/RoboPapers.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-09"
+              "title": "RoboPapers"
+            }
+          },
+          {
+            "id": "96e2863e2e49ac96",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "talks/Yann Le Cun - SSL, JEPA, World Models and the Future of AI.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Yann Le Cun - SSL, JEPA, World Models and the Future of AI"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       },
       {
         "id": "36051a7d6f82a757",
         "type": "tabs",
-        "dimension": 47.4609375,
+        "dimension": 48.81703470031546,
         "children": [
           {
             "id": "80efd922bcd47d2a",
@@ -202,7 +230,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "personal-notes/research/IPhone Inference.md",
+                "file": "talks/Yann Le Cun - SSL, JEPA, World Models and the Future of AI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -212,7 +240,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for IPhone Inference"
+              "title": "Backlinks for Yann Le Cun - SSL, JEPA, World Models and the Future of AI"
             }
           },
           {
@@ -281,36 +309,37 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "2bbdca3d7fc96b11",
+  "active": "96e2863e2e49ac96",
   "lastOpenFiles": [
     "personal-notes/calendar/2025-09.md",
-    "personal-notes/research/Tactile RUM.md",
+    "talks/Yann Le Cun - SSL, JEPA, World Models and the Future of AI.md",
     "personal-notes/research/IPhone Inference.md",
+    "personal-notes/research/Self-Learning.md",
+    "personal-notes/research/Exploration.md",
+    "personal-notes/learning/Learning.md",
+    "talks/img/jepa.png",
+    "personal-notes/learning/Ideas.md",
+    "personal-notes/learning/RoboPapers.md",
+    "talks/README.md",
+    "README.md",
+    "personal-notes/learning/Setup.md",
+    "papers/reinforcement-learning/Diffusion Reward - Learning Rewards via Conditional Video Diffusion.md",
+    "papers/reinforcement-learning/Learning Reward Functions for Robotic Manipulation by Observing Humans.md",
+    "papers/reinforcement-learning/Mastering Visual Continuous Control - Improved Data-Augmented Reinforcement Learning.md",
+    "talks/Mahi Shafiullah - Robotic Intelligence for Solving Everyday Problems.md",
+    "personal-notes/research/Tactile RUM.md",
+    "personal-notes/research/RUKA.md",
     "github.com/andrewangbl/min-stretch-tactile.md",
     "github.com/andrewangbl",
     "github.com",
-    "personal-notes/learning/Learning.md",
     "papers/neuroscience/README.md",
     "papers/neuroscience/Perspectives and problems in motor learning.md",
-    "README.md",
     "papers/README.md",
-    "personal-notes/learning/Ideas.md",
     "papers/neuroscience/The perceptron - A probabilistic model for information storage and organization in the brain.md",
-    "talks/README.md",
     "papers/neuroscience",
     "talks/Leslie Kaelbling - RL - Rational Learning.md",
-    "personal-notes/research/Self-Learning.md",
     "talks/Russ Tedrake - Multitask Transfer in TRI’s Large Behavior Models for Dexterous Manipulation.md",
-    "personal-notes/research/Exploration.md",
     "personal-notes/calendar/Meetings with Lerrel.md",
-    "personal-notes/research/RUKA.md",
-    "talks/Saurabh Gupta - Robot Learning by Understanding Egocentric Videos.md",
-    "talks/Yilun Du - Generalizing Outside The Data Distribution through Compositional Generation.md",
-    "talks/Peter Stone - Human-in-the-Loop Machine Learning for Robot Navigation and Manipulation.md",
-    "talks/Carl Vondrick - Making Sense of the Multimodal World.md",
-    "talks/Lerrel Pinto - On Building General-Purpose Home Robots.md",
-    "personal-notes/phd/Ideas.md",
-    "templates/README.md",
     "personal-notes/calendar",
     "courses/deep-reinforcement-learning/Deep Reinforcement Learning.pdf"
   ]

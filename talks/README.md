@@ -150,3 +150,13 @@
 - LBM pretraining reduces the amount of task-specific data required
 - Given the same amount of task-specific data, finetuned specialists derived from pretrained LBMs outperform single-task models when aggregating over tasks
 - Data normalization is much more important than architecture changes
+
+## [2025-09-10] Yann Le Cun - SSL, JEPA, World Models and the Future of AI
+
+#world-models
+#learning-from-video
+#unsupervised
+[[Yann Le Cun - SSL, JEPA, World Models and the Future of AI]]
+- Generative models don't work on images and videos since the world is only partially predictable
+- Planning with world models: equivalent to MPC but with world model learned through observations rather than hand written equations
+- Abandon generative models for JEPA, contrastive methods for regularization methods, probabilistic models for EBMs, RL for MPC
