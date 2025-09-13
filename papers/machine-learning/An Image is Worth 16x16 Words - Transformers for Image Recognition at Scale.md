@@ -5,7 +5,7 @@
 #transformers
 #visual-representations
 
-[[papers/transformers/README#[2020-10] An Image is Worth 16x16 Words Transformers for Image Recognition at Scale|README]]
+[[papers/machine-learning/README#[2020-10] An Image is Worth 16x16 Words Transformers for Image Recognition at Scale|README]]
 
 [Paper](http://arxiv.org/abs/2010.11929)
 [Code](https://github.com/google-research/vision_transformer)

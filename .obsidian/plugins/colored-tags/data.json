@@ -75,7 +75,9 @@
     "D": 57,
     "evaluations": 58,
     "neuroscience": 59,
-    "world-models": 60
+    "world-models": 60,
+    "finetuning": 61,
+    "linear-algebra": 62
   },
   "_version": 3
 }
