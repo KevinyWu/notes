@@ -6,7 +6,7 @@
       {
         "id": "c7a6d28ba2bbdf3a",
         "type": "tabs",
-        "dimension": 51.18296529968455,
+        "dimension": 53.31230283911672,
         "children": [
           {
             "id": "6f4c4d7a570b0694",
@@ -64,13 +64,12 @@
               "title": "LoRA - Low-Rank Adaptation of Large Language Models"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       },
       {
         "id": "36051a7d6f82a757",
         "type": "tabs",
-        "dimension": 48.81703470031546,
+        "dimension": 46.68769716088328,
         "children": [
           {
             "id": "2bbdca3d7fc96b11",
@@ -114,7 +113,8 @@
               "title": "Tactile RUM"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -266,17 +266,18 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "db54157c4250b310",
+  "active": "6f4c4d7a570b0694",
   "lastOpenFiles": [
+    "personal-notes/research/Tactile RUM.md",
+    "personal-notes/research/Dexterity.md",
     "personal-notes/calendar/2025-09.md",
+    "books/robot-dynamics-control/2 Rigid Motions and Homogeneous Transformations.md",
+    "personal-notes/learning/Learning.md",
+    "personal-notes/learning/Ideas.md",
     "personal-notes/research/RUMs v3.md",
     "papers/machine-learning/LoRA - Low-Rank Adaptation of Large Language Models.md",
     "personal-notes/research/Self-Learning.md",
     "personal-notes/research/Exploration.md",
-    "personal-notes/research/Dexterity.md",
-    "personal-notes/learning/Learning.md",
-    "personal-notes/learning/Ideas.md",
-    "personal-notes/research/Tactile RUM.md",
     "personal-notes/projects/Duckiebot Arm.md",
     "personal-notes/projects/UR5 Teleoperation.md",
     "personal-notes/projects/Deskbot.md",
@@ -294,7 +295,6 @@
     "papers/reinforcement-learning/Diffusion Reward - Learning Rewards via Conditional Video Diffusion.md",
     "papers/reinforcement-learning/Learning Reward Functions for Robotic Manipulation by Observing Humans.md",
     "papers/reinforcement-learning/Mastering Visual Continuous Control - Improved Data-Augmented Reinforcement Learning.md",
-    "talks/Mahi Shafiullah - Robotic Intelligence for Solving Everyday Problems.md",
     "github.com/andrewangbl",
     "github.com",
     "papers/neuroscience",
