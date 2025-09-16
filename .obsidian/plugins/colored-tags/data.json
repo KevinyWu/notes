@@ -77,7 +77,8 @@
     "neuroscience": 59,
     "world-models": 60,
     "finetuning": 61,
-    "linear-algebra": 62
+    "linear-algebra": 62,
+    "lifelong-learning": 63
   },
   "_version": 3
 }
