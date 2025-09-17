@@ -6,7 +6,7 @@
 #tactile
 #nerf
 
-[[papers/3d-scenes/README#[2024-05] Tactile-Augmented Radiance Fields|README]]
+[[papers/tactile-sensing/README#[2024-05] Tactile-Augmented Radiance Fields|README]]
 
 [Paper](http://arxiv.org/abs/2405.04534)
 [Code](https://github.com/Dou-Yiming/TaRF)

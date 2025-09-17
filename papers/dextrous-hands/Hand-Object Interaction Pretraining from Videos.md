@@ -4,10 +4,9 @@
 
 #sim2real
 #learning-from-video
-#reinforcement-learning
-#behavioral-cloning
+#dextrous-hands
 
-[[papers/sim2real/README#[2024-09] Hand-Object Interaction Pretraining from Videos|README]]
+[[papers/dextrous-hands/README#[2024-09] Hand-Object Interaction Pretraining from Videos|README]]
 
 [Paper](http://arxiv.org/abs/2409.08273)
 [Code](https://github.com/hgaurav2k/hop)

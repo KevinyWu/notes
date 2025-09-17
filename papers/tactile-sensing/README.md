@@ -1,4 +1,4 @@
-# 3D Representation
+# Tactile Sensing
 
 ## [2024-05] Tactile-Augmented Radiance Fields
 

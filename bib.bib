@@ -86,23 +86,6 @@
   file = {/Users/kevinwu/Zotero/storage/3NEWRFB8/Belkhale et al. - 2023 - HYDRA Hybrid Robot Actions for Imitation Learning.pdf}
 }
 
-@online{bousmalisRoboCatSelfImprovingGeneralist2023,
-  title = {{{RoboCat}}: {{A Self-Improving Generalist Agent}} for {{Robotic Manipulation}}},
-  shorttitle = {{{RoboCat}}},
-  author = {Bousmalis, Konstantinos and Vezzani, Giulia and Rao, Dushyant and Devin, Coline and Lee, Alex X. and Bauza, Maria and Davchev, Todor and Zhou, Yuxiang and Gupta, Agrim and Raju, Akhil and Laurens, Antoine and Fantacci, Claudio and Dalibard, Valentin and Zambelli, Martina and Martins, Murilo and Pevceviciute, Rugile and Blokzijl, Michiel and Denil, Misha and Batchelor, Nathan and Lampe, Thomas and Parisotto, Emilio and Żołna, Konrad and Reed, Scott and Colmenarejo, Sergio Gómez and Scholz, Jon and Abdolmaleki, Abbas and Groth, Oliver and Regli, Jean-Baptiste and Sushkov, Oleg and Rothörl, Tom and Chen, José Enrique and Aytar, Yusuf and Barker, Dave and Ortiz, Joy and Riedmiller, Martin and Springenberg, Jost Tobias and Hadsell, Raia and Nori, Francesco and Heess, Nicolas},
-  date = {2023-12-22},
-  eprint = {2306.11706},
-  eprinttype = {arXiv},
-  eprintclass = {cs},
-  doi = {10.48550/arXiv.2306.11706},
-  url = {http://arxiv.org/abs/2306.11706},
-  urldate = {2025-09-15},
-  abstract = {The ability to leverage heterogeneous robotic experience from different robots and tasks to quickly master novel skills and embodiments has the potential to transform robot learning. Inspired by recent advances in foundation models for vision and language, we propose a multi-embodiment, multi-task generalist agent for robotic manipulation. This agent, named RoboCat, is a visual goal-conditioned decision transformer capable of consuming action-labelled visual experience. This data spans a large repertoire of motor control skills from simulated and real robotic arms with varying sets of observations and actions. With RoboCat, we demonstrate the ability to generalise to new tasks and robots, both zero-shot as well as through adaptation using only 100-1000 examples for the target task. We also show how a trained model itself can be used to generate data for subsequent training iterations, thus providing a basic building block for an autonomous improvement loop. We investigate the agent's capabilities, with large-scale evaluations both in simulation and on three different real robot embodiments. We find that as we grow and diversify its training data, RoboCat not only shows signs of cross-task transfer, but also becomes more efficient at adapting to new tasks.},
-  pubstate = {prepublished},
-  keywords = {Computer Science - Machine Learning,Computer Science - Robotics},
-  file = {/Users/kevinwu/Zotero/storage/ZACJX24H/Bousmalis et al. - 2023 - RoboCat A Self-Improving Generalist Agent for Robotic Manipulation.pdf;/Users/kevinwu/Zotero/storage/X7425GTG/2306.html}
-}
-
 @online{caronEmergingPropertiesSelfSupervised2021,
   title = {Emerging {{Properties}} in {{Self-Supervised Vision Transformers}}},
   author = {Caron, Mathilde and Touvron, Hugo and Misra, Ishan and Jégou, Hervé and Mairal, Julien and Bojanowski, Piotr and Joulin, Armand},
@@ -358,18 +341,6 @@
   file = {/Users/kevinwu/Zotero/storage/PEEAJNY4/Ho et al. - 2020 - Denoising Diffusion Probabilistic Models.pdf;/Users/kevinwu/Zotero/storage/8UXN7TUV/2006.html}
 }
 
-@online{holladayPlanningMultistageForceful2021,
-  title = {Planning for {{Multi-stage Forceful Manipulation}}},
-  author = {Holladay, Rachel and Lozano-Pérez, Tomás and Rodriguez, Alberto},
-  date = {2021-01-07},
-  url = {https://arxiv.org/abs/2101.02679v2},
-  urldate = {2024-10-06},
-  abstract = {Multi-stage forceful manipulation tasks, such as twisting a nut on a bolt, require reasoning over interlocking constraints over discrete as well as continuous choices. The robot must choose a sequence of discrete actions, or strategy, such as whether to pick up an object, and the continuous parameters of each of those actions, such as how to grasp the object. In forceful manipulation tasks, the force requirements substantially impact the choices of both strategy and parameters. To enable planning and executing forceful manipulation, we augment an existing task and motion planner with controllers that exert wrenches and constraints that explicitly consider torque and frictional limits. In two domains, opening a childproof bottle and twisting a nut, we demonstrate how the system considers a combinatorial number of strategies and how choosing actions that are robust to parameter variations impacts the choice of strategy.},
-  langid = {english},
-  organization = {arXiv.org},
-  file = {/Users/kevinwu/Zotero/storage/UNDUGYQP/Holladay et al. - 2021 - Planning for Multi-stage Forceful Manipulation.pdf}
-}
-
 @online{huangDiffusionRewardLearning2024,
   title = {Diffusion {{Reward}}: {{Learning Rewards}} via {{Conditional Video Diffusion}}},
   shorttitle = {Diffusion {{Reward}}},
@@ -474,19 +445,6 @@
   isbn = {978-1-60558-658-8},
   langid = {english},
   file = {/Users/kevinwu/Zotero/storage/9WYYA8Q5/Knox and Stone - 2009 - Interactively shaping agents via human reinforcement the TAMER framework.pdf}
-}
-
-@online{kumarPracticeMakesPerfect2024,
-  title = {Practice {{Makes Perfect}}: {{Planning}} to {{Learn Skill Parameter Policies}}},
-  shorttitle = {Practice {{Makes Perfect}}},
-  author = {Kumar, Nishanth and Silver, Tom and McClinton, Willie and Zhao, Linfeng and Proulx, Stephen and Lozano-Pérez, Tomás and Kaelbling, Leslie Pack and Barry, Jennifer},
-  date = {2024-02-22},
-  url = {https://arxiv.org/abs/2402.15025v2},
-  urldate = {2024-09-25},
-  abstract = {One promising approach towards effective robot decision making in complex, long-horizon tasks is to sequence together parameterized skills. We consider a setting where a robot is initially equipped with (1) a library of parameterized skills, (2) an AI planner for sequencing together the skills given a goal, and (3) a very general prior distribution for selecting skill parameters. Once deployed, the robot should rapidly and autonomously learn to improve its performance by specializing its skill parameter selection policy to the particular objects, goals, and constraints in its environment. In this work, we focus on the active learning problem of choosing which skills to practice to maximize expected future task success. We propose that the robot should estimate the competence of each skill, extrapolate the competence (asking: "how much would the competence improve through practice?"), and situate the skill in the task distribution through competence-aware planning. This approach is implemented within a fully autonomous system where the robot repeatedly plans, practices, and learns without any environment resets. Through experiments in simulation, we find that our approach learns effective parameter policies more sample-efficiently than several baselines. Experiments in the real-world demonstrate our approach's ability to handle noise from perception and control and improve the robot's ability to solve two long-horizon mobile-manipulation tasks after a few hours of autonomous practice. Project website: http://ees.csail.mit.edu},
-  langid = {english},
-  organization = {arXiv.org},
-  file = {/Users/kevinwu/Zotero/storage/DCQRAFWD/Kumar et al. - 2024 - Practice Makes Perfect Planning to Learn Skill Parameter Policies.pdf}
 }
 
 @online{labiosaReinforcementLearningClassical2025,
@@ -754,6 +712,28 @@
   file = {/Users/kevinwu/Zotero/storage/DIANHNAX/Qi et al. - 2024 - Control-oriented Clustering of Visual Latent Representation.pdf;/Users/kevinwu/Zotero/storage/GUVSRWKF/2410.html}
 }
 
+@article{romeroEmbodiedHandsModeling2017,
+  title = {Embodied {{Hands}}: {{Modeling}} and {{Capturing Hands}} and {{Bodies Together}}},
+  shorttitle = {Embodied {{Hands}}},
+  author = {Romero, Javier and Tzionas, Dimitrios and Black, Michael J.},
+  date = {2017-12-31},
+  journaltitle = {ACM Transactions on Graphics},
+  shortjournal = {ACM Trans. Graph.},
+  volume = {36},
+  number = {6},
+  eprint = {2201.02610},
+  eprinttype = {arXiv},
+  eprintclass = {cs},
+  pages = {1--17},
+  issn = {0730-0301, 1557-7368},
+  doi = {10.1145/3130800.3130883},
+  url = {http://arxiv.org/abs/2201.02610},
+  urldate = {2025-09-16},
+  abstract = {Humans move their hands and bodies together to communicate and solve tasks. Capturing and replicating such coordinated activity is critical for virtual characters that behave realistically. Surprisingly, most methods treat the 3D modeling and tracking of bodies and hands separately. Here we formulate a model of hands and bodies interacting together and fit it to full-body 4D sequences. When scanning or capturing the full body in 3D, hands are small and often partially occluded, making their shape and pose hard to recover. To cope with low-resolution, occlusion, and noise, we develop a new model called MANO (hand Model with Articulated and Non-rigid defOrmations). MANO is learned from around 1000 high-resolution 3D scans of hands of 31 subjects in a wide variety of hand poses. The model is realistic, low-dimensional, captures non-rigid shape changes with pose, is compatible with standard graphics packages, and can fit any human hand. MANO provides a compact mapping from hand poses to pose blend shape corrections and a linear manifold of pose synergies. We attach MANO to a standard parameterized 3D body shape model (SMPL), resulting in a fully articulated body and hand model (SMPL+H). We illustrate SMPL+H by fitting complex, natural, activities of subjects captured with a 4D scanner. The fitting is fully automatic and results in full body models that move naturally with detailed hand motions and a realism not seen before in full body performance capture. The models and data are freely available for research purposes in our website (http://mano.is.tue.mpg.de).},
+  keywords = {Computer Science - Computer Vision and Pattern Recognition,Computer Science - Graphics},
+  file = {/Users/kevinwu/Zotero/storage/U49S2KN3/Romero et al. - 2017 - Embodied Hands Modeling and Capturing Hands and Bodies Together.pdf;/Users/kevinwu/Zotero/storage/BFVGDPW4/2201.html}
+}
+
 @article{rosenblattPerceptronProbabilisticModel1958,
   title = {The Perceptron: {{A}} Probabilistic Model for Information Storage and Organization in the Brain.},
   shorttitle = {The Perceptron},
@@ -918,6 +898,23 @@
   pubstate = {prepublished},
   keywords = {Computer Science - Artificial Intelligence,Computer Science - Machine Learning,Computer Science - Robotics},
   file = {/Users/kevinwu/Zotero/storage/UC8J3ZRR/Xu et al. - 2024 - Tactile-based Object Retrieval From Granular Media.pdf;/Users/kevinwu/Zotero/storage/U3B4A6IU/2402.html}
+}
+
+@online{yangEgoVLALearningVisionLanguageAction2025,
+  title = {{{EgoVLA}}: {{Learning Vision-Language-Action Models}} from {{Egocentric Human Videos}}},
+  shorttitle = {{{EgoVLA}}},
+  author = {Yang, Ruihan and Yu, Qinxi and Wu, Yecheng and Yan, Rui and Li, Borui and Cheng, An-Chieh and Zou, Xueyan and Fang, Yunhao and Cheng, Xuxin and Qiu, Ri-Zhao and Yin, Hongxu and Liu, Sifei and Han, Song and Lu, Yao and Wang, Xiaolong},
+  date = {2025-07-18},
+  eprint = {2507.12440},
+  eprinttype = {arXiv},
+  eprintclass = {cs},
+  doi = {10.48550/arXiv.2507.12440},
+  url = {http://arxiv.org/abs/2507.12440},
+  urldate = {2025-09-16},
+  abstract = {Real robot data collection for imitation learning has led to significant advancements in robotic manipulation. However, the requirement for robot hardware in the process fundamentally constrains the scale of the data. In this paper, we explore training Vision-Language-Action (VLA) models using egocentric human videos. The benefit of using human videos is not only for their scale but more importantly for the richness of scenes and tasks. With a VLA trained on human video that predicts human wrist and hand actions, we can perform Inverse Kinematics and retargeting to convert the human actions to robot actions. We fine-tune the model using a few robot manipulation demonstrations to obtain the robot policy, namely EgoVLA. We propose a simulation benchmark called Ego Humanoid Manipulation Benchmark, where we design diverse bimanual manipulation tasks with demonstrations. We fine-tune and evaluate EgoVLA with Ego Humanoid Manipulation Benchmark and show significant improvements over baselines and ablate the importance of human data. Videos can be found on our website: https://rchalyang.github.io/EgoVLA},
+  pubstate = {prepublished},
+  keywords = {Computer Science - Artificial Intelligence,Computer Science - Computer Vision and Pattern Recognition,Computer Science - Machine Learning,Computer Science - Robotics},
+  file = {/Users/kevinwu/Zotero/storage/9QB743M2/Yang et al. - 2025 - EgoVLA Learning Vision-Language-Action Models from Egocentric Human Videos.pdf;/Users/kevinwu/Zotero/storage/H6QEPCAX/2507.html}
 }
 
 @online{yangFoundationModelsDecision2023,

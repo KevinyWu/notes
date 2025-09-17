@@ -19,11 +19,16 @@
 ## Summary
 
 - Learned over-parameterized models reside on a low intrinsic dimension
+	- LoRA allows us to train some dense layers in a neural network indirectly by optimizing rank decomposition matrices of the dense layers' change
 - Can switch between small LoRA modules for different tasks
+- In full fine-tuning, the model is initialized to the pretrained weights and all weights are updated by following the gradient to maximize the objective
+	- In LoRA, we only need to optimize over a much smaller set of parameters
 
 ## Background
 
-- Notes about the background information
+- Existing solutions for transfer learning
+	- Adding adapter layers introduce inference latency that there is no way to bypass
+	- Prefix tuning is difficult to optimize and its performance changes non-monotonically in trainable parameters
 
 ## Method
 
