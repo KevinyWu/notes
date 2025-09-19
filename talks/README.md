@@ -163,6 +163,9 @@
 
 ## [2025-09-19] Ken Goldberg - How to Close the 100,000 Year "Data Gap" in Robotics
 
-#tags
+#lifelong-learning
+#kinematics
 [[Ken Goldberg - How to Close the 100,000 Year "Data Gap" in Robotics]]
-- a
+- Dex-Net: Monte-carlo simulation to get probability of success for a grasp, 6.7 million examples: (object, grasp, probability), then train a network on this data to pick up objects from a bin
+- $\pi_0$: 10k hours of data ~1 year; QWEN-2.5: 1.2B hours of data ~100,000 years
+- Use model-based methods to make systems viable for deployment, then collect data at deployment time to improve model-free learning: Waymo, Ambi Robotics
