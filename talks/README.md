@@ -160,3 +160,9 @@
 - Generative models don't work on images and videos since the world is only partially predictable
 - Planning with world models: equivalent to MPC but with world model learned through observations rather than hand written equations
 - Abandon generative models for JEPA, contrastive methods for regularization methods, probabilistic models for EBMs, RL for MPC
+
+## [2025-09-19] Ken Goldberg - How to Close the 100,000 Year "Data Gap" in Robotics
+
+#tags
+[[Ken Goldberg - How to Close the 100,000 Year "Data Gap" in Robotics]]
+- a

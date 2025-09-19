@@ -32,8 +32,18 @@
 
 ## Method
 
-- Notes about the method
+- Low rank decomposition $W_{0}+ \Delta W = W_{0}+ BA$
+	- Weight matrix $W_{0}\in \mathbb{R}^{d\times k}$
+	- $B\in \mathbb{R}^{d\times r}, A\in \mathbb{R}^{r\times k}$ with rank $r \ll \min(d, k)$
+	- $A, B$ contain trainable parameters, $W_0$ frozen
+- Forward pass: $h = W_{0}x + \Delta Wx = W_{0}x + BAx$
+- Gaussian initialization for $A$ and zero for $B$ so that $\Delta W = BA = 0$ at the beginning of training ![[lora.png]]
+- When we increase the rank $r$, LoRA converges to training the original model
 
 ## Results
 
-- Notable results from the paper
+- Limit study to adapting the attention weights of transformers
+- LoRA performs better than other finetuning methods with less trainable parameters, often even better than full fine-tuning
+- In a transformer, adapting $W_{q}, W_{v}$ (query, value) are the most effective compared to $W_{k}, W_{o}$ (key, output)
+- Surprisingly, LoRa is competitive with very small $r$
+	- Even $r = 1, 2$ is good, suggesting the weight matrix $\Delta W$ has a small intrinsic rank
