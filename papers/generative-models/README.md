@@ -1,5 +1,11 @@
 # Generative Models
 
+## [2020-06] Denoising Diffusion Probabilistic Models
+
+#diffusion
+[[Denoising Diffusion Probabilistic Models]]
+- a
+
 ## [2024-11] Make-An-Agent: A Generalizable Policy Network Generator with Behavior-Prompted Diffusion
 
 #diffusion
