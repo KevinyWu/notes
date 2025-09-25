@@ -2,10 +2,6 @@
 
 **Authors**: Kaiming He, Xinlei Chen, Saining Xie, Yanghao Li, Piotr Dollár, Ross Girshick
 
-#visual-representations
-#unsupervised
-#transformers
-
 [[papers/visual-representations/README#[2021-11] Masked Autoencoders Are Scalable Vision Learners|README]]
 
 [Paper](http://arxiv.org/abs/2111.06377)

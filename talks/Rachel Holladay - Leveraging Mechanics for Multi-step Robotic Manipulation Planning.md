@@ -1,8 +1,5 @@
 # Rachel Holladay - Leveraging Mechanics for Multi-step Robotic Manipulation Planning
 
-#tamp
-#planning
-
 [[talks/README#[2024-09-13] Rachel Holladay - Leveraging Mechanics for Multi-step Robotic Manipulation Planning|README]]
 
 [Recording](https://youtu.be/Yn-krORGwC8?feature=shared)

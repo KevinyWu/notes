@@ -2,12 +2,7 @@
 
 **Authors**: Andrea Bajcsy, Antonio Loquercio, Ashish Kumar, Jitendra Malik
 
-#multi-agent
-#planning
-#knowledge-distillation
-#supervised
-
-[[papers/multi-agent/README#[2023-08] Learning Vision-based Pursuit-Evasion Robot Policies|README]]
+[[papers/sim2real/README#[2023-08] Learning Vision-based Pursuit-Evasion Robot Policies|README]]
 
 [Paper](http://arxiv.org/abs/2308.16185)
 [Code](https://github.com/abajcsy/vision-based-pursuit/)

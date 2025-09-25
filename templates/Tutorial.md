@@ -1,8 +1,6 @@
 # Tutorial Title
 
-#tags
-
-[[courses/README|README]]
+[[templates/README#[YYYY-MM-DD] Tutorial Title|README]]
 
 [Website](https://github.com/)
 [Recording/Slides](https://www.youtube.com/)

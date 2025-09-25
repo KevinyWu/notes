@@ -8,6 +8,7 @@ I've created simple note-taking system to streamline my learning. It uses Obsidi
 
 - [Books](https://github.com/KevinyWu/notes/tree/main/books)
     - [Robot Dynamics and Control](https://github.com/KevinyWu/notes/tree/main/books/robot-dynamics-control)
+    - [Learning Deep Representations of Data Distributions](https://github.com/KevinyWu/notes/tree/main/books/learning-deep-representations)
 - [Courses](https://github.com/KevinyWu/notes/tree/main/courses)
     - [CS285 - Deep Reinforcement Learning](https://github.com/KevinyWu/notes/tree/main/courses/deep-reinforcement-learning)
     - [MIT 6.4210 - Robotic Manipulation](https://github.com/KevinyWu/notes/tree/main/courses/robotic-manipulation)

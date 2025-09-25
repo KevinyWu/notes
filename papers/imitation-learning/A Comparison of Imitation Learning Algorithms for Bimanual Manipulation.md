@@ -2,9 +2,6 @@
 
 **Authors**: Michael Drolet, Simon Stepputtis, Siva Kailas, Ajinkya Jain, Jan Peters, Stefan Schaal, Heni Ben Amor
 
-#imitation-learning
-#behavioral-cloning
-
 [[papers/imitation-learning/README#[2024-08] A Comparison of Imitation Learning Algorithms for Bimanual Manipulation|README]]
 
 [Paper](http://arxiv.org/abs/2408.06536)

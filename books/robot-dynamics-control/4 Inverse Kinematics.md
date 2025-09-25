@@ -1,8 +1,5 @@
 # Inverse Kinematics
 
-#kinematics
-#inverse-kinematics
-
 [[books/robot-dynamics-control/README#[4] Inverse Kinematics|README]]
 
 ## 4.1 The General Inverse Kinematics Problem

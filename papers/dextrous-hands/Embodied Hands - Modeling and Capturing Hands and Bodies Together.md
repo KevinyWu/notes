@@ -2,9 +2,6 @@
 
 **Authors**: Javier Romero, Dimitrios Tzionas, Michael J. Black
 
-#dextrous-hands
-#learning-from-video
-
 [[papers/dextrous-hands/README#[2017-11] Embodied Hands - Modeling and Capturing Hands and Bodies Together|README]]
 
 [Paper](http://arxiv.org/abs/2201.02610)

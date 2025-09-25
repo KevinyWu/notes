@@ -1,8 +1,5 @@
 # Let's Get You a Robot
 
-#robotics
-#hardware
-
 [[courses/robotic-manipulation/README#[2] Let's get you a robot|README]]
 
 [Lecture](https://youtu.be/q896_lTh8eA?feature=shared)

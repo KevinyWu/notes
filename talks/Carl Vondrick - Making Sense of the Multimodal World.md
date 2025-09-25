@@ -1,9 +1,5 @@
 # Carl Vondrick - Making Sense of the Multimodal World
 
-#marine-robotics
-#reinforcement-learning
-#behavioral-cloning
-
 [[talks/README#[2024-08-25] Carl Vondrick - Making Sense of the Multimodal World|README]]
 
 [Recording](https://youtu.be/3yl3Cdz36nw?feature=shared)
@@ -32,7 +28,7 @@
 	- Environments reset as objects drop to the floor
 	- Start with behavioral cloning
 		- Suboptimal demonstrations - difficult to teleoperate underwater
-	- **Self-learning underwater**![[aquabot.png]]
+	- **Self-learning underwater**![[talks/img/aquabot.png]]
 		- The self-learned delta adjust actions to more efficiently and accurately pick up rocks
 		- BC + self-learning works better and faster by both BC and human teleoperation
 		- Can do long-horizon tasks: picking up and sorting trash

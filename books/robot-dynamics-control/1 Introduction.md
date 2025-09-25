@@ -1,7 +1,5 @@
 # Introduction
 
-#robotics
-
 [[books/robot-dynamics-control/README#[1] Introduction|README]]
 
 ## 1.1 Robotics

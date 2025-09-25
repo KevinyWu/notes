@@ -1,7 +1,5 @@
 # Geometric Pose Estimation
 
-#tags
-
 [[courses/robotic-manipulation/README#[4] Geometric Pose Estimation|README]]
 
 [Lecture 6](https://www.youtube.com/watch?v=1a3KhOq1938&list=PLkx8KyIQkMfWr191lqbN8WfV08j-ui8WX&index=8)

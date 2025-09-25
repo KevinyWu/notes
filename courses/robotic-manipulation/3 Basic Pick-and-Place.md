@@ -1,9 +1,5 @@
 # Basic Pick-and-Place
 
-#robotics
-#kinematics
-#inverse-kinematics
-
 [[courses/robotic-manipulation/README#[3] Basic Pick-and-Place|README]]
 
 [Lecture 3](https://youtu.be/0-34RZJxyww?feature=shared)

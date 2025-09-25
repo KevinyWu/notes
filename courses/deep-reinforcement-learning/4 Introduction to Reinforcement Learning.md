@@ -1,8 +1,5 @@
 # Introduction to Reinforcement Learning
 
-#markov-decision-process
-#q-learning
-
 [[courses/deep-reinforcement-learning/README#[4] Introduction to Reinforcement Learning|README]]
 
 Lecture [4.1](https://youtu.be/jds0Wh9jTvE?feature=shared), [4.2](https://youtu.be/Cip5UeGrCEE?feature=shared), [4.3](https://youtu.be/Pua9zO_YmKA?feature=shared), [4.4](https://youtu.be/eG9-F4r5k70?feature=shared), [4.5](https://youtu.be/dFqoGAyofUQ?feature=shared), [4.6](https://youtu.be/hfj9mS3nTLU?feature=shared)

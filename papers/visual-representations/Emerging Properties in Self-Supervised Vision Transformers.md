@@ -2,11 +2,6 @@
 
 **Authors**: Mathilde Caron, Hugo Touvron, Ishan Misra, Hervé Jégou, Julien Mairal, Piotr Bojanowski, Armand Joulin
 
-#visual-representations
-#unsupervised
-#transformers
-#knowledge-distillation
-
 [[papers/visual-representations/README#[2021-04] Emerging Properties in Self-Supervised Vision Transformers|README]]
 
 [Paper](http://arxiv.org/abs/2104.14294)

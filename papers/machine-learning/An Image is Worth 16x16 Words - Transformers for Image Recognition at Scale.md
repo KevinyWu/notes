@@ -2,9 +2,6 @@
 
 **Authors**: Alexey Dosovitskiy, Lucas Beyer, Alexander Kolesnikov, Dirk Weissenborn, Xiaohua Zhai, Thomas Unterthiner, Mostafa Dehghani, Matthias Minderer, Georg Heigold, Sylvain Gelly, Jakob Uszkoreit, Neil Houlsby
 
-#transformers
-#visual-representations
-
 [[papers/machine-learning/README#[2020-10] An Image is Worth 16x16 Words Transformers for Image Recognition at Scale|README]]
 
 [Paper](http://arxiv.org/abs/2010.11929)

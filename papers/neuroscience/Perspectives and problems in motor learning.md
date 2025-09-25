@@ -2,8 +2,6 @@
 
 **Authors**: Daniel M Wolpert, Zoubin Ghahramani, J.Randall Flanagan
 
-#neuroscience
-
 [[papers/neuroscience/README|README]]
 
 [Paper](https://linkinghub.elsevier.com/retrieve/pii/S1364661300017733)

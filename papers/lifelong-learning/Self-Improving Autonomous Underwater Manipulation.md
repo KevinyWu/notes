@@ -2,12 +2,7 @@
 
 **Authors**: Ruoshi Liu, Huy Ha, Mengxue Hou, Shuran Song, Carl Vondrick
 
-#marine-robotics
-#behavioral-cloning
-#reinforcement-learning
-#knowledge-distillation
-
-[[papers/marine-robotics/README#[2024-10] Self-Improving Autonomous Underwater Manipulation|README]]
+[[papers/lifelong-learning/README#[2024-10] Self-Improving Autonomous Underwater Manipulation|README]]
 
 [Paper](http://arxiv.org/abs/2410.18969)
 [Code](https://github.com/cvlab-columbia/aquabot)
@@ -40,7 +35,7 @@
 	- Mounted a second camera on the drone
 	- Mounted two external cameras at two corners of the pool for real-time localization of the robot
 		- The detected 3D position, plus the internal IMU sensor and compass, provide a full 6 DoF robot pose in the global coordinate system, which we use for navigation and reset
-- Learning framework ![[papers/marine-robotics/img/aquabot.png]]
+- Learning framework ![[papers/lifelong-learning/img/aquabot.png]]
 - Behavioral cloning
 	- Each recorded action is an 8D vector composing the 3 Cartesian directions, 3 rotational directions, and open/close gripper movement
 	- CNN visual encoder for each camera

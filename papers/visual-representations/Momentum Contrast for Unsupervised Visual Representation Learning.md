@@ -2,9 +2,6 @@
 
 **Authors**: Kaiming He, Haoqi Fan, Yuxin Wu, Saining Xie, Ross Girshick
 
-#visual-representations
-#unsupervised
-
 [[papers/visual-representations/README#[2019-11] Momentum Contrast for Unsupervised Visual Representation Learning|README]]
 
 [Paper](http://arxiv.org/abs/1911.05722)

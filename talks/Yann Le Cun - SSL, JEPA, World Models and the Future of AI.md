@@ -1,9 +1,5 @@
 # Yann Le Cun - SSL, JEPA, World Models and the Future of AI
 
-#world-models
-#learning-from-video
-#foundation-models
-
 [[talks/README#[2025-09-10] Yann Le Cun - SSL, JEPA, World Models and the Future of AI|README]]
 
 ## Joint Embedding Predictive Architecture (JEPA)

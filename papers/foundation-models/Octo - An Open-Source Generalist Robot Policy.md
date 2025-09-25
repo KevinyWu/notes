@@ -2,9 +2,6 @@
 
 **Authors**: Octo Model Team, Dibya Ghosh, Homer Walke, Karl Pertsch, Kevin Black, Oier Mees, Sudeep Dasari, Joey Hejna, Tobias Kreiman, Charles Xu, Jianlan Luo, You Liang Tan, Lawrence Yunliang Chen, Pannag Sanketi, Quan Vuong, Ted Xiao, Dorsa Sadigh, Chelsea Finn, Sergey Levine
 
-#foundation-models
-#imitation-learning
-
 [[papers/foundation-models/README#[2023-12] Octo An Open-Source Generalist Robot Policy|README]]
 
 [Paper](http://arxiv.org/abs/2405.12213)

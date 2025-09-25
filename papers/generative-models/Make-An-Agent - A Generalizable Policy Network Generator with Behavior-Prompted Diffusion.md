@@ -2,8 +2,6 @@
 
 **Authors**: Yongyuan Liang, Tingqiang Xu, Kaizhe Hu, Guangqi Jiang, Furong Huang, Huazhe Xu
 
-#diffusion
-
 [[papers/generative-models/README#[2024-11] Make-An-Agent A Generalizable Policy Network Generator with Behavior-Prompted Diffusion|README]]
 
 [Paper](http://arxiv.org/abs/2407.10973)

@@ -1,7 +1,5 @@
 # Introduction
 
-#robotics
-
 [[courses/robotic-manipulation/README#[1] Introduction|README]]
 
 [Lecture 1](https://youtu.be/v04rn86Dehg?feature=shared)

@@ -1,7 +1,5 @@
 # Introduction
 
-#reinforcement-learning
-
 [[courses/deep-reinforcement-learning/README#[1] Introduction|README]]
 
 Lecture [1.1](https://youtu.be/SupFHGbytvA?feature=shared), [1.2](https://youtu.be/BYh36cb92JQ?feature=shared), [1.3](https://youtu.be/Ufww5pzc_N0?feature=shared)

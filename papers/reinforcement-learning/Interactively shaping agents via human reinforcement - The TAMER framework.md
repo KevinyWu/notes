@@ -2,9 +2,6 @@
 
 **Authors**: W. Bradley Knox, Peter Stone
 
-#reinforcement-learning
-#rl-human-feedback
-
 [[papers/reinforcement-learning/README#[2009-09] Interactively Shaping Agents via Human Reinforcement The TAMER Framework|README]]
 
 [Paper](https://dl.acm.org/doi/10.1145/1597735.1597738)

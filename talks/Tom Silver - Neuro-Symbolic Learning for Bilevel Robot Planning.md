@@ -1,9 +1,5 @@
 # Tom Silver - Neuro-Symbolic Learning for Bilevel Robot Planning
 
-#tamp
-#unsupervised
-#planning
-
 [[talks/README#[2024-04-06] Tom Silver - Neuro-Symbolic Learning for Bilevel Robot Planning|README]]
 
 [Recording](https://www.youtube.com/watch?v=ikS2MN0HWxw)

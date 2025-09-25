@@ -2,10 +2,6 @@
 
 **Authors**: Himanshu Gaurav Singh, Antonio Loquercio, Carmelo Sferrazza, Jane Wu, Haozhi Qi, Pieter Abbeel, Jitendra Malik
 
-#sim2real
-#learning-from-video
-#dextrous-hands
-
 [[papers/dextrous-hands/README#[2024-09] Hand-Object Interaction Pretraining from Videos|README]]
 
 [Paper](http://arxiv.org/abs/2409.08273)

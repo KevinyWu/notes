@@ -2,11 +2,6 @@
 
 **Authors**: Tao Huang, Guangqi Jiang, Yanjie Ze, Huazhe Xu
 
-#reinforcement-learning
-#inverse-reinforcement-learning
-#learning-from-video
-#diffusion
-
 [[papers/reinforcement-learning/README#[2023-12] Diffusion Reward Learning Rewards via Conditional Video Diffusion|README]]
 
 [Paper](http://arxiv.org/abs/2312.14134)

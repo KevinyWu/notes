@@ -2,8 +2,6 @@
 
 ## [2019-11] Momentum Contrast for Unsupervised Visual Representation Learning
 
-#visual-representations
-#unsupervised
 [[Momentum Contrast for Unsupervised Visual Representation Learning]]
 - Momentum-based moving average of the query encoder to maintain a consistent and slowly evolving key encoder, helping to stabilize contrastive learning
 - MoCo applies the InfoNCE loss to minimize the distance between positive pairs (augmented views of the same image) while maximizing the distance from negative pairs (other images in the queue)
@@ -11,8 +9,6 @@
 
 ## [2020-02] A Simple Framework for Contrastive Learning of Visual Representations
 
-#visual-representations
-#unsupervised
 [[A Simple Framework for Contrastive Learning of Visual Representations]]
 - SimCLR employs a contrastive learning approach by maximizing agreement between different augmented views of the same image instance
 - Combining multiple data augmentation techniques (e.g., cropping, resizing, color distortion) to create effective positive pairs is critical for representation learning
@@ -20,9 +16,6 @@
 
 ## [2020-06] Big Self-Supervised Models are Strong Semi-Supervised Learners
 
-#visual-representations
-#unsupervised
-#knowledge-distillation
 [[Big Self-Supervised Models are Strong Semi-Supervised Learners]]
 - Three stages: unsupervised pretraining of a large ResNet using SimCLRv2, supervised fine-tuning on a small labeled dataset, and knowledge distillation to a smaller student model using unlabeled data
 - Larger models significantly improve semi-supervised learning, achieving 73.9% top-1 accuracy on ImageNet with just 1% of the labels, representing a 10x improvement in label efficiency
@@ -30,10 +23,6 @@
 
 ## [2021-04] Emerging Properties in Self-Supervised Vision Transformers
 
-#visual-representations
-#unsupervised
-#transformers
-#knowledge-distillation
 [[Emerging Properties in Self-Supervised Vision Transformers]]
 - Self-supervised ViT features explicitly capture scene layout and object boundaries, leveraging self-attention modules in the final layer, which distinguishes them from features learned by supervised ViTs or convnets
 - DINO is a self-distillation method with no labels that predicts the outputs of a dynamically constructed teacher network, utilizing momentum encoding to enhance stability and consistency in learning
@@ -41,9 +30,6 @@
 
 ## [2021-11] Masked Autoencoders Are Scalable Vision Learners
 
-#visual-representations
-#unsupervised
-#transformers
 [[Masked Autoencoders Are Scalable Vision Learners]]
 - Masked autoencoders (MAE) utilize an asymmetric encoder-decoder architecture, where the encoder processes only visible patches of an image while the lightweight decoder reconstructs the full image from latent representations and masked patches
 - Masks a high proportion of input images (up to 75%), allowing for meaningful self-supervised learning that significantly improves generalization
@@ -51,10 +37,6 @@
 
 ## [2022-09] VIP: Towards Universal Visual Reward and Representation via Value-Implicit Pre-Training
 
-#reinforcement-learning
-#inverse-reinforcement-learning
-#learning-from-video
-#visual-representations
 [[VIP - Towards Universal Visual Reward and Representation via Value-Implicit Pre-Training]]
 - VIP leverages large-scale, offline human videos for pre-training a visual representation that generates dense rewards for unseen robotic tasks, without requiring task-specific robotic data
 - Formulates reward learning as a goal-conditioned RL problem using a dual value-function approach, avoiding the need for action labels and enabling effective learning from action-free human videos

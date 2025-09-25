@@ -2,8 +2,6 @@
 
 **Authors**: Jonathan Ho, Ajay Jain, Pieter Abbeel
 
-#diffusion
-
 [[papers/generative-models/README#[2020-06] Denoising Diffusion Probabilistic Models|README]]
 
 [Paper](http://arxiv.org/abs/2006.11239)

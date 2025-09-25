@@ -1,7 +1,5 @@
 # Chapter Title
 
-#tags
-
 [[templates/README#[Chapter Number] Chapter Title|README]]
 
 ## Section 1

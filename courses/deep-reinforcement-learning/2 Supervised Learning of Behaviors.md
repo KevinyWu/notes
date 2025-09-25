@@ -1,8 +1,5 @@
 # Supervised Learning of Behaviors
 
-#imitation-learning
-#behavioral-cloning
-
 [[courses/deep-reinforcement-learning/README#[2] Supervised Learning of Behaviors|README]]
 
 Lecture [2.1](https://youtu.be/tbLaFtYpWWU?feature=shared), [2.2](https://youtu.be/YivJ9KDjn-o?feature=shared), [2.3](https://youtu.be/ppN5ORNrMos?feature=shared)

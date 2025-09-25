@@ -2,10 +2,6 @@
 
 **Authors**: Ting Chen, Simon Kornblith, Kevin Swersky, Mohammad Norouzi, Geoffrey Hinton
 
-#visual-representations
-#unsupervised
-#knowledge-distillation
-
 [[papers/visual-representations/README#[2020-06] Big Self-Supervised Models are Strong Semi-Supervised Learners|README]]
 
 [Paper](http://arxiv.org/abs/2006.10029)

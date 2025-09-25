@@ -2,10 +2,6 @@
 
 **Authors**: Minttu Alakuijala, Gabriel Dulac-Arnold, Julien Mairal, Jean Ponce, Cordelia Schmid
 
-#reinforcement-learning
-#inverse-reinforcement-learning
-#learning-from-video
-
 [[papers/reinforcement-learning/README#[2022-11] Learning Reward Functions for Robotic Manipulation by Observing Humans|README]]
 
 [Paper](http://arxiv.org/abs/2211.09019)

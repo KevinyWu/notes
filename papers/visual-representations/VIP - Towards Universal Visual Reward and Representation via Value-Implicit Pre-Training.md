@@ -2,11 +2,6 @@
 
 **Authors**: Yecheng Jason Ma, Shagun Sodhani, Dinesh Jayaraman, Osbert Bastani, Vikash Kumar, Amy Zhang
 
-#reinforcement-learning
-#inverse-reinforcement-learning
-#learning-from-video
-#visual-representations
-
 [[papers/visual-representations/README#[2022-09] VIP Towards Universal Visual Reward and Representation via Value-Implicit Pre-Training|README]]
 
 [Paper](http://arxiv.org/abs/2210.00030)

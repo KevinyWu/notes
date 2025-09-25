@@ -2,10 +2,6 @@
 
 **Authors**: Daniel Yang, Davin Tjia, Jacob Berg, Dima Damen, Pulkit Agrawal, Abhishek Gupta
 
-#reinforcement-learning
-#inverse-reinforcement-learning
-#learning-from-video
-
 [[papers/reinforcement-learning/README#[2024-04] Rank2Reward Learning Shaped Reward Functions from Passive Video|README]]
 
 [Paper](http://arxiv.org/abs/2404.14735)

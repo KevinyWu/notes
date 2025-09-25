@@ -2,9 +2,6 @@
 
 **Authors**: Sebastian Thrun, Tom M. Mitchell
 
-#lifelong-learning
-#q-learning
-
 [[papers/lifelong-learning/README#[1995-01] Lifelong Robot Learning|README]]
 
 [Paper](https://www.ri.cmu.edu/publications/lifelong-robot-learning/)

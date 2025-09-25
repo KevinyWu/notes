@@ -2,11 +2,7 @@
 
 **Authors**: Drew Hanover, Antonio Loquercio, Leonard Bauersfeld, Angel Romero, Robert Penicka, Yunlong Song, Giovanni Cioffi, Elia Kaufmann, Davide Scaramuzza
 
-#imitation-learning
-#reinforcement-learning
-#autonomous-flight
-
-[[papers/autonomous-flight/README#[2024-01] Autonomous Drone Racing - A Survey|README]]
+[[papers/sim2real/README#[2024-01] Autonomous Drone Racing - A Survey|README]]
 
 [Paper](http://arxiv.org/abs/2301.01755)
 

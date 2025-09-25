@@ -2,8 +2,6 @@
 
 **Authors**: Automatically generated from "Citations" Obsidian plugin
 
-#tags
-
 [[templates/README#[YYYY-MM] Paper Title|README]]
 
 [Paper](http://arxiv.org/abs/1706.03762)

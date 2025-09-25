@@ -2,9 +2,6 @@
 
 **Authors**: Ting Chen, Simon Kornblith, Mohammad Norouzi, Geoffrey Hinton
 
-#visual-representations
-#unsupervised
-
 [[papers/visual-representations/README#[2020-02] A Simple Framework for Contrastive Learning of Visual Representations|README]]
 
 [Paper](http://arxiv.org/abs/2002.05709)

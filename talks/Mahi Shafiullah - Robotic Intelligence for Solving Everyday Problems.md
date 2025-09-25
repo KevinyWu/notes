@@ -1,9 +1,5 @@
 # Mahi Shafiullah - Robotic Intelligence for Solving Everyday Problems
 
-#foundation-models
-#behavioral-cloning
-#imitation-learning
-
 [[talks/README#[2025-04-23] Mahi Shafiullah - Robotic Intelligence for Solving Everyday Problems|README]]
 
 ## Accessible Systems for Real World Interaction

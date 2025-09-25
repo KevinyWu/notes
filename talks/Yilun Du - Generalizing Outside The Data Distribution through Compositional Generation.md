@@ -1,9 +1,5 @@
 # Yilun Du - Generalizing Outside The Data Distribution through Compositional Generation
 
-#diffusion
-#planning
-#energy-based-models
-
 [[talks/README#[2024-08-27] Yilun Du - Generalizing Outside The Data Distribution through Compositional Generation|README]]
 
 [Recording](https://youtu.be/7jvWDF6ZXPc?feature=shared)

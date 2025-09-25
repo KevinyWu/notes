@@ -1,8 +1,5 @@
 # Forward Kinematics: The Denavit-Hartenberg Convention
 
-#kinematics
-#transformations
-
 [[books/robot-dynamics-control/README#[3] Forward Kinematics The Denavit-Hartenberg Convention|README]]
 
 ## 3.1 Kinematic Chains

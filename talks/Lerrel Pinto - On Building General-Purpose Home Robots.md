@@ -1,8 +1,5 @@
 # Lerrel Pinto - On Building General-Purpose Home Robots
 
-#foundation-models
-#imitation-learning
-
 [[talks/README#[2024-04-09] Lerrel Pinto - On Building General-Purpose Home Robots|README]]
 
 [Recording](https://www.youtube.com/watch?v=ETSKgiW76dg)

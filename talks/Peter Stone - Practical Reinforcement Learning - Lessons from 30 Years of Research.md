@@ -1,7 +1,5 @@
 # Peter Stone - Practical Reinforcement Learning - Lessons from 30 Years of Research
 
-#reinforcement-learning
-
 [[talks/README#[2024-10-01] Peter Stone - Practical Reinforcement Learning - Lessons from 30 Years of Research|README]]
 
 [Recording](https://youtu.be/5Dw4OoJK9Qw?feature=shared)

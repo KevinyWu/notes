@@ -1,9 +1,5 @@
 # Supervised Policy Learning for Real Robots
 
-#imitation-learning
-#behavioral-cloning
-#supervised
-
 [[tutorials/README#[2024-07-19] Supervised Policy Learning for Real Robots|README]]
 
 [Website](https://supervised-robot-learning.github.io/#reading-list)

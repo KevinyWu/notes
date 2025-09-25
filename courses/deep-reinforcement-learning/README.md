@@ -16,7 +16,6 @@ Notes from the course "CS 285: Deep RL" taught by Sergey Levine at Berkeley (Fal
 
 ## [1] Introduction
 
-#reinforcement-learning
 [[courses/deep-reinforcement-learning/1 Introduction|1 Introduction]]
 - Reinforcement learning (RL) focuses on decision-making and control through experience, differing from supervised learning by learning policies without ground truth labels
 - The RL problem is formulated around mapping states to actions, learning from rewards, and finding novel solutions for complex tasks (e.g., robot behavior, image generation)
@@ -24,8 +23,6 @@ Notes from the course "CS 285: Deep RL" taught by Sergey Levine at Berkeley (Fal
 
 ## [2] Supervised Learning of Behaviors
 
-#imitation-learning
-#behavioral-cloning
 [[2 Supervised Learning of Behaviors]]
 - Imitation learning uses supervised learning to mimic expert behavior, but issues like distribution mismatch and error accumulation over time complicate this approach
 - Behavioral cloning, while effective, faces challenges such as non-Markovian and multimodal behavior, leading to solutions like sequence models, Gaussian mixture models, and latent variable models
@@ -37,8 +34,6 @@ See lecture 3 slides.
 
 ## [4] Introduction to Reinforcement Learning
 
-#markov-decision-process
-#q-learning
 [[4 Introduction to Reinforcement Learning]]
 - A Markov Decision Process (MDP) formalizes decision-making, where actions influence state transitions and rewards, while partially observed MDPs add complexity by incorporating observations
 - Q-learning aims to maximize expected rewards by optimizing a policy using Q-functions and value functions, which estimate the future reward of actions in specific states
@@ -46,12 +41,10 @@ See lecture 3 slides.
 
 ## [5] Policy Gradients
 
-#tags
 [[5 Policy Gradients]]
 - Notes
 
 ## [6] Actor-Critic Algorithms
 
-#tags
 [[6 Actor-Critic Algorithms]]
 - Notes

@@ -2,9 +2,6 @@
 
 **Authors**: Denis Yarats, Rob Fergus, Alessandro Lazaric, Lerrel Pinto
 
-#reinforcement-learning
-#learning-from-video
-
 [[papers/reinforcement-learning/README#[2021-07] Mastering Visual Continuous Control Improved Data-Augmented Reinforcement Learning|README]]
 
 [Paper](http://arxiv.org/abs/2107.09645)

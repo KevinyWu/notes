@@ -1,10 +1,13 @@
-# Autonomous Flight
+# Multi-Agent Interaction
+
+## [2023-08] Learning Vision-based Pursuit-Evasion Robot Policies
+
+[[Learning Vision-based Pursuit-Evasion Robot Policies]]
+- First work to demonstrate autonomous interaction between a quadruped and another robotic or human agent truly in the wild
+- Uses privileged learning: model has access to additional information during training but not deployment
 
 ## [2024-01] Autonomous Drone Racing - A Survey
 
-#imitation-learning
-#reinforcement-learning
-#autonomous-flight
 [[Autonomous Drone Racing - A Survey]]
 - Classic approach: perception -> planning -> control pipeline
 - Learning-based approaches replace one or more of the above three modules with a neural network; require less compute and are more robust to latency and senor noise, but need more data

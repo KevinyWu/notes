@@ -2,10 +2,6 @@
 
 **Authors**: Yiming Dou, Fengyu Yang, Yi Liu, Antonio Loquercio, Andrew Owens
 
-#3d-scenes
-#tactile
-#nerf
-
 [[papers/tactile-sensing/README#[2024-05] Tactile-Augmented Radiance Fields|README]]
 
 [Paper](http://arxiv.org/abs/2405.04534)

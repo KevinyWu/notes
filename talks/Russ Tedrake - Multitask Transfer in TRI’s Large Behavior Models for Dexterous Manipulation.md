@@ -1,8 +1,5 @@
 # Russ Tedrake - Multitask Transfer in TRI's Large Behavior Models for Dexterous Manipulation
 
-#evaluations
-#foundation-models
-
 [[talks/README#[2025-04-25] Russ Tedrake - Multitask Transfer in TRI's Large Behavior Models for Dexterous Manipulation|README]]
 
 [Recording](https://www.youtube.com/watch?v=TN1M6vg4CsQ)

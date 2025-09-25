@@ -2,9 +2,6 @@
 
 **Authors**: Edward J. Hu, Yelong Shen, Phillip Wallis, Zeyuan Allen-Zhu, Yuanzhi Li, Shean Wang, Lu Wang, Weizhu Chen
 
-#finetuning
-#linear-algebra
-
 [[papers/machine-learning/README#[2021-06] LoRA Low-Rank Adaptation of Large Language Models|README]]
 
 [Paper](http://arxiv.org/abs/2106.09685)

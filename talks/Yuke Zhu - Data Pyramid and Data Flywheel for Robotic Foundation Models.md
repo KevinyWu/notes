@@ -1,9 +1,5 @@
 # Yuke Zhu - Data Pyramid and Data Flywheel for Robotic Foundation Models
 
-#humanoid
-#sim2real
-#foundation-models
-
 [[talks/README#[2024-11-04] Yuke Zhu - Data Pyramid and Data Flywheel for Robotic Foundation Models|README]]
 
 [Recording](https://ai.princeton.edu/events/robotics-symposium-videos)

@@ -1,9 +1,5 @@
 # Antonio Loquercio - Learning Vision-Based High-Speed Flight
 
-#imitation-learning
-#autonomous-flight
-#sim2real
-
 [[talks/README#[2022-03-28] Antonio Loquercio - Learning Vision-Based High-Speed Flight|README]]
 
 [Recording](https://www.youtube.com/watch?v=5BA1Wm6SWQY)

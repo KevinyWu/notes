@@ -1,7 +1,5 @@
 # Lecture Title
 
-#tags
-
 [[templates/README#[Lecture Number] Lecture Title|README]]
 
 [Recording/Slides](https://www.youtube.com/)

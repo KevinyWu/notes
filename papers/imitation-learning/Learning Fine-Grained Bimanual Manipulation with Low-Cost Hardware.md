@@ -2,10 +2,6 @@
 
 **Authors**: Tony Z. Zhao, Vikash Kumar, Sergey Levine, Chelsea Finn
 
-#imitation-learning
-#behavioral-cloning
-#hardware
-
 [[papers/imitation-learning/README#[2023-04] Learning Fine-Grained Bimanual Manipulation with Low-Cost Hardware|README]]
 
 [Paper](http://arxiv.org/abs/2304.13705)

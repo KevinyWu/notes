@@ -1,8 +1,5 @@
 # Andreea Bobu - Aligning Robot and Human Representations
 
-#human-robot-interaction
-#inverse-reinforcement-learning
-
 [[talks/README#[2024-07-10] Andreea Bobu - Aligning Robot and Human Representations|README]]
 
 [Recording](https://www.youtube.com/watch?v=lgt255PXA4I)

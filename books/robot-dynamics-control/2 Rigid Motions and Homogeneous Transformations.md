@@ -1,8 +1,5 @@
 # Rigid Motions and Homogeneous Transformations
 
-#rotations
-#transformations
-
 [[books/robot-dynamics-control/README#[2] Rigid Motions and Homogeneous Transformations|README]]
 
 ## 2.1 Representing Positions

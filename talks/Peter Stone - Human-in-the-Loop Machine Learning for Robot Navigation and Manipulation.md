@@ -1,9 +1,5 @@
 # Peter Stone - Human-in-the-Loop Machine Learning for Robot Navigation and Manipulation
 
-#reinforcement-learning
-#imitation-learning
-#learning-from-video
-
 [[talks/README#[2025-02-10] Peter Stone - Human-in-the-Loop Machine Learning for Robot Navigation and Manipulation|README]]
 
 [Recording](https://youtu.be/9E8NpqE1T-o?feature=shared)

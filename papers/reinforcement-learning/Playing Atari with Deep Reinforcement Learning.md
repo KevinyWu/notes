@@ -2,9 +2,6 @@
 
 **Authors**: Volodymyr Mnih, Koray Kavukcuoglu, David Silver, Alex Graves, Ioannis Antonoglou, Daan Wierstra, Martin Riedmiller
 
-#reinforcement-learning
-#q-learning
-
 [[papers/reinforcement-learning/README#[2013-12] Playing Atari with Deep Reinforcement Learning|README]]
 
 [Paper](http://arxiv.org/abs/1312.5602)

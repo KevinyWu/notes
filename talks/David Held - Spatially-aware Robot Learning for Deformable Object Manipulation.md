@@ -1,9 +1,5 @@
 # David Held - Spatially-aware Robot Learning for Deformable Object Manipulation
 
-#unsupervised
-#deformable-objects
-#sim2real
-
 [[talks/README#[2024-06-14] David Held - Spatially-aware Robot Learning for Deformable Object Manipulation|README]]
 
 [Recording](https://youtu.be/OAVlWupYjxM?feature=shared)
