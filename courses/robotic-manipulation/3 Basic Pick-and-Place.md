@@ -39,7 +39,7 @@
 	- Pick and place tries to make $X^O$ match $X^{O_d}$
 - Steps
 	- Move gripper to a pregrasp position $^OX^{G_{pregrasp}}$ above $O$ (to avoid collision with object)
-	- Move gripper to a grasp pos $^OX^{G_{grasp}}$
+	- Move gripper to a grasp pose $^OX^{G_{grasp}}$
 	- Close gripper
 	- Move gripper to desired pose, $X^O = X^{O_d}$
 	- Open gripper and retract the hand
