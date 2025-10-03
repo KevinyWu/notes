@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "personal-notes/calendar/2025-09.md",
+                "file": "personal-notes/calendar/2025/2025-10.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-09"
+              "title": "2025-10"
             }
           },
           {
@@ -203,32 +203,33 @@
   },
   "active": "46df13188ffb17b8",
   "lastOpenFiles": [
+    "papers/generative-models/Denoising Diffusion Probabilistic Models.md",
+    "personal-notes/calendar/2025/2025-10.md",
     "personal-notes/learning/Ideas.md",
-    "personal-notes/research/Tactile RUM.md",
-    "personal-notes/calendar/Meetings with Lerrel.md",
-    "personal-notes/calendar/2025-09.md",
     "personal-notes/learning/Learning.md",
+    "personal-notes/calendar/Meetings with Lerrel.md",
+    "personal-notes/research/Tactile RUM.md",
+    "talks/README.md",
+    "README.md",
+    "talks/Jingkang Wang - Scaling World Simulators for Safe Physical Intelligence.md",
+    "talks/David Held - Spatially-aware Robot Learning for Deformable Object Manipulation.md",
+    "talks/Ken Goldberg - How to Close the 100,000 Year \"Data Gap\" in Robotics.md",
+    "Untitled.md",
+    "papers/imitation-learning/Learning Fine-Grained Bimanual Manipulation with Low-Cost Hardware.md",
+    "personal-notes/calendar/2025/2025-09.md",
+    "papers/machine-learning/Learning with 3D rotations, a hitchhiker's guide to SO(3).md",
+    "templates/Paper.md",
+    "books/learning-deep-representations/2 Learning Linear and Independent Structures.md",
     "books/learning-deep-representations/1 An Informal Introduction.md",
     "books/learning-deep-representations/README.md",
-    "personal-notes/calendar/2025-10.md",
-    "courses/robotic-manipulation/3 Basic Pick-and-Place.md",
     "personal-notes/research/Self-Learning.md",
     "personal-notes/research/RUMs v3.md",
+    "personal-notes/calendar/2025",
+    "books/robot-dynamics-control/2 Rigid Motions and Homogeneous Transformations.md",
+    "courses/robotic-manipulation/3 Basic Pick-and-Place.md",
     "personal-notes/research/PROGRESSOR.md",
     "personal-notes/research/Grasping.md",
     "personal-notes/research/Exploration.md",
-    "personal-notes/research/Emergenet.md",
-    "personal-notes/learning/Setup.md",
-    "papers/README.md",
-    "papers/tactile-sensing/Tactile-Augmented Radiance Fields.md",
-    "papers/tactile-sensing/README.md",
-    "papers/sim2real/README.md",
-    "papers/reinforcement-learning/README.md",
-    "papers/neuroscience/Perspectives and problems in motor learning.md",
-    "papers/neuroscience/README.md",
-    "papers/machine-learning/README.md",
-    "papers/lifelong-learning/README.md",
-    "papers/imitation-learning/README.md",
     "courses/deep-reinforcement-learning/Deep Reinforcement Learning.pdf",
     "books/learning-deep-representations",
     "papers/machine-learning/img/lora.png",
@@ -241,7 +242,6 @@
     "papers/lifelong-learning",
     "talks/img/jepa.png",
     "github.com/andrewangbl",
-    "github.com",
-    "papers/neuroscience"
+    "github.com"
   ]
 }
