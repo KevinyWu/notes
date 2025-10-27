@@ -22,7 +22,7 @@
             }
           },
           {
-            "id": "9965a35b953c5847",
+            "id": "004ed7bd6749bd22",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -216,12 +216,14 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "9965a35b953c5847",
+  "active": "004ed7bd6749bd22",
   "lastOpenFiles": [
-    "personal-notes/learning/Learning.md",
     "papers/machine-learning/Learning with 3D rotations, a hitchhiker's guide to SO(3).md",
-    "personal-notes/learning/Ideas.md",
+    "personal-notes/misc/Address Updates.md",
+    "personal-notes/misc",
     "personal-notes/calendar/2025/2025-10.md",
+    "personal-notes/learning/Learning.md",
+    "personal-notes/learning/Ideas.md",
     "personal-notes/research/Gripper Design.md",
     "personal-notes/research/img/motorized-gripper.jpg",
     "personal-notes/research/Self-Learning.md",
@@ -249,7 +251,6 @@
     "README.md",
     "talks/Jingkang Wang - Scaling World Simulators for Safe Physical Intelligence.md",
     "talks/David Held - Spatially-aware Robot Learning for Deformable Object Manipulation.md",
-    "talks/Ken Goldberg - How to Close the 100,000 Year \"Data Gap\" in Robotics.md",
     "personal-notes/calendar/2025",
     "courses/deep-reinforcement-learning/Deep Reinforcement Learning.pdf",
     "books/learning-deep-representations",
@@ -260,7 +261,6 @@
     "Untitled 1.base",
     "papers/dextrous-hands/img/hand_models.png",
     "papers/lifelong-learning/img",
-    "papers/lifelong-learning",
     "talks/img/jepa.png"
   ]
 }
