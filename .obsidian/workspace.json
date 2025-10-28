@@ -96,7 +96,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#inverse-kinematics",
+                "query": "open loop",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -216,10 +216,11 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "004ed7bd6749bd22",
+  "active": "74e69740303e1e6a",
   "lastOpenFiles": [
-    "personal-notes/research/RUMs v3.md",
+    "personal-notes/calendar/2025/2025-09.md",
     "personal-notes/calendar/2025/2025-10.md",
+    "personal-notes/research/RUMs v3.md",
     "papers/machine-learning/Learning with 3D rotations, a hitchhiker's guide to SO(3).md",
     "personal-notes/misc/Address Updates.md",
     "personal-notes/misc",
@@ -235,7 +236,6 @@
     "personal-notes/calendar/Meetings with Lerrel.md",
     "books/robot-dynamics-control/2 Rigid Motions and Homogeneous Transformations.md",
     "papers/machine-learning/img/gso.png",
-    "personal-notes/calendar/2025/2025-09.md",
     "papers/machine-learning/img/rotation_representations.png",
     "papers/machine-learning/img/rotations.png",
     "personal-notes/research/Grasping.md",
