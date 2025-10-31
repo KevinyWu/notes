@@ -218,8 +218,10 @@
   },
   "active": "004ed7bd6749bd22",
   "lastOpenFiles": [
-    "personal-notes/research/RUMs v3.md",
+    "personal-notes/courses/Algorithms.md",
     "personal-notes/calendar/2025/2025-10.md",
+    "personal-notes/courses",
+    "personal-notes/research/RUMs v3.md",
     "personal-notes/research/Gripper Design.md",
     "personal-notes/research/img/motorized-gripper.jpg",
     "personal-notes/research/img/motorized-gripper.jpg",
@@ -260,7 +262,6 @@
     "Untitled.base",
     "Untitled 1.base",
     "papers/dextrous-hands/img/hand_models.png",
-    "papers/lifelong-learning/img",
     "talks/img/jepa.png"
   ]
 }
