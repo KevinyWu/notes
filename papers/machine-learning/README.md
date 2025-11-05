@@ -13,3 +13,10 @@
 - Learned over-parameterized models reside on a low intrinsic dimension
 - In full fine-tuning, the model is initialized to the pretrained weights and all weights are updated by following the gradient to maximize the objective
 - Low rank decomposition $W_{0}+ \Delta W = W_{0}+ BA$
+
+## [2024-04] Learning with 3D rotations, a hitchhiker's guide to SO(3)
+
+[[Learning with 3D rotations, a hitchhiker's guide to SO(3)]]
+- Representations with three or four parameters introduce discontinuities into the target function when rotations are in the output
+- For rotation estimation (rotations in model output) use $\mathbb{R}^9+\mathrm{SVD}$ or $\mathbb{R}^6+\mathrm{GSO}$
+- For feature prediction (rotations in model input) use $\mathbb{R}^9+\mathrm{SVD}$ or $\mathbb{R}^6+\mathrm{GSO}$

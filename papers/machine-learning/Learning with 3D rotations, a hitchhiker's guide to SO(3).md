@@ -2,7 +2,7 @@
 
 **Authors**: A. René Geist, Jonas Frey, Mikel Zhobro, Anna Levina, Georg Martius
 
-[[templates/README|README]]
+[[papers/machine-learning/README|README]]
 
 [Paper](http://arxiv.org/abs/2404.11735)
 [Code](https://github.com/martius-lab/hitchhiking-rotations)
