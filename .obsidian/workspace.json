@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "personal-notes/learning/Best Papers.md",
+                "file": "personal-notes/learning/Papers.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Best Papers"
+              "title": "Papers"
             }
           }
         ]
@@ -217,18 +217,20 @@
   },
   "active": "004ed7bd6749bd22",
   "lastOpenFiles": [
+    "personal-notes/learning/Learning.md",
     "personal-notes/learning/Ideas.md",
     "personal-notes/calendar/2025/2025-11.md",
-    "personal-notes/learning/Learning.md",
-    "personal-notes/learning/Best Papers.md",
+    "personal-notes/learning/Papers.md",
+    "personal-notes/calendar/Meetings with Lerrel.md",
+    "personal-notes/calendar/2025/2025-09.md",
+    "personal-notes/calendar/2025/2025-10.md",
+    "personal-notes/research/RUMs v3.md",
     "papers/machine-learning/README.md",
     "papers/machine-learning/Learning with 3D rotations, a hitchhiker's guide to SO(3).md",
     "personal-notes/research/Self-Learning.md",
     "personal-notes/research/PROGRESSOR.md",
-    "personal-notes/calendar/2025/2025-10.md",
     "papers/machine-learning/LoRA - Low-Rank Adaptation of Large Language Models.md",
     "templates/README.md",
-    "personal-notes/calendar/2025/2025-09.md",
     "talks/Russ Tedrake - Multitask Transfer in TRI’s Large Behavior Models for Dexterous Manipulation.md",
     "talks/README.md",
     "personal-notes/research/Gripper Design.md",
@@ -241,8 +243,6 @@
     "courses/robotic-manipulation/1 Introduction.md",
     "courses/robotic-manipulation/2 Let's Get You a Robot.md",
     "courses/robotic-manipulation/3 Basic Pick-and-Place.md",
-    "courses/robotic-manipulation/4 Geometric Pose Estimation.md",
-    "personal-notes/courses/Algorithms.md",
     "personal-notes/courses",
     "personal-notes/research/img/motorized-gripper.jpg",
     "personal-notes/research/img/motorized-gripper.jpg",
