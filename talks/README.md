@@ -122,3 +122,10 @@
 - Dex-Net: Monte-carlo simulation to get probability of success for a grasp, 6.7 million examples: (object, grasp, probability), then train a network on this data to pick up objects from a bin
 - $\pi_0$: 10k hours of data ~1 year; QWEN-2.5: 1.2B hours of data ~100,000 years
 - Use model-based methods to make systems viable for deployment, then collect data at deployment time to improve model-free learning: Waymo, Ambi Robotics
+
+## [2025-11-24] Binghao Huang - Learning with Scalable Tactile Skin for Fine-Grained Manipulation
+
+[[Binghao Huang - Learning with Scalable Tactile Skin for Fine-Grained Manipulation]]
+- 4D points for visuo-tactile information: 3D for space and 1D for tactile, balancing the number of points for vision and tactile space
+- For RGB + tactile, encode RGB and masked tactile separately, then cross attend (also train a decoder than reconstructs the original tactile)
+- Can do RL with simulated sensor environment
