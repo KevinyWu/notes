@@ -63,8 +63,7 @@
               "title": "Learning"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -216,7 +215,7 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "b53a5e6225f4cfb5",
+  "active": "004ed7bd6749bd22",
   "lastOpenFiles": [
     "personal-notes/learning/Ideas.md",
     "personal-notes/learning/Learning.md",
