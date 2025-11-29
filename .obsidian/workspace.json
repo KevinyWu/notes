@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "004ed7bd6749bd22",
+            "id": "5cd2c33341c8e5b1",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -120,7 +120,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "41e4c9e01392561c",
@@ -215,12 +216,13 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "004ed7bd6749bd22",
+  "active": "5cd2c33341c8e5b1",
   "lastOpenFiles": [
+    "personal-notes/learning/notes/Stereo Rectification.pdf",
+    "personal-notes/calendar/2025/2025-11.md",
     "personal-notes/learning/Ideas.md",
     "personal-notes/learning/Learning.md",
     "personal-notes/learning/Papers and Code.md",
-    "personal-notes/calendar/2025/2025-11.md",
     "talks/README.md",
     "talks/Binghao Huang - Learning with Scalable Tactile Skin for Fine-Grained Manipulation.md",
     "talks/Tom Silver - Neuro-Symbolic Learning for Bilevel Robot Planning.md",
@@ -244,7 +246,6 @@
     "personal-notes/research/Grasping.md",
     "personal-notes/calendar/2025/2025-09.md",
     "personal-notes/calendar/2025/2025-10.md",
-    "personal-notes/research/RUMs v3.md",
     "personal-notes/courses",
     "personal-notes/research/img/motorized-gripper.jpg",
     "personal-notes/research/img/motorized-gripper.jpg",
@@ -259,7 +260,6 @@
     "books/learning-deep-representations",
     "papers/machine-learning/img/lora.png",
     "papers/lifelong-learning/img/robocat.png",
-    "Untitled 2.base",
     "papers/dextrous-hands/img/hand_models.png",
     "talks/img/jepa.png"
   ]
