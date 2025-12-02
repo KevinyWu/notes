@@ -22,6 +22,34 @@
             }
           },
           {
+            "id": "25fa3e45a7da9026",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "papers/dextrous-hands/SPIDER - Scalable Physics-Informed Dexterous Retargeting.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "SPIDER - Scalable Physics-Informed Dexterous Retargeting"
+            }
+          },
+          {
+            "id": "4fc37de8b1d64dab",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "personal-notes/courses/Algorithms.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Algorithms"
+            }
+          },
+          {
             "id": "b53a5e6225f4cfb5",
             "type": "leaf",
             "state": {
@@ -192,8 +220,19 @@
               "icon": "lucide-list",
               "title": "Outline of Learning"
             }
+          },
+          {
+            "id": "970ef9f271ae9c41",
+            "type": "leaf",
+            "state": {
+              "type": "ReferenceListView",
+              "state": {},
+              "icon": "quote-glyph",
+              "title": "References"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -217,13 +256,18 @@
   },
   "active": "5cd2c33341c8e5b1",
   "lastOpenFiles": [
-    "personal-notes/calendar/Meetings with Lerrel.md",
+    "papers/dextrous-hands/SPIDER - Scalable Physics-Informed Dexterous Retargeting.md",
+    "papers/dextrous-hands/README.md",
     "personal-notes/calendar/2025/2025-12.md",
+    "papers/dextrous-hands/Embodied Hands - Modeling and Capturing Hands and Bodies Together.md",
+    "papers/dextrous-hands/Hand-Object Interaction Pretraining from Videos.md",
+    "personal-notes/courses/Algorithms.md",
+    "personal-notes/calendar/2025/2025-11.md",
+    "personal-notes/calendar/Meetings with Lerrel.md",
     "personal-notes/learning/Learning.md",
     "personal-notes/learning/Papers and Code.md",
     "personal-notes/learning/Ideas.md",
     "personal-notes/calendar/2025/2025-10.md",
-    "personal-notes/calendar/2025/2025-11.md",
     "personal-notes/learning/notes/Stereo Rectification.pdf",
     "talks/README.md",
     "talks/Binghao Huang - Learning with Scalable Tactile Skin for Fine-Grained Manipulation.md",
@@ -239,13 +283,8 @@
     "books/learning-deep-representations/2 Learning Linear and Independent Structures.md",
     "papers/machine-learning/Learning with 3D rotations, a hitchhiker's guide to SO(3).md",
     "().md",
-    "Scalable.md",
-    "personal-notes/misc/Setup.md",
     "personal-notes/learning/notes/Flow Matching.pdf",
-    "personal-notes/courses/Algorithms.md",
     "personal-notes/learning/notes",
-    "personal-notes/research/Grasping.md",
-    "personal-notes/calendar/2025/2025-09.md",
     "personal-notes/courses",
     "personal-notes/research/img/motorized-gripper.jpg",
     "personal-notes/research/img/motorized-gripper.jpg",

@@ -13,3 +13,8 @@
 - Does not assume a strict alignment of the human's intent in the video and the downstream robot tasks: resulting dataset $\mathcal{T}$ contains knowledge that could be valuable to any manipulation tasks
 - Simulator as intermediary between video and robot trajectory: can add physics lost in videos and increase dataset diversity by randomizing simulation environment
 - Outperforms other video-pretrained models on BC task where one policy is responsible for manipulating multiple different tasks
+
+## [2025-11] SPIDER - Scalable Physics-Informed DExterous Retargeting
+
+[[SPIDER - Scalable Physics-Informed Dexterous Retargeting]]
+- notes
