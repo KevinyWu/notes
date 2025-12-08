@@ -77,7 +77,8 @@
               "title": "Learning"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -240,10 +241,10 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "5cd2c33341c8e5b1",
+  "active": "4fc37de8b1d64dab",
   "lastOpenFiles": [
-    "personal-notes/courses/Algorithms.md",
     "personal-notes/calendar/2025/2025-12.md",
+    "personal-notes/courses/Algorithms.md",
     "personal-notes/learning/Ideas.md",
     "personal-notes/learning/Learning.md",
     "personal-notes/learning/Papers and Code.md",
