@@ -77,8 +77,7 @@
               "title": "Learning"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -241,14 +240,15 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "4fc37de8b1d64dab",
+  "active": "5cd2c33341c8e5b1",
   "lastOpenFiles": [
+    "personal-notes/misc/Setup.md",
+    "personal-notes/misc/Address Updates.md",
     "personal-notes/calendar/2025/2025-12.md",
     "personal-notes/courses/Algorithms.md",
-    "personal-notes/learning/Ideas.md",
     "personal-notes/learning/Learning.md",
     "personal-notes/learning/Papers and Code.md",
-    "personal-notes/misc/Setup.md",
+    "personal-notes/learning/Ideas.md",
     "personal-notes/research/Gripper Design.md",
     "personal-notes/research/RUMs v3.md",
     "personal-notes/calendar/2025/2025-11.md",
@@ -269,7 +269,6 @@
     "personal-notes/README.md",
     "talks/Peter Stone - Human-in-the-Loop Machine Learning for Robot Navigation and Manipulation.md",
     "books/learning-deep-representations/1 An Informal Introduction.md",
-    "books/learning-deep-representations/README.md",
     "personal-notes/learning/notes/Flow Matching.pdf",
     "personal-notes/learning/notes",
     "personal-notes/courses",
