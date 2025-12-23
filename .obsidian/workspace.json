@@ -63,8 +63,7 @@
               "title": "Learning"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -227,14 +226,14 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "7fcbbc168233f326",
+  "active": "5cd2c33341c8e5b1",
   "lastOpenFiles": [
-    "personal-notes/learning/Papers and Code.md",
     "personal-notes/learning/Ideas.md",
+    "personal-notes/learning/Learning.md",
+    "personal-notes/learning/Papers and Code.md",
     "personal-notes/calendar/2025/2025-12.md",
     "papers/lifelong-learning/Lifelong Robot Learning.md",
     "personal-notes/research/Grasping.md",
-    "personal-notes/learning/Learning.md",
     "personal-notes/misc/Setup.md",
     "personal-notes/calendar/Meetings with Lerrel.md",
     "personal-notes/courses/Algorithms.md",
