@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "personal-notes/calendar/2025/2025-12.md",
+                "file": "personal-notes/calendar/2026/2026-01.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-12"
+              "title": "2026-01"
             }
           },
           {
@@ -228,21 +228,24 @@
   },
   "active": "5cd2c33341c8e5b1",
   "lastOpenFiles": [
+    "personal-notes/calendar/2025/2025-12.md",
+    "personal-notes/calendar/2026/2026-01.md",
+    "personal-notes/calendar/Meetings with Lerrel.md",
+    "personal-notes/calendar/2025/2025-11.md",
+    "personal-notes/calendar/2025/2025-09.md",
+    "personal-notes/calendar/2026",
     "personal-notes/learning/Ideas.md",
     "personal-notes/learning/Learning.md",
     "personal-notes/learning/Papers and Code.md",
-    "personal-notes/calendar/2025/2025-12.md",
     "papers/lifelong-learning/Lifelong Robot Learning.md",
     "personal-notes/research/Grasping.md",
     "personal-notes/misc/Setup.md",
-    "personal-notes/calendar/Meetings with Lerrel.md",
     "personal-notes/courses/Algorithms.md",
     "personal-notes/projects/Piper Arms.md",
     "README.md",
     "personal-notes/misc/Address Updates.md",
     "personal-notes/research/Gripper Design.md",
     "personal-notes/research/RUMs v3.md",
-    "personal-notes/calendar/2025/2025-11.md",
     "personal-notes/learning/notes/Stereo Rectification.pdf",
     "papers/dextrous-hands/SPIDER - Scalable Physics-Informed Dexterous Retargeting.md",
     "papers/dextrous-hands/README.md",
@@ -253,8 +256,6 @@
     "talks/Binghao Huang - Learning with Scalable Tactile Skin for Fine-Grained Manipulation.md",
     "talks/Tom Silver - Neuro-Symbolic Learning for Bilevel Robot Planning.md",
     "talks/Ken Goldberg - How to Close the 100,000 Year \"Data Gap\" in Robotics.md",
-    "talks/Mahi Shafiullah - Robotic Intelligence for Solving Everyday Problems.md",
-    "talks/Yann Le Cun - SSL, JEPA, World Models and the Future of AI.md",
     "personal-notes/learning/notes/Flow Matching.pdf",
     "personal-notes/learning/notes",
     "personal-notes/courses",
@@ -268,7 +269,6 @@
     "personal-notes/research/img",
     "personal-notes/calendar/2025",
     "courses/deep-reinforcement-learning/Deep Reinforcement Learning.pdf",
-    "books/learning-deep-representations",
     "papers/machine-learning/img/lora.png",
     "papers/lifelong-learning/img/robocat.png",
     "papers/dextrous-hands/img/hand_models.png",
