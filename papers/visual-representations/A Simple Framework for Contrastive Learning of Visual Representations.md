@@ -30,7 +30,8 @@
 ## Method
 
 - SimCLR learns representations by maximizing agreement between differently augmented views of the same data instance via a contrastive loss in the latent space
-- Framework ![[simclr.png]]
+- Framework
+  ![[simclr.png|500]]
     - **Data augmentation** to generate positive pairs
     - **Base encoder** $f(\cdot)$ to extract representation vectors: ResNet
     - **Projection head** $g(\cdot)$ to map representations to a space where contrastive loss is applied: MLP, 1 hidden layer

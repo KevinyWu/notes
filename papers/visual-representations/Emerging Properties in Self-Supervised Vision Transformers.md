@@ -42,7 +42,7 @@
 
 ## Method
 
-- Dino adapts **knowledge distillation** for self-supervised learning ![[dino.png]]
+- Dino adapts **knowledge distillation** for self-supervised learning ![[dino.png|500]]
 - Construct different crops (distorted views) of the same image
 	- Two large global views $x_1^g, x_2^g$ and several smaller local views
 	- All crops passed to student, only global views passed to teacher, encouraging local-to-global correspondence

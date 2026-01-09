@@ -34,7 +34,8 @@
 	- $B\in \mathbb{R}^{d\times r}, A\in \mathbb{R}^{r\times k}$ with rank $r \ll \min(d, k)$
 	- $A, B$ contain trainable parameters, $W_0$ frozen
 - Forward pass: $h = W_{0}x + \Delta Wx = W_{0}x + BAx$
-- Gaussian initialization for $A$ and zero for $B$ so that $\Delta W = BA = 0$ at the beginning of training ![[lora.png]]
+- Gaussian initialization for $A$ and zero for $B$ so that $\Delta W = BA = 0$ at the beginning of training
+  ![[lora.png|300]]
 - When we increase the rank $r$, LoRA converges to training the original model
 
 ## Results
