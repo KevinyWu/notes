@@ -1,5 +1,12 @@
 #!/bin/bash
 
+# Check permissions
+echo "Checking SSH permissions for GitHub..."
+if ! ssh -T git@github.com 2>&1 | grep -q "successfully authenticated"; then
+    echo -e "\033[0;31mGitHub SSH permission denied. Please check your SSH keys.\033[0m"
+    exit 1
+fi
+
 # Get the directory where the script is located
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
