@@ -91,8 +91,7 @@
               "title": "Ideas"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -255,14 +254,14 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "2cf4314c19e76274",
+  "active": "5c62e0bcebe7e716",
   "lastOpenFiles": [
-    "personal-notes/calendar/2026/2026-01.md",
     "personal-notes/research/Human-to-Robot.md",
+    "personal-notes/calendar/2026/2026-01.md",
+    "personal-notes/learning/Learning.md",
     "personal-notes/learning/Projects.md",
     "personal-notes/learning/Ideas.md",
     "personal-notes/learning/Papers and Code.md",
-    "personal-notes/learning/Learning.md",
     "personal-notes/calendar/Meetings with Lerrel.md",
     "personal-notes/research/Cone-E v3.md",
     "papers/dextrous-hands/README.md",
