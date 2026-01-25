@@ -91,7 +91,8 @@
               "title": "Ideas"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -254,17 +255,19 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "5c62e0bcebe7e716",
+  "active": "2cf4314c19e76274",
   "lastOpenFiles": [
-    "personal-notes/learning/Ideas.md",
     "personal-notes/calendar/2026/2026-01.md",
+    "personal-notes/research/Human-to-Robot.md",
     "personal-notes/learning/Projects.md",
+    "personal-notes/learning/Ideas.md",
     "personal-notes/learning/Papers and Code.md",
     "personal-notes/learning/Learning.md",
-    "personal-notes/research/Human-to-Robot.md",
-    "personal-notes/calendar/2026/2026-02.md",
     "personal-notes/calendar/Meetings with Lerrel.md",
     "personal-notes/research/Cone-E v3.md",
+    "papers/dextrous-hands/README.md",
+    "papers/dextrous-hands/Hand-Object Interaction Pretraining from Videos.md",
+    "personal-notes/calendar/2026/2026-02.md",
     "personal-notes/projects/Gripper Design.md",
     "README.md",
     "2025 1098T NYU.pdf",
@@ -290,8 +293,6 @@
     "papers/visual-representations/Big Self-Supervised Models are Strong Semi-Supervised Learners.md",
     "papers/visual-representations/A Simple Framework for Contrastive Learning of Visual Representations.md",
     "papers/visual-representations/Emerging Properties in Self-Supervised Vision Transformers.md",
-    "papers/tactile-sensing/Tactile-Augmented Radiance Fields.md",
-    "papers/sim2real/Learning Vision-based Pursuit-Evasion Robot Policies.md",
     "personal-notes/research/img/arm_mount.png",
     "personal-notes/projects/img/motorized-gripper.jpg",
     "personal-notes/projects/img/motorized-gripper.jpg",
