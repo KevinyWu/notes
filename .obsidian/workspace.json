@@ -22,7 +22,7 @@
             }
           },
           {
-            "id": "49b7c7e087f786ba",
+            "id": "11968f84867f1692",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -256,13 +256,15 @@
   },
   "active": "81800d0e071c26f7",
   "lastOpenFiles": [
+    "personal-notes/learning/Projects.md",
     "personal-notes/research/Human-to-Robot.md",
+    "personal-notes/literature/Depth Representations.md",
+    "personal-notes/literature/Human to Robot.md",
+    "personal-notes/literature/Imitation Learning.md",
     "personal-notes/calendar/2026/2026-02.md",
     "personal-notes/learning/Papers and Code.md",
     "personal-notes/learning/Ideas.md",
     "personal-notes/learning/Learning.md",
-    "personal-notes/learning/Projects.md",
-    "personal-notes/literature/Human to Robot.md",
     "personal-notes/literature/6D Pose Estimation.md",
     "personal-notes/literature/Grasping.md",
     "personal-notes/calendar/Meetings with Lerrel.md",
@@ -284,10 +286,8 @@
     "books/learning-deep-representations/2 Learning Linear and Independent Structures.md",
     "personal-notes/research/Cone-E v3.md",
     "personal-notes/courses/networks/project/Project.md",
-    "personal-notes/literature/Depth Representations.md",
     "papers/dextrous-hands/Embodied Hands - Modeling and Capturing Hands and Bodies Together.md",
     "personal-notes/literature/Real-World RL.md",
-    "personal-notes/literature/Imitation Learning.md",
     "personal-notes/literature/Geometric Representations.md",
     "personal-notes/literature/Depth Estimation.md",
     "personal-notes/literature/Datasets.md",
