@@ -105,8 +105,7 @@
               "title": "Learning"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -269,10 +268,10 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "11968f84867f1692",
+  "active": "81800d0e071c26f7",
   "lastOpenFiles": [
-    "personal-notes/calendar/2026/2026-02.md",
     "personal-notes/research/Human-to-Robot.md",
+    "personal-notes/calendar/2026/2026-02.md",
     "personal-notes/research/Cone-E v3.md",
     "personal-notes/learning/Learning.md",
     "personal-notes/learning/Papers and Code.md",
