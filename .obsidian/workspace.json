@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "personal-notes/calendar/2026/2026-02.md",
+                "file": "personal-notes/calendar/2026/2026-03.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-02"
+              "title": "2026-03"
             }
           },
           {
@@ -270,16 +270,21 @@
   },
   "active": "81800d0e071c26f7",
   "lastOpenFiles": [
-    "personal-notes/research/Human-to-Robot.md",
-    "personal-notes/literature/Human to Robot.md",
     "personal-notes/calendar/2026/2026-02.md",
+    "personal-notes/calendar/2026/2026-03.md",
+    "personal-notes/learning/Learning.md",
+    "personal-notes/learning/Papers and Code.md",
+    "personal-notes/learning/Ideas.md",
+    "personal-notes/learning/Projects.md",
     "personal-notes/research/YOR V2.md",
+    "personal-notes/research/Human-to-Robot.md",
+    "personal-notes/calendar/2026/2026-01.md",
+    "personal-notes/literature/Human to Robot.md",
     "personal-notes/courses/networks/2-10/Datacenters.pdf",
     "personal-notes/courses/networks/2-3/NetBricks Slides.pdf",
     "personal-notes/courses/networks/2-10/VL2.pdf",
     "personal-notes/courses/networks/2-10/TPU.pdf",
     "personal-notes/courses/networks/2-10/Jupiter Rising.pdf",
-    "personal-notes/learning/Learning.md",
     "personal-notes/courses/networks/2-3/Homework.md",
     "personal-notes/courses/networks/nines/Homework.md",
     "personal-notes/courses/networks/project/Project Proposal.md",
@@ -289,10 +294,7 @@
     "personal-notes/courses/networks/2-3/Ethane Slides.pdf",
     "personal-notes/courses/networks/2-3/Software Defined Networking.pdf",
     "personal-notes/courses/networks/nines/Changing Internet Architecture - A Practical Perspective.md",
-    "personal-notes/learning/Papers and Code.md",
     "personal-notes/courses/networks/project/Project.md",
-    "personal-notes/learning/Ideas.md",
-    "personal-notes/learning/Projects.md",
     "personal-notes/courses/networks/nines/Why I was Wrong About Quality-of-Service (QoS).md",
     "personal-notes/courses/networks/nines/Networking Fabrics for ML - Hardware Advances and Research Questions.md",
     "personal-notes/courses/networks/nines/From Networks in Practice to Networks in Principle.md",
@@ -301,7 +303,6 @@
     "personal-notes/courses/networks/1-27/Homework.md",
     "personal-notes/calendar/Meetings with Lerrel.md",
     "personal-notes/misc/Setup.md",
-    "personal-notes/calendar/2026/2026-01.md",
     "personal-notes/literature/Grasping.md",
     "personal-notes/literature/Real-World RL.md",
     "personal-notes/literature/Depth Representations.md",
