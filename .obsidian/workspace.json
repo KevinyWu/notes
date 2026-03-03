@@ -105,7 +105,8 @@
               "title": "Learning"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -268,18 +269,22 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "81800d0e071c26f7",
+  "active": "11968f84867f1692",
   "lastOpenFiles": [
-    "personal-notes/calendar/2026/2026-02.md",
     "personal-notes/calendar/2026/2026-03.md",
+    "personal-notes/research/Human-to-Robot.md",
+    "personal-notes/literature/3D Scene Reconstruction.md",
+    "personal-notes/literature/World Models.md",
+    "personal-notes/literature/Grasping.md",
+    "personal-notes/literature/Human to Robot.md",
+    "personal-notes/literature/Geometric Representations.md",
+    "personal-notes/learning/Projects.md",
+    "personal-notes/research/YOR V2.md",
+    "personal-notes/calendar/2026/2026-02.md",
     "personal-notes/learning/Learning.md",
     "personal-notes/learning/Papers and Code.md",
     "personal-notes/learning/Ideas.md",
-    "personal-notes/learning/Projects.md",
-    "personal-notes/research/YOR V2.md",
-    "personal-notes/research/Human-to-Robot.md",
     "personal-notes/calendar/2026/2026-01.md",
-    "personal-notes/literature/Human to Robot.md",
     "personal-notes/courses/networks/2-10/Datacenters.pdf",
     "personal-notes/courses/networks/2-3/NetBricks Slides.pdf",
     "personal-notes/courses/networks/2-10/VL2.pdf",
@@ -302,10 +307,6 @@
     "personal-notes/courses/networks/nines/Perspectives on Congestion Control.md",
     "personal-notes/courses/networks/1-27/Homework.md",
     "personal-notes/calendar/Meetings with Lerrel.md",
-    "personal-notes/misc/Setup.md",
-    "personal-notes/literature/Grasping.md",
-    "personal-notes/literature/Real-World RL.md",
-    "personal-notes/literature/Depth Representations.md",
     "personal-notes/research/img/arm_mount.png",
     "personal-notes/projects/img/motorized-gripper.jpg",
     "personal-notes/projects/img/motorized-gripper.jpg",
