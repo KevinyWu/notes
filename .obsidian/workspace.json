@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "personal-notes/literature/Depth Estimation.md",
+                "file": "personal-notes/learning/Ideas.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Depth Estimation"
+              "title": "Ideas"
             }
           },
           {
@@ -91,7 +91,8 @@
               "title": "Learning"
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -148,7 +149,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 233.5
   },
   "right": {
     "id": "41e4c9e01392561c",
@@ -254,44 +255,43 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "81800d0e071c26f7",
+  "active": "4e746f6b386cb85e",
   "lastOpenFiles": [
-    "personal-notes/research/Human-to-Robot.md",
+    "personal-notes/courses/networks/4/Homework.md",
+    "personal-notes/courses/networks/4/TPU.pdf",
+    "personal-notes/courses/networks/4/Jupiter Rising.pdf",
+    "personal-notes/courses/networks/4/Datacenters Slides.pdf",
+    "personal-notes/courses/networks/4/VL2.pdf",
+    "personal-notes/courses/networks/3/NetBricks Slides.pdf",
+    "personal-notes/courses/networks/3/NetBricks.pdf",
+    "personal-notes/courses/networks/3/Homework.md",
     "personal-notes/calendar/2026/2026-03.md",
+    "personal-notes/research/Human-to-Robot.md",
     "personal-notes/learning/Learning.md",
-    "personal-notes/literature/Depth Estimation.md",
-    "personal-notes/learning/Ideas.md",
+    "personal-notes/courses/networks/5/Homework.md",
+    "personal-notes/courses/networks/1/Stable Internet Routing.pdf",
+    "personal-notes/courses/networks/5/TPUv2 Slides.pdf",
+    "personal-notes/courses/networks/5/RDMA Slides.pdf",
+    "personal-notes/courses/networks/5/Profiling a Warehouse-scale Computer.pdf",
+    "personal-notes/courses/networks/2/Homework.md",
     "personal-notes/learning/Papers and Code.md",
-    "personal-notes/learning/Projects.md",
+    "personal-notes/learning/Ideas.md",
     "personal-notes/research/YOR V2.md",
+    "personal-notes/research/PROGRESSOR.md",
+    "personal-notes/research/RUMs v3.md",
+    "personal-notes/research/Self-Learning.md",
+    "personal-notes/projects/UR5 Teleoperation.md",
+    "personal-notes/projects/Gripper Design.md",
+    "personal-notes/projects/Duckiebot Arm.md",
+    "personal-notes/projects/Deskbot.md",
+    "personal-notes/research/Exploration.md",
+    "personal-notes/research/Emergenet.md",
+    "personal-notes/literature/Depth Estimation.md",
+    "personal-notes/learning/Projects.md",
     "personal-notes/misc/Setup.md",
     "personal-notes/literature/Human to Robot.md",
     "personal-notes/calendar/2026/2026-02.md",
     "a.md",
-    "personal-notes/courses/networks/5/Homework.md",
-    "personal-notes/courses/networks/3/Homework.md",
-    "personal-notes/courses/networks/4/Homework.md",
-    "personal-notes/courses/networks/1/Homework.md",
-    "personal-notes/courses/networks/2/Homework.md",
-    "Homework.md",
-    "personal-notes/courses/networks/5",
-    "personal-notes/courses/networks/3/Software Defined Networking.pdf",
-    "personal-notes/courses/networks/4/VL2.pdf",
-    "personal-notes/courses/networks/4/TPU.pdf",
-    "personal-notes/courses/networks/4/Jupiter Rising.pdf",
-    "personal-notes/courses/networks/4/Datacenters.pdf",
-    "personal-notes/literature/3D Scene Reconstruction.md",
-    "personal-notes/literature/World Models.md",
-    "personal-notes/literature/Grasping.md",
-    "personal-notes/literature/Geometric Representations.md",
-    "personal-notes/calendar/2026/2026-01.md",
-    "personal-notes/courses/networks/3/NetBricks Slides.pdf",
-    "personal-notes/courses/networks/nines/Homework.md",
-    "personal-notes/courses/networks/project/Project Proposal.md",
-    "personal-notes/courses/networks/3/NetBricks.pdf",
-    "personal-notes/courses/networks/3/OpenFlow.pdf",
-    "personal-notes/courses/networks/3/Ethane.pdf",
-    "personal-notes/courses/networks/nines/Changing Internet Architecture - A Practical Perspective.md",
     "personal-notes/research/img/arm_mount.png",
     "personal-notes/projects/img/motorized-gripper.jpg",
     "personal-notes/projects/img/motorized-gripper.jpg",
