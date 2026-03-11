@@ -91,8 +91,7 @@
               "title": "Learning"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -149,7 +148,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 233.5
+    "width": 203.5
   },
   "right": {
     "id": "41e4c9e01392561c",
@@ -255,8 +254,16 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "4e746f6b386cb85e",
+  "active": "81800d0e071c26f7",
   "lastOpenFiles": [
+    "personal-notes/learning/Learning.md",
+    "personal-notes/misc/Setup.md",
+    "personal-notes/calendar/2026/2026-03.md",
+    "personal-notes/courses/networks/5/Homework.md",
+    "personal-notes/courses/networks/5/Profiling a Warehouse-scale Computer.pdf",
+    "personal-notes/courses/networks/5/Profiling a Warehouse-scale Computer Slides.pdf",
+    "personal-notes/research/YOR V2.md",
+    "personal-notes/research/Human-to-Robot.md",
     "personal-notes/courses/networks/4/Homework.md",
     "personal-notes/courses/networks/4/TPU.pdf",
     "personal-notes/courses/networks/4/Jupiter Rising.pdf",
@@ -265,18 +272,11 @@
     "personal-notes/courses/networks/3/NetBricks Slides.pdf",
     "personal-notes/courses/networks/3/NetBricks.pdf",
     "personal-notes/courses/networks/3/Homework.md",
-    "personal-notes/calendar/2026/2026-03.md",
-    "personal-notes/research/Human-to-Robot.md",
-    "personal-notes/learning/Learning.md",
-    "personal-notes/courses/networks/5/Homework.md",
     "personal-notes/courses/networks/1/Stable Internet Routing.pdf",
     "personal-notes/courses/networks/5/TPUv2 Slides.pdf",
-    "personal-notes/courses/networks/5/RDMA Slides.pdf",
-    "personal-notes/courses/networks/5/Profiling a Warehouse-scale Computer.pdf",
     "personal-notes/courses/networks/2/Homework.md",
     "personal-notes/learning/Papers and Code.md",
     "personal-notes/learning/Ideas.md",
-    "personal-notes/research/YOR V2.md",
     "personal-notes/research/PROGRESSOR.md",
     "personal-notes/research/RUMs v3.md",
     "personal-notes/research/Self-Learning.md",
@@ -288,7 +288,6 @@
     "personal-notes/research/Emergenet.md",
     "personal-notes/literature/Depth Estimation.md",
     "personal-notes/learning/Projects.md",
-    "personal-notes/misc/Setup.md",
     "personal-notes/literature/Human to Robot.md",
     "personal-notes/calendar/2026/2026-02.md",
     "a.md",
