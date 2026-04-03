@@ -13,26 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "personal-notes/calendar/2026/2026-03.md",
+                "file": "personal-notes/calendar/2026/2026-04.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-03"
-            }
-          },
-          {
-            "id": "3d12b8ddf3f83a47",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "personal-notes/literature/Grasping.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Grasping"
+              "title": "2026-04"
             }
           },
           {
@@ -89,6 +75,88 @@
               },
               "icon": "lucide-file",
               "title": "Learning"
+            }
+          },
+          {
+            "id": "2c32bc8b1bb373f1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "personal-notes/courses/networks/6/Homework.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Homework"
+            }
+          }
+        ]
+      },
+      {
+        "id": "520b620922816f04",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "63e96f87b2c5c9d5",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "personal-notes/courses/networks/6/RMT.pdf",
+                "page": 1,
+                "left": -40,
+                "top": 792,
+                "zoom": 0.3713235294117647
+              },
+              "icon": "lucide-file-text",
+              "title": "RMT"
+            }
+          },
+          {
+            "id": "44cba4604d231712",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "personal-notes/courses/networks/6/P4.pdf",
+                "page": 1,
+                "left": -19,
+                "top": 792,
+                "zoom": 0.8161764705882353
+              },
+              "icon": "lucide-file-text",
+              "title": "P4"
+            }
+          },
+          {
+            "id": "552c5b93406227de",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "personal-notes/courses/networks/6/TPUv4.pdf",
+                "page": 1,
+                "left": 24,
+                "top": 737,
+                "zoom": 0.91
+              },
+              "icon": "lucide-file-text",
+              "title": "TPUv4"
+            }
+          },
+          {
+            "id": "d85cd39cb9932d4b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "personal-notes/courses/networks/6/RMT P4 Notes.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "RMT P4 Notes"
             }
           }
         ]
@@ -256,41 +324,42 @@
   },
   "active": "9cc0c6de59cc5f35",
   "lastOpenFiles": [
-    "personal-notes/research/Grasping.md",
-    "personal-notes/calendar/2026/2026-03.md",
+    "personal-notes/learning/Papers and Code.md",
+    "personal-notes/calendar/2026/2026-04.md",
+    "personal-notes/learning/Ideas.md",
+    "personal-notes/literature/Datasets.md",
+    "personal-notes/literature/3D Shape Estimation.md",
+    "personal-notes/literature/6D Pose Estimation.md",
+    "personal-notes/literature/Depth Estimation.md",
+    "personal-notes/literature/Depth Representations.md",
+    "personal-notes/literature/Geometric Representations.md",
     "personal-notes/literature/Grasping.md",
     "personal-notes/literature/Human to Robot.md",
-    "personal-notes/literature/Datasets.md",
-    "personal-notes/learning/Ideas.md",
-    "personal-notes/learning/Learning.md",
-    "personal-notes/courses/networks/5/Homework.md",
-    "personal-notes/courses/networks/5/Fuselink.pdf",
-    "personal-notes/courses/networks/5/nanoPU Slides.pdf",
-    "personal-notes/courses/networks/5/Profiling a Warehouse-scale Computer.pdf",
-    "personal-notes/courses/networks/5/Profiling a Warehouse-scale Computer Slides.pdf",
-    "personal-notes/courses/networks/5/nanoPU.pdf",
-    "personal-notes/courses/networks/5/NCCL.pdf",
-    "personal-notes/courses/networks/4/Homework.md",
-    "personal-notes/courses/networks/4/Datacenters Slides.pdf",
-    "personal-notes/courses/networks/Syllabus.pdf",
-    "personal-notes/calendar/Meetings with Lerrel.md",
-    "personal-notes/literature/3D Shape Estimation.md",
-    "personal-notes/literature/3D Scene Reconstruction.md",
-    "personal-notes/literature/6D Pose Estimation.md",
-    "personal-notes/learning/Papers and Code.md",
-    "personal-notes/misc/Setup.md",
-    "personal-notes/research/Grasping RL.md",
-    "personal-notes/calendar/2026/2026-01.md",
-    "personal-notes/literature/Visual Understanding.md",
-    "personal-notes/literature/Real-World RL.md",
     "personal-notes/literature/Imitation Learning.md",
-    "personal-notes/literature/Depth Representations.md",
-    "personal-notes/literature/Depth Estimation.md",
-    "personal-notes/literature/Geometric Representations.md",
-    "personal-notes/literature/World Models.md",
+    "personal-notes/literature/Real-World RL.md",
+    "personal-notes/literature/Visual Understanding.md",
+    "personal-notes/research/Grasping.md",
+    "personal-notes/courses/networks/6/Homework.md",
+    "personal-notes/courses/networks/7",
+    "personal-notes/courses/networks/7/Akamai.pdf",
+    "personal-notes/calendar/2026/2026-03.md",
     "personal-notes/calendar/2026/2026-02.md",
-    "personal-notes/courses/networks/4/TPU.pdf",
-    "personal-notes/courses/networks/4/Jupiter Rising.pdf",
+    "personal-notes/literature/World Models.md",
+    "personal-notes/courses/networks/6/P4.pdf",
+    "personal-notes/courses/networks/6/RMT.pdf",
+    "personal-notes/courses/networks/6/RMT P4 Notes.md",
+    "personal-notes/learning/Learning.md",
+    "personal-notes/courses/networks/6/TPUv4.pdf",
+    "personal-notes/courses/networks/5/nanoPU Slides.pdf",
+    "personal-notes/courses/networks/5/Fuselink.pdf",
+    "personal-notes/courses/networks/5/nanoPU.pdf",
+    "personal-notes/courses/networks/5/Homework.md",
+    "personal-notes/courses/networks/5/NCCL.pdf",
+    "personal-notes/courses/networks/5/Profiling a Warehouse-scale Computer.pdf",
+    "personal-notes/courses/networks/Networks and Mobile Systems.md",
+    "personal-notes/courses/networks/3/Homework.md",
+    "personal-notes/courses/networks/4/Homework.md",
+    "personal-notes/calendar/Meetings with Lerrel.md",
     "personal-notes/research/img/arm_mount.png",
     "personal-notes/projects/img/motorized-gripper.jpg",
     "personal-notes/projects/img/motorized-gripper.jpg",
